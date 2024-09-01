@@ -4,6 +4,33 @@
   "resource_pack_name": "vanilla",
   "texture_data": {
     // Amberland
+    "lanceleaf_seed_0": {
+      "textures": "textures/blocks/amberland/plants/lanceleaf_seed_0"
+    },
+    "lanceleaf_seed_1": {
+      "textures": "textures/blocks/amberland/plants/lanceleaf_seed_1"
+    },
+    "lanceleaf_seed_2": {
+      "textures": "textures/blocks/amberland/plants/lanceleaf_seed_2"
+    },
+    "lanceleaf_seed_3": {
+      "textures": "textures/blocks/amberland/plants/lanceleaf_seed_3"
+    },
+    "lanceleaf_leaf_top": {
+      "textures": "textures/blocks/amberland/plants/lanceleaf_leaf_top"
+    },
+    "lanceleaf_leaf_pre_top": {
+      "textures": "textures/blocks/amberland/plants/lanceleaf_leaf_pre_top"
+    },
+    "lanceleaf_leaf_middle": {
+      "textures": "textures/blocks/amberland/plants/lanceleaf_leaf_middle"
+    },
+    "lanceleaf_leaf_bottom": {
+      "textures": "textures/blocks/amberland/plants/lanceleaf_leaf_bottom"
+    },
+    "lanceleaf_stem": {
+      "textures": "textures/blocks/amberland/plants/lanceleaf_stem"
+    },
     "amber_moss_top": {
       "textures": "textures/blocks/amberland/amber_moss_top"
     },

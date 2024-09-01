@@ -37,7 +37,7 @@ class PlantUtils {
     boneMealGrowth(maxState: number, hasStructure: boolean, structures?: string[], offset?: Vector3) {
         if (this.item?.typeId !== 'minecraft:bone_meal') return;
         const currentState = this.block?.permutation.getState('betterend:growth') as number;
-        if (currentState === maxState) return;
+        if (currentState >= maxState) return;
         this.block.dimension.spawnParticle('minecraft:crop_growth_emitter', {
             x: this.block.location.x + 0.5,
             y: this.block.location.y + 0.5,
@@ -53,7 +53,7 @@ class PlantUtils {
     }
     randomTickinigGrowth(maxState: number, hasStructure: boolean, structures?: string[], offset?: Vector3) {
         const currentState = this.block?.permutation.getState('betterend:growth') as number;
-        if (currentState === maxState) return;
+        if (currentState >= maxState) return;
         this.block.dimension.spawnParticle('minecraft:crop_growth_emitter', {
             x: this.block.location.x + 0.5,
             y: this.block.location.y + 0.5,

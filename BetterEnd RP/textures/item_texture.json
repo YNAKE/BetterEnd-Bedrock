@@ -1,6 +1,10 @@
 {
     "resource_pack_name": "vanilla",
     "texture_data": {
+        // Amberland
+        "lanceleaf_seed": {
+            "textures": "textures/items/amberland/lanceleaf_seed"
+        },
         "amber_root_raw": {
             "textures": "textures/items/amberland/amber_root_raw"
         },
