@@ -1,0 +1,31 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "betterend:amber_grass",
+      "states": {
+        "betterend:random": [0, 1]
+      }
+    },
+    "components": {
+      "minecraft:custom_components": ["betterend:amber_grass"],
+      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:geometry": "geometry.random_model1",
+      "minecraft:material_instances": {
+        "*": {
+            "texture": "amber_grass",
+            "render_method": "alpha_test",
+            "ambient_occlusion": true,
+            "face_dimming": true
+        }
+      },
+      "minecraft:destructible_by_explosion": true,
+      "minecraft:destructible_by_mining": true,
+      "minecraft:collision_box": false,
+      "minecraft:selection_box": {
+        "origin": [-4, 0, -4],
+        "size": [8, 10, 8]
+      }
+    }
+  }
+}
