@@ -4,7 +4,19 @@
 		1,
 		0
 	],
+    // Amberland
     "betterend:amber_grass": {
         "sound": "grass"
+    },
+    "betterend:amber_root_seed": {
+        "sound": "grass"
+    },
+    "betterend:amber_moss": {
+        "sound": "grass",
+        "textures": {
+            "side": "amber_moss_side",
+            "up": "amber_moss_top",
+            "down": "end_stone"
+        }
     }
 }

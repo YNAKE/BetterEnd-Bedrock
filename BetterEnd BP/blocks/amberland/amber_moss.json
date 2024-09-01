@@ -1,0 +1,22 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "betterend:amber_moss",
+            "menu_category": {
+                "category": "nature"
+            }
+        },
+        "components": {
+            "tag:grass": {},
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0.5
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1
+            },
+            "minecraft:flammable": false,
+            "minecraft:map_color": "#fb7e00"
+        }
+    }
+}

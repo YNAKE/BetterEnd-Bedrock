@@ -42,7 +42,19 @@
       },
       "minecraft:destructible_by_explosion": true,
       "minecraft:destructible_by_mining": true,
-      "minecraft:collision_box": false
+      "minecraft:collision_box": false,
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": [
+              "up"
+            ],
+            "block_filter": [
+              "betterend:amber_moss"
+            ]
+          }
+        ]
+      }
     }
   }
 }

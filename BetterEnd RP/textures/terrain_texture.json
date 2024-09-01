@@ -3,6 +3,28 @@
   "padding": 8,
   "resource_pack_name": "vanilla",
   "texture_data": {
+    // Amberland
+    "amber_moss_top": {
+      "textures": "textures/blocks/amberland/amber_moss_top"
+    },
+    "amber_moss_side": {
+      "textures": {
+        "variations": [
+          {
+            "path": "textures/blocks/amberland/amber_moss_side_1",
+            "weight": 1
+          },
+          {
+            "path": "textures/blocks/amberland/amber_moss_side_2",
+            "weight": 1
+          },
+          {
+            "path": "textures/blocks/amberland/amber_moss_side_3",
+            "weight": 1
+          }
+        ]
+      }
+    },
     "amber_root_0": {
       "textures": "textures/blocks/amberland/plants/amber_root_0"
     },
