@@ -1,0 +1,14 @@
+{
+    "resource_pack_name": "vanilla",
+    "texture_data": {
+        "amber_root_raw": {
+            "textures": "textures/items/amberland/amber_root_raw"
+        },
+        "amber_root_seed": {
+            "textures": "textures/items/amberland/amber_root_seed"
+        },
+        "amber_grass": {
+            "textures": "textures/blocks/amberland/plants/amber_grass"
+        }
+    }
+}

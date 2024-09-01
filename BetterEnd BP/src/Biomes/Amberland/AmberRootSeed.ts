@@ -4,11 +4,13 @@ import PlantUtils from "Biomes/PlantsUtils";
 world.beforeEvents.worldInitialize.subscribe(data => {
     data.blockComponentRegistry.registerCustomComponent('betterend:amber_root_seed', {
         onPlayerDestroy({ block, player }) {
-            new PlantUtils(block, player).onBreakSeeds(3, 'betterend:amber_root_seed', 'betterend:raw_amber_root');
+            new PlantUtils(block, player).onBreakSeeds('betterend:amber_root_seed');
         },
-
         onPlayerInteract({ block, player }) {
             new PlantUtils(block, player).boneMealGrowth(3, false);
-        }
+        },
+        onRandomTick({ block }) {
+            new PlantUtils(block).randomTickinigGrowth(3, false);
+        },
     });
 });
