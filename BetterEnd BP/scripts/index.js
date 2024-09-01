@@ -1,1 +1,2 @@
-export {};
+// Biomes
+import "./Biomes/biomeRegister";

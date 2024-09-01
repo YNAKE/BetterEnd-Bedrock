@@ -1,21 +1,22 @@
 import { ItemStack } from "@minecraft/server";
 class PlantUtils {
-    constructor(block, player, item) {
+    constructor(block, player) {
         this.block = block;
         this.player = player;
-        this.item = item;
+        this.inv = player?.getComponent('inventory').container;
+        this.item = this.inv?.getItem(player?.selectedSlotIndex);
     }
     // Random Model
-    onPlace() {
-        const randomModel = [0, 1];
+    onPlace(randomModel) {
         const random = randomModel[Math.floor(Math.random() * randomModel.length)];
-        console.warn(random);
+        const perm = this.block.permutation.withState('betterend:random', random);
+        this.block.setPermutation(perm);
     }
     // On break with shears
-    onBreak() {
+    onBreak(itemStack) {
         if (this.item?.typeId !== 'minecraft:shears')
             return;
-        const loot = new ItemStack(this.block.typeId);
+        const loot = new ItemStack(itemStack);
         this.block.dimension.spawnItem(loot, this.block.location);
     }
 }

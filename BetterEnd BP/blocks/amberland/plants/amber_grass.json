@@ -7,25 +7,42 @@
         "betterend:random": [0, 1]
       }
     },
+    "permutations": [
+      {
+        "condition": "q.block_state('betterend:random') == 0",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [-6.5, 0, -6.5],
+            "size": [13, 11, 13]
+          },
+          "minecraft:geometry": "geometry.random_model1"
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:random') == 1",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [-4, 0, -4],
+            "size": [8, 10, 8]
+          },
+          "minecraft:geometry": "geometry.random_model2"
+        }
+      }
+    ],
     "components": {
       "minecraft:custom_components": ["betterend:amber_grass"],
       "minecraft:loot": "loot_tables/empty.json",
-      "minecraft:geometry": "geometry.random_model1",
       "minecraft:material_instances": {
         "*": {
-            "texture": "amber_grass",
-            "render_method": "alpha_test",
-            "ambient_occlusion": true,
-            "face_dimming": true
+          "texture": "amber_grass",
+          "render_method": "alpha_test",
+          "ambient_occlusion": true,
+          "face_dimming": false
         }
       },
       "minecraft:destructible_by_explosion": true,
       "minecraft:destructible_by_mining": true,
-      "minecraft:collision_box": false,
-      "minecraft:selection_box": {
-        "origin": [-4, 0, -4],
-        "size": [8, 10, 8]
-      }
+      "minecraft:collision_box": false
     }
   }
 }
