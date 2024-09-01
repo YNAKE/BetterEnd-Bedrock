@@ -1,4 +1,4 @@
-import { ItemStack } from "@minecraft/server";
+import { ItemStack, world, StructureRotation } from "@minecraft/server";
 class PlantUtils {
     constructor(block, player) {
         this.block = block;
@@ -18,6 +18,63 @@ class PlantUtils {
             return;
         const loot = new ItemStack(itemStack);
         this.block.dimension.spawnItem(loot, this.block.location);
+    }
+    // On break plant with seeds
+    onBreakSeeds(maxState, seeds, fruit) {
+        const amounts = [0, 1, 2];
+        const fruitsAmounts = [1, 2];
+        const randomAmount = amounts[Math.floor(Math.random() * amounts.length)];
+        const randomFruitAmount = fruitsAmounts[Math.floor(Math.random() * fruitsAmounts.length)];
+        const fruitLoot = new ItemStack(fruit, randomFruitAmount);
+        const loot = new ItemStack(seeds, randomAmount);
+        const currentState = this.block?.permutation.getState('betterend:growth');
+        this.block.dimension.spawnItem(loot, this.block.location);
+        currentState >= maxState ? this.block.dimension.spawnItem(fruitLoot, this.block.location) : null;
+    }
+    // Plant Grow
+    boneMealGrowth(maxState, hasStructure, structures, offset) {
+        if (this.item?.typeId !== 'minecraft:bone_meal')
+            return;
+        const currentState = this.block?.permutation.getState('betterend:growth');
+        if (currentState === maxState)
+            return;
+        const nextState = currentState + 1;
+        const perm = this.block.permutation.withState('betterend:growth', nextState);
+        if (nextState === maxState) {
+            if (hasStructure)
+                this.loadStructure(structures, this.block?.dimension, offset);
+            else
+                this.block.setPermutation(perm);
+        }
+        else
+            this.block.setPermutation(perm);
+    }
+    randomTickinigGrowth(maxState, hasStructure, structures, offset) {
+        const currentState = this.block?.permutation.getState('betterend:growth');
+        if (currentState === maxState)
+            return;
+        const nextState = currentState + 1;
+        const perm = this.block.permutation.withState('betterend:growth', nextState);
+        if (nextState === maxState) {
+            if (hasStructure)
+                this.loadStructure(structures, this.block?.dimension, offset);
+            else
+                this.block.setPermutation(perm);
+        }
+        else
+            this.block.setPermutation(perm);
+    }
+    // Structure Manager
+    loadStructure(structures, dimension, offset) {
+        const rotations = [
+            StructureRotation.None,
+            StructureRotation.Rotate180,
+            StructureRotation.Rotate270,
+            StructureRotation.Rotate90
+        ];
+        const rotation = rotations[Math.floor(Math.random() * rotations.length)];
+        const randomStructure = structures[Math.floor(Math.random() * structures.length)];
+        world.structureManager.place(randomStructure, dimension, offset, { rotation });
     }
 }
 export default PlantUtils;

@@ -1,0 +1,89 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "betterend:amber_root_seed",
+      "states": {
+        "betterend:growth": [0, 1, 2, 3]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('betterend:growth') == 0",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [-4, 0, -4],
+            "size": [8, 8, 8]
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "amber_root_0",
+              "render_method": "alpha_test",
+              "ambient_occlusion": true,
+              "face_dimming": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:growth') == 1",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [-4.5, 0, -4.5],
+            "size": [9, 12, 9]
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "amber_root_1",
+              "render_method": "alpha_test",
+              "ambient_occlusion": true,
+              "face_dimming": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:growth') == 2",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [-6, 0, -6],
+            "size": [12, 14, 12]
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "amber_root_2",
+              "render_method": "alpha_test",
+              "ambient_occlusion": true,
+              "face_dimming": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:growth') == 3",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [-6, 0, -6],
+            "size": [12, 16, 12]
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "amber_root_3",
+              "render_method": "alpha_test",
+              "ambient_occlusion": true,
+              "face_dimming": false
+            }
+          }
+        }
+      }
+    ],
+    "components": {
+      "minecraft:custom_components": ["betterend:amber_root_seed"],
+      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:geometry": "geometry.random_model2",
+      "minecraft:destructible_by_explosion": true,
+      "minecraft:destructible_by_mining": true,
+      "minecraft:collision_box": false
+    }
+  }
+}
