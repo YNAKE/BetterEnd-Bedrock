@@ -2,6 +2,9 @@
   "resource_pack_name": "vanilla",
   "texture_data": {
     // Blossoming
+    "bushy_grass": {
+      "textures": "textures/blocks/blossoming/plants/bushy_grass_2"
+    },
     "blossom_berry_seed": {
       "textures": "textures/items/blossoming/blossom_berry_seed"
     },
