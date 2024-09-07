@@ -1,6 +1,9 @@
 {
   "format_version": [1, 1, 0],
   // Blossoming
+  "betterend:twisted_moss": {
+    "sound": "grass"
+  },
   "betterend:tenanea_sapling": {
     "sound": "grass"
   },
@@ -78,7 +81,10 @@
     "sound": "grass"
   },
   "betterend:amber_moss": {
-    "sound": "grass",
+    "sound": "gravel",
+    "isotropic": {
+      "up": true
+    },
     "textures": {
       "side": "amber_moss_side",
       "up": "amber_moss_top",

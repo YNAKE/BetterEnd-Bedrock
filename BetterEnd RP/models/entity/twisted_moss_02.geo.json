@@ -1,0 +1,74 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.twisted_moss_02",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 0.5, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [-0.2, 1.64976, 3.6191],
+					"rotation": [0, 180, 0],
+					"cubes": [
+						{
+							"origin": [-11, 15, -1],
+							"size": [16, 0.001, 16],
+							"pivot": [5, 15, -1],
+							"rotation": [-45, 0, 0],
+							"uv": {
+								"up": {"uv": [16, 16], "uv_size": [-8, -8], "uv_rotation": 180},
+								"down": {"uv": [0, 0], "uv_size": [0, 0]}
+							}
+						},
+						{
+							"origin": [-8, -15, -1],
+							"size": [16, 16, 0.001],
+							"pivot": [8, 1, -1],
+							"rotation": [22.5, 0, 0],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0, 0]},
+								"south": {"uv": [0, 8], "uv_size": [8, 8], "uv_rotation": 180}
+							}
+						},
+						{
+							"origin": [-6, -12, -1],
+							"size": [16, 16, 0.001],
+							"pivot": [10, 4, -1],
+							"rotation": [45, 0, 0],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0, 0]},
+								"south": {"uv": [0, 8], "uv_size": [8, 8], "uv_rotation": 180}
+							}
+						},
+						{
+							"origin": [-8, -9, -1],
+							"size": [16, 16, 0.001],
+							"pivot": [8, 7, -1],
+							"rotation": [45, 0, 0],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0, 0]},
+								"south": {"uv": [8, 8], "uv_size": [8, 8], "uv_rotation": 180}
+							}
+						},
+						{
+							"origin": [-8, -3, -1],
+							"size": [16, 16, 0.001],
+							"pivot": [8, 13, -1],
+							"rotation": [22.5, 0, 0],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [0, 0]},
+								"south": {"uv": [0, 8], "uv_size": [8, 8], "uv_rotation": 180}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

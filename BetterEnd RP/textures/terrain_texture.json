@@ -4,6 +4,9 @@
   "resource_pack_name": "vanilla",
   "texture_data": {
     // Blossoming
+    "twisted_moss": {
+      "textures": "textures/blocks/blossoming/plants/twisted_moss"
+    },
     "tenanea_sapling": {
       "textures": "textures/blocks/blossoming/plants/tenanea_sapling"
     },
