@@ -5,6 +5,18 @@
 		0
 	],
     // Amberland
+    "betterend:helix_tree_bark_stripped": {
+        "sound": "wood"
+    },
+    "betterend:helix_tree_log_stripped": {
+        "sound": "wood"
+    },
+    "betterend:helix_tree_bark": {
+        "sound": "wood"
+    },
+    "betterend:helix_tree_log": {
+        "sound": "wood"
+    },
     "betterend:helix_tree_leaves": {
         "sound": "nether_wart",
         "textures": "helix_tree_leaves"
