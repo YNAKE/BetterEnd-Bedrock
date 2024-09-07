@@ -8,15 +8,15 @@
     "coordinate_eval_order": "zyx",
     "x": {
       "extent": [ -8, 8 ],
-      "distribution": "gaussian"
+      "distribution": "inverse_gaussian"
     },
     "z": {
       "extent": [ -8, 8 ],
-      "distribution": "gaussian"
+      "distribution": "inverse_gaussian"
     },
     "y": {
       "extent": [ -4, 4 ],
-      "distribution": "gaussian"
+      "distribution": "inverse_gaussian"
     },
     "project_input_to_floor": false,
     "places_feature": "betterend:amber_land/amber_grass_single_block_feature"
