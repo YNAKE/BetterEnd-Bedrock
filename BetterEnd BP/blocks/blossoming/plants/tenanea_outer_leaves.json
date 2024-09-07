@@ -2,11 +2,7 @@
   "format_version": "1.20.81",
   "minecraft:block": {
     "description": {
-      "identifier": "betterend:helix_tree_bark_stripped",
-      "menu_category": {
-        "category": "nature",
-        "group": "itemGroup.name.wood"
-      },
+      "identifier": "betterend:tenanea_outer_leaves",
       "traits": {
         "minecraft:placement_direction": {
           "enabled_states": ["minecraft:facing_direction"]
@@ -17,57 +13,65 @@
       {
         "condition": "q.block_state('minecraft:facing_direction') == 'down'",
         "components": {
-          "minecraft:transformation": { "rotation": [-90, 0, 0] }
+          "minecraft:transformation": { "rotation": [90, 0, 0] }
         }
       },
       {
         "condition": "q.block_state('minecraft:facing_direction') == 'up'",
         "components": {
-          "minecraft:transformation": { "rotation": [90, 0, 0] }
+          "minecraft:transformation": { "rotation": [-90, 0, 0] }
         }
       },
       {
         "condition": "q.block_state('minecraft:facing_direction') == 'north'",
         "components": {
-          "minecraft:transformation": { "rotation": [0, 0, 0] }
+          "minecraft:transformation": { "rotation": [0, 180, 0] }
         }
       },
       {
         "condition": "q.block_state('minecraft:facing_direction') == 'west'",
         "components": {
-          "minecraft:transformation": { "rotation": [0, 90, 0] }
+          "minecraft:transformation": { "rotation": [0, -90, 0] }
         }
       },
       {
         "condition": "q.block_state('minecraft:facing_direction') == 'south'",
         "components": {
-          "minecraft:transformation": { "rotation": [0, 180, 0] }
+          "minecraft:transformation": { "rotation": [0, 0, 0] }
         }
       },
       {
         "condition": "q.block_state('minecraft:facing_direction') == 'east'",
         "components": {
-          "minecraft:transformation": { "rotation": [0, -90, 0] }
+          "minecraft:transformation": { "rotation": [0, 90, 0] }
         }
       }
     ],
     "components": {
-      "minecraft:flammable": true,
-      "minecraft:destructible_by_explosion": {
-        "explosion_resistance": 1
+      "minecraft:selection_box": {
+        "origin": [-8, 0, 2],
+        "size": [16, 16, 6]
       },
-      "minecraft:destructible_by_mining": {
-        "seconds_to_destroy": 4
-      },
-      "minecraft:geometry": "geometry.betterend_log_stripped",
+      "minecraft:geometry": "geometry.glowing_pillar_leaves_top",
       "minecraft:material_instances": {
         "*": {
-          "texture": "helix_tree_bark",
-          "render_method": "opaque",
+          "texture": "tenanea_outer_leaves",
+          "render_method": "alpha_test",
           "ambient_occlusion": true,
           "face_dimming": true
         }
-      }
+      },
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "block_filter": ["betterend:tenanea_leaves"]
+          }
+        ]
+      },
+      "minecraft:flammable": true,
+      "minecraft:collision_box": false,
+      "minecraft:destructible_by_explosion": true,
+      "minecraft:destructible_by_mining": true
     }
   }
 }

@@ -1,0 +1,28 @@
+{
+    "format_version": "1.20.81",
+    "minecraft:block": {
+        "description": {
+            "identifier": "betterend:tenanea_leaves",
+            "menu_category": {
+                "category": "nature",
+                "group": "itemGroup.name.leaves"
+            }
+        },
+        "components": {
+            "minecraft:custom_components": [ "betterend:tenanea_leaves" ],
+            "tag:leaf": {},
+            "tag:leaves": {},
+            "tag:plant": {},
+            "minecraft:loot": "loot_tables/empty.json",
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.5
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:flammable": true
+        }
+    }
+}

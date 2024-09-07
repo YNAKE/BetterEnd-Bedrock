@@ -3,6 +3,28 @@
   "padding": 8,
   "resource_pack_name": "vanilla",
   "texture_data": {
+    // Blossoming
+    "tenanea_sapling": {
+      "textures": "textures/blocks/blossoming/plants/tenanea_sapling"
+    },
+    "tenanea_outer_leaves": {
+      "textures": "textures/blocks/blossoming/plants/tenanea_outer_leaves"
+    },
+    "pink_moss_top": {
+      "textures": "textures/blocks/blossoming/pink_moss_top"
+    },
+    "pink_moss_side": {
+      "textures": "textures/blocks/blossoming/pink_moss_side"
+    },
+    "tenanea_log": {
+      "textures": "textures/blocks/blossoming/tree/tenanea_log"
+    },
+    "tenanea_bark": {
+      "textures": "textures/blocks/blossoming/tree/tenanea_bark"
+    },
+    "tenanea_leaves": {
+      "textures": "textures/blocks/blossoming/tree/tenanea_leaves"
+    },
     // Amberland
     "glowing_pillar_luminophor": {
       "textures": "textures/blocks/amberland/plants/glowing_pillar_luminophor"

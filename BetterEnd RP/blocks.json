@@ -1,61 +1,88 @@
 {
-    "format_version": [
-		1,
-		1,
-		0
-	],
-    // Amberland
-    "betterend:glowing_pillar_leaves": {
-        "sound": "grass"
-    },
-    "betterend:glowing_pillar_luminophor": {
-        "sound": "grass",
-        "textures": "glowing_pillar_luminophor"
-    },
-    "betterend:glowing_pillar_seed": {
-        "sound": "grass"
-    },
-    "betterend:bulb_moss": {
-        "sound": "grass"
-    },
-    "betterend:helix_tree_bark_stripped": {
-        "sound": "wood"
-    },
-    "betterend:helix_tree_log_stripped": {
-        "sound": "wood"
-    },
-    "betterend:helix_tree_bark": {
-        "sound": "wood"
-    },
-    "betterend:helix_tree_log": {
-        "sound": "wood"
-    },
-    "betterend:helix_tree_leaves": {
-        "sound": "nether_wart",
-        "textures": "helix_tree_leaves"
-    },
-    "betterend:helix_tree_sapling": {
-        "sound": "grass"
-    },
-    "betterend:amber_ore": {
-        "sound": "stone",
-        "textures": "amber_ore"
-    },
-    "betterend:lanceleaf_seed": {
-        "sound": "grass"
-    },
-    "betterend:amber_grass": {
-        "sound": "grass"
-    },
-    "betterend:amber_root_seed": {
-        "sound": "grass"
-    },
-    "betterend:amber_moss": {
-        "sound": "grass",
-        "textures": {
-            "side": "amber_moss_side",
-            "up": "amber_moss_top",
-            "down": "end_stone"
-        }
+  "format_version": [1, 1, 0],
+  // Blossoming
+  "betterend:tenanea_sapling": {
+    "sound": "grass"
+  },
+  "betterend:tenanea_outer_leaves": {
+    "sound": "grass"
+  },
+  "betterend:pink_moss": {
+    "sound": "grass",
+    "textures": {
+      "up": "pink_moss_top",
+      "side": "pink_moss_side",
+      "down": "end_stone"
     }
+  },
+  "betterend:tenanea_bark_stripped": {
+    "sound": "wood"
+  },
+  "betterend:tenanea_log_stripped": {
+    "sound": "wood"
+  },
+  "betterend:tenanea_bark": {
+    "sound": "wood"
+  },
+  "betterend:tenanea_log": {
+    "sound": "wood"
+  },
+  "betterend:tenanea_leaves": {
+    "sound": "grass",
+    "textures": "tenanea_leaves"
+  },
+  // Amberland
+  "betterend:glowing_pillar_leaves": {
+    "sound": "grass"
+  },
+  "betterend:glowing_pillar_luminophor": {
+    "sound": "grass",
+    "textures": "glowing_pillar_luminophor"
+  },
+  "betterend:glowing_pillar_seed": {
+    "sound": "grass"
+  },
+  "betterend:bulb_moss": {
+    "sound": "grass"
+  },
+  "betterend:helix_tree_bark_stripped": {
+    "sound": "wood"
+  },
+  "betterend:helix_tree_log_stripped": {
+    "sound": "wood"
+  },
+  "betterend:helix_tree_bark": {
+    "sound": "wood"
+  },
+  "betterend:helix_tree_log": {
+    "sound": "wood"
+  },
+  "betterend:helix_tree_leaves": {
+    "sound": "nether_wart",
+    "textures": "helix_tree_leaves"
+  },
+  "betterend:helix_tree_sapling": {
+    "sound": "grass"
+  },
+  "betterend:amber_ore": {
+    "sound": "stone",
+    "textures": "amber_ore"
+  },
+  "betterend:lanceleaf_seed": {
+    "sound": "grass"
+  },
+  "betterend:amber_grass": {
+    "sound": "grass"
+  },
+  "betterend:amber_root_seed": {
+    "sound": "grass"
+  },
+  "betterend:amber_moss": {
+    "sound": "grass",
+    "textures": {
+      "side": "amber_moss_side",
+      "up": "amber_moss_top",
+      "down": "end_stone"
+    }
+  }
 }
