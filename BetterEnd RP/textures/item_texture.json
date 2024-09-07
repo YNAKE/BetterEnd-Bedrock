@@ -1,21 +1,27 @@
 {
-    "resource_pack_name": "vanilla",
-    "texture_data": {
-        // Amberland
-        "amber_gem": {
-            "textures": "textures/items/minerals/amber_gem"
-        },
-        "lanceleaf_seed": {
-            "textures": "textures/items/amberland/lanceleaf_seed"
-        },
-        "amber_root_raw": {
-            "textures": "textures/items/amberland/amber_root_raw"
-        },
-        "amber_root_seed": {
-            "textures": "textures/items/amberland/amber_root_seed"
-        },
-        "amber_grass": {
-            "textures": "textures/blocks/amberland/plants/amber_grass"
-        }
+  "resource_pack_name": "vanilla",
+  "texture_data": {
+    // Amberland
+    "bulb_moss": {
+      "textures": "textures/items/amberland/bulb_moss"
+    },
+    "helix_tree_sapling": {
+      "textures": "textures/blocks/amberland/plants/helix_tree_sapling"
+    },
+    "amber_gem": {
+      "textures": "textures/items/minerals/amber_gem"
+    },
+    "lanceleaf_seed": {
+      "textures": "textures/items/amberland/lanceleaf_seed"
+    },
+    "amber_root_raw": {
+      "textures": "textures/items/amberland/amber_root_raw"
+    },
+    "amber_root_seed": {
+      "textures": "textures/items/amberland/amber_root_seed"
+    },
+    "amber_grass": {
+      "textures": "textures/blocks/amberland/plants/amber_grass"
     }
+  }
 }

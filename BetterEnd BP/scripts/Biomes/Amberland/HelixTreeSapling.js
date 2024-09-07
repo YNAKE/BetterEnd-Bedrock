@@ -3,9 +3,6 @@ import PlantUtils from "Biomes/PlantsUtils";
 const structures = ["amber_tree1", "amber_tree2", "amber_tree3"];
 world.beforeEvents.worldInitialize.subscribe(data => {
     data.blockComponentRegistry.registerCustomComponent('betterend:helix_tree_sapling', {
-        onPlayerDestroy({ block, player }) {
-            new PlantUtils(block, player).onBreakSeeds('betterend:helix_tree_sapling');
-        },
         onPlayerInteract({ block, player }) {
             const offset = {
                 x: block.location.x + -12,

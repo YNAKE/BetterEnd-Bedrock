@@ -4,6 +4,9 @@
   "resource_pack_name": "vanilla",
   "texture_data": {
     // Amberland
+    "bulb_moss": {
+      "textures": "textures/blocks/amberland/plants/bulb_moss"
+    },
     "helix_tree_bark": {
       "textures": "textures/blocks/amberland/tree/helix_tree_bark"
     },
