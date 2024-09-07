@@ -2,6 +2,12 @@
   "resource_pack_name": "vanilla",
   "texture_data": {
     // Blossoming
+    "blossom_berry_seed": {
+      "textures": "textures/items/blossoming/blossom_berry_seed"
+    },
+    "blossom_berry": {
+      "textures": "textures/items/blossoming/blossom_berry"
+    },
     "twisted_moss": {
       "textures": "textures/items/blossoming/twisted_moss"
     },

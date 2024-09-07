@@ -2,7 +2,7 @@
   "format_version": "1.21.0",
   "minecraft:block": {
     "description": {
-      "identifier": "betterend:amber_root_seed",
+      "identifier": "betterend:blossom_berry_seed",
       "states": {
         "betterend:growth": [0, 1, 2, 3]
       }
@@ -17,7 +17,7 @@
           },
           "minecraft:material_instances": {
             "*": {
-              "texture": "amber_root_0",
+              "texture": "blossom_berry_seed_0",
               "render_method": "alpha_test",
               "ambient_occlusion": true,
               "face_dimming": false
@@ -34,7 +34,7 @@
           },
           "minecraft:material_instances": {
             "*": {
-              "texture": "amber_root_1",
+              "texture": "blossom_berry_seed_1",
               "render_method": "alpha_test",
               "ambient_occlusion": true,
               "face_dimming": false
@@ -51,7 +51,7 @@
           },
           "minecraft:material_instances": {
             "*": {
-              "texture": "amber_root_2",
+              "texture": "blossom_berry_seed_2",
               "render_method": "alpha_test",
               "ambient_occlusion": true,
               "face_dimming": false
@@ -62,14 +62,15 @@
       {
         "condition": "q.block_state('betterend:growth') == 3",
         "components": {
-          "minecraft:loot": "loot_tables/amberland/raw_amber_root.json",
+          "minecraft:loot": "loot_tables/blossoming/blossom_berry.json",
           "minecraft:selection_box": {
             "origin": [-6, 0, -6],
             "size": [12, 16, 12]
           },
+          "minecraft:geometry": "geometry.blossom_berry",
           "minecraft:material_instances": {
             "*": {
-              "texture": "amber_root_3",
+              "texture": "blossom_berry",
               "render_method": "alpha_test",
               "ambient_occlusion": true,
               "face_dimming": false
@@ -79,7 +80,7 @@
       }
     ],
     "components": {
-      "minecraft:custom_components": ["betterend:amber_root_seed"],
+      "minecraft:custom_components": ["betterend:blossom_berry_seed"],
       "minecraft:loot": "loot_tables/empty.json",
       "minecraft:geometry": "geometry.random_model2",
       "minecraft:destructible_by_explosion": true,
@@ -89,7 +90,7 @@
         "conditions": [
           {
             "allowed_faces": ["up"],
-            "block_filter": ["betterend:amber_moss"]
+            "block_filter": ["betterend:pink_moss"]
           }
         ]
       }

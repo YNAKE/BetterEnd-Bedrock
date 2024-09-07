@@ -4,6 +4,15 @@
   "resource_pack_name": "vanilla",
   "texture_data": {
     // Blossoming
+    "blossom_berry_seed_2": {
+      "textures": "textures/blocks/blossoming/plants/blossom_berry_seed_2"
+    },
+    "blossom_berry_seed_1": {
+      "textures": "textures/blocks/blossoming/plants/blossom_berry_seed_1"
+    },
+    "blossom_berry_seed_0": {
+      "textures": "textures/blocks/blossoming/plants/blossom_berry_seed_0"
+    },
     "blossom_berry": {
       "textures": "textures/blocks/blossoming/plants/blossom_berry"
     },

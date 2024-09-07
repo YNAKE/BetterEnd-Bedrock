@@ -1,6 +1,9 @@
 {
   "format_version": [1, 1, 0],
   // Blossoming
+  "betterend:blossom_berry_seed": {
+    "sound": "grass"
+  },
   "betterend:twisted_moss": {
     "sound": "grass"
   },
