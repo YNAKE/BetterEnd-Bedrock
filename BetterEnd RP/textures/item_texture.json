@@ -2,6 +2,12 @@
   "resource_pack_name": "vanilla",
   "texture_data": {
     // Amberland
+    "glowing_pillar_leaves": {
+      "textures": "textures/blocks/amberland/plants/glowing_pillar_leaves"
+    },
+    "glowing_pillar_seed": {
+      "textures": "textures/items/amberland/glowing_pillar_seed"
+    },
     "bulb_moss": {
       "textures": "textures/items/amberland/bulb_moss"
     },

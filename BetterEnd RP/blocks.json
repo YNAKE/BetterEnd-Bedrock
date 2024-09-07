@@ -5,6 +5,16 @@
 		0
 	],
     // Amberland
+    "betterend:glowing_pillar_leaves": {
+        "sound": "grass"
+    },
+    "betterend:glowing_pillar_luminophor": {
+        "sound": "grass",
+        "textures": "glowing_pillar_luminophor"
+    },
+    "betterend:glowing_pillar_seed": {
+        "sound": "grass"
+    },
     "betterend:bulb_moss": {
         "sound": "grass"
     },

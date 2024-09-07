@@ -11,7 +11,7 @@ world.beforeEvents.worldInitialize.subscribe(data => {
                 y: block.location.y + 0,
                 z: block.location.z + -9 
             }
-            new PlantUtils(block, player).boneMealGrowth(3, true, structures, offset);
+            new PlantUtils(block, player).boneMealGrowth(3, true, structures, offset, true);
         },
         onRandomTick({ block }) {
             const offset: Vector3 = {
@@ -19,7 +19,7 @@ world.beforeEvents.worldInitialize.subscribe(data => {
                 y: block.location.y + 0,
                 z: block.location.z + -9 
             }
-            new PlantUtils(block).randomTickinigGrowth(3, true, structures, offset);
+            new PlantUtils(block).randomTickinigGrowth(3, true, structures, offset, true);
         },
     });
 });

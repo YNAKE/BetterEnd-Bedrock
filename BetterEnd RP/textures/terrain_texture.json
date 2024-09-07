@@ -4,6 +4,33 @@
   "resource_pack_name": "vanilla",
   "texture_data": {
     // Amberland
+    "glowing_pillar_luminophor": {
+      "textures": "textures/blocks/amberland/plants/glowing_pillar_luminophor"
+    },
+    "glowing_pillar_leaves": {
+      "textures": "textures/blocks/amberland/plants/glowing_pillar_leaves"
+    },
+    "glowing_pillar_roots_top": {
+      "textures": "textures/blocks/amberland/plants/glowing_pillar_roots_top"
+    },
+    "glowing_pillar_roots_bottom": {
+      "textures": "textures/blocks/amberland/plants/glowing_pillar_roots_bottom"
+    },
+    "glowing_pillar_roots_both": {
+      "textures": "textures/blocks/amberland/plants/glowing_pillar_roots_both"
+    },
+    "glowing_pillar_seed_3": {
+      "textures": "textures/blocks/amberland/plants/glowing_pillar_seed_3"
+    },
+    "glowing_pillar_seed_2": {
+      "textures": "textures/blocks/amberland/plants/glowing_pillar_seed_2"
+    },
+    "glowing_pillar_seed_1": {
+      "textures": "textures/blocks/amberland/plants/glowing_pillar_seed_1"
+    },
+    "glowing_pillar_seed_0": {
+      "textures": "textures/blocks/amberland/plants/glowing_pillar_seed_0"
+    },
     "bulb_moss": {
       "textures": "textures/blocks/amberland/plants/bulb_moss"
     },

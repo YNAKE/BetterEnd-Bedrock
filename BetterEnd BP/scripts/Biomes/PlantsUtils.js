@@ -29,7 +29,7 @@ class PlantUtils {
         nothing ? this.block.dimension.spawnItem(loot, this.block.location) : null;
     }
     // Plant Grow
-    boneMealGrowth(maxState, hasStructure, structures, offset) {
+    boneMealGrowth(maxState, hasStructure, structures, offset, removeBlock) {
         if (this.item?.typeId !== 'minecraft:bone_meal')
             return;
         const currentState = this.block?.permutation.getState('betterend:growth');
@@ -44,14 +44,14 @@ class PlantUtils {
         const perm = this.block.permutation.withState('betterend:growth', nextState);
         if (nextState === maxState) {
             if (hasStructure)
-                this.loadStructure(structures, this.block?.dimension, offset);
+                this.loadStructure(structures, this.block?.dimension, offset, removeBlock);
             else
                 this.block.setPermutation(perm);
         }
         else
             this.block.setPermutation(perm);
     }
-    randomTickinigGrowth(maxState, hasStructure, structures, offset) {
+    randomTickinigGrowth(maxState, hasStructure, structures, offset, removeBlock) {
         const currentState = this.block?.permutation.getState('betterend:growth');
         if (currentState >= maxState)
             return;
@@ -64,7 +64,7 @@ class PlantUtils {
         const perm = this.block.permutation.withState('betterend:growth', nextState);
         if (nextState === maxState) {
             if (hasStructure)
-                this.loadStructure(structures, this.block?.dimension, offset);
+                this.loadStructure(structures, this.block?.dimension, offset, removeBlock);
             else
                 this.block.setPermutation(perm);
         }
@@ -72,7 +72,7 @@ class PlantUtils {
             this.block.setPermutation(perm);
     }
     // Structure Manager
-    loadStructure(structures, dimension, offset) {
+    loadStructure(structures, dimension, offset, removeBlock) {
         const rotations = [
             StructureRotation.None,
             StructureRotation.Rotate180,
@@ -82,7 +82,7 @@ class PlantUtils {
         const rotation = rotations[Math.floor(Math.random() * rotations.length)];
         const randomStructure = structures[Math.floor(Math.random() * structures.length)];
         world.structureManager.place(randomStructure, dimension, offset, { rotation });
-        this?.block?.setType('air');
+        removeBlock ? this?.block?.setType('air') : null;
     }
 }
 export default PlantUtils;

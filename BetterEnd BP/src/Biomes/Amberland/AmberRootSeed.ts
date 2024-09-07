@@ -7,10 +7,10 @@ world.beforeEvents.worldInitialize.subscribe(data => {
             new PlantUtils(block, player).onBreakSeeds('betterend:amber_root_seed');
         },
         onPlayerInteract({ block, player }) {
-            new PlantUtils(block, player).boneMealGrowth(3, false);
+            new PlantUtils(block, player).boneMealGrowth(3, false, null, null, false);
         },
         onRandomTick({ block }) {
-            new PlantUtils(block).randomTickinigGrowth(3, false);
+            new PlantUtils(block).randomTickinigGrowth(3, false, null, null, false);
         },
     });
 });

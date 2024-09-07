@@ -1,0 +1,100 @@
+{
+  "format_version": "1.20.81",
+  "minecraft:block": {
+    "description": {
+      "identifier": "betterend:glowing_pillar_leaves",
+      "menu_category": {
+        "category": "nature",
+        "group": "itemGroup.name.flower"
+      },
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": ["minecraft:facing_direction"]
+        }
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('minecraft:facing_direction') == 'down'",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [-8, 0, 2],
+            "size": [16, 16, 6]
+          },
+          "minecraft:geometry": "geometry.glowing_pillar_leaves_top",
+          "minecraft:transformation": { "rotation": [90, 0, 0] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:facing_direction') == 'up'",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [-8, 0, 2],
+            "size": [16, 16, 6]
+          },
+          "minecraft:geometry": "geometry.glowing_pillar_leaves_top",
+          "minecraft:transformation": { "rotation": [-90, 0, 0] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:facing_direction') == 'north'",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [-8, 0, -8],
+            "size": [16, 16, 6]
+          },
+          "minecraft:transformation": { "rotation": [0, 0, 0] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:facing_direction') == 'west'",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [-8, 0, -8],
+            "size": [16, 16, 6]
+          },
+          "minecraft:transformation": { "rotation": [0, 90, 0] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:facing_direction') == 'south'",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [-8, 0, -8],
+            "size": [16, 16, 6]
+          },
+          "minecraft:transformation": { "rotation": [0, 180, 0] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:facing_direction') == 'east'",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [-8, 0, -8],
+            "size": [16, 16, 6]
+          },
+          "minecraft:transformation": { "rotation": [0, -90, 0] }
+        }
+      }
+    ],
+    "components": {
+      "minecraft:selection_box": {
+        "origin": [-8, 0, -8],
+        "size": [16, 8, 16]
+      },
+      "minecraft:geometry": "geometry.glowing_pillar_leaves_01",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "glowing_pillar_leaves",
+          "render_method": "alpha_test",
+          "ambient_occlusion": false,
+          "face_dimming": false
+        }
+      },
+      "minecraft:collision_box": false,
+      "minecraft:destructible_by_explosion": true,
+      "minecraft:destructible_by_mining": true,
+      "minecraft:light_emission": 15
+    }
+  }
+}

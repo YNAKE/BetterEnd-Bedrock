@@ -34,7 +34,7 @@ class PlantUtils {
         nothing ? this.block.dimension.spawnItem(loot, this.block.location) : null;
     }
     // Plant Grow
-    boneMealGrowth(maxState: number, hasStructure: boolean, structures?: string[], offset?: Vector3) {
+    boneMealGrowth(maxState: number, hasStructure: boolean, structures?: string[], offset?: Vector3, removeBlock?: boolean) {
         if (this.item?.typeId !== 'minecraft:bone_meal') return;
         const currentState = this.block?.permutation.getState('betterend:growth') as number;
         if (currentState >= maxState) return;
@@ -46,12 +46,12 @@ class PlantUtils {
         const nextState = currentState + 1;
         const perm = this.block.permutation.withState('betterend:growth', nextState);
         if (nextState === maxState) {
-            if (hasStructure) this.loadStructure(structures, this.block?.dimension, offset);
+            if (hasStructure) this.loadStructure(structures, this.block?.dimension, offset, removeBlock);
             else this.block.setPermutation(perm);
         }
         else this.block.setPermutation(perm);
     }
-    randomTickinigGrowth(maxState: number, hasStructure: boolean, structures?: string[], offset?: Vector3) {
+    randomTickinigGrowth(maxState: number, hasStructure: boolean, structures?: string[], offset?: Vector3, removeBlock?: boolean) {
         const currentState = this.block?.permutation.getState('betterend:growth') as number;
         if (currentState >= maxState) return;
         this.block.dimension.spawnParticle('minecraft:crop_growth_emitter', {
@@ -62,13 +62,13 @@ class PlantUtils {
         const nextState = currentState + 1;
         const perm = this.block.permutation.withState('betterend:growth', nextState);
         if (nextState === maxState) {
-            if (hasStructure) this.loadStructure(structures, this.block?.dimension, offset);
+            if (hasStructure) this.loadStructure(structures, this.block?.dimension, offset, removeBlock);
             else this.block.setPermutation(perm);
         }
         else this.block.setPermutation(perm);
     }
     // Structure Manager
-    loadStructure(structures: string[], dimension: Dimension, offset: Vector3) {
+    loadStructure(structures: string[], dimension: Dimension, offset: Vector3, removeBlock?: boolean) {
         const rotations = [
             StructureRotation.None,
             StructureRotation.Rotate180,
@@ -78,7 +78,7 @@ class PlantUtils {
         const rotation = rotations[Math.floor(Math.random() * rotations.length)];
         const randomStructure = structures[Math.floor(Math.random() * structures.length)];
         world.structureManager.place(randomStructure, dimension, offset, { rotation });
-        this?.block?.setType('air');
+        removeBlock ? this?.block?.setType('air') : null
     }
 }
 
