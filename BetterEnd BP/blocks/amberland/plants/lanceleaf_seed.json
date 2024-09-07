@@ -57,7 +57,7 @@
             "*": {
               "texture": "lanceleaf_seed_0",
               "render_method": "alpha_test",
-              "ambient_occlusion": true,
+              "ambient_occlusion": false,
               "face_dimming": false
             }
           }
@@ -82,7 +82,7 @@
             "*": {
               "texture": "lanceleaf_seed_1",
               "render_method": "alpha_test",
-              "ambient_occlusion": true,
+              "ambient_occlusion": false,
               "face_dimming": false
             }
           }
@@ -107,7 +107,7 @@
             "*": {
               "texture": "lanceleaf_seed_2",
               "render_method": "alpha_test",
-              "ambient_occlusion": true,
+              "ambient_occlusion": false,
               "face_dimming": false
             }
           }
@@ -133,7 +133,7 @@
             "*": {
               "texture": "lanceleaf_seed_3",
               "render_method": "alpha_test",
-              "ambient_occlusion": true,
+              "ambient_occlusion": false,
               "face_dimming": false
             }
           }
@@ -147,8 +147,8 @@
             "*": {
               "texture": "lanceleaf_stem",
               "render_method": "alpha_test",
-              "ambient_occlusion": true,
-              "face_dimming": true
+              "ambient_occlusion": false,
+              "face_dimming": false
             }
           },
           "minecraft:selection_box": {
@@ -184,8 +184,8 @@
             "*": {
               "texture": "lanceleaf_leaf_bottom",
               "render_method": "alpha_test",
-              "ambient_occlusion": true,
-              "face_dimming": true
+              "ambient_occlusion": false,
+              "face_dimming": false
             }
           },
           "minecraft:selection_box": {
@@ -228,8 +228,8 @@
             "*": {
               "texture": "lanceleaf_leaf_middle",
               "render_method": "alpha_test",
-              "ambient_occlusion": true,
-              "face_dimming": true
+              "ambient_occlusion": false,
+              "face_dimming": false
             }
           },
           "minecraft:selection_box": {
@@ -272,8 +272,8 @@
             "*": {
               "texture": "lanceleaf_leaf_pre_top",
               "render_method": "alpha_test",
-              "ambient_occlusion": true,
-              "face_dimming": true
+              "ambient_occlusion": false,
+              "face_dimming": false
             }
           },
           "minecraft:selection_box": {
@@ -316,8 +316,8 @@
             "*": {
               "texture": "lanceleaf_leaf_top",
               "render_method": "alpha_test",
-              "ambient_occlusion": true,
-              "face_dimming": true
+              "ambient_occlusion": false,
+              "face_dimming": false
             }
           },
           "minecraft:selection_box": {
