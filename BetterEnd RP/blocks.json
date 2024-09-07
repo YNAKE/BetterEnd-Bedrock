@@ -5,6 +5,20 @@
 		0
 	],
     // Amberland
+    "betterend:helix_tree_leaves": {
+        "sound": "nether_wart",
+        "textures": "helix_tree_leaves"
+    },
+    "betterend:helix_tree_sapling": {
+        "sound": "grass"
+    },
+    "betterend:amber_ore": {
+        "sound": "stone",
+        "textures": "amber_ore"
+    },
+    "betterend:lanceleaf_seed": {
+        "sound": "grass"
+    },
     "betterend:amber_grass": {
         "sound": "grass"
     },

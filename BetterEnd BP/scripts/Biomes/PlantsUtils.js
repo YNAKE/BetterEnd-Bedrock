@@ -82,6 +82,7 @@ class PlantUtils {
         const rotation = rotations[Math.floor(Math.random() * rotations.length)];
         const randomStructure = structures[Math.floor(Math.random() * structures.length)];
         world.structureManager.place(randomStructure, dimension, offset, { rotation });
+        this?.block?.setType('air');
     }
 }
 export default PlantUtils;
