@@ -15,9 +15,9 @@ world.beforeEvents.worldInitialize.subscribe((data) => {
     {
       onPlayerInteract({ block, player }) {
         const offset: Vector3 = {
-          x: block.location.x + -12,
+          x: block.location.x + -10,
           y: block.location.y + 0,
-          z: block.location.z + -9,
+          z: block.location.z + -12,
         };
         new PlantUtils(block, player).boneMealGrowth(
           3,

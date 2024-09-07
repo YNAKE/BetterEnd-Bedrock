@@ -1,0 +1,18 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:structure_template_feature": {
+		"description": {
+			"identifier": "betterend:ice_starfield/star1"
+		},
+		"structure_name": "mystructure:star1",
+		"facing_direction": "south",
+		"adjustment_radius": 8,
+		"constraints": {
+			"block_intersection": {
+				"block_whitelist": [
+					"minecraft:air"
+				]
+			}
+		}
+	}
+}

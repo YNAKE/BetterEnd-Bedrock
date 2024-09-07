@@ -11,9 +11,9 @@ world.beforeEvents.worldInitialize.subscribe((data) => {
     data.blockComponentRegistry.registerCustomComponent("betterend:tenanea_sapling", {
         onPlayerInteract({ block, player }) {
             const offset = {
-                x: block.location.x + -12,
+                x: block.location.x + -10,
                 y: block.location.y + 0,
-                z: block.location.z + -9,
+                z: block.location.z + -12,
             };
             new PlantUtils(block, player).boneMealGrowth(3, true, structures, offset, true);
         },

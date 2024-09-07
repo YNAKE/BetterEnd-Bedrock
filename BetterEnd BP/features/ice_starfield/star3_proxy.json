@@ -1,0 +1,13 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "betterend:ice_starfield/star3_proxy"
+		},
+		"places_feature": "betterend:ice_starfield/star3",
+		"iterations": 1,
+		"x": -16,
+		"z": -16,
+		"y": 0
+	}
+}
