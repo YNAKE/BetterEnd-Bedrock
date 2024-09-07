@@ -4,6 +4,9 @@
   "resource_pack_name": "vanilla",
   "texture_data": {
     // Blossoming
+    "blossom_berry": {
+      "textures": "textures/blocks/blossoming/plants/blossom_berry"
+    },
     "twisted_moss": {
       "textures": "textures/blocks/blossoming/plants/twisted_moss"
     },

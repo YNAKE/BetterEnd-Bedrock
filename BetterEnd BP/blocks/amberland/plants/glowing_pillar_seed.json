@@ -57,7 +57,7 @@
             "*": {
               "texture": "glowing_pillar_seed_0",
               "render_method": "alpha_test",
-              "ambient_occlusion": true,
+              "ambient_occlusion": false,
               "face_dimming": false
             }
           }

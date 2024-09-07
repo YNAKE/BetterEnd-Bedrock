@@ -19,7 +19,7 @@
             "*": {
               "texture": "amber_root_0",
               "render_method": "alpha_test",
-              "ambient_occlusion": false,
+              "ambient_occlusion": true,
               "face_dimming": false
             }
           }
@@ -36,7 +36,7 @@
             "*": {
               "texture": "amber_root_1",
               "render_method": "alpha_test",
-              "ambient_occlusion": false,
+              "ambient_occlusion": true,
               "face_dimming": false
             }
           }
@@ -53,7 +53,7 @@
             "*": {
               "texture": "amber_root_2",
               "render_method": "alpha_test",
-              "ambient_occlusion": false,
+              "ambient_occlusion": true,
               "face_dimming": false
             }
           }
@@ -71,7 +71,7 @@
             "*": {
               "texture": "amber_root_3",
               "render_method": "alpha_test",
-              "ambient_occlusion": false,
+              "ambient_occlusion": true,
               "face_dimming": false
             }
           }
@@ -88,12 +88,8 @@
       "minecraft:placement_filter": {
         "conditions": [
           {
-            "allowed_faces": [
-              "up"
-            ],
-            "block_filter": [
-              "betterend:amber_moss"
-            ]
+            "allowed_faces": ["up"],
+            "block_filter": ["betterend:amber_moss"]
           }
         ]
       }
