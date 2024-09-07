@@ -5,7 +5,7 @@
       "identifier": "betterend:amber_land/amber_moss_single_block_feature"
     },
     "places_block": {
-      "name": "minecraft:tuff"
+      "name": "betterend:amber_moss"
     },
     "enforce_survivability_rules": false,
     "enforce_placement_rules": false
