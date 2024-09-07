@@ -5,7 +5,7 @@
       "identifier": "betterend:amber_land/amber_root_single_block_feature"
     },
     "places_block": {
-      "name": "minecraft:blackstone"
+      "name": "betterend:amber_root_seed"
     },
     "enforce_survivability_rules": false,
     "enforce_placement_rules": true,
@@ -14,7 +14,7 @@
     ],
     "may_attach_to": {
       "bottom": [
-        "minecraft:tuff"
+        "betterend:amber_moss"
       ]
     }
   }
