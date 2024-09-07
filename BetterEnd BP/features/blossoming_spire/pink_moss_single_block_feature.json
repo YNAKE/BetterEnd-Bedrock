@@ -5,7 +5,7 @@
       "identifier": "betterend:blossoming_spire/pink_moss_single_block_feature"
     },
     "places_block": {
-      "name": "minecraft:calcite"
+      "name": "betterend:pink_moss"
     },
     "enforce_survivability_rules": false,
     "enforce_placement_rules": false
