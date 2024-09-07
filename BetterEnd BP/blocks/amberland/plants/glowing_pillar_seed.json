@@ -82,7 +82,7 @@
             "*": {
               "texture": "glowing_pillar_seed_1",
               "render_method": "alpha_test",
-              "ambient_occlusion": true,
+              "ambient_occlusion": false,
               "face_dimming": false
             }
           }
@@ -107,7 +107,7 @@
             "*": {
               "texture": "glowing_pillar_seed_2",
               "render_method": "alpha_test",
-              "ambient_occlusion": true,
+              "ambient_occlusion": false,
               "face_dimming": false
             }
           }
@@ -133,7 +133,7 @@
             "*": {
               "texture": "glowing_pillar_seed_3",
               "render_method": "alpha_test",
-              "ambient_occlusion": true,
+              "ambient_occlusion": false,
               "face_dimming": false
             }
           }
@@ -147,8 +147,8 @@
             "*": {
               "texture": "glowing_pillar_roots_both",
               "render_method": "alpha_test",
-              "ambient_occlusion": true,
-              "face_dimming": true
+              "ambient_occlusion": false,
+              "face_dimming": false
             }
           },
           "minecraft:selection_box": {
@@ -173,8 +173,8 @@
             "*": {
               "texture": "glowing_pillar_roots_bottom",
               "render_method": "alpha_test",
-              "ambient_occlusion": true,
-              "face_dimming": true
+              "ambient_occlusion": false,
+              "face_dimming": false
             }
           },
           "minecraft:selection_box": {
@@ -199,8 +199,8 @@
             "*": {
               "texture": "glowing_pillar_roots_top",
               "render_method": "alpha_test",
-              "ambient_occlusion": true,
-              "face_dimming": true
+              "ambient_occlusion": false,
+              "face_dimming": false
             }
           },
           "minecraft:selection_box": {
