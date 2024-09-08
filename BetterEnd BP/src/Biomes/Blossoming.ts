@@ -5,3 +5,4 @@ import "./Blossoming/BlossomBerrySeed";
 import "./Blossoming/BushyGrass";
 import "./Blossoming/BulbVineSeed";
 import "./Blossoming/BulbVine";
+import "./Blossoming/TenaneaFlowersPink";

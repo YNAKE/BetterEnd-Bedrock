@@ -4,6 +4,12 @@
   "resource_pack_name": "vanilla",
   "texture_data": {
     // Blossoming
+    "tenanea_flowers_middle_pink": {
+      "textures": "textures/blocks/blossoming/plants/tenanea_flowers_middle_pink"
+    },
+    "tenanea_flowers_bottom_pink": {
+      "textures": "textures/blocks/blossoming/plants/tenanea_flowers_bottom_pink"
+    },
     "bulb_vine": {
       "textures": "textures/blocks/blossoming/plants/bulb_vine"
     },

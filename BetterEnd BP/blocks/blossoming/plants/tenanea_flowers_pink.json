@@ -1,0 +1,83 @@
+{
+  "format_version": "1.20.81",
+  "minecraft:block": {
+    "description": {
+      "identifier": "betterend:tenanea_flowers_pink",
+      "states": {
+        "betterend:top": [false, true]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('betterend:top') == true",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "tenanea_flowers_bottom_pink",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          },
+          "minecraft:placement_filter": {
+            "conditions": [
+                {
+                    "block_filter": [
+                        "betterend:tenanea_flowers_pink",
+                        "betterend:tenanea_leaves"
+                    ],
+                    "allowed_faces": [
+                        "down"
+                    ]
+                }
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:top') == false",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "tenanea_flowers_middle_pink",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          },
+          "minecraft:placement_filter": {
+            "conditions": [
+                {
+                    "block_filter": [
+                        "betterend:tenanea_flowers_pink",
+                        "betterend:tenanea_leaves"
+                    ],
+                    "allowed_faces": [
+                        "down"
+                    ]
+                }
+            ]
+          }
+        }
+      }
+    ],
+    "components": {
+      "minecraft:custom_components": ["betterend:tenanea_flowers_pink"],
+      "minecraft:tick": {
+        "interval_range": [10, 10],
+        "looping": true
+      },
+      "minecraft:destructible_by_mining": true,
+      "minecraft:destructible_by_explosion": true,
+      "minecraft:collision_box": false,
+      "minecraft:selection_box": {
+        "origin": [-6, 0, -6],
+        "size": [12, 16, 12]
+      },
+      "minecraft:flammable": true,
+      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:light_emission": 10,
+      "minecraft:geometry": "geometry.random_model2"
+    }
+  }
+}
