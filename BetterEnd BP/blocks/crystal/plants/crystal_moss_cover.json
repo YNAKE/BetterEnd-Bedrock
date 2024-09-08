@@ -1,0 +1,76 @@
+{
+  "format_version": "1.20.81",
+  "minecraft:block": {
+    "description": {
+      "identifier": "betterend:crystal_moss_cover",
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": ["minecraft:facing_direction"]
+        }
+      }
+    },
+    "permutations": [
+      // Facing down
+      {
+        "condition": "q.block_state('minecraft:facing_direction') == 'down'",
+        "components": {
+          "minecraft:transformation": { "rotation": [-90, 0, 0] }
+        }
+      },
+      // Facing up
+      {
+        "condition": "q.block_state('minecraft:facing_direction') == 'up'",
+        "components": {
+          "minecraft:transformation": { "rotation": [90, 0, 0] }
+        }
+      },
+      // Facing north
+      {
+        "condition": "q.block_state('minecraft:facing_direction') == 'north'",
+        "components": {
+          "minecraft:transformation": { "rotation": [0, 0, 0] }
+        }
+      },
+      // Facing west
+      {
+        "condition": "q.block_state('minecraft:facing_direction') == 'west'",
+        "components": {
+          "minecraft:transformation": { "rotation": [0, 90, 0] }
+        }
+      },
+      // Facing south
+      {
+        "condition": "q.block_state('minecraft:facing_direction') == 'south'",
+        "components": {
+          "minecraft:transformation": { "rotation": [0, 180, 0] }
+        }
+      },
+      // Facing east
+      {
+        "condition": "q.block_state('minecraft:facing_direction') == 'east'",
+        "components": {
+          "minecraft:transformation": { "rotation": [0, -90, 0] }
+        }
+      }
+    ],
+    "components": {
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "crystal_moss_cover",
+          "render_method": "alpha_test",
+          "ambient_occlusion": true,
+          "face_dimming": true
+        }
+      },
+      "minecraft:geometry": "geometry.crystal_moss_cover",
+      "minecraft:destructible_by_mining": true,
+      "minecraft:destructible_by_explosion": true,
+      "minecraft:flammable": true,
+      "minecraft:collision_box": false,
+      "minecraft:selection_box": {
+        "origin": [-8, 0, -7.25],
+        "size": [16, 16, 0.5]
+      }
+    }
+  }
+}

@@ -1,6 +1,13 @@
 {
   "resource_pack_name": "vanilla",
   "texture_data": {
+    // Crystal
+    "crystal_moss_cover": {
+      "textures": "textures/items/crystal/crystal_moss_cover"
+    },
+    "crystal_grass": {
+      "textures": "textures/items/crystal/crystal_grass"
+    },
     // Chorus
     "purple_polypore": {
       "textures": "textures/items/chorus/purple_polypore"

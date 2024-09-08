@@ -1,0 +1,8 @@
+[
+    {
+        "atlas_tile": "crystal_moss_cover",
+        "flipbook_texture": "textures/blocks/crystal/plants/crystal_moss_cover",
+        "ticks_per_frame": 20,
+        "blend_frames": true
+    }
+]

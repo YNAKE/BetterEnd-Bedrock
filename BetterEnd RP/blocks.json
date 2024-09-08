@@ -1,5 +1,23 @@
 {
   "format_version": [1, 1, 0],
+  // Crystal
+  "betterend:crystal_moss_cover": {
+    "sound": "grass"
+  },
+  "betterend:crystal_grass": {
+    "sound": "grass"
+  },
+  "betterend:crystal_moss": {
+    "sound": "grass",
+    "isotropic": {
+      "up": true
+    },
+    "textures": {
+      "up": "crystal_moss_top",
+      "side": "crystal_moss_side",
+      "down": "end_stone"
+    }
+  },
   // Chorus
   "betterend:chorus_plant_flower": {
     "sound": "grass"

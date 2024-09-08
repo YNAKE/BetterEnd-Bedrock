@@ -3,6 +3,28 @@
   "padding": 8,
   "resource_pack_name": "vanilla",
   "texture_data": {
+    // Crystal
+    "crystal_moss_cover": {
+      "textures": "textures/blocks/crystal/plants/crystal_moss_cover"
+    },
+    "crystal_grass_5": {
+      "textures": "textures/blocks/crystal/plants/crystal_grass_5"
+    },
+    "crystal_grass_4": {
+      "textures": "textures/blocks/crystal/plants/crystal_grass_4"
+    },
+    "crystal_grass_3": {
+      "textures": "textures/blocks/crystal/plants/crystal_grass_3"
+    },
+    "crystal_grass_2": {
+      "textures": "textures/blocks/crystal/plants/crystal_grass_2"
+    },
+    "crystal_moss_side": {
+      "textures": "textures/blocks/crystal/crystal_moss_side"
+    },
+    "crystal_moss_top": {
+      "textures": "textures/blocks/crystal/crystal_moss_top"
+    },
     // Chorus
     "chorus_plant_flower": {
       "textures": "textures/blocks/chorus/plants/chorus_plant_flower"
