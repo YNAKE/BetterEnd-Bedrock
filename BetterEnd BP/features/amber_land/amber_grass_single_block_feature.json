@@ -7,7 +7,7 @@
     "places_block": {
       "name": "betterend:amber_grass",
       "states": {
-        "betterend:random": "math.random_integer(0, 1)"
+        "betterend:random": 0
       }
     },
     "enforce_survivability_rules": false,
