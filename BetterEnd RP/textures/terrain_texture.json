@@ -4,6 +4,12 @@
   "resource_pack_name": "vanilla",
   "texture_data": {
     // Chorus
+    "chorus_plant_flower": {
+      "textures": "textures/blocks/chorus/plants/chorus_plant_flower"
+    },
+    "chorus_plant_flower_closed": {
+      "textures": "textures/blocks/chorus/plants/chorus_plant_flower_closed"
+    },
     "purple_polypore": {
       "textures": "textures/blocks/chorus/plants/purple_polypore"
     },

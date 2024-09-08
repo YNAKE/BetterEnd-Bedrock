@@ -1,6 +1,9 @@
 {
   "format_version": [1, 1, 0],
   // Chorus
+  "betterend:chorus_plant_flower": {
+    "sound": "grass"
+  },
   "betterend:purple_polypore": {
     "sound": "stone"
   },
