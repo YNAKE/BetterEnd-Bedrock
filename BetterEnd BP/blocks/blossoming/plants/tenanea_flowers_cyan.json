@@ -13,7 +13,7 @@
         "components": {
           "minecraft:material_instances": {
             "*": {
-              "texture": "tenanea_flowers_bottom_pink",
+              "texture": "tenanea_flowers_bottom_cyan",
               "render_method": "alpha_test",
               "ambient_occlusion": false,
               "face_dimming": false
@@ -23,7 +23,7 @@
             "conditions": [
                 {
                     "block_filter": [
-                        "betterend:tenanea_flowers_pink",
+                        "betterend:tenanea_flowers_cyan",
                         "betterend:tenanea_leaves"
                     ],
                     "allowed_faces": [
@@ -39,7 +39,7 @@
         "components": {
           "minecraft:material_instances": {
             "*": {
-              "texture": "tenanea_flowers_middle_pink",
+              "texture": "tenanea_flowers_middle_cyan",
               "render_method": "alpha_test",
               "ambient_occlusion": false,
               "face_dimming": false
@@ -49,7 +49,7 @@
             "conditions": [
                 {
                     "block_filter": [
-                        "betterend:tenanea_flowers_pink",
+                        "betterend:tenanea_flowers_cyan",
                         "betterend:tenanea_leaves"
                     ],
                     "allowed_faces": [
@@ -62,7 +62,7 @@
       }
     ],
     "components": {
-      "minecraft:custom_components": ["betterend:tenanea_flowers_pink"],
+      "minecraft:custom_components": ["betterend:tenanea_flowers_cyan"],
       "minecraft:tick": {
         "interval_range": [10, 10],
         "looping": true

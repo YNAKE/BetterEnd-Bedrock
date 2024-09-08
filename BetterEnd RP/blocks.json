@@ -1,6 +1,9 @@
 {
   "format_version": [1, 1, 0],
   // Blossoming
+  "betterend:tenanea_flowers_cyan": {
+    "sound": "grass"
+  },
   "betterend:tenanea_flowers_pink": {
     "sound": "grass"
   },
