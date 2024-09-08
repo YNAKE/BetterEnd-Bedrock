@@ -6,3 +6,5 @@ import "./Blossoming/BushyGrass";
 import "./Blossoming/BulbVineSeed";
 import "./Blossoming/BulbVine";
 import "./Blossoming/TenaneaFlowersPink";
+import "./Blossoming/TenaneaFlowersCyan";
+import "./Blossoming/TenaneaFlowersPurple";
