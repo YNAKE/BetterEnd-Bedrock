@@ -19,5 +19,12 @@ class WoodUtils {
             this.block?.setPermutation(perm);
         }
     }
+    textureVariation(maxVartiations) {
+        if (!this.block?.typeId.startsWith('betterend:'))
+            return;
+        const randomVariation = maxVartiations[Math.floor(Math.random() * maxVartiations.length)];
+        const perm = this.block.permutation.withState('betterend:variations', randomVariation);
+        this.block?.setPermutation(perm);
+    }
 }
 export default WoodUtils;

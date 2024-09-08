@@ -3,6 +3,28 @@
   "padding": 8,
   "resource_pack_name": "vanilla",
   "texture_data": {
+    // Chorus
+    "chorus_nylium_top": {
+      "textures": "textures/blocks/chorus/chorus_nylium_top"
+    },
+    "chorus_nylium_side": {
+      "textures": "textures/blocks/chorus/chorus_nylium_side"
+    },
+    "pythadendron_log2": {
+      "textures": "textures/blocks/chorus/tree/pythadendron_log2"
+    },
+    "pythadendron_log": {
+      "textures": "textures/blocks/chorus/tree/pythadendron_log"
+    },
+    "pythadendron_bark2": {
+      "textures": "textures/blocks/chorus/tree/pythadendron_bark2"
+    },
+    "pythadendron_bark": {
+      "textures": "textures/blocks/chorus/tree/pythadendron_bark"
+    },
+    "pythadendron_leaves": {
+      "textures": "textures/blocks/chorus/tree/pythadendron_leaves"
+    },
     // Blossoming
     "tenanea_flowers_middle_purple_and_blue": {
       "textures": "textures/blocks/blossoming/plants/tenanea_flowers_middle_purple_and_blue"

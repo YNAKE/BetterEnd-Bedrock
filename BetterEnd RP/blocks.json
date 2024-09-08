@@ -1,5 +1,26 @@
 {
   "format_version": [1, 1, 0],
+  // Chorus
+  "betterend:chorus_nylium": {
+    "isotropic": {
+      "up": true
+    },
+    "sound": "gravel",
+    "textures": {
+      "side": "chorus_nylium_side",
+      "up": "chorus_nylium_top",
+      "down": "end_stone"
+    }
+  },
+  "betterend:pythadendron_log": {
+    "sound": "wood"
+  },
+  "betterend:pythadendron_bark": {
+    "sound": "wood"
+  },
+  "betterend:pythadendron_leaves": {
+    "sound": "grass"
+  },
   // Blossoming
   "betterend:tenanea_flowers_purple_and_blue": {
     "sound": "grass"
@@ -35,6 +56,9 @@
     "sound": "grass"
   },
   "betterend:pink_moss": {
+    "isotropic": {
+      "up": true
+    },
     "sound": "grass",
     "textures": {
       "up": "pink_moss_top",
