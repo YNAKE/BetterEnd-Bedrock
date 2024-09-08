@@ -4,6 +4,9 @@
   "resource_pack_name": "vanilla",
   "texture_data": {
     // Chorus
+    "purple_polypore": {
+      "textures": "textures/blocks/chorus/plants/purple_polypore"
+    },
     "tail_moss": {
       "textures": "textures/blocks/chorus/plants/tail_moss"
     },
