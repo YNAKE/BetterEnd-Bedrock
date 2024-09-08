@@ -2,7 +2,9 @@
   "resource_pack_name": "vanilla",
   "texture_data": {
     // Chorus
-    
+    "chorus_grass": {
+      "textures": "textures/blocks/chorus/plants/chorus_grass_01"
+    },
     // Blossoming
     "tenanea_flowers_purple_and_blue": {
       "textures": "textures/blocks/blossoming/plants/tenanea_flowers_middle_purple_and_blue"

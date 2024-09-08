@@ -4,6 +4,30 @@
   "resource_pack_name": "vanilla",
   "texture_data": {
     // Chorus
+    "chorus_mushroom_3": {
+      "textures": "textures/blocks/chorus/plants/chorus_mushroom_3"
+    },
+    "chorus_mushroom_2": {
+      "textures": "textures/blocks/chorus/plants/chorus_mushroom_2"
+    },
+    "chorus_mushroom_1": {
+      "textures": "textures/blocks/chorus/plants/chorus_mushroom_1"
+    },
+    "chorus_mushroom_0": {
+      "textures": "textures/blocks/chorus/plants/chorus_mushroom_0"
+    },
+    "chorus_grass_04": {
+      "textures": "textures/blocks/chorus/plants/chorus_grass_04"
+    },
+    "chorus_grass_03": {
+      "textures": "textures/blocks/chorus/plants/chorus_grass_03"
+    },
+    "chorus_grass_02": {
+      "textures": "textures/blocks/chorus/plants/chorus_grass_02"
+    },
+    "chorus_grass_01": {
+      "textures": "textures/blocks/chorus/plants/chorus_grass_01"
+    },
     "chorus_nylium_top": {
       "textures": "textures/blocks/chorus/chorus_nylium_top"
     },

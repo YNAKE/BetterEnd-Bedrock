@@ -1,0 +1,172 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "betterend:chorus_grass",
+      "states": {
+        "betterend:random": [0, 1, 2, 3, 4, 5, 6, 7]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('betterend:random') == 0",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [-6.5, 0, -6.5],
+            "size": [13, 11, 13]
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "chorus_grass_01",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          },
+          "minecraft:geometry": "geometry.random_model1"
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:random') == 1",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [-4, 0, -4],
+            "size": [8, 10, 8]
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "chorus_grass_01",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          },
+          "minecraft:geometry": "geometry.random_model2"
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:random') == 2",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [-6.5, 0, -6.5],
+            "size": [13, 11, 13]
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "chorus_grass_02",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          },
+          "minecraft:geometry": "geometry.random_model1"
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:random') == 3",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [-4, 0, -4],
+            "size": [8, 10, 8]
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "chorus_grass_02",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          },
+          "minecraft:geometry": "geometry.random_model2"
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:random') == 4",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [-6.5, 0, -6.5],
+            "size": [13, 11, 13]
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "chorus_grass_03",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          },
+          "minecraft:geometry": "geometry.random_model1"
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:random') == 5",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [-4, 0, -4],
+            "size": [8, 10, 8]
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "chorus_grass_03",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          },
+          "minecraft:geometry": "geometry.random_model2"
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:random') == 6",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [-6.5, 0, -6.5],
+            "size": [13, 11, 13]
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "chorus_grass_04",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          },
+          "minecraft:geometry": "geometry.random_model1"
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:random') == 7",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [-4, 0, -4],
+            "size": [8, 10, 8]
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "chorus_grass_04",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          },
+          "minecraft:geometry": "geometry.random_model2"
+        }
+      }
+    ],
+    "components": {
+      "minecraft:custom_components": ["betterend:chorus_grass"],
+      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:destructible_by_explosion": true,
+      "minecraft:destructible_by_mining": true,
+      "minecraft:collision_box": false,
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": ["up"],
+            "block_filter": ["betterend:chorus_nylium"]
+          }
+        ]
+      }
+    }
+  }
+}
