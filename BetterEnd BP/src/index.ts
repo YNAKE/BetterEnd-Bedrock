@@ -5,6 +5,10 @@ import PlayerUtils from "Utils/PlayerUtils";
 
 import "./Biomes/biomeRegister";
 
+// Utils
+
+import "./Utils/External/ExternalUtils";
+
 // index
 
 system.runInterval(() => {
@@ -15,7 +19,7 @@ system.runInterval(() => {
             if (entity instanceof Player) {
                 // Player Utils
                 const playerUtils = new PlayerUtils(entity);
-                playerUtils.waila();
+                // playerUtils.waila();
             }
             else {
                 // Entity Utils

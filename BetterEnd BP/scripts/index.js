@@ -2,6 +2,8 @@ import { world, system, Player } from "@minecraft/server";
 import PlayerUtils from "Utils/PlayerUtils";
 // Biomes
 import "./Biomes/biomeRegister";
+// Utils
+import "./Utils/External/ExternalUtils";
 // index
 system.runInterval(() => {
     const dimensions = ["minecraft:nether", "minecraft:overworld", "minecraft:the_end"];
@@ -11,7 +13,7 @@ system.runInterval(() => {
             if (entity instanceof Player) {
                 // Player Utils
                 const playerUtils = new PlayerUtils(entity);
-                playerUtils.waila();
+                // playerUtils.waila();
             }
             else {
                 // Entity Utils
