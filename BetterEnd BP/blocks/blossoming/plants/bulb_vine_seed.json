@@ -1,0 +1,98 @@
+{
+  "format_version": "1.20.81",
+  "minecraft:block": {
+    "description": {
+      "identifier": "betterend:bulb_vine_seed",
+      "states": {
+        "betterend:growth": [0, 1, 2, 3]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('betterend:growth') == 0",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [-4, 8, -4],
+            "size": [8, 8, 8]
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "bulb_vine_seed_0",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:growth') == 1",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [-4.5, 4, -4.5],
+            "size": [9, 12, 9]
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "bulb_vine_seed_1",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:growth') == 2",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [-6, 2, -6],
+            "size": [12, 14, 12]
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "bulb_vine_seed_2",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:growth') == 3",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [-4.5, 0, -4.5],
+            "size": [9, 16, 9]
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "bulb_vine_seed_3",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          }
+        }
+      }
+    ],
+    "components": {
+      "minecraft:custom_components": ["betterend:bulb_vine_seed"],
+      "minecraft:collision_box": false,
+      "minecraft:destructible_by_explosion": true,
+      "minecraft:destructible_by_mining": true,
+      "minecraft:geometry": "geometry.random_model2",
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "block_filter": ["betterend:tenanea_leaves"],
+            "allowed_faces": [
+                "down"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

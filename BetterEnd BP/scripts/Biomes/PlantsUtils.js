@@ -21,7 +21,6 @@ class PlantUtils {
     }
     // On break plant with seeds
     onBreakSeeds(seeds) {
-        const currentState = this.block?.permutation.getState('betterend:growth');
         const amounts = [1, 2];
         const nothing = Math.random() < 0.3;
         const randomAmount = amounts[Math.floor(Math.random() * amounts.length)];

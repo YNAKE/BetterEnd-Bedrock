@@ -4,6 +4,21 @@
   "resource_pack_name": "vanilla",
   "texture_data": {
     // Blossoming
+    "bulb_vine": {
+      "textures": "textures/blocks/blossoming/plants/bulb_vine"
+    },
+    "bulb_vine_seed_3": {
+      "textures": "textures/blocks/blossoming/plants/bulb_vine_seed_3"
+    },
+    "bulb_vine_seed_2": {
+      "textures": "textures/blocks/blossoming/plants/bulb_vine_seed_2"
+    },
+    "bulb_vine_seed_1": {
+      "textures": "textures/blocks/blossoming/plants/bulb_vine_seed_1"
+    },
+    "bulb_vine_seed_0": {
+      "textures": "textures/blocks/blossoming/plants/bulb_vine_seed_0"
+    },
     "bushy_grass": {
       "textures": {
         "variations": [
@@ -162,6 +177,10 @@
     },
     "amber_grass": {
       "textures": "textures/blocks/amberland/plants/amber_grass"
+    },
+    // Utils
+    "air": {
+      "textures": "textures/blocks/utils/air"
     }
   }
 }

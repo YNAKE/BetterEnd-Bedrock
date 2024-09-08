@@ -2,6 +2,15 @@
   "resource_pack_name": "vanilla",
   "texture_data": {
     // Blossoming
+    "glowing_bulb": {
+      "textures": "textures/items/blossoming/glowing_bulb"
+    },
+    "bulb_vine": {
+      "textures": "textures/items/blossoming/bulb_vine"
+    },
+    "bulb_vine_seed": {
+      "textures": "textures/items/blossoming/bulb_vine_seed"
+    },
     "bushy_grass": {
       "textures": "textures/blocks/blossoming/plants/bushy_grass_2"
     },

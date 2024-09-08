@@ -3,3 +3,5 @@ import "./Blossoming/TenaneaSapling";
 import "./Blossoming/TwistedMoss";
 import "./Blossoming/BlossomBerrySeed";
 import "./Blossoming/BushyGrass";
+import "./Blossoming/BulbVineSeed";
+import "./Blossoming/BulbVine";
