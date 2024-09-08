@@ -4,6 +4,15 @@
   "resource_pack_name": "vanilla",
   "texture_data": {
     // Foggy
+    "creeping_moss": {
+      "textures": "textures/blocks/foggy/plants/creeping_moss"
+    },
+    "cyan_moss": {
+      "textures": "textures/blocks/foggy/plants/cyan_moss"
+    },
+    "mossy_glowshroom_sapling": {
+      "textures": "textures/blocks/foggy/plants/mossy_glowshroom_sapling"
+    },
     "mossy_glowshroom_fur": {
       "textures": "textures/blocks/foggy/plants/mossy_glowshroom_fur"
     },

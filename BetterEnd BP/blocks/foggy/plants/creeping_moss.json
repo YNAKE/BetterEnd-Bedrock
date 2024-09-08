@@ -1,0 +1,32 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "betterend:creeping_moss"
+    },
+    "components": {
+      "minecraft:custom_components": ["betterend:creeping_moss"],
+      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:geometry": "geometry.creeping_moss",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "creeping_moss",
+          "render_method": "alpha_test",
+          "ambient_occlusion": false,
+          "face_dimming": false
+        }
+      },
+      "minecraft:destructible_by_explosion": true,
+      "minecraft:destructible_by_mining": true,
+      "minecraft:collision_box": false,
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": ["up"],
+            "block_filter": ["betterend:end_moss"]
+          }
+        ]
+      }
+    }
+  }
+}
