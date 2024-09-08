@@ -5,7 +5,7 @@
       "identifier": "betterend:chorus_forest/chorus_nylium_single_block_feature"
     },
     "places_block": {
-      "name": "minecraft:deepslate"
+      "name": "betterend:chorus_nylium"
     },
     "enforce_survivability_rules": false,
     "enforce_placement_rules": false
