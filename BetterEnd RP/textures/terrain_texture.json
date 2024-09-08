@@ -3,6 +3,74 @@
   "padding": 8,
   "resource_pack_name": "vanilla",
   "texture_data": {
+    // Foggy
+    "mossy_glowshroom_fur": {
+      "textures": "textures/blocks/foggy/plants/mossy_glowshroom_fur"
+    },
+    "end_moss_top": {
+      "textures": "textures/blocks/foggy/end_moss_top"
+    },
+    "end_moss_side": {
+      "textures": "textures/blocks/foggy/end_moss_side"
+    },
+    "mossy_glowshroom_hymenophore": {
+      "textures": {
+        "variations": [
+          {
+            "path": "textures/blocks/foggy/plants/mossy_glowshroom_hymenophore_1",
+            "weight": 1
+          },
+          {
+            "path": "textures/blocks/foggy/plants/mossy_glowshroom_hymenophore_2",
+            "weight": 1
+          },
+          {
+            "path": "textures/blocks/foggy/plants/mossy_glowshroom_hymenophore_3",
+            "weight": 1
+          },
+          {
+            "path": "textures/blocks/foggy/plants/mossy_glowshroom_hymenophore_4",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    "mossy_glowshroom_cap_transition": {
+      "textures": "textures/blocks/foggy/tree/mossy_glowshroom_cap_transition"
+    },
+    "mossy_glowshroom_cap": {
+      "textures": "textures/blocks/foggy/tree/mossy_glowshroom_cap"
+    },
+    "mossy_glowshroom_log5": {
+      "textures": "textures/blocks/foggy/tree/mossy_glowshroom_log5"
+    },
+    "mossy_glowshroom_log4": {
+      "textures": "textures/blocks/foggy/tree/mossy_glowshroom_log4"
+    },
+    "mossy_glowshroom_log3": {
+      "textures": "textures/blocks/foggy/tree/mossy_glowshroom_log3"
+    },
+    "mossy_glowshroom_log2": {
+      "textures": "textures/blocks/foggy/tree/mossy_glowshroom_log2"
+    },
+    "mossy_glowshroom_log": {
+      "textures": "textures/blocks/foggy/tree/mossy_glowshroom_log"
+    },
+    "mossy_glowshroom_bark5": {
+      "textures": "textures/blocks/foggy/tree/mossy_glowshroom_bark5"
+    },
+    "mossy_glowshroom_bark4": {
+      "textures": "textures/blocks/foggy/tree/mossy_glowshroom_bark4"
+    },
+    "mossy_glowshroom_bark3": {
+      "textures": "textures/blocks/foggy/tree/mossy_glowshroom_bark3"
+    },
+    "mossy_glowshroom_bark2": {
+      "textures": "textures/blocks/foggy/tree/mossy_glowshroom_bark2"
+    },
+    "mossy_glowshroom_bark": {
+      "textures": "textures/blocks/foggy/tree/mossy_glowshroom_bark"
+    },
     // Dust
     "endstone_dust": {
       "textures": "textures/blocks/dust/endstone_dust"

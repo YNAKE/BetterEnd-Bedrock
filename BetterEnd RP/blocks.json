@@ -1,5 +1,39 @@
 {
   "format_version": [1, 1, 0],
+  // Foggy
+  "betterend:mossy_glowshroom_fur": {
+    "sound": "grass"
+  },
+  "betterend:end_moss": {
+    "sound": "grass",
+    "textures": {
+      "side": "end_moss_side",
+      "up": "end_moss_top",
+      "down": "end_stone"
+    },
+    "isotropic": {
+      "up": true
+    }
+  },
+  "betterend:mossy_glowshroom_hymenophore": {
+    "sound": "grass",
+    "textures": "mossy_glowshroom_hymenophore"
+  },
+  "betterend:mossy_glowshroom_cap": {
+    "sound": "wood"
+  },
+  "betterend:mossy_glowshroom_log": {
+    "sound": "wood"
+  },
+  "betterend:mossy_glowshroom_bark": {
+    "sound": "wood"
+  },
+  "betterend:mossy_glowshroom_log_stripped": {
+    "sound": "wood"
+  },
+  "betterend:mossy_glowshroom_bark_stripped": {
+    "sound": "wood"
+  },
   // Dust
   "betterend:endstone_dust": {
     "sound": "sand",
@@ -65,6 +99,7 @@
     "sound": "wood"
   },
   "betterend:pythadendron_leaves": {
+    "textures": "pythadendron_leaves",
     "sound": "grass"
   },
   // Blossoming

@@ -1,6 +1,10 @@
 {
   "resource_pack_name": "vanilla",
   "texture_data": {
+    // Foggy
+    "mossy_glowshroom_fur": {
+      "textures": "textures/blocks/foggy/plants/mossy_glowshroom_fur"
+    },
     // Crystal
     "crystal_moss_cover": {
       "textures": "textures/items/crystal/crystal_moss_cover"
