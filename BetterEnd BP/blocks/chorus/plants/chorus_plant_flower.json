@@ -11,34 +11,41 @@
       {
         "condition": "q.block_state('betterend:random') == 1",
         "components": {
+          "minecraft:transformation": {
+            "scale": [2, 2, 2],
+            "translation": [0, 0.3, 0]
+          },
           "minecraft:material_instances": {
             "*": {
-                "texture": "chorus_plant_flower",
-                "render_method": "alpha_test",
-                "ambient_occlusion": false,
-                "face_dimming": false
+              "texture": "chorus_plant_flower",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
             }
           },
           "minecraft:geometry": "geometry.chorus_plant_flower_open",
           "minecraft:selection_box": {
-            "origin": [-8, 0, -8],
-            "size": [16, 8, 16]
+            "origin": [-6.5, 0, -6.5],
+            "size": [13, 4, 13]
           },
           "minecraft:collision_box": {
-            "origin": [-8, 0, -8],
-            "size": [16, 5, 16]
+            "origin": [-6.5, 0, -6.5],
+            "size": [13, 4, 13]
           }
         }
       },
       {
         "condition": "q.block_state('betterend:random') == 0",
         "components": {
-            "minecraft:material_instances": {
+          "minecraft:transformation": {
+            "translation": [0, -0.2, 0]
+          },
+          "minecraft:material_instances": {
             "*": {
-                "texture": "chorus_plant_flower_closed",
-                "render_method": "alpha_test",
-                "ambient_occlusion": false,
-                "face_dimming": false
+              "texture": "chorus_plant_flower_closed",
+              "render_method": "opaque",
+              "ambient_occlusion": true,
+              "face_dimming": true
             }
           },
           "minecraft:geometry": "geometry.chorus_plant_flower"
