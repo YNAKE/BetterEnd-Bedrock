@@ -4,6 +4,93 @@
   "resource_pack_name": "vanilla",
   "texture_data": {
     // Crystal
+    "crystal_0": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_0"
+    },
+    "crystal_1": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_2"
+    },
+    "crystal_2": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_3"
+    },
+    "crystal_3": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_4"
+    },
+    "crystal_4": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_5"
+    },
+    "crystal_5": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_6"
+    },
+    "crystal_6": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_7"
+    },
+    "crystal_7": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_8"
+    },
+    "crystal_8": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_9"
+    },
+    "crystal_9": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_10"
+    },
+    "crystal_10": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_11"
+    },
+    "crystal_11": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_12"
+    },
+    "crystal_12": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_13"
+    },
+    "crystal_13": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_14"
+    },
+    "crystal_14": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_15"
+    },
+    "crystal_15": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_16"
+    },
+    "crystal_16": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_17"
+    },
+    "crystal_17": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_18"
+    },
+    "crystal_18": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_19"
+    },
+    "crystal_19": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_20"
+    },
+    "crystal_20": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_21"
+    },
+    "crystal_21": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_22"
+    },
+    "crystal_22": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_23"
+    },
+    "crystal_23": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_24"
+    },
+    "crystal_24": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_25"
+    },
+    "crystal_25": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_26"
+    },
+    "crystal_26": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_27"
+    },
+    "crystal_27": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_28"
+    },
+    "crystal_28": {
+      "textures": "textures/blocks/crystal/crystal/aurora_crystal_29"
+    },
     "crystal_moss_cover": {
       "textures": "textures/blocks/crystal/plants/crystal_moss_cover"
     },

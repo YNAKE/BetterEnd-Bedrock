@@ -1,0 +1,487 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "betterend:aurora_crystal",
+      "menu_category": {
+        "category": "nature",
+        "group": "itemGroup.name.ore"
+      },
+      "states": {
+        "betterend:crystallization": [
+          0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15
+        ],
+        "betterend:crystallization2": [
+          0, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28
+        ],
+        "betterend:up": [true, false],
+        "betterend:down": [true, false],
+        "betterend:west": [true, false],
+        "betterend:east": [true, false],
+        "betterend:north": [true, false],
+        "betterend:south": [true, false]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "query.block_state('betterend:crystallization') == 0",
+        "components": {
+          "tag:crystal0": {},
+          "tag:crystal": {},
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "crystal_0",
+              "ambient_occlusion": false,
+              "face_dimming": false,
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('betterend:crystallization') == 1",
+        "components": {
+          "tag:crystal1": {},
+          "tag:crystal": {},
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "crystal_1",
+              "ambient_occlusion": false,
+              "face_dimming": false,
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('betterend:crystallization') == 2",
+        "components": {
+          "tag:crystal2": {},
+          "tag:crystal": {},
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "crystal_2",
+              "ambient_occlusion": false,
+              "face_dimming": false,
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('betterend:crystallization') == 3",
+        "components": {
+          "tag:crystal3": {},
+          "tag:crystal": {},
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "crystal_3",
+              "ambient_occlusion": false,
+              "face_dimming": false,
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('betterend:crystallization') == 4",
+        "components": {
+          "tag:crystal4": {},
+          "tag:crystal": {},
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "crystal_4",
+              "ambient_occlusion": false,
+              "face_dimming": false,
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('betterend:crystallization') == 5",
+        "components": {
+          "tag:crystal5": {},
+          "tag:crystal": {},
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "crystal_5",
+              "ambient_occlusion": false,
+              "face_dimming": false,
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('betterend:crystallization') == 6",
+        "components": {
+          "tag:crystal6": {},
+          "tag:crystal": {},
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "crystal_6",
+              "ambient_occlusion": false,
+              "face_dimming": false,
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('betterend:crystallization') == 7",
+        "components": {
+          "tag:crystal7": {},
+          "tag:crystal": {},
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "crystal_7",
+              "ambient_occlusion": false,
+              "face_dimming": false,
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('betterend:crystallization') == 8",
+        "components": {
+          "tag:crystal8": {},
+          "tag:crystal": {},
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "crystal_8",
+              "ambient_occlusion": false,
+              "face_dimming": false,
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('betterend:crystallization') == 9",
+        "components": {
+          "tag:crystal9": {},
+          "tag:crystal": {},
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "crystal_9",
+              "ambient_occlusion": false,
+              "face_dimming": false,
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('betterend:crystallization') == 10",
+        "components": {
+          "tag:crystal10": {},
+          "tag:crystal": {},
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "crystal_10",
+              "ambient_occlusion": false,
+              "face_dimming": false,
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('betterend:crystallization') == 11",
+        "components": {
+          "tag:crystal11": {},
+          "tag:crystal": {},
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "crystal_11",
+              "ambient_occlusion": false,
+              "face_dimming": false,
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('betterend:crystallization') == 12",
+        "components": {
+          "tag:crystal12": {},
+          "tag:crystal": {},
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "crystal_12",
+              "ambient_occlusion": false,
+              "face_dimming": false,
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('betterend:crystallization') == 13",
+        "components": {
+          "tag:crystal13": {},
+          "tag:crystal": {},
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "crystal_13",
+              "ambient_occlusion": false,
+              "face_dimming": false,
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('betterend:crystallization') == 14",
+        "components": {
+          "tag:crystal14": {},
+          "tag:crystal": {},
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "crystal_14",
+              "ambient_occlusion": false,
+              "face_dimming": false,
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('betterend:crystallization') == 15",
+        "components": {
+          "tag:crystal15": {},
+          "tag:crystal": {},
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "crystal_15",
+              "ambient_occlusion": false,
+              "face_dimming": false,
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('betterend:crystallization2') == 16",
+        "components": {
+          "tag:crystal16": {},
+          "tag:crystal": {},
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "crystal_16",
+              "ambient_occlusion": false,
+              "face_dimming": false,
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('betterend:crystallization2') == 17",
+        "components": {
+          "tag:crystal17": {},
+          "tag:crystal": {},
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "crystal_17",
+              "ambient_occlusion": false,
+              "face_dimming": false,
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('betterend:crystallization2') == 18",
+        "components": {
+          "tag:crystal18": {},
+          "tag:crystal": {},
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "crystal_18",
+              "ambient_occlusion": false,
+              "face_dimming": false,
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('betterend:crystallization2') == 19",
+        "components": {
+          "tag:crystal19": {},
+          "tag:crystal": {},
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "crystal_19",
+              "ambient_occlusion": false,
+              "face_dimming": false,
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('betterend:crystallization2') == 20",
+        "components": {
+          "tag:crystal20": {},
+          "tag:crystal": {},
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "crystal_20",
+              "ambient_occlusion": false,
+              "face_dimming": false,
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('betterend:crystallization2') == 21",
+        "components": {
+          "tag:crystal21": {},
+          "tag:crystal": {},
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "crystal_21",
+              "ambient_occlusion": false,
+              "face_dimming": false,
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('betterend:crystallization2') == 22",
+        "components": {
+          "tag:crystal22": {},
+          "tag:crystal": {},
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "crystal_22",
+              "ambient_occlusion": false,
+              "face_dimming": false,
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('betterend:crystallization2') == 23",
+        "components": {
+          "tag:crystal23": {},
+          "tag:crystal": {},
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "crystal_23",
+              "ambient_occlusion": false,
+              "face_dimming": false,
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('betterend:crystallization2') == 24",
+        "components": {
+          "tag:crystal24": {},
+          "tag:crystal": {},
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "crystal_24",
+              "ambient_occlusion": false,
+              "face_dimming": false,
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('betterend:crystallization2') == 25",
+        "components": {
+          "tag:crystal25": {},
+          "tag:crystal": {},
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "crystal_25",
+              "ambient_occlusion": false,
+              "face_dimming": false,
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('betterend:crystallization2') == 26",
+        "components": {
+          "tag:crystal26": {},
+          "tag:crystal": {},
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "crystal_26",
+              "ambient_occlusion": false,
+              "face_dimming": false,
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('betterend:crystallization2') == 27",
+        "components": {
+          "tag:crystal27": {},
+          "tag:crystal": {},
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "crystal_27",
+              "ambient_occlusion": false,
+              "face_dimming": false,
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('betterend:crystallization2') == 28",
+        "components": {
+          "tag:crystal28": {},
+          "tag:crystal": {},
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "crystal_28",
+              "ambient_occlusion": false,
+              "face_dimming": false,
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      }
+    ],
+    "components": {
+      "tag:stone": {},
+      "minecraft:tick": {
+        "interval_range": [10, 20],
+        "looping": true
+      },
+      "minecraft:custom_components": ["betterend:aurora_crystal"],
+      "minecraft:light_emission": 15,
+      "minecraft:geometry": {
+        "identifier": "geometry.aurora_crystal",
+        "bone_visibility": {
+          "up2": "!query.block_state('betterend:up') == false",
+          "down2": "!query.block_state('betterend:down') == false",
+          "west2": "!query.block_state('betterend:west') == false",
+          "east2": "!query.block_state('betterend:east') == false",
+          "south2": "!query.block_state('betterend:south') == false",
+          "north2": "!query.block_state('betterend:north') == false"
+        }
+      },
+      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 3
+      }
+    }
+  }
+}
