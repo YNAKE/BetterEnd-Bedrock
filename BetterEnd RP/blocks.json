@@ -1,7 +1,7 @@
 {
   "format_version": [1, 1, 0],
   // Chorus
-  "betterend:chorus_mushroom": {
+  "betterend:chorus_mushroom_seed": {
     "sound": "grass"
   },
   "betterend:chorus_grass": {

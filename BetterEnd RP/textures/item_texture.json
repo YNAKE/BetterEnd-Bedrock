@@ -2,6 +2,15 @@
   "resource_pack_name": "vanilla",
   "texture_data": {
     // Chorus
+    "chorus_mushroom_cooked": {
+      "textures": "textures/items/chorus/chorus_mushroom_cooked"
+    },
+    "chorus_mushroom": {
+      "textures": "textures/items/chorus/chorus_mushroom"
+    },
+    "chorus_mushroom_seed": {
+      "textures": "textures/items/chorus/chorus_mushroom_seed"
+    },
     "chorus_grass": {
       "textures": "textures/blocks/chorus/plants/chorus_grass_01"
     },
