@@ -16,7 +16,7 @@
     },
     "y": {
       "extent": [ -4, 4 ],
-      "distribution": "inverse_gaussian"
+      "distribution": "uniform"
     },
     "project_input_to_floor": false,
     "places_feature": "betterend:amber_land/amber_grass_single_block_feature"
