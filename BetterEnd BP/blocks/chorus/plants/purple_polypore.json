@@ -77,6 +77,19 @@
           "ambient_occlusion": false,
           "face_dimming": false
         }
+      },
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": [
+              "side"
+            ],
+            "block_filter": [
+              "betterend:pythadendron_log",
+              "betterend:pythadendron_bark"
+            ]
+          }
+        ]
       }
     }
   }
