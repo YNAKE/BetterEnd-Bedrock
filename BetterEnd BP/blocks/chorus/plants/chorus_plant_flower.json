@@ -3,6 +3,9 @@
   "minecraft:block": {
     "description": {
       "identifier": "betterend:chorus_plant_flower",
+      "menu_category": {
+        "category": "nature"
+      },
       "states": {
         "betterend:random": [0, 1]
       }
