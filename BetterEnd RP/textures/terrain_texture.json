@@ -4,6 +4,18 @@
   "resource_pack_name": "vanilla",
   "texture_data": {
     // Blossoming
+    "tenanea_flowers_middle_purple_and_blue": {
+      "textures": "textures/blocks/blossoming/plants/tenanea_flowers_middle_purple_and_blue"
+    },
+    "tenanea_flowers_bottom_purple_and_blue": {
+      "textures": "textures/blocks/blossoming/plants/tenanea_flowers_bottom_purple_and_blue"
+    },
+    "tenanea_flowers_middle_purple": {
+      "textures": "textures/blocks/blossoming/plants/tenanea_flowers_middle_purple"
+    },
+    "tenanea_flowers_bottom_purple": {
+      "textures": "textures/blocks/blossoming/plants/tenanea_flowers_bottom_purple"
+    },
     "tenanea_flowers_middle_cyan": {
       "textures": "textures/blocks/blossoming/plants/tenanea_flowers_middle_cyan"
     },

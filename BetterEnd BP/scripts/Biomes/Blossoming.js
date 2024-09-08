@@ -8,3 +8,4 @@ import "./Blossoming/BulbVine";
 import "./Blossoming/TenaneaFlowersPink";
 import "./Blossoming/TenaneaFlowersCyan";
 import "./Blossoming/TenaneaFlowersPurple";
+import "./Blossoming/TenaneaFlowersPurpleAndBlue";
