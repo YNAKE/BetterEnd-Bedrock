@@ -70,7 +70,7 @@
       }
     ],
     "components": {
-      "minecraft:light_emission": 5,
+      "minecraft:light_emission": 15,
       "minecraft:custom_components": ["betterend:bulb_moss"],
       "minecraft:loot": "loot_tables/empty.json",
       "minecraft:material_instances": {
