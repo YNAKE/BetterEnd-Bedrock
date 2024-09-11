@@ -8,6 +8,12 @@
     "cyan_moss": {
       "textures": "textures/items/foggy/cyan_moss"
     },
+    "umbrella_moss": {
+      "textures": "textures/items/foggy/umbrella_moss_small"
+    },
+    "tall_umbrella_moss": {
+      "textures": "textures/items/foggy/umbrella_moss_large"
+    },
     "mossy_glowshroom_sapling": {
       "textures": "textures/blocks/foggy/plants/mossy_glowshroom_sapling"
     },

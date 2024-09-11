@@ -1,0 +1,136 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.umbrella_moss_small_03",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [8, 0, -8],
+					"cubes": [
+						{
+							"origin": [2, 11, 3],
+							"size": [2, 3, 2],
+							"uv": {
+								"north": {"uv": [7, 2], "uv_size": [2, 3], "material_instance": "umbrella_moss_sporophyte"},
+								"east": {"uv": [7, 2], "uv_size": [2, 3], "material_instance": "umbrella_moss_sporophyte"},
+								"south": {"uv": [7, 2], "uv_size": [2, 3], "material_instance": "umbrella_moss_sporophyte"},
+								"west": {"uv": [7, 2], "uv_size": [2, 3], "material_instance": "umbrella_moss_sporophyte"},
+								"up": {"uv": [9, 2], "uv_size": [-2, -2], "material_instance": "umbrella_moss_sporophyte"},
+								"down": {"uv": [9, 7], "uv_size": [-2, -2], "material_instance": "umbrella_moss_sporophyte"}
+							}
+						},
+						{
+							"origin": [9.999, 0, -10],
+							"size": [0.001, 13, 16],
+							"pivot": [10, 0, -10],
+							"rotation": [0, -45, 0],
+							"uv": {
+								"west": {"uv": [0, 3], "uv_size": [16, 13], "material_instance": "umbrella_moss_up"}
+							}
+						},
+						{
+							"origin": [-1.501, 0, -10],
+							"size": [0.001, 13, 16],
+							"pivot": [-1.5, 0, -10],
+							"rotation": [0, 45, 0],
+							"uv": {
+								"west": {"uv": [0, 3], "uv_size": [16, 13], "material_instance": "umbrella_moss_end"}
+							}
+						},
+						{
+							"origin": [1.999, 0, -5],
+							"size": [0.001, 13, 16],
+							"pivot": [2, 0, -5],
+							"rotation": [0, -45, 0],
+							"uv": {
+								"west": {"uv": [0, 3], "uv_size": [16, 13], "material_instance": "umbrella_moss_end"}
+							}
+						},
+						{
+							"origin": [-9.501, 0, -5],
+							"size": [0.001, 13, 16],
+							"pivot": [-9.5, 0, -5],
+							"rotation": [0, 45, 0],
+							"uv": {
+								"west": {"uv": [0, 3], "uv_size": [16, 13], "material_instance": "umbrella_moss_end"}
+							}
+						},
+						{
+							"origin": [0, 10, 1],
+							"size": [6, 2, 6],
+							"uv": {
+								"north": {"uv": [0, 6], "uv_size": [6, 2], "material_instance": "umbrella_moss_sporophyte"},
+								"east": {"uv": [0, 6], "uv_size": [6, 2], "material_instance": "umbrella_moss_sporophyte"},
+								"south": {"uv": [0, 6], "uv_size": [6, 2], "material_instance": "umbrella_moss_sporophyte"},
+								"west": {"uv": [0, 6], "uv_size": [6, 2], "material_instance": "umbrella_moss_sporophyte"},
+								"up": {"uv": [6, 6], "uv_size": [-6, -6], "material_instance": "umbrella_moss_sporophyte"}
+							}
+						},
+						{
+							"origin": [8.999, 0, -2],
+							"size": [0.001, 11, 16],
+							"pivot": [9, 0, -2],
+							"rotation": [0, -45, 0],
+							"uv": {
+								"west": {"uv": [0, 5], "uv_size": [16, 11], "material_instance": "umbrella_moss_up"}
+							}
+						},
+						{
+							"origin": [-2.501, 0, -2],
+							"size": [0.001, 11, 16],
+							"pivot": [-2.5, 0, -2],
+							"rotation": [0, 45, 0],
+							"uv": {
+								"west": {"uv": [0, 5], "uv_size": [16, 11], "material_instance": "umbrella_moss_up"}
+							}
+						},
+						{
+							"origin": [-8, 0.59872, -0.44544],
+							"size": [16, 0.001, 16],
+							"pivot": [8, 0, 1],
+							"rotation": [22.5, 0, 0],
+							"uv": {
+								"down": {"uv": [16, 16], "uv_size": [-16, -16], "material_instance": "umbrella_moss_small"}
+							}
+						},
+						{
+							"origin": [-8, 0.59772, -15.55456],
+							"size": [16, 0.001, 16],
+							"pivot": [8, 0, -1],
+							"rotation": [-22.5, 0, 0],
+							"uv": {
+								"down": {"uv": [16, 16], "uv_size": [-16, -16], "uv_rotation": 180, "material_instance": "umbrella_moss_small"}
+							}
+						},
+						{
+							"origin": [-15.55456, 0.59872, -8],
+							"size": [16, 0.001, 16],
+							"pivot": [-1, 0, -8],
+							"rotation": [0, 0, 22.5],
+							"uv": {
+								"down": {"uv": [16, 16], "uv_size": [-16, -16], "uv_rotation": 90, "material_instance": "umbrella_moss_small"}
+							}
+						},
+						{
+							"origin": [-0.44544, 0.59772, -8],
+							"size": [16, 0.001, 16],
+							"pivot": [1, 0, -8],
+							"rotation": [0, 0, -22.5],
+							"uv": {
+								"down": {"uv": [16, 16], "uv_size": [-16, -16], "uv_rotation": 270, "material_instance": "umbrella_moss_small"}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

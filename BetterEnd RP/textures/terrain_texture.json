@@ -16,6 +16,21 @@
     "mossy_glowshroom_fur": {
       "textures": "textures/blocks/foggy/plants/mossy_glowshroom_fur"
     },
+    "umbrella_moss_small": {
+      "textures": "textures/blocks/foggy/plants/umbrella_moss_small"
+    },
+    "umbrella_moss_bottom": {
+      "textures": "textures/blocks/foggy/plants/umbrella_moss_bottom"
+    },
+    "umbrella_moss_end": {
+      "textures": "textures/blocks/foggy/plants/umbrella_moss_end"
+    },
+    "umbrella_moss_up": {
+      "textures": "textures/blocks/foggy/plants/umbrella_moss_up"
+    },
+    "umbrella_moss_sporophyte": {
+      "textures": "textures/blocks/foggy/plants/umbrella_moss_sporophyte"
+    },
     "end_moss_top": {
       "textures": "textures/blocks/foggy/end_moss_top"
     },

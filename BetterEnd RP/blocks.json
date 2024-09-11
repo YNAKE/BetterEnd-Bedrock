@@ -7,6 +7,12 @@
   "betterend:cyan_moss": {
     "sound": "grass"
   },
+  "betterend:umbrella_moss": {
+    "sound": "grass"
+  },
+  "betterend:tall_umbrella_moss": {
+    "sound": "grass"
+  },
   "betterend:mossy_glowshroom_sapling": {
     "sound": "grass"
   },
