@@ -26,7 +26,7 @@
         t.CavePosition = 30; 
         t.CaveHeight = 22; 
         t.cave_noise1 = q.noise(v.worldx / 32, v.worldz / 32); 
-        t.cave_noise2 = q.noise((v.worldx - 8231) / 32, (v.worldz - 8231) / 32); 
+        t.cave_noise2 = q.noise((v.worldx - 8231) / 32, (v.worldz - 8231) / 32);
         
         t.PaintedMountains = math.pow(math.abs(q.noise(v.worldx/64, v.worldz/64) * 30 + q.noise(v.worldx/48, v.worldx/48) * 18 + q.noise(v.worldx/48, v.worldx/48) * 16 + q.noise(v.worldx/32, v.worldx/32) * 12),1.5);
         t.Painted = 96 + 48 + 16; 
@@ -41,7 +41,7 @@
         
         t.BiomeSize = 512; 
         
-        t.BiomeTransition = q.noise(v.worldx / 256, v.worldz / 256) * 0.01 + q.noise(v.worldx / 128, v.worldz / 128) * 0.05 + q.noise(v.worldx / 64, v.worldz / 64) * 0.025 + q.noise(v.worldx / 32, v.worldz / 32) * 0.0100 + q.noise(v.worldx / 16, v.worldz / 16) * 0.0105 + q.noise(v.worldx / 8, v.worldz / 8) * 0.0115; 
+        t.BiomeTransition = q.noise(v.worldx / 256, v.worldz / 256) * 0.01 + q.noise(v.worldx / 128, v.worldz / 128) * 0.05 + q.noise(v.worldx / 64, v.worldz / 64) * 0.025 * q.noise(v.worldx / 32, v.worldz / 32) * 0.01025 + q.noise(v.worldx / 13, v.worldz / 13) * 0.01045; 
         
         t.x = v.worldx / t.BiomeSize + t.BiomeTransition; 
         t.z = v.worldz / t.BiomeSize + t.BiomeTransition; 

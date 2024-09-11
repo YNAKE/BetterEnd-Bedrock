@@ -4,21 +4,16 @@
     "description": {
       "identifier": "betterend:amber_land/amber_grass_scatter_feature"
     },
-    "iterations": 90,
-    "coordinate_eval_order": "zyx",
+    "iterations": "return t.ExtentPlant;",
     "x": {
-      "extent": [ -8, 8 ],
-      "distribution": "inverse_gaussian"
+      "extent": [ "-t.SizePlant", "t.SizePlant" ],
+      "distribution": "gaussian"
     },
     "z": {
-      "extent": [ -8, 8 ],
-      "distribution": "inverse_gaussian"
+      "extent": [ "-t.SizePlant", "t.SizePlant" ],
+      "distribution": "gaussian"
     },
-    "y": {
-      "extent": [ -4, 4 ],
-      "distribution": "uniform"
-    },
-    "project_input_to_floor": false,
-    "places_feature": "betterend:amber_land/amber_grass_single_block_feature"
+    "y": "q.heightmap(v.worldx, v.worldz) - v.originy",
+    "places_feature": "betterend:amber_land/amber_grass_weighted_random_feature"
   }
 }

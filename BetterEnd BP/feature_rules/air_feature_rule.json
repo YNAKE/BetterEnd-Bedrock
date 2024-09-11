@@ -3,7 +3,7 @@
   "minecraft:feature_rules": {
     "description": {
       "identifier": "betterend:air_feature_rule",
-      "places_feature": "betterend:air_vegetation_patch_feature"
+      "places_feature": "betterend:the_end/air_vegetation_patch_feature"
     },
     "conditions": {
       "placement_pass": "surface_pass",

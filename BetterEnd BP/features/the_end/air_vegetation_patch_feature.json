@@ -2,13 +2,13 @@
 	"format_version": "1.21.0",
 	"minecraft:vegetation_patch_feature": {
 		"description": {
-			"identifier": "betterend:air_vegetation_patch_feature"
+			"identifier": "betterend:the_end/air_vegetation_patch_feature"
 		},
 		"replaceable_blocks": [
 			"minecraft:end_stone"
 		],
 		"ground_block": "minecraft:stone",
-		"vegetation_feature": "halo:es_gay",
+		"vegetation_feature": "betterend:the_end/air_single_block_feature",
 		"surface": "floor",
 		"depth": 1,
 		"vertical_range": 8,

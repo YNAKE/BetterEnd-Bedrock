@@ -2,9 +2,9 @@
   "format_version": "1.21.0",
   "minecraft:scatter_feature": {
     "description": {
-      "identifier": "betterend:amber_land/amber_root_scatter_feature"
+      "identifier": "betterend:amber_land/lanceleaf_scatter_feature"
     },
-    "iterations": "return t.ExtentPlant;",
+    "iterations": "return 2 * t.SizePlant;",
     "x": {
       "extent": [ "-t.SizePlant", "t.SizePlant" ],
       "distribution": "gaussian"
@@ -13,7 +13,7 @@
       "extent": [ "-t.SizePlant", "t.SizePlant" ],
       "distribution": "gaussian"
     },
-    "y": "q.heightmap(v.worldx, v.worldz) - v.originy",
-    "places_feature": "betterend:amber_land/amber_root_single_block_feature"
+    "y": 0,
+    "places_feature": "betterend:amber_land/lanceleaf_snap_to_surface_feature"
   }
 }

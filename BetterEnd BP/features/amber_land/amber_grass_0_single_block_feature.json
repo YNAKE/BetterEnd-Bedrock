@@ -2,7 +2,7 @@
   "format_version": "1.21.0",
   "minecraft:single_block_feature": {
     "description": {
-      "identifier": "betterend:amber_land/amber_grass_single_block_feature"
+      "identifier": "betterend:amber_land/amber_grass_0_single_block_feature"
     },
     "places_block": {
       "name": "betterend:amber_grass",

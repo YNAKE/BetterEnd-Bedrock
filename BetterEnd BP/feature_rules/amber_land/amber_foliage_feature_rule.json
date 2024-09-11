@@ -23,7 +23,7 @@
         "distribution": "uniform",
         "extent": [ 0, 16 ]
       },
-      "y": "q.heightmap(v.worldx, v.worldz) + 0"
+      "y": "t.SizePlant = 8; t.ExtentPlant = 8 * t.SizePlant; return q.heightmap(v.worldx, v.worldz) + 0;"
     }
   }
 }

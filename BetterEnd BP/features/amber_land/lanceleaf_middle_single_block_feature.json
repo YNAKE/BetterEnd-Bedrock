@@ -1,0 +1,17 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "betterend:amber_land/lanceleaf_middle_single_block_feature"
+    },
+    "places_block": {
+      "name": "betterend:lanceleaf_seed",
+      "states": {
+        "betterend:growth": 6
+      }
+    },
+    "enforce_survivability_rules": false,
+    "enforce_placement_rules": true,
+    "may_replace": ["minecraft:air"]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:structure_template_feature": {
+    "description": {
+      "identifier": "betterend:amber_land/amber_tree_1_structure_template_feature"
+    },
+    "structure_name": "mystructure:amber_land/amber_tree1",
+    "facing_direction": "random",
+    "constraints": {
+        "grounded": {},
+        "unburied": {}
+    }
+  }
+}
