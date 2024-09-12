@@ -12,8 +12,8 @@ class PlantUtils {
         this.item = this.inv?.getItem(player?.selectedSlotIndex);
     }
     // Random Model
-    onPlace(randomModel: number[]) {
-        const random = randomModel[Math.floor(Math.random() * randomModel.length)];
+    onPlace(randomModel: number) {
+        const random = Math.round(Math.random() * randomModel);
         const perm = this.block.permutation.withState('betterend:random', random);
         this.block.setPermutation(perm);
 

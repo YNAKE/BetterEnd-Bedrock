@@ -154,7 +154,7 @@
       }
     ],
     "components": {
-      "minecraft:custom_components": ["betterend:chorus_grass"],
+      "minecraft:custom_components": ["betterend:chorus_index"],
       "minecraft:loot": "loot_tables/empty.json",
       "minecraft:destructible_by_explosion": true,
       "minecraft:destructible_by_mining": true,

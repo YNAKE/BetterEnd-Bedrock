@@ -30,6 +30,16 @@
       "up": true
     }
   },
+  "betterend:blue_vine_lantern": {
+    "sound": "grass",
+    "textures": "blue_vine_lantern"
+  },
+  "betterend:blue_vine_seeds": {
+    "sound": "grass"
+  },
+  "betterend:blue_vine_fur": {
+    "sound": "grass"
+  },
   "betterend:mossy_glowshroom_hymenophore": {
     "sound": "grass",
     "textures": "mossy_glowshroom_hymenophore"

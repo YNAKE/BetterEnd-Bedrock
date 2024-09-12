@@ -5,7 +5,7 @@
       "identifier": "betterend:creeping_moss"
     },
     "components": {
-      "minecraft:custom_components": ["betterend:creeping_moss"],
+      "minecraft:custom_components": ["betterend:foggy_index"],
       "minecraft:loot": "loot_tables/empty.json",
       "minecraft:geometry": "geometry.creeping_moss",
       "minecraft:material_instances": {

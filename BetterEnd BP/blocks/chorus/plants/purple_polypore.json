@@ -58,7 +58,7 @@
       }
     ],
     "components": {
-      "minecraft:custom_components": ["betterend:purple_polypore"],
+      "minecraft:custom_components": ["betterend:chorus_index"],
       "minecraft:flammable": false,
       "minecraft:light_emission": 5,
       "minecraft:destructible_by_explosion": true,

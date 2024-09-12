@@ -31,6 +31,30 @@
     "umbrella_moss_sporophyte": {
       "textures": "textures/blocks/foggy/plants/umbrella_moss_sporophyte"
     },
+    "blue_vine_0": {
+      "textures": "textures/blocks/foggy/plants/blue_vine_0"
+    },
+    "blue_vine_1": {
+      "textures": "textures/blocks/foggy/plants/blue_vine_1"
+    },
+    "blue_vine_2": {
+      "textures": "textures/blocks/foggy/plants/blue_vine_2"
+    },
+    "blue_vine_3": {
+      "textures": "textures/blocks/foggy/plants/blue_vine_3"
+    },
+    "blue_vine": {
+      "textures": "textures/blocks/foggy/plants/blue_vine"
+    },
+    "blue_vine_lantern": {
+      "textures": "textures/blocks/foggy/plants/blue_vine_lantern"
+    },
+    "blue_vine_fur": {
+      "textures": "textures/blocks/foggy/plants/blue_vine_fur"
+    },
+    "blue_vine_roots": {
+      "textures": "textures/blocks/foggy/plants/blue_vine_roots"
+    },
     "end_moss_top": {
       "textures": "textures/blocks/foggy/end_moss_top"
     },

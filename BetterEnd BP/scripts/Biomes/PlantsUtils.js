@@ -8,7 +8,7 @@ class PlantUtils {
     }
     // Random Model
     onPlace(randomModel) {
-        const random = randomModel[Math.floor(Math.random() * randomModel.length)];
+        const random = Math.round(Math.random() * randomModel);
         const perm = this.block.permutation.withState('betterend:random', random);
         this.block.setPermutation(perm);
     }

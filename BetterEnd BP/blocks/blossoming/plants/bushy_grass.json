@@ -30,7 +30,7 @@
       }
     ],
     "components": {
-      "minecraft:custom_components": ["betterend:bushy_grass"],
+      "minecraft:custom_components": ["betterend:blossoming_index"],
       "minecraft:loot": "loot_tables/empty.json",
       "minecraft:material_instances": {
         "*": {

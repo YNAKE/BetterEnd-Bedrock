@@ -9,7 +9,7 @@
             }
         },
         "components": {
-            "minecraft:custom_components": [ "betterend:helix_tree_leaves" ],
+            "minecraft:custom_components": [ "betterend:amberland_index" ],
             "tag:leaf": {},
             "tag:leaves": {},
             "tag:plant": {},

@@ -1,2 +1,2 @@
-import "./Crystal/CrystalGrass";
+import "./Crystal/PlantIndex"
 import "./Crystal/AuroraCrystal";
