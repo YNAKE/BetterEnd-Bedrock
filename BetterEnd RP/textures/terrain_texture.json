@@ -55,6 +55,15 @@
     "blue_vine_roots": {
       "textures": "textures/blocks/foggy/plants/blue_vine_roots"
     },
+    "dense_vine_roots": {
+      "textures": "textures/blocks/foggy/plants/dense_vine_roots"
+    },
+    "dense_vine_bottom": {
+      "textures": "textures/blocks/foggy/plants/dense_vine_bottom"
+    },
+    "dense_vine": {
+      "textures": "textures/blocks/foggy/plants/dense_vine"
+    },
     "end_moss_top": {
       "textures": "textures/blocks/foggy/end_moss_top"
     },

@@ -1,0 +1,87 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "betterend:dense_vine",
+      "states": {
+        "betterend:growth": [0, 1, 2]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('betterend:growth') == 0",
+        "components": {
+          "minecraft:geometry": "geometry.blue_vine_roots",
+          "minecraft:placement_filter": {
+            "conditions": [
+              {
+                "allowed_faces": ["down"]
+              }
+            ]
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "dense_vine",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            },
+            "blue_vine_roots": {
+              "texture": "dense_vine_roots",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:growth') == 1",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "dense_vine",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:growth') == 2",
+        "components": {
+          "minecraft:light_emission": 15,
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "dense_vine_bottom",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          }
+        }
+      }
+    ],
+    "components": {
+      "minecraft:custom_components": ["betterend:dense_vine"],
+      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:geometry": "geometry.random_model2",
+      "minecraft:destructible_by_explosion": true,
+      "minecraft:destructible_by_mining": true,
+      "minecraft:collision_box": false,
+      "minecraft:selection_box": {
+        "origin": [-4, 0, -4],
+        "size": [8, 14, 8]
+      },
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": ["down"],
+            "block_filter": ["betterend:dense_vine"]
+          }
+        ]
+      }
+    }
+  }
+}

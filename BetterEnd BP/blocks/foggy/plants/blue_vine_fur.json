@@ -52,15 +52,6 @@
           "origin": [-8, 0, -8],
           "size": [16, 8, 16]
         },
-        // "minecraft:placement_filter": {
-        //   "conditions": [
-        //     {
-        //       "block_filter": [
-        //         "betterend:blue_vine_"
-        //       ]
-        //     }
-        //   ]
-        // },
         "minecraft:geometry": "geometry.blue_vine_fur",
         "minecraft:material_instances": {
           "*": {

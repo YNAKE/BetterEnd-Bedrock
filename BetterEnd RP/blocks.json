@@ -34,10 +34,13 @@
     "sound": "grass",
     "textures": "blue_vine_lantern"
   },
-  "betterend:blue_vine_seeds": {
+  "betterend:blue_vine_seed": {
     "sound": "grass"
   },
   "betterend:blue_vine_fur": {
+    "sound": "grass"
+  },
+  "betterend:dense_vine": {
     "sound": "grass"
   },
   "betterend:mossy_glowshroom_hymenophore": {
