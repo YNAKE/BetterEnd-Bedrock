@@ -17,40 +17,24 @@
         {
           "condition": "q.block_state('betterend:random') == 0",
           "components": {
-            "minecraft:selection_box": {
-              "origin": [-8, 0, 0],
-              "size": [16, 16, 8]
-            },
             "minecraft:geometry": "geometry.umbrella_moss_small_01"
           }
         },
         {
           "condition": "q.block_state('betterend:random') == 1",
           "components": {
-            "minecraft:selection_box": {
-              "origin": [-8, 0, 0],
-              "size": [16, 16, 8]
-            },
             "minecraft:geometry": "geometry.umbrella_moss_small_02"
           }
         },
         {
           "condition": "q.block_state('betterend:random') == 2",
           "components": {
-            "minecraft:selection_box": {
-              "origin": [-8, 0, 0],
-              "size": [16, 16, 8]
-            },
             "minecraft:geometry": "geometry.umbrella_moss_small_03"
           }
         },
         {
           "condition": "q.block_state('betterend:random') == 3",
           "components": {
-            "minecraft:selection_box": {
-              "origin": [-8, 0, 0],
-              "size": [16, 16, 8]
-            },
             "minecraft:geometry": "geometry.umbrella_moss_small_04"
           }
         },
@@ -83,6 +67,7 @@
         "minecraft:light_emission": 5,
         "minecraft:custom_components": ["betterend:umbrella_moss"],
         "minecraft:loot": "loot_tables/empty.json",
+        "minecraft:selection_box": true,
         "minecraft:material_instances": {
           "*": {
             "texture": "umbrella_moss_sporophyte",
