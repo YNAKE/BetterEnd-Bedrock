@@ -17,6 +17,9 @@
     "blue_vine_seed": {
       "textures": "textures/items/foggy/blue_vine_seed"
     },
+    "dense_vine_bottom": {
+      "textures": "textures/blocks/foggy/plants/dense_vine_bottom"
+    },
     "mossy_glowshroom_sapling": {
       "textures": "textures/blocks/foggy/plants/mossy_glowshroom_sapling"
     },
