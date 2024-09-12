@@ -14,6 +14,9 @@
     "tall_umbrella_moss": {
       "textures": "textures/items/foggy/umbrella_moss_large"
     },
+    "blue_vine_seed": {
+      "textures": "textures/items/foggy/blue_vine_seed"
+    },
     "mossy_glowshroom_sapling": {
       "textures": "textures/blocks/foggy/plants/mossy_glowshroom_sapling"
     },
