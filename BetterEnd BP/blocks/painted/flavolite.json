@@ -1,0 +1,29 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "betterend:flavolite",
+            "menu_category": {
+                "category": "nature"
+            }
+        },
+        "components": {
+            "tag:stone": {},
+            "minecraft:flammable": false,
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 2
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 5,
+                "item_specific_speeds": [
+                    {
+                        "destroy_speed": 0.7,
+                        "item": {
+                            "tags": "minecraft:is_pickaxe"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

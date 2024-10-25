@@ -3,6 +3,13 @@
   "padding": 8,
   "resource_pack_name": "vanilla",
   "texture_data": {
+    // Painted Mountains
+    "violecite": {
+      "textures": "textures/blocks/painted/violecite"
+    },
+    "flavolite": {
+      "textures": "textures/blocks/painted/flavolite"
+    },
     // Foggy
     "creeping_moss": {
       "textures": "textures/blocks/foggy/plants/creeping_moss"
