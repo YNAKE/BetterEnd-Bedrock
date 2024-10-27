@@ -4,29 +4,20 @@
   "resource_pack_name": "vanilla",
   "texture_data": {
     // Megalakes
-    "lacugrove_stripped_log_top": {
-      "textures": "textures/blocks/megalakes/lacugrove_stripped_log_top"
+    "lacugrove_log4": {
+      "textures": "textures/blocks/megalakes/tree/lacugrove_log4"
     },
-    "lacugrove_stripped_log_side": {
-      "textures": "textures/blocks/megalakes/lacugrove_stripped_log_side"
+    "lacugrove_log3": {
+      "textures": "textures/blocks/megalakes/tree/lacugrove_log3"
     },
-    "lacugrove_log_top": {
-      "textures": "textures/blocks/megalakes/lacugrove_log_top"
+    "lacugrove_log2": {
+      "textures": "textures/blocks/megalakes/tree/lacugrove_log2"
     },
-    "lacugrove_log_side4": {
-      "textures": "textures/blocks/megalakes/lacugrove_log_side_4"
-    },
-    "lacugrove_log_side3": {
-      "textures": "textures/blocks/megalakes/lacugrove_log_side_3"
-    },
-    "lacugrove_log_side2": {
-      "textures": "textures/blocks/megalakes/lacugrove_log_side_2"
-    },
-    "lacugrove_log_side": {
-      "textures": "textures/blocks/megalakes/lacugrove_log_side"
+    "lacugrove_log": {
+      "textures": "textures/blocks/megalakes/tree/lacugrove_log"
     },
     "lacugrove_leaves": {
-      "textures": "textures/blocks/megalakes/lacugrove_leaves"
+      "textures": "textures/blocks/megalakes/tree/lacugrove_leaves"
     },
     // Painted Mountains
     "violecite": {

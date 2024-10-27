@@ -1,5 +1,14 @@
 {
   "format_version": [1, 1, 0],
+  // Megalakes
+  "betterend:lacugrove_leaves": {
+    "sound": "grass",
+    "textures": "lacugrove_leaves",
+    "isotropic": true
+  },
+  "betterend:lacugrove_log": {
+    "sound": "wood"
+  },
   // Painted Mountains
   "betterend:violecite": {
     "sound": "stone",
@@ -137,7 +146,8 @@
   },
   "betterend:pythadendron_leaves": {
     "textures": "pythadendron_leaves",
-    "sound": "grass"
+    "sound": "grass",
+    "isotropic": true
   },
   // Blossoming
   "betterend:tenanea_flowers_purple_and_blue": {
@@ -198,7 +208,8 @@
   },
   "betterend:tenanea_leaves": {
     "sound": "grass",
-    "textures": "tenanea_leaves"
+    "textures": "tenanea_leaves",
+    "isotropic": true
   },
   // Amberland
   "betterend:glowing_pillar_leaves": {
