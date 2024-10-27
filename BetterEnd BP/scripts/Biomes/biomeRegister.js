@@ -4,3 +4,4 @@ import "./Blossoming";
 import "./Chorus";
 import "./Crystal";
 import "./Foggy";
+import "./Megalakes";
