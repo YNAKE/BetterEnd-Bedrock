@@ -101,7 +101,7 @@
                 "components": {
                     "minecraft:material_instances": {
                         "*": {
-                            "texture": "mossy_glowshroom_log",
+                            "texture": "lacugrove_log",
                             "render_method": "opaque",
                             "ambient_occlusion": true,
                             "face_dimming": true
@@ -114,7 +114,7 @@
                 "components": {
                     "minecraft:material_instances": {
                         "*": {
-                            "texture": "mossy_glowshroom_log2",
+                            "texture": "lacugrove_log2",
                             "render_method": "opaque",
                             "ambient_occlusion": true,
                             "face_dimming": true
@@ -127,7 +127,7 @@
                 "components": {
                     "minecraft:material_instances": {
                         "*": {
-                            "texture": "mossy_glowshroom_log3",
+                            "texture": "lacugrove_log3",
                             "render_method": "opaque",
                             "ambient_occlusion": true,
                             "face_dimming": true
@@ -140,7 +140,7 @@
                 "components": {
                     "minecraft:material_instances": {
                         "*": {
-                            "texture": "mossy_glowshroom_log4",
+                            "texture": "lacugrove_log4",
                             "render_method": "opaque",
                             "ambient_occlusion": true,
                             "face_dimming": true
@@ -150,7 +150,6 @@
             }
         ],
         "components": {
-            "tag:betterend:mossy": {},
             "tag:wood": {},
             "minecraft:custom_components": [
                 "betterend:tree_log",
