@@ -1,0 +1,18 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+      "description": {
+        "identifier": "betterend:red_charnia",
+        "menu_category": {
+          "category": "nature",
+          "group": "itemGroup.name.coral_decorations"
+        }
+      },
+      "components": {
+        "minecraft:icon": "red_charnia",
+        "minecraft:block_placer": {
+          "block": "betterend:red_charnia"
+        }
+      }
+    }
+  }

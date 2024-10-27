@@ -1,6 +1,25 @@
 {
   "resource_pack_name": "vanilla",
   "texture_data": {
+    // Megalakes
+    "red_charnia": {
+      "textures": "textures/items/megalakes/charnia_red"
+    },
+    "purple_charnia": {
+      "textures": "textures/items/megalakes/charnia_purple"
+    },
+    "orange_charnia": {
+      "textures": "textures/items/megalakes/charnia_orange"
+    },
+    "light_blue_charnia": {
+      "textures": "textures/items/megalakes/charnia_light_blue"
+    },
+    "green_charnia": {
+      "textures": "textures/items/megalakes/charnia_green"
+    },
+    "cyan_charnia": {
+      "textures": "textures/items/megalakes/charnia_cyan"
+    },
     // Foggy
     "creeping_moss": {
       "textures": "textures/items/foggy/creeping_moss"

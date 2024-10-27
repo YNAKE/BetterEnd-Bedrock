@@ -1,6 +1,24 @@
 {
   "format_version": [1, 1, 0],
   // Megalakes
+  "betterend:red_charnia": {
+    "sound": "grass"
+  },
+  "betterend:purple_charnia": {
+    "sound": "grass"
+  },
+  "betterend:orange_charnia": {
+    "sound": "grass"
+  },
+  "betterend:light_blue_charnia": {
+    "sound": "grass"
+  },
+  "betterend:green_charnia": {
+    "sound": "grass"
+  },
+  "betterend:cyan_charnia": {
+    "sound": "grass"
+  },
   "betterend:lacugrove_leaves": {
     "sound": "grass",
     "textures": "lacugrove_leaves",

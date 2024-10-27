@@ -4,6 +4,24 @@
   "resource_pack_name": "vanilla",
   "texture_data": {
     // Megalakes
+    "red_charnia": {
+      "textures": "textures/blocks/megalakes/plants/charnia_red"
+    },
+    "purple_charnia": {
+      "textures": "textures/blocks/megalakes/plants/charnia_purple"
+    },
+    "orange_charnia": {
+      "textures": "textures/blocks/megalakes/plants/charnia_orange"
+    },
+    "light_blue_charnia": {
+      "textures": "textures/blocks/megalakes/plants/charnia_light_blue"
+    },
+    "green_charnia": {
+      "textures": "textures/blocks/megalakes/plants/charnia_green"
+    },
+    "cyan_charnia": {
+      "textures": "textures/blocks/megalakes/plants/charnia_cyan"
+    },
     "lacugrove_bark4": {
       "textures": "textures/blocks/megalakes/tree/lacugrove_bark4"
     },

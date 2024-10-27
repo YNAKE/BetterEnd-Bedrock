@@ -79,6 +79,13 @@ class PlantUtils {
         world.structureManager.place(randomStructure, dimension, offset, { rotation });
         removeBlock ? this?.block?.setType('air') : null
     }
+
+    randomRotation() {
+        const states = [ 0, 1, 2, 3 ];
+        const randomRot = states[Math.floor(Math.random() * states.length)];
+        const perm = this?.block?.permutation.withState('betterend:rotation', randomRot);
+        this?.block?.setPermutation(perm);
+    }
 }
 
 export default PlantUtils;
