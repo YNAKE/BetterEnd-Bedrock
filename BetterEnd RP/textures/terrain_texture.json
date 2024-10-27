@@ -4,6 +4,18 @@
   "resource_pack_name": "vanilla",
   "texture_data": {
     // Megalakes
+    "lacugrove_bark4": {
+      "textures": "textures/blocks/megalakes/tree/lacugrove_bark4"
+    },
+    "lacugrove_bark3": {
+      "textures": "textures/blocks/megalakes/tree/lacugrove_bark3"
+    },
+    "lacugrove_bark2": {
+      "textures": "textures/blocks/megalakes/tree/lacugrove_bark2"
+    },
+    "lacugrove_bark": {
+      "textures": "textures/blocks/megalakes/tree/lacugrove_bark"
+    },
     "lacugrove_log4": {
       "textures": "textures/blocks/megalakes/tree/lacugrove_log4"
     },

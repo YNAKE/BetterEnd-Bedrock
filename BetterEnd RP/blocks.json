@@ -6,6 +6,9 @@
     "textures": "lacugrove_leaves",
     "isotropic": true
   },
+  "betterend:lacugrove_bark": {
+    "sound": "wood"
+  },
   "betterend:lacugrove_log": {
     "sound": "wood"
   },
