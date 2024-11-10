@@ -1,0 +1,85 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "betterend:bubble_coral",
+            "menu_category": {
+                "category": "nature",
+                "group": "itemGroup.name.coral_decorations"
+            },
+            "states": {
+                "betterend:rotation": [
+                    0,
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('betterend:rotation') == 0",
+                "components": {
+                    "minecraft:geometry": "geometry.bubble_coral_1"
+                }
+            },
+            {
+                "condition": "q.block_state('betterend:rotation') == 1",
+                "components": {
+                    "minecraft:geometry": "geometry.bubble_coral_2"
+                }
+            },
+            {
+                "condition": "q.block_state('betterend:rotation') == 2",
+                "components": {
+                    "minecraft:geometry": "geometry.bubble_coral_3"
+                }
+            },
+            {
+                "condition": "q.block_state('betterend:rotation') == 3",
+                "components": {
+                    "minecraft:geometry": "geometry.bubble_coral_1"
+                }
+            }
+        ],
+        "components": {
+            "minecraft:custom_components": [
+                "betterend:bubble_coral"
+            ],
+            "minecraft:destructible_by_explosion": true,
+            "minecraft:destructible_by_mining": true,
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "be_bubble_coral",
+                    "render_method": "alpha_test",
+                    "ambient_occlusion": true,
+                    "face_dimming": true
+                }
+            },
+            "minecraft:collision_box": {
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    12,
+                    16
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    12,
+                    16
+                ]
+            }
+        }
+    }
+}

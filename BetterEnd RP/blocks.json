@@ -1,6 +1,9 @@
 {
   "format_version": [1, 1, 0],
   // Megalakes
+  "betterend:bubble_coral": {
+    "sound": "coral"
+  },
   "betterend:red_charnia": {
     "sound": "grass"
   },

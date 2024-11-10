@@ -4,6 +4,9 @@
   "resource_pack_name": "vanilla",
   "texture_data": {
     // Megalakes
+    "be_bubble_coral": {
+      "textures": "textures/blocks/megalakes/plants/bubble_coral"
+    },
     "red_charnia": {
       "textures": "textures/blocks/megalakes/plants/charnia_red"
     },
