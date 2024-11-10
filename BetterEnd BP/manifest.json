@@ -9,11 +9,6 @@
   },
   "modules": [
     {
-      "type": "data",
-      "uuid": "951c9c12-d2a2-d311-b115-1e9f50ee752f",
-      "version": [1, 0, 3]
-    },
-    {
       "type": "script",
       "uuid": "2ec8c1cd-6afd-4192-8a2f-e8e9e4326451",
       "entry": "scripts/index.js",
@@ -22,6 +17,10 @@
   ],
   "capabilities": ["script_eval"],
   "dependencies": [
+    {
+      "uuid": "fbbfc519-0464-465e-af0d-3e0ded4025c0",
+      "version": [ 1, 0, 0 ]
+    },
     {
       "module_name": "@minecraft/server",
       "version": "1.15.0"
