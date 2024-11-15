@@ -1,6 +1,9 @@
 {
   "format_version": [1, 1, 0],
   // Shadow
+  "betterend:twisted_vine": {
+    "sound": "grass"
+  },
   "betterend:shadow_berry_seed": {
     "sound": "roots"
   },

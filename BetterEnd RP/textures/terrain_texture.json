@@ -4,6 +4,9 @@
   "resource_pack_name": "vanilla",
   "texture_data": {
     // Shadow
+    "twisted_vine": {
+      "textures": "textures/blocks/shadow/plants/twisted_vine"
+    },
     "shadow_berry": {
       "textures": "textures/blocks/shadow/plants/shadow_berry"
     },
