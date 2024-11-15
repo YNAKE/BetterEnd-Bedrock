@@ -4,6 +4,7 @@
   "resource_pack_name": "vanilla",
   "texture_data": {
     // Shadow
+    
     "dragon_tree_leaves": {
       "textures": "textures/blocks/shadow/tree/dragon_tree_leaves"
     },

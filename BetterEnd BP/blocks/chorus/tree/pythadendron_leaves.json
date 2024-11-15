@@ -19,7 +19,7 @@
             },
             "minecraft:material_instances": {
                 "*": {
-                    "render_method": "alpha_test"
+                    "render_method": "blend"
                 }
             },
             "minecraft:flammable": true
