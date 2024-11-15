@@ -19,7 +19,9 @@
             },
             "minecraft:material_instances": {
                 "*": {
-                    "render_method": "blend"
+                    "render_method": "blend",
+                    "ambient_occlusion": true,
+                    "face_dimming": true
                 }
             },
             "minecraft:flammable": true
