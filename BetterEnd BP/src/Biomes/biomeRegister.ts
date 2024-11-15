@@ -5,3 +5,4 @@ import "./Chorus";
 import "./Crystal";
 import "./Foggy";
 import "./Megalakes";
+import "./Shadow";

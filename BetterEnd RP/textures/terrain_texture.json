@@ -3,6 +3,40 @@
   "padding": 8,
   "resource_pack_name": "vanilla",
   "texture_data": {
+    // Shadow
+    "dragon_tree_leaves": {
+      "textures": "textures/blocks/shadow/tree/dragon_tree_leaves"
+    },
+    "dragon_tree_log4": {
+      "textures": "textures/blocks/shadow/tree/dragon_tree_log4"
+    },
+    "dragon_tree_log3": {
+      "textures": "textures/blocks/shadow/tree/dragon_tree_log3"
+    },
+    "dragon_tree_log2": {
+      "textures": "textures/blocks/shadow/tree/dragon_tree_log2"
+    },
+    "dragon_tree_log": {
+      "textures": "textures/blocks/shadow/tree/dragon_tree_log"
+    },
+    "dragon_tree_bark4": {
+      "textures": "textures/blocks/shadow/tree/dragon_tree_bark4"
+    },
+    "dragon_tree_bark3": {
+      "textures": "textures/blocks/shadow/tree/dragon_tree_bark3"
+    },
+    "dragon_tree_bark2": {
+      "textures": "textures/blocks/shadow/tree/dragon_tree_bark2"
+    },
+    "dragon_tree_bark": {
+      "textures": "textures/blocks/shadow/tree/dragon_tree_bark"
+    },
+    "shadow_grass_top": {
+      "textures": "textures/blocks/shadow/shadow_grass_top"
+    },
+    "shadow_grass_side": {
+      "textures": "textures/blocks/shadow/shadow_grass_side"
+    },
     // Megalakes
     "be_bubble_coral": {
       "textures": "textures/blocks/megalakes/plants/bubble_coral"

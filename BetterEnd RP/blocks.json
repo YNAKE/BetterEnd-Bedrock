@@ -1,5 +1,27 @@
 {
   "format_version": [1, 1, 0],
+  // Shadow
+  "betterend:dragon_tree_leaves": {
+    "sound": "grass",
+    "textures": "dragon_tree_leaves"
+  },
+  "betterend:dragon_tree_log": {
+    "sound": "wood"
+  },
+  "betterend:dragon_tree_bark": {
+    "sound": "wood"
+  },
+  "betterend:shadow_grass": {
+    "sound": "grass",
+    "isotropic": {
+      "up": true
+    },
+    "textures": {
+      "side": "shadow_grass_side",
+      "down": "end_stone",
+      "up": "shadow_grass_top"
+    }
+  },
   // Megalakes
   "betterend:bubble_coral": {
     "sound": "coral"
