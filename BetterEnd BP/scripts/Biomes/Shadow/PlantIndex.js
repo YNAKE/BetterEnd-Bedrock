@@ -1,22 +1,12 @@
 import { world } from "@minecraft/server";
 import PlantUtils from "Biomes/PlantsUtils";
 const blockIndex = {
-    "betterend:chorus_plant_flower": {
-        random: 1,
-        randomTick: true,
-    },
-    "betterend:chorus_grass": {
-        random: 7,
-    },
-    "betterend:purple_polypore": {
-        random: 2,
-    },
-    "betterend:tail_moss": {
-        random: 2,
-    },
+    "betterend:shadow_plant": {
+        random: 2
+    }
 };
 world.beforeEvents.worldInitialize.subscribe((data) => {
-    data.blockComponentRegistry.registerCustomComponent("betterend:chorus_index", {
+    data.blockComponentRegistry.registerCustomComponent("betterend:shadow_index", {
         onPlace({ block }) {
             if (blockIndex[block.typeId] && blockIndex[block.typeId].random && !blockIndex[block.typeId].tall) {
                 new PlantUtils(block).onPlace(Number(blockIndex[block.typeId].random));
