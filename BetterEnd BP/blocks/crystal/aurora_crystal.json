@@ -468,15 +468,7 @@
       "minecraft:custom_components": ["betterend:aurora_crystal"],
       "minecraft:light_emission": 15,
       "minecraft:geometry": {
-        "identifier": "geometry.aurora_crystal",
-        "bone_visibility": {
-          "up2": "!query.block_state('betterend:up') == false",
-          "down2": "!query.block_state('betterend:down') == false",
-          "west2": "!query.block_state('betterend:west') == false",
-          "east2": "!query.block_state('betterend:east') == false",
-          "south2": "!query.block_state('betterend:south') == false",
-          "north2": "!query.block_state('betterend:north') == false"
-        }
+        "identifier": "geometry.aurora_crystal"
       },
       "minecraft:loot": "loot_tables/empty.json",
       "minecraft:destructible_by_mining": {

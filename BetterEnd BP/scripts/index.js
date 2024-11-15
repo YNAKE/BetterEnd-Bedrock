@@ -13,12 +13,27 @@ system.runInterval(() => {
             if (entity instanceof Player) {
                 // Player Utils
                 const playerUtils = new PlayerUtils(entity);
-                playerUtils.waila();
+                // playerUtils.waila();
                 playerUtils.climb();
+                playerUtils.joinSky();
             }
             else {
                 // Entity Utils
             }
         }
+    }
+});
+// Sky
+world.afterEvents.playerDimensionChange.subscribe(e => {
+    const { player, toDimension } = e;
+    if (toDimension.id === 'minecraft:the_end') {
+        new PlayerUtils(player).sky();
+    }
+});
+world.afterEvents.playerJoin.subscribe(e => {
+    const { playerId } = e;
+    const player = world.getEntity(playerId);
+    if (player.dimension.id === 'minecraft:the_end') {
+        player.setDynamicProperty('betterend:in_the_end', true);
     }
 });

@@ -22,6 +22,20 @@ class PlayerUtils {
             this.player.onScreenDisplay.setActionBar(`Id: ${block.typeId}, Tags: ${block.getTags()}`);
         }
     }
+    sky() {
+        const nebula = 'animation.nebula.moving';
+        this.player.playAnimation(nebula);
+    }
+    joinSky() {
+        const player = this.player;
+        const isInTheEnd = player.getDynamicProperty('betterend:in_the_end');
+        if (isInTheEnd) {
+            if (player.isSprinting || player.isJumping) {
+                player.setDynamicProperty('betterend:in_the_end', false);
+                this.sky();
+            }
+        }
+    }
     climb() {
         this.player.climb();
     }

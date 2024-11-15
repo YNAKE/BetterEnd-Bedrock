@@ -17,9 +17,11 @@
             "minecraft:destructible_by_mining": {
                 "seconds_to_destroy": 0.5
             },
+            "minecraft:geometry": "minecraft:geometry.full_block",
             "minecraft:material_instances": {
                 "*": {
-                    "render_method": "blend",
+                    "texture": "dragon_tree_leaves",
+                    "render_method": "alpha_test_single_sided",
                     "ambient_occlusion": true,
                     "face_dimming": true
                 }

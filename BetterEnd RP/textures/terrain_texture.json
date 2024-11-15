@@ -4,7 +4,9 @@
   "resource_pack_name": "vanilla",
   "texture_data": {
     // Shadow
-    
+    "shadow_berry": {
+      "textures": "textures/blocks/shadow/plants/shadow_berry"
+    },
     "dragon_tree_leaves": {
       "textures": "textures/blocks/shadow/tree/dragon_tree_leaves"
     },

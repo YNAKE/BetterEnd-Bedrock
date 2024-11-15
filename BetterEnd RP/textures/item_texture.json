@@ -1,6 +1,19 @@
 {
   "resource_pack_name": "vanilla",
   "texture_data": {
+    // Shadow
+    "shadow_berry_jelly": {
+      "textures": "textures/items/shadow/shadow_berry_jelly"
+    },
+    "shadow_berry_cooked": {
+      "textures": "textures/items/shadow/shadow_berry_cooked"
+    },
+    "shadow_berry_seed": {
+      "textures": "textures/items/shadow/shadow_berry_seeds"
+    },
+    "shadow_berry": {
+      "textures": "textures/items/shadow/shadow_berry"
+    },
     // Megalakes
     "red_charnia": {
       "textures": "textures/items/megalakes/charnia_red"

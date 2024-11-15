@@ -1,6 +1,9 @@
 {
   "format_version": [1, 1, 0],
   // Shadow
+  "betterend:shadow_berry_seed": {
+    "sound": "roots"
+  },
   "betterend:dragon_tree_leaves": {
     "sound": "grass",
     "textures": "dragon_tree_leaves"
