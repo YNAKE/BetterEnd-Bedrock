@@ -4,6 +4,12 @@
   "resource_pack_name": "vanilla",
   "texture_data": {
     // Sulphur
+    "hydralux_sapling2": {
+      "textures": "textures/blocks/sulphur/plants/hydralux_sapling_1"
+    },
+    "hydralux_sapling": {
+      "textures": "textures/blocks/sulphur/plants/hydralux_flower"
+    },
     "tube_worm": {
       "textures": "textures/blocks/sulphur/plants/tube_worm"
     },
