@@ -9,7 +9,7 @@ class FoodUtils {
     }
 
     addEffect(effectName: string, seconds: number, amplifier: number, show: boolean) {
-        this.source.addEffect(effectName, seconds * 20, { showParticles: show });
+        this.source.addEffect(effectName, seconds * 20, { showParticles: show, amplifier });
     }
 }
 

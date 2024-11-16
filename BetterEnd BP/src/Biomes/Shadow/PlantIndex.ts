@@ -3,6 +3,9 @@ import PlantUtils from "Biomes/PlantsUtils";
 
 const blockIndex = {
   "betterend:shadow_plant": {
+    random: 1
+  },
+  "betterend:murkweed": {
     random: 2
   }
 };

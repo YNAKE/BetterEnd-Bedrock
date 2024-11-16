@@ -79,13 +79,19 @@ class PlantUtils {
         world.structureManager.place(randomStructure, dimension, offset, { rotation });
         removeBlock ? this?.block?.setType('air') : null
     }
-
+    // Random Rotation
     randomRotation() {
         const states = [ 0, 1, 2, 3 ];
         const randomRot = states[Math.floor(Math.random() * states.length)];
         const perm = this?.block?.permutation.withState('betterend:rotation', randomRot);
         this?.block?.setPermutation(perm);
     }
+    // Spawn Particle
+    spawnParticle(particleID: string) {
+        const { dimension, location: loc } = this.block;
+        dimension.spawnParticle(particleID, { x: loc.x + 0.5, y: loc.y, z: loc.z + 0.5 });
+    }
+    // Spawn Ambient Particles
 }
 
 export default PlantUtils;

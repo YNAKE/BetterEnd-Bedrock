@@ -4,6 +4,9 @@
   "resource_pack_name": "vanilla",
   "texture_data": {
     // Shadow
+    "murkweed": {
+      "textures": "textures/blocks/shadow/plants/murkweed"
+    },
     "shadow_plant": {
       "textures": "textures/blocks/shadow/plants/shadow_plant"
     },
