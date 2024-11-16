@@ -1,6 +1,10 @@
 {
   "resource_pack_name": "vanilla",
   "texture_data": {
+    // Sulphur
+    "tube_worm": {
+      "textures": "textures/items/sulphur/tube_worm"
+    },
     // Shadow
     "needlegrass": {
       "textures": "textures/blocks/shadow/plants/needlegrass1"
