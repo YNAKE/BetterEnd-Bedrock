@@ -7,6 +7,9 @@ const blockIndex = {
   },
   "betterend:murkweed": {
     random: 2
+  },
+  "betterend:needlegrass": {
+    random: 3
   }
 };
 

@@ -6,6 +6,9 @@ const blockIndex = {
     },
     "betterend:murkweed": {
         random: 2
+    },
+    "betterend:needlegrass": {
+        random: 3
     }
 };
 world.beforeEvents.worldInitialize.subscribe((data) => {

@@ -4,6 +4,18 @@
   "resource_pack_name": "vanilla",
   "texture_data": {
     // Shadow
+    "needlegrass4": {
+      "textures": "textures/blocks/shadow/plants/needlegrass4"
+    },
+    "needlegrass3": {
+      "textures": "textures/blocks/shadow/plants/needlegrass3"
+    },
+    "needlegrass2": {
+      "textures": "textures/blocks/shadow/plants/needlegrass2"
+    },
+    "needlegrass1": {
+      "textures": "textures/blocks/shadow/plants/needlegrass1"
+    },
     "murkweed": {
       "textures": "textures/blocks/shadow/plants/murkweed"
     },

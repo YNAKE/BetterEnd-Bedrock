@@ -1,6 +1,9 @@
 {
   "format_version": [1, 1, 0],
   // Shadow
+  "betterend:needlegrass": {
+    "sound": "grass"
+  },
   "betterend:murkweed": {
     "sound": "grass"
   },
