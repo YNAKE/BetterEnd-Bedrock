@@ -38,9 +38,17 @@ class PlayerUtils {
     }
     fallVelocity() {
         const player = this.player;
+        const { dimension, location } = player;
         if (player.isFalling) {
             const vel = player.getVelocity().y;
             player.setDynamicProperty('betterend:fall_velocity', 0 + Math.abs(vel));
+            const block = dimension.getBlock(location);
+            const mem = 'betterend:umbrella_tree_membrane';
+            for (let i = 0; i < 4; i++) {
+                if (block.below(i)?.typeId === mem) {
+                    player.addEffect('resistance', 5, { showParticles: false, amplifier: 255 });
+                }
+            }
         }
     }
     climb() {

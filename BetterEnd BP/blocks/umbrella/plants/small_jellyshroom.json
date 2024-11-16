@@ -1,0 +1,188 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:block": {
+		"description": {
+			"identifier": "betterend:small_jellyshroom",
+			"traits": {
+				"minecraft:placement_direction": {
+					"enabled_states": [
+						"minecraft:facing_direction"
+					]
+				}
+			}
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('minecraft:facing_direction') == 'down'",
+				"components": {
+					"minecraft:geometry": "geometry.small_jellyshroom_floor",
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "small_jellyshroom",
+							"ambient_occlusion": true,
+							"face_dimming": true,
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:facing_direction') == 'up'",
+				"components": {
+					"minecraft:geometry": "geometry.small_jellyshroom_floor",
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "small_jellyshroom",
+							"ambient_occlusion": true,
+							"face_dimming": true,
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:facing_direction') == 'north'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							0,
+							0
+						]
+					},
+					"minecraft:geometry": "geometry.small_jellyshroom_wall",
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "small_jellyshroom",
+							"ambient_occlusion": true,
+							"face_dimming": true,
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:facing_direction') == 'west'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							90,
+							0
+						]
+					},
+					"minecraft:geometry": "geometry.small_jellyshroom_wall",
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "small_jellyshroom",
+							"ambient_occlusion": true,
+							"face_dimming": true,
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:facing_direction') == 'south'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							180,
+							0
+						]
+					},
+					"minecraft:geometry": "geometry.small_jellyshroom_wall",
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "small_jellyshroom",
+							"ambient_occlusion": true,
+							"face_dimming": true,
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:facing_direction') == 'east'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							-90,
+							0
+						]
+					},
+					"minecraft:geometry": "geometry.small_jellyshroom_wall",
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "small_jellyshroom",
+							"ambient_occlusion": true,
+							"face_dimming": true,
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			}
+		],
+		"components": {
+			"minecraft:loot": "loot_tables/empty.json",
+			"minecraft:on_player_destroyed": {
+				"condition": "query.get_equipped_item_name=='shears'",
+				"event": "betterend:loot"
+			},
+			"minecraft:random_ticking": {
+				"on_tick": {
+					"event": "betterend:spawn_ambient_particles"
+				}
+			},
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"block_filter": [
+							"betterend:umbrella_tree_bark",
+							"betterend:jungle_moss",
+							"betterend:jellyshroom_bark"
+						]
+					}
+				]
+			},
+			"minecraft:destructible_by_mining": true,
+			"minecraft:collision_box": false,
+			"minecraft:selection_box": {
+				"origin": [
+					-5.5,
+					0,
+					-5.5
+				],
+				"size": [
+					11,
+					14,
+					11
+				]
+			}
+		},
+		"events": {
+			"betterend:loot": {
+				"spawn_loot": {
+					"table": ""
+				}
+			},
+			"betterend:spawn_ambient_particles": {
+				"randomize": [
+					{
+						"weight": 8
+					},
+					{
+						"weight": 1,
+						"run_command": {
+							"command": [
+								"particle betterend:jungle_spore ~ ~-10 ~"
+							]
+						}
+					}
+				]
+			}
+		}
+	}
+}
