@@ -6,7 +6,7 @@
 				"identifier": "geometry.random_model1",
 				"texture_width": 16,
 				"texture_height": 16,
-				"visible_bounds_width": 2,
+				"visible_bounds_width": 4,
 				"visible_bounds_height": 2.5,
 				"visible_bounds_offset": [0, 0.75, 0]
 			},
@@ -20,7 +20,7 @@
 							"size": [0, 16, 16],
 							"uv": {
 								"north": {"uv": [0, 0], "uv_size": [0, 16]},
-								"east": {"uv": [0, 0], "uv_size": [0, 0]},
+								"east": {"uv": [0, 0], "uv_size": [16, 16]},
 								"south": {"uv": [0, 0], "uv_size": [0, 16]},
 								"west": {"uv": [0, 0], "uv_size": [16, 16]},
 								"up": {"uv": [0, 16], "uv_size": [0, -16]},
@@ -34,7 +34,7 @@
 							"rotation": [0, 90, 0],
 							"uv": {
 								"north": {"uv": [0, 0], "uv_size": [0, 16]},
-								"east": {"uv": [0, 0], "uv_size": [0, 0]},
+								"east": {"uv": [0, 0], "uv_size": [16, 16]},
 								"south": {"uv": [0, 0], "uv_size": [0, 16]},
 								"west": {"uv": [0, 0], "uv_size": [16, 16]},
 								"up": {"uv": [0, 16], "uv_size": [0, -16]},
@@ -48,7 +48,7 @@
 							"rotation": [0, 90, 0],
 							"uv": {
 								"north": {"uv": [0, 0], "uv_size": [0, 16]},
-								"east": {"uv": [0, 0], "uv_size": [0, 0]},
+								"east": {"uv": [0, 0], "uv_size": [16, 16]},
 								"south": {"uv": [0, 0], "uv_size": [0, 16]},
 								"west": {"uv": [0, 0], "uv_size": [16, 16]},
 								"up": {"uv": [0, 16], "uv_size": [0, -16]},
@@ -60,7 +60,7 @@
 							"size": [0, 16, 16],
 							"uv": {
 								"north": {"uv": [0, 0], "uv_size": [0, 16]},
-								"east": {"uv": [0, 0], "uv_size": [0, 0]},
+								"east": {"uv": [0, 0], "uv_size": [16, 16]},
 								"south": {"uv": [0, 0], "uv_size": [0, 16]},
 								"west": {"uv": [0, 0], "uv_size": [16, 16]},
 								"up": {"uv": [0, 16], "uv_size": [0, -16]},
