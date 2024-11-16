@@ -1,0 +1,140 @@
+{
+    "format_version": "1.17.0",
+    "sound_definitions": {
+        //entities
+        "dragonfly": {
+            "category": "ambient",
+            "sounds": [
+                "sounds/dragonfly/dragonfly_1",
+                "sounds/dragonfly/dragonfly_2",
+                "sounds/dragonfly/dragonfly_3"
+            ]
+        },
+        "shadow_walker_idle": {
+            "category": "ambient",
+            "sounds": [
+                "sounds/shadow_walker/shadow_walker_1",
+                "sounds/shadow_walker/shadow_walker_2"
+            ]
+        },
+        "shadow_walker_damage": {
+            "category": "ambient",
+            "sounds": [
+                "sounds/shadow_walker/shadow_walker_damage"
+            ]
+        },
+        "shadow_walker_death": {
+            "category": "ambient",
+            "sounds": [
+                "sounds/shadow_walker/shadow_walker_death"
+            ]
+        },
+        //ambient sounds
+        "amber_land": {
+            "category": "music",
+            "sounds": [
+                "sounds/ambient/amber_land"
+            ]
+        },
+        "blossoming_spires": {
+            "category": "music",
+            "sounds": [
+                "sounds/ambient/blossoming_spires"
+            ]
+        },
+        "caves": {
+            "category": "music",
+            "sounds": [
+                "sounds/ambient/caves"
+            ]
+        },
+        "chorus_forest": {
+            "category": "music",
+            "sounds": [
+                "sounds/ambient/chorus_forest"
+            ]
+        },
+        "dust_wastelands": {
+            "category": "music",
+            "sounds": [
+                "sounds/ambient/dust_wastelands"
+            ]
+        },
+        "foggy_mushroomland": {
+            "category": "music",
+            "sounds": [
+                "sounds/ambient/foggy_mushroomland"
+            ]
+        },
+        "glowing_grasslands": {
+            "category": "music",
+            "sounds": [
+                "sounds/ambient/glowing_grasslands"
+            ]
+        },
+        "megalake": {
+            "category": "music",
+            "sounds": [
+                "sounds/ambient/megalake",
+                "sounds/ambient/megalake_grove"
+            ]
+        },
+        "sulphur_springs": {
+            "category": "music",
+            "sounds": [
+                "sounds/ambient/sulphur_springs"
+            ]
+        },
+        "umbra_valley": {
+            "category": "music",
+            "sounds": [
+                "sounds/ambient/umbra_valley"
+            ]
+        },
+        "umbrella_jungle": {
+            "category": "music",
+            "sounds": [
+                "sounds/ambient/umbrella_jungle"
+            ]
+        },
+        //music biomes
+        "betterend.forest.music": {
+            "category": "music",
+            "sounds": [
+                "sounds/music/dan_henig-eternal_garden",
+                "sounds/music/dan_henig-nebular_focus",
+                "sounds/music/bobby_richards-two_moons",
+                "sounds/music/astron-peaceful_mind"
+            ]
+        },
+        "betterend.calm.music": {
+            "category": "music",
+            "sounds": [
+                "sounds/music/the_tides-somnolent",
+                "sounds/music/benjamin_martins-verve",
+                "sounds/music/godmode-melancholia",
+                "sounds/music/asher_fulero-elegy",
+                "sounds/music/the-tides-ammil",
+                "sounds/music/vyen-amber"
+            ]
+        },
+        "betterend.dark.music": {
+            "category": "music",
+            "sounds": [
+                "sounds/music/emmit_fenn-creep",
+                "sounds/music/jesse_gallagher-the_anunnaki_return",
+                "sounds/music/i_think_i_can_help_you-the_six_realms",
+                "sounds/music/jesse_gallagher-maestro_tlakaelel"
+            ]
+        },
+        "betterend.caves.music": {
+            "category": "music",
+            "sounds": [
+                "sounds/music/godmode-future_rennaisance",
+                "sounds/music/futuremono-moonrise",
+                "sounds/music/emmit_fenn-wander",
+                "sounds/music/corbyn_kites-orbit"
+            ]
+        }
+    }
+}
