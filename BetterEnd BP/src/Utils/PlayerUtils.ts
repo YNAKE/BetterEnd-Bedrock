@@ -54,7 +54,7 @@ class PlayerUtils {
       const mem = 'betterend:umbrella_tree_membrane';
       for (let i = 0; i < 4; i++) {
         if (block.below(i)?.typeId === mem) {
-          player.addEffect('resistance', 5, {showParticles: false, amplifier: 255 });
+          player.addEffect('resistance', 5, { showParticles: false, amplifier: 255 });
         }
       }
     }

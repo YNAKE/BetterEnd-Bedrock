@@ -150,6 +150,7 @@
 			}
 		],
 		"components": {
+			"minecraft:custom_components": ["betterend:jellyshroom"],
 			"minecraft:loot": "loot_tables/empty.json",
 			"minecraft:placement_filter": {
 				"conditions": [

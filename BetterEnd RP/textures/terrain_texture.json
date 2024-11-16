@@ -4,6 +4,15 @@
   "resource_pack_name": "vanilla",
   "texture_data": {
     // Umbrella
+    "purple_jellyshroom_cap": {
+      "textures": "textures/blocks/umbrella/jellyshroom/tree/purple_jellyshroom_cap"
+    },
+    "jellyshroom_bark": {
+      "textures": "textures/blocks/umbrella/jellyshroom/tree/jellyshroom_bark"
+    },
+    "jellyshroom_log": {
+      "textures": "textures/blocks/umbrella/jellyshroom/tree/jellyshroom_log"
+    },
     "small_jellyshroom": {
       "textures": "textures/blocks/umbrella/plants/small_jellyshroom"
     },
