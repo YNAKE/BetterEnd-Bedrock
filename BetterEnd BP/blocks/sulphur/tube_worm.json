@@ -1,0 +1,132 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "betterend:tube_worm",
+            "states": {
+                "betterend:random": [
+                    0,
+                    1,
+                    2
+                ]
+            },
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:cardinal_direction"
+                    ],
+                    "y_rotation_offset": 180
+                }
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('betterend:random') == 0",
+                "components": {
+                    "minecraft:geometry": "geometry.tube_worm_01"
+                }
+            },
+            {
+                "condition": "q.block_state('betterend:random') == 1",
+                "components": {
+                    "minecraft:geometry": "geometry.tube_worm_02"
+                }
+            },
+            {
+                "condition": "q.block_state('betterend:random') == 2",
+                "components": {
+                    "minecraft:geometry": "geometry.tube_worm_03"
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            -90,
+                            0
+                        ]
+                    }
+                }
+            }
+        ],
+        "components": {
+            "minecraft:custom_components": [
+                "betterend:sulphur_index"
+            ],
+            "minecraft:collision_box": false,
+            "minecraft:selection_box": {
+                "origin": [
+                    -8,
+                    0,
+                    -4
+                ],
+                "size": [
+                    16,
+                    16,
+                    12
+                ]
+            },
+            "minecraft:destructible_by_mining": true,
+            "minecraft:destructible_by_explosion": true,
+            "minecraft:flammable": false,
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "tube_worm",
+                    "render_method": "alpha_test",
+                    "ambient_occlusion": true,
+                    "face_dimming": true
+                }
+            },
+            "minecraft:placement_filter": {
+                "conditions": [
+                    {
+                        "allowed_faces": [
+                            "side"
+                        ],
+                        "block_filter": [
+                            "betterend:sulphuric_rock"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

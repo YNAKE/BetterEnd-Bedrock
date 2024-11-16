@@ -1,6 +1,16 @@
 {
   "format_version": [1, 1, 0],
   // Sulphur
+  "betterend:tube_worm": {
+    "sound": "stone"
+  },
+  "betterend:hydrothermal_vent": {
+    "sound": "stone"
+  },
+  "betterend:sulphuric_rock": {
+    "sound": "stone",
+    "textures": "sulphuric_rock"
+  },
   "betterend:brimstone": {
     "sound": "stone"
   },

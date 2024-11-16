@@ -91,9 +91,9 @@ class PlantUtils {
         this?.block?.setPermutation(perm);
     }
     // Spawn Particle
-    spawnParticle(particleID) {
+    spawnParticle(particleID, yOffset = 0) {
         const { dimension, location: loc } = this.block;
-        dimension.spawnParticle(particleID, { x: loc.x + 0.5, y: loc.y, z: loc.z + 0.5 });
+        dimension.spawnParticle(particleID, { x: loc.x + 0.5, y: loc.y + yOffset, z: loc.z + 0.5 });
     }
 }
 export default PlantUtils;

@@ -4,6 +4,12 @@
   "resource_pack_name": "vanilla",
   "texture_data": {
     // Sulphur
+    "tube_worm": {
+      "textures": "textures/blocks/sulphur/plants/tube_worm"
+    },
+    "hydrothermal_vent": {
+      "textures": "textures/blocks/sulphur/plants/hydrothermal_vent"
+    },
     "sulphuric_rock": {
       "textures": "textures/blocks/sulphur/sulphuric_rock"
     },
