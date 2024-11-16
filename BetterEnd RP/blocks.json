@@ -1,5 +1,9 @@
 {
   "format_version": [1, 1, 0],
+  // Sulphur
+  "betterend:brimstone": {
+    "sound": "stone"
+  },
   // Shadow
   "betterend:needlegrass": {
     "sound": "grass"

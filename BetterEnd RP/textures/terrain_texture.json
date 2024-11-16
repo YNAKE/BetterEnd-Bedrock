@@ -3,6 +3,16 @@
   "padding": 8,
   "resource_pack_name": "vanilla",
   "texture_data": {
+    // Sulphur
+    "sulphuric_rock": {
+      "textures": "textures/blocks/sulphur/sulphuric_rock"
+    },
+    "inactive_brimstone": {
+      "textures": "textures/blocks/sulphur/inactive_brimstone"
+    },
+    "brimstone": {
+      "textures": "textures/blocks/sulphur/brimstone"
+    },
     // Shadow
     "needlegrass4": {
       "textures": "textures/blocks/shadow/plants/needlegrass4"

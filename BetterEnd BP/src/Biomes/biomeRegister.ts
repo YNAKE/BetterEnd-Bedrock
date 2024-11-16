@@ -6,3 +6,4 @@ import "./Crystal";
 import "./Foggy";
 import "./Megalakes";
 import "./Shadow";
+import "./Sulphur";

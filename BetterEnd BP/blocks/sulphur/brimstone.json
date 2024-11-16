@@ -1,0 +1,60 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "betterend:brimstone",
+            "menu_category": {
+                "category": "nature"
+            },
+            "states": {
+                "betterend:active": [
+                    false,
+                    true
+                ]
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('betterend:active') == false",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "inactive_brimstone",
+                            "render_method": "opaque",
+                            "ambient_occlusion": true,
+                            "face_dimming": true
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('betterend:active') == true",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "brimstone",
+                            "render_method": "opaque",
+                            "ambient_occlusion": true,
+                            "face_dimming": true
+                        }
+                    }
+                }
+            }
+        ],
+        "components": {
+            "tag:stone": {},
+            "minecraft:custom_components": [ "betterend:brimstone" ],
+            "minecraft:geometry": "minecraft:geometry.full_block",
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 1
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 3
+            },
+            "minecraft:flammable": false,
+            "minecraft:tick": {
+                "interval_range": [ 600, 1200 ]
+            }
+        }
+    }
+}
