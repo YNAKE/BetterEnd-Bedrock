@@ -3,6 +3,9 @@ import PlantUtils from "Biomes/PlantsUtils";
 const blockIndex = {
     "betterend:jungle_grass": {
         random: 5
+    },
+    "betterend:small_jellyshroom": {
+        random: 3
     }
 };
 world.beforeEvents.worldInitialize.subscribe((data) => {

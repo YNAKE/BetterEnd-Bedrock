@@ -4,6 +4,9 @@
   "resource_pack_name": "vanilla",
   "texture_data": {
     // Umbrella
+    "small_jellyshroom": {
+      "textures": "textures/blocks/umbrella/plants/small_jellyshroom"
+    },
     "umbrella_tree_sapling": {
       "textures": "textures/blocks/umbrella/plants/umbrella_tree_sapling"
     },
