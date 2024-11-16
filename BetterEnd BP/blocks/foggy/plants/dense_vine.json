@@ -23,13 +23,13 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "dense_vine",
-              "render_method": "alpha_test",
+              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": false,
               "face_dimming": false
             },
             "blue_vine_roots": {
               "texture": "dense_vine_roots",
-              "render_method": "alpha_test",
+              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": false,
               "face_dimming": false
             }
@@ -42,7 +42,7 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "dense_vine",
-              "render_method": "alpha_test",
+              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": false,
               "face_dimming": false
             }
@@ -56,7 +56,7 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "dense_vine_bottom",
-              "render_method": "alpha_test",
+              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": false,
               "face_dimming": false
             }

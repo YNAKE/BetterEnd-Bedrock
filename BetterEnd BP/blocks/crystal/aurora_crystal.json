@@ -33,7 +33,7 @@
               "texture": "crystal_0",
               "ambient_occlusion": false,
               "face_dimming": false,
-              "render_method": "alpha_test"
+              "render_method": "alpha_test_single_sided"
             }
           }
         }
@@ -48,7 +48,7 @@
               "texture": "crystal_1",
               "ambient_occlusion": false,
               "face_dimming": false,
-              "render_method": "alpha_test"
+              "render_method": "alpha_test_single_sided"
             }
           }
         }
@@ -63,7 +63,7 @@
               "texture": "crystal_2",
               "ambient_occlusion": false,
               "face_dimming": false,
-              "render_method": "alpha_test"
+              "render_method": "alpha_test_single_sided"
             }
           }
         }
@@ -78,7 +78,7 @@
               "texture": "crystal_3",
               "ambient_occlusion": false,
               "face_dimming": false,
-              "render_method": "alpha_test"
+              "render_method": "alpha_test_single_sided"
             }
           }
         }
@@ -93,7 +93,7 @@
               "texture": "crystal_4",
               "ambient_occlusion": false,
               "face_dimming": false,
-              "render_method": "alpha_test"
+              "render_method": "alpha_test_single_sided"
             }
           }
         }
@@ -108,7 +108,7 @@
               "texture": "crystal_5",
               "ambient_occlusion": false,
               "face_dimming": false,
-              "render_method": "alpha_test"
+              "render_method": "alpha_test_single_sided"
             }
           }
         }
@@ -123,7 +123,7 @@
               "texture": "crystal_6",
               "ambient_occlusion": false,
               "face_dimming": false,
-              "render_method": "alpha_test"
+              "render_method": "alpha_test_single_sided"
             }
           }
         }
@@ -138,7 +138,7 @@
               "texture": "crystal_7",
               "ambient_occlusion": false,
               "face_dimming": false,
-              "render_method": "alpha_test"
+              "render_method": "alpha_test_single_sided"
             }
           }
         }
@@ -153,7 +153,7 @@
               "texture": "crystal_8",
               "ambient_occlusion": false,
               "face_dimming": false,
-              "render_method": "alpha_test"
+              "render_method": "alpha_test_single_sided"
             }
           }
         }
@@ -168,7 +168,7 @@
               "texture": "crystal_9",
               "ambient_occlusion": false,
               "face_dimming": false,
-              "render_method": "alpha_test"
+              "render_method": "alpha_test_single_sided"
             }
           }
         }
@@ -183,7 +183,7 @@
               "texture": "crystal_10",
               "ambient_occlusion": false,
               "face_dimming": false,
-              "render_method": "alpha_test"
+              "render_method": "alpha_test_single_sided"
             }
           }
         }
@@ -198,7 +198,7 @@
               "texture": "crystal_11",
               "ambient_occlusion": false,
               "face_dimming": false,
-              "render_method": "alpha_test"
+              "render_method": "alpha_test_single_sided"
             }
           }
         }
@@ -213,7 +213,7 @@
               "texture": "crystal_12",
               "ambient_occlusion": false,
               "face_dimming": false,
-              "render_method": "alpha_test"
+              "render_method": "alpha_test_single_sided"
             }
           }
         }
@@ -228,7 +228,7 @@
               "texture": "crystal_13",
               "ambient_occlusion": false,
               "face_dimming": false,
-              "render_method": "alpha_test"
+              "render_method": "alpha_test_single_sided"
             }
           }
         }
@@ -243,7 +243,7 @@
               "texture": "crystal_14",
               "ambient_occlusion": false,
               "face_dimming": false,
-              "render_method": "alpha_test"
+              "render_method": "alpha_test_single_sided"
             }
           }
         }
@@ -258,7 +258,7 @@
               "texture": "crystal_15",
               "ambient_occlusion": false,
               "face_dimming": false,
-              "render_method": "alpha_test"
+              "render_method": "alpha_test_single_sided"
             }
           }
         }
@@ -273,7 +273,7 @@
               "texture": "crystal_16",
               "ambient_occlusion": false,
               "face_dimming": false,
-              "render_method": "alpha_test"
+              "render_method": "alpha_test_single_sided"
             }
           }
         }
@@ -288,7 +288,7 @@
               "texture": "crystal_17",
               "ambient_occlusion": false,
               "face_dimming": false,
-              "render_method": "alpha_test"
+              "render_method": "alpha_test_single_sided"
             }
           }
         }
@@ -303,7 +303,7 @@
               "texture": "crystal_18",
               "ambient_occlusion": false,
               "face_dimming": false,
-              "render_method": "alpha_test"
+              "render_method": "alpha_test_single_sided"
             }
           }
         }
@@ -318,7 +318,7 @@
               "texture": "crystal_19",
               "ambient_occlusion": false,
               "face_dimming": false,
-              "render_method": "alpha_test"
+              "render_method": "alpha_test_single_sided"
             }
           }
         }
@@ -333,7 +333,7 @@
               "texture": "crystal_20",
               "ambient_occlusion": false,
               "face_dimming": false,
-              "render_method": "alpha_test"
+              "render_method": "alpha_test_single_sided"
             }
           }
         }
@@ -348,7 +348,7 @@
               "texture": "crystal_21",
               "ambient_occlusion": false,
               "face_dimming": false,
-              "render_method": "alpha_test"
+              "render_method": "alpha_test_single_sided"
             }
           }
         }
@@ -363,7 +363,7 @@
               "texture": "crystal_22",
               "ambient_occlusion": false,
               "face_dimming": false,
-              "render_method": "alpha_test"
+              "render_method": "alpha_test_single_sided"
             }
           }
         }
@@ -378,7 +378,7 @@
               "texture": "crystal_23",
               "ambient_occlusion": false,
               "face_dimming": false,
-              "render_method": "alpha_test"
+              "render_method": "alpha_test_single_sided"
             }
           }
         }
@@ -393,7 +393,7 @@
               "texture": "crystal_24",
               "ambient_occlusion": false,
               "face_dimming": false,
-              "render_method": "alpha_test"
+              "render_method": "alpha_test_single_sided"
             }
           }
         }
@@ -408,7 +408,7 @@
               "texture": "crystal_25",
               "ambient_occlusion": false,
               "face_dimming": false,
-              "render_method": "alpha_test"
+              "render_method": "alpha_test_single_sided"
             }
           }
         }
@@ -423,7 +423,7 @@
               "texture": "crystal_26",
               "ambient_occlusion": false,
               "face_dimming": false,
-              "render_method": "alpha_test"
+              "render_method": "alpha_test_single_sided"
             }
           }
         }
@@ -438,7 +438,7 @@
               "texture": "crystal_27",
               "ambient_occlusion": false,
               "face_dimming": false,
-              "render_method": "alpha_test"
+              "render_method": "alpha_test_single_sided"
             }
           }
         }
@@ -453,7 +453,7 @@
               "texture": "crystal_28",
               "ambient_occlusion": false,
               "face_dimming": false,
-              "render_method": "alpha_test"
+              "render_method": "alpha_test_single_sided"
             }
           }
         }

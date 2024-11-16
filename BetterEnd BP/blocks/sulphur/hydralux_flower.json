@@ -84,7 +84,7 @@
 					"minecraft:material_instances": {
 						"*": {
 							"texture": "hydralux_sapling2",
-							"render_method": "alpha_test",
+							"render_method": "alpha_test_single_sided",
 							"ambient_occlusion": false,
 							"face_dimming": false
 						}
@@ -97,7 +97,7 @@
 					"minecraft:material_instances": {
 						"*": {
 							"texture": "hydralux_sapling2",
-							"render_method": "alpha_test",
+							"render_method": "alpha_test_single_sided",
 							"ambient_occlusion": false,
 							"face_dimming": false
 						}
@@ -110,7 +110,7 @@
 					"minecraft:material_instances": {
 						"*": {
 							"texture": "hydralux_sapling2",
-							"render_method": "alpha_test",
+							"render_method": "alpha_test_single_sided",
 							"ambient_occlusion": false,
 							"face_dimming": false
 						}
@@ -123,7 +123,7 @@
 					"minecraft:material_instances": {
 						"*": {
 							"texture": "hydralux_sapling2",
-							"render_method": "alpha_test",
+							"render_method": "alpha_test_single_sided",
 							"ambient_occlusion": false,
 							"face_dimming": false
 						}
@@ -265,7 +265,7 @@
 			"minecraft:material_instances": {
 				"*": {
 					"texture": "hydralux_sapling",
-					"render_method": "alpha_test",
+					"render_method": "alpha_test_single_sided",
 					"ambient_occlusion": false,
 					"face_dimming": false
 				}

@@ -18,7 +18,7 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "blossom_berry_seed_0",
-              "render_method": "alpha_test",
+              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": true,
               "face_dimming": false
             }
@@ -35,7 +35,7 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "blossom_berry_seed_1",
-              "render_method": "alpha_test",
+              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": true,
               "face_dimming": false
             }
@@ -52,7 +52,7 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "blossom_berry_seed_2",
-              "render_method": "alpha_test",
+              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": true,
               "face_dimming": false
             }
@@ -71,7 +71,7 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "blossom_berry",
-              "render_method": "alpha_test",
+              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": true,
               "face_dimming": false
             }

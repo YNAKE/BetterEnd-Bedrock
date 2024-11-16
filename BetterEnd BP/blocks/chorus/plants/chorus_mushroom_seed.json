@@ -18,7 +18,7 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "chorus_mushroom_0",
-              "render_method": "alpha_test",
+              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": true,
               "face_dimming": false
             }
@@ -35,7 +35,7 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "chorus_mushroom_1",
-              "render_method": "alpha_test",
+              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": true,
               "face_dimming": false
             }
@@ -52,7 +52,7 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "chorus_mushroom_2",
-              "render_method": "alpha_test",
+              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": true,
               "face_dimming": false
             }
@@ -70,7 +70,7 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "chorus_mushroom_3",
-              "render_method": "alpha_test",
+              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": true,
               "face_dimming": false
             }

@@ -18,7 +18,7 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "chorus_grass_01",
-              "render_method": "alpha_test",
+              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": false,
               "face_dimming": false
             }
@@ -36,7 +36,7 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "chorus_grass_01",
-              "render_method": "alpha_test",
+              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": false,
               "face_dimming": false
             }
@@ -54,7 +54,7 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "chorus_grass_02",
-              "render_method": "alpha_test",
+              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": false,
               "face_dimming": false
             }
@@ -72,7 +72,7 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "chorus_grass_02",
-              "render_method": "alpha_test",
+              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": false,
               "face_dimming": false
             }
@@ -90,7 +90,7 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "chorus_grass_03",
-              "render_method": "alpha_test",
+              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": false,
               "face_dimming": false
             }
@@ -108,7 +108,7 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "chorus_grass_03",
-              "render_method": "alpha_test",
+              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": false,
               "face_dimming": false
             }
@@ -126,7 +126,7 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "chorus_grass_04",
-              "render_method": "alpha_test",
+              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": false,
               "face_dimming": false
             }
@@ -144,7 +144,7 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "chorus_grass_04",
-              "render_method": "alpha_test",
+              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": false,
               "face_dimming": false
             }

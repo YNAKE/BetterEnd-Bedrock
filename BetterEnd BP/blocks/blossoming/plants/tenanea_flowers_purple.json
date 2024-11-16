@@ -14,7 +14,7 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "tenanea_flowers_bottom_purple",
-              "render_method": "alpha_test",
+              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": false,
               "face_dimming": false
             }
@@ -40,7 +40,7 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "tenanea_flowers_middle_purple",
-              "render_method": "alpha_test",
+              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": false,
               "face_dimming": false
             }

@@ -18,7 +18,7 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "crystal_grass_2",
-              "render_method": "alpha_test",
+              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": true,
               "face_dimming": true
             }
@@ -36,7 +36,7 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "crystal_grass_3",
-              "render_method": "alpha_test",
+              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": true,
               "face_dimming": true
             }
@@ -54,7 +54,7 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "crystal_grass_4",
-              "render_method": "alpha_test",
+              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": true,
               "face_dimming": true
             }
@@ -72,7 +72,7 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "crystal_grass_5",
-              "render_method": "alpha_test",
+              "render_method": "alpha_test_single_sided",
               "ambient_occlusion": true,
               "face_dimming": true
             }

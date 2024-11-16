@@ -74,7 +74,7 @@
             "minecraft:material_instances": {
                 "*": {
                     "texture": "purple_charnia",
-                    "render_method": "alpha_test",
+                    "render_method": "alpha_test_single_sided",
                     "ambient_occlusion": true,
                     "face_dimming": true
                 }
