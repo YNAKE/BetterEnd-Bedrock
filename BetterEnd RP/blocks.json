@@ -1,5 +1,36 @@
 {
   "format_version": [1, 1, 0],
+  // Umbrella
+  "betterend:umbrella_tree_cluster": {
+    "sound": "roots",
+    "textures": "umbrella_tree_cluster"
+  },
+  "betterend:jungle_vine": {
+    "sound": "grass"
+  },
+  "betterend:jungle_fern": {
+    "sound": "grass"
+  },
+  "betterend:umbrella_tree_bark": {
+    "sound": "wood"
+  },
+  "betterend:umbrella_tree_log": {
+    "sound": "wood"
+  },
+  "betterend:umbrella_tree_membrane": {
+    "sound": "slime"
+  },
+  "betterend:jungle_grass": {
+    "sound": "grass"
+  },
+  "betterend:jungle_moss": {
+    "sound": "grass",
+    "textures": {
+      "down": "end_stone",
+      "up": "jungle_moss_top",
+      "side": "jungle_moss_side"
+    }
+  },
   // Sulphur
   "betterend:hydralux_sapling": {
     "sound": "grass"

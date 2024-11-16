@@ -1,0 +1,182 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "betterend:umbrella_tree_membrane",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.leaves"
+			},
+			"states": {
+				"betterend:up": [
+					true,
+					false
+				],
+				"betterend:down": [
+					true,
+					false
+				],
+				"betterend:west": [
+					true,
+					false
+				],
+				"betterend:east": [
+					true,
+					false
+				],
+				"betterend:north": [
+					true,
+					false
+				],
+				"betterend:south": [
+					true,
+					false
+				],
+				"betterend:color": [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7
+				]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_state('betterend:color') == 0",
+				"components": {
+					"tag:membrane0": {},
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "umbrella_tree_membrane_7",
+							"ambient_occlusion": true,
+							"face_dimming": true,
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('betterend:color') == 1",
+				"components": {
+					"tag:membrane1": {},
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "umbrella_tree_membrane_6",
+							"ambient_occlusion": true,
+							"face_dimming": true,
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('betterend:color') == 2",
+				"components": {
+					"tag:membrane2": {},
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "umbrella_tree_membrane_5",
+							"ambient_occlusion": true,
+							"face_dimming": true,
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('betterend:color') == 3",
+				"components": {
+					"tag:membrane3": {},
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "umbrella_tree_membrane_4",
+							"ambient_occlusion": true,
+							"face_dimming": true,
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('betterend:color') == 4",
+				"components": {
+					"tag:membrane4": {},
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "umbrella_tree_membrane_3",
+							"ambient_occlusion": true,
+							"face_dimming": true,
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('betterend:color') == 5",
+				"components": {
+					"tag:membrane5": {},
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "umbrella_tree_membrane_2",
+							"ambient_occlusion": true,
+							"face_dimming": true,
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('betterend:color') == 6",
+				"components": {
+					"tag:membrane6": {},
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "umbrella_tree_membrane_1",
+							"ambient_occlusion": true,
+							"face_dimming": true,
+							"render_method": "blend"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('betterend:color') == 7",
+				"components": {
+					"tag:membrane7": {},
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "umbrella_tree_membrane_0",
+							"ambient_occlusion": true,
+							"face_dimming": true,
+							"render_method": "blend"
+						}
+					}
+				}
+			}
+		],
+		"components": {
+			"minecraft:custom_components": [ "betterend:umbrella_tree_membrane" ],
+			"minecraft:tick": {
+				"interval_range": [ 40, 80 ],
+				"looping": true
+			},
+			"minecraft:friction": 0.2,
+			"minecraft:geometry": {
+				"identifier": "geometry.umbrella_membrane",
+				"bone_visibility": {
+					"up": "q.block_state('betterend:up') == true",
+					"down": "q.block_state('betterend:down') == true",
+					"west": "q.block_state('betterend:west') == true",
+					"east": "q.block_state('betterend:east') == true",
+					"south": "q.block_state('betterend:south') == true",
+					"north": "q.block_state('betterend:north') == true"
+				}
+			},
+			"minecraft:destructible_by_mining": true
+		}
+	}
+}

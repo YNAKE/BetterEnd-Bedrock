@@ -7,3 +7,4 @@ import "./Foggy";
 import "./Megalakes";
 import "./Shadow";
 import "./Sulphur";
+import "./Umbrella";

@@ -1,0 +1,235 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:block": {
+		"description": {
+			"identifier": "betterend:jungle_fern",
+			"traits": {
+				"minecraft:placement_direction": {
+					"enabled_states": [
+						"minecraft:facing_direction"
+					]
+				}
+			},
+			"states": {
+				"betterend:random": [
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9
+				]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_state('betterend:random') == 1",
+				"components": {
+					"minecraft:geometry": "geometry.jungle_fern_1",
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "jungle_fern1",
+							"ambient_occlusion": false,
+							"face_dimming": false,
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('betterend:random') == 2",
+				"components": {
+					"minecraft:geometry": "geometry.jungle_fern_2",
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "jungle_fern1",
+							"ambient_occlusion": false,
+							"face_dimming": false,
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('betterend:random') == 3",
+				"components": {
+					"minecraft:geometry": "geometry.jungle_fern_3",
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "jungle_fern1",
+							"ambient_occlusion": false,
+							"face_dimming": false,
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('betterend:random') == 4",
+				"components": {
+					"minecraft:geometry": "geometry.jungle_fern_4",
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "jungle_fern2",
+							"ambient_occlusion": false,
+							"face_dimming": false,
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('betterend:random') == 5",
+				"components": {
+					"minecraft:geometry": "geometry.jungle_fern_5",
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "jungle_fern2",
+							"ambient_occlusion": false,
+							"face_dimming": false,
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('betterend:random') == 6",
+				"components": {
+					"minecraft:geometry": "geometry.jungle_fern_6",
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "jungle_fern2",
+							"ambient_occlusion": false,
+							"face_dimming": false,
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('betterend:random') == 7",
+				"components": {
+					"minecraft:geometry": "geometry.jungle_fern_7",
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "jungle_fern3",
+							"ambient_occlusion": false,
+							"face_dimming": false,
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('betterend:random') == 8",
+				"components": {
+					"minecraft:geometry": "geometry.jungle_fern_8",
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "jungle_fern3",
+							"ambient_occlusion": false,
+							"face_dimming": false,
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('betterend:random') == 9",
+				"components": {
+					"minecraft:geometry": "geometry.jungle_fern_9",
+					"minecraft:material_instances": {
+						"*": {
+							"texture": "jungle_fern3",
+							"ambient_occlusion": false,
+							"face_dimming": false,
+							"render_method": "alpha_test"
+						}
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:facing_direction') == 'north'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							0,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:facing_direction') == 'west'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							90,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:facing_direction') == 'south'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							180,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:facing_direction') == 'east'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							-90,
+							0
+						]
+					}
+				}
+			}
+		],
+		"components": {
+			"minecraft:loot": "loot_tables/empty.json",
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": [
+							"side"
+						],
+						"block_filter": [
+							"betterend:umbrella_tree_bark",
+							"betterend:jungle_moss",
+							"betterend:jellyshroom_bark"
+						]
+					}
+				]
+			},
+			"minecraft:destructible_by_mining": true,
+			"minecraft:collision_box": false,
+			"minecraft:selection_box": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					16,
+					6
+				]
+			}
+		}
+	}
+}

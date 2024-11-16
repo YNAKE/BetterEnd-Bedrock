@@ -1,0 +1,31 @@
+import { world } from "@minecraft/server";
+world.beforeEvents.worldInitialize.subscribe(data => {
+    data.blockComponentRegistry.registerCustomComponent('betterend:umbrella_tree_membrane', {
+        onTick({ block }) {
+            const blockBelow = block?.below();
+            const blockNorth = block?.north();
+            const blockSouth = block?.south();
+            const blockWest = block?.west();
+            const blockEast = block?.east();
+            if (blockBelow?.typeId === 'betterend:jungle_vine' ||
+                blockNorth?.typeId === 'betterend:jungle_vine' ||
+                blockSouth?.typeId === 'betterend:jungle_vine' ||
+                blockWest?.typeId === 'betterend:jungle_vine' ||
+                blockEast?.typeId === 'betterend:jungle_vine') {
+                return;
+            }
+            const membraneSides = {
+                up: block?.above()?.isAir,
+                down: blockBelow?.isAir,
+                north: blockNorth?.isAir,
+                south: blockSouth?.isAir,
+                west: blockWest?.isAir,
+                east: blockEast?.isAir
+            };
+            for (const [direction, isAir] of Object.entries(membraneSides)) {
+                const updateFace = block?.permutation?.withState(`betterend:${direction}`, isAir ? isAir : false);
+                block?.setPermutation(updateFace);
+            }
+        }
+    });
+});

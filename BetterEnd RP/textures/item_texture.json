@@ -1,6 +1,16 @@
 {
   "resource_pack_name": "vanilla",
   "texture_data": {
+    // Umbrella
+    "jungle_vine": {
+      "textures": "textures/blocks/umbrella/plants/jungle_vine"
+    },
+    "jungle_fern": {
+      "textures": "textures/items/umbrella/jungle_fern"
+    },
+    "jungle_grass": {
+      "textures": "textures/items/umbrella/jungle_grass"
+    },
     // Sulphur
     "hydralux_sapling": {
       "textures": "textures/blocks/sulphur/plants/hydralux_sapling_1"

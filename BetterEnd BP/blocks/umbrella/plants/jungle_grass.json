@@ -1,0 +1,140 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "betterend:jungle_grass",
+      "states": {
+        "betterend:random": [0, 1, 2, 3, 4, 5]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('betterend:random') == 0",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [-6.5, 0, -6.5],
+            "size": [13, 11, 13]
+          },
+          "minecraft:geometry": "geometry.random_model1",
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "jungle_grass",
+              "render_method": "alpha_test_single_sided",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:random') == 1",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [-4, 0, -4],
+            "size": [8, 10, 8]
+          },
+          "minecraft:geometry": "geometry.random_model2",
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "jungle_grass",
+              "render_method": "alpha_test_single_sided",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:random') == 2",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [-6.5, 0, -6.5],
+            "size": [13, 11, 13]
+          },
+          "minecraft:geometry": "geometry.random_model1",
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "jungle_grass2",
+              "render_method": "alpha_test_single_sided",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:random') == 3",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [-4, 0, -4],
+            "size": [8, 10, 8]
+          },
+          "minecraft:geometry": "geometry.random_model2",
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "jungle_grass2",
+              "render_method": "alpha_test_single_sided",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:random') == 4",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [-6.5, 0, -6.5],
+            "size": [13, 11, 13]
+          },
+          "minecraft:geometry": "geometry.random_model1",
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "jungle_grass3",
+              "render_method": "alpha_test_single_sided",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:random') == 5",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [-4, 0, -4],
+            "size": [8, 10, 8]
+          },
+          "minecraft:geometry": "geometry.random_model2",
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "jungle_grass3",
+              "render_method": "alpha_test_single_sided",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          }
+        }
+      }
+    ],
+    "components": {
+      "minecraft:custom_components": ["betterend:jungle_index"],
+      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:destructible_by_explosion": true,
+      "minecraft:destructible_by_mining": true,
+      "minecraft:collision_box": false,
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": [
+              "up"
+            ],
+            "block_filter": [
+              "betterend:jungle_moss"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

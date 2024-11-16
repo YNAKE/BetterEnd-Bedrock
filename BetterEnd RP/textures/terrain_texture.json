@@ -3,6 +3,70 @@
   "padding": 8,
   "resource_pack_name": "vanilla",
   "texture_data": {
+    // Umbrella
+    "umbrella_tree_cluster": {
+      "textures": "textures/blocks/umbrella/tree/umbrella_tree_cluster"
+    },
+    "jungle_vine_bottom": {
+      "textures": "textures/blocks/umbrella/plants/jungle_vine_bottom"
+    },
+    "jungle_vine": {
+      "textures": "textures/blocks/umbrella/plants/jungle_vine"
+    },
+    "jungle_fern1": {
+      "textures": "textures/blocks/umbrella/plants/jungle_fern1"
+    },
+    "jungle_fern2": {
+      "textures": "textures/blocks/umbrella/plants/jungle_fern2"
+    },
+    "jungle_fern3": {
+      "textures": "textures/blocks/umbrella/plants/jungle_fern3"
+    },
+    "umbrella_tree_log": {
+      "textures": "textures/blocks/umbrella/tree/umbrella_tree_log"
+    },
+    "umbrella_tree_bark": {
+      "textures": "textures/blocks/umbrella/tree/umbrella_tree_bark"
+    },
+    "umbrella_tree_membrane_7": {
+      "textures": "textures/blocks/umbrella/tree/membrane/umbrella_tree_membrane_7"
+    },
+    "umbrella_tree_membrane_6": {
+      "textures": "textures/blocks/umbrella/tree/membrane/umbrella_tree_membrane_6"
+    },
+    "umbrella_tree_membrane_5": {
+      "textures": "textures/blocks/umbrella/tree/membrane/umbrella_tree_membrane_5"
+    },
+    "umbrella_tree_membrane_4": {
+      "textures": "textures/blocks/umbrella/tree/membrane/umbrella_tree_membrane_4"
+    },
+    "umbrella_tree_membrane_3": {
+      "textures": "textures/blocks/umbrella/tree/membrane/umbrella_tree_membrane_3"
+    },
+    "umbrella_tree_membrane_2": {
+      "textures": "textures/blocks/umbrella/tree/membrane/umbrella_tree_membrane_2"
+    },
+    "umbrella_tree_membrane_1": {
+      "textures": "textures/blocks/umbrella/tree/membrane/umbrella_tree_membrane_1"
+    },
+    "umbrella_tree_membrane_0": {
+      "textures": "textures/blocks/umbrella/tree/membrane/umbrella_tree_membrane_0"
+    },
+    "jungle_grass3": {
+      "textures": "textures/blocks/umbrella/plants/jungle_grass3"
+    },
+    "jungle_grass2": {
+      "textures": "textures/blocks/umbrella/plants/jungle_grass2"
+    },
+    "jungle_grass": {
+      "textures": "textures/blocks/umbrella/plants/jungle_grass"
+    },
+    "jungle_moss_top": {
+      "textures": "textures/blocks/umbrella/jungle_moss_top"
+    },
+    "jungle_moss_side": {
+      "textures": "textures/blocks/umbrella/jungle_moss_side"
+    },
     // Sulphur
     "hydralux_sapling2": {
       "textures": "textures/blocks/sulphur/plants/hydralux_sapling_1"
