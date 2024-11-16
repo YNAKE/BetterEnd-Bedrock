@@ -1,6 +1,15 @@
 {
   "format_version": [1, 1, 0],
   // Umbrella
+  "betterend:umbrella_tree_sapling": {
+    "sound": "grass"
+  },
+  "betterend:tall_twisted_umbrella_moss": {
+    "sound": "grass"
+  },
+  "betterend:twisted_umbrella_moss": {
+    "sound": "grass"
+  },
   "betterend:umbrella_tree_cluster": {
     "sound": "roots",
     "textures": "umbrella_tree_cluster"

@@ -2,6 +2,15 @@
   "resource_pack_name": "vanilla",
   "texture_data": {
     // Umbrella
+    "umbrella_tree_sapling": {
+      "textures": "textures/blocks/umbrella/plants/umbrella_tree_sapling"
+    },
+    "twisted_umbrella_moss": {
+      "textures": "textures/items/umbrella/twisted_umbrella_moss_small"
+    },
+    "tall_twisted_umbrella_moss": {
+      "textures": "textures/items/umbrella/twisted_umbrella_moss_large"
+    },
     "jungle_vine": {
       "textures": "textures/blocks/umbrella/plants/jungle_vine"
     },

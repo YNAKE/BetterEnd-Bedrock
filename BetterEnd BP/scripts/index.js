@@ -16,6 +16,7 @@ system.runInterval(() => {
                 // playerUtils.waila();
                 playerUtils.climb();
                 playerUtils.joinSky();
+                playerUtils.fallVelocity();
             }
             else {
                 // Entity Utils

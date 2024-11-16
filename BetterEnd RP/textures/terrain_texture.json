@@ -4,6 +4,24 @@
   "resource_pack_name": "vanilla",
   "texture_data": {
     // Umbrella
+    "umbrella_tree_sapling": {
+      "textures": "textures/blocks/umbrella/plants/umbrella_tree_sapling"
+    },
+    "twisted_umbrella_moss_small": {
+      "textures": "textures/blocks/umbrella/plants/umbrella_moss_small"
+    },
+    "twisted_umbrella_moss_bottom": {
+      "textures": "textures/blocks/umbrella/plants/umbrella_moss_bottom"
+    },
+    "twisted_umbrella_moss_end": {
+      "textures": "textures/blocks/umbrella/plants/umbrella_moss_end"
+    },
+    "twisted_umbrella_moss_up": {
+      "textures": "textures/blocks/umbrella/plants/umbrella_moss_up"
+    },
+    "twisted_umbrella_moss_sporophyte": {
+      "textures": "textures/blocks/umbrella/plants/umbrella_moss_sporophyte"
+    },
     "umbrella_tree_cluster": {
       "textures": "textures/blocks/umbrella/tree/umbrella_tree_cluster"
     },

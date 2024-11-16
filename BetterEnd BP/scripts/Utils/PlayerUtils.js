@@ -36,6 +36,13 @@ class PlayerUtils {
             }
         }
     }
+    fallVelocity() {
+        const player = this.player;
+        if (player.isFalling) {
+            const vel = player.getVelocity().y;
+            player.setDynamicProperty('betterend:fall_velocity', 0 + Math.abs(vel));
+        }
+    }
     climb() {
         this.player.climb();
     }

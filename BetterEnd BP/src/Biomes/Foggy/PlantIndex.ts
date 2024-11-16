@@ -13,6 +13,13 @@ const blockIndex = {
     random: 3,
     tall: true,
   },
+  "betterend:twisted_umbrella_moss": {
+    random: 3,
+  },
+  "betterend:tall_twisted_umbrella_moss": {
+    random: 3,
+    tall: true,
+  },
 };
 
 world.beforeEvents.worldInitialize.subscribe((data) => {

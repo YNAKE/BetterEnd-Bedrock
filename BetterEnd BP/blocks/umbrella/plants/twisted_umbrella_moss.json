@@ -1,0 +1,110 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:block": {
+      "description": {
+        "identifier": "betterend:twisted_umbrella_moss",
+        "states": {
+          "betterend:random": [0, 1, 2, 4]
+        },
+        "traits": {
+          "minecraft:placement_direction": {
+            "enabled_states": ["minecraft:cardinal_direction"],
+            "y_rotation_offset": 180
+          }
+        }
+      },
+      "permutations": [
+        {
+          "condition": "q.block_state('betterend:random') == 0",
+          "components": {
+            "minecraft:geometry": "geometry.umbrella_moss_small_01"
+          }
+        },
+        {
+          "condition": "q.block_state('betterend:random') == 1",
+          "components": {
+            "minecraft:geometry": "geometry.umbrella_moss_small_02"
+          }
+        },
+        {
+          "condition": "q.block_state('betterend:random') == 2",
+          "components": {
+            "minecraft:geometry": "geometry.umbrella_moss_small_03"
+          }
+        },
+        {
+          "condition": "q.block_state('betterend:random') == 3",
+          "components": {
+            "minecraft:geometry": "geometry.umbrella_moss_small_04"
+          }
+        },
+        {
+          "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+          "components": {
+            "minecraft:transformation": { "rotation": [0, 0, 0] }
+          }
+        },
+        {
+          "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+          "components": {
+            "minecraft:transformation": { "rotation": [0, 90, 0] }
+          }
+        },
+        {
+          "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+          "components": {
+            "minecraft:transformation": { "rotation": [0, 180, 0] }
+          }
+        },
+        {
+          "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+          "components": {
+            "minecraft:transformation": { "rotation": [0, -90, 0] }
+          }
+        }
+      ],
+      "components": {
+        "minecraft:light_emission": 5,
+        "minecraft:custom_components": ["betterend:foggy_index"],
+        "minecraft:loot": "loot_tables/empty.json",
+        "minecraft:selection_box": true,
+        "minecraft:material_instances": {
+          "*": {
+            "texture": "twisted_umbrella_moss_sporophyte",
+            "render_method": "alpha_test_single_sided",
+            "ambient_occlusion": false,
+            "face_dimming": false
+          },
+          "umbrella_moss_small": {
+            "texture": "twisted_umbrella_moss_small",
+            "render_method": "alpha_test_single_sided",
+            "ambient_occlusion": false,
+            "face_dimming": false
+          },
+          "umbrella_moss_end": {
+            "texture": "twisted_umbrella_moss_end",
+            "render_method": "alpha_test_single_sided",
+            "ambient_occlusion": false,
+            "face_dimming": false
+          },
+          "umbrella_moss_up": {
+            "texture": "twisted_umbrella_moss_up",
+            "render_method": "alpha_test_single_sided",
+            "ambient_occlusion": false,
+            "face_dimming": false
+          }
+        },
+        "minecraft:destructible_by_explosion": true,
+        "minecraft:destructible_by_mining": true,
+        "minecraft:collision_box": false,
+        "minecraft:placement_filter": {
+            "conditions": [
+              {
+                "allowed_faces": ["up"],
+                "block_filter": ["betterend:jungle_moss"]
+              }
+            ]
+          }
+      }
+    }
+  }
