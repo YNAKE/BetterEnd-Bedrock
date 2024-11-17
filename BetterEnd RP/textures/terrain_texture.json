@@ -3,6 +3,52 @@
   "padding": 8,
   "resource_pack_name": "vanilla",
   "texture_data": {
+    // Glowing
+    "fracturn": {
+      "textures": "textures/blocks/glowing/plants/fracturn"
+    },
+    "lumecorn_light_top_middle": {
+      "textures": "textures/blocks/glowing/plants/lumecorn_light_top_middle"
+    },
+    "lumecorn_light_top": {
+      "textures": "textures/blocks/glowing/plants/lumecorn_light_top"
+    },
+    "lumecorn_light_middle": {
+      "textures": "textures/blocks/glowing/plants/lumecorn_light_middle"
+    },
+    "lumecorn_light_bottom": {
+      "textures": "textures/blocks/glowing/plants/lumecorn_light_bottom"
+    },
+    "lumecorn_leaf": {
+      "textures": "textures/blocks/glowing/plants/lumecorn_leaf"
+    },
+    "lumecorn_roots": {
+      "textures": "textures/blocks/glowing/plants/lumecorn_roots"
+    },
+    "lumecorn_stem": {
+      "textures": "textures/blocks/glowing/plants/lumecorn_stem"
+    },
+    "lumecorn_0": {
+      "textures": "textures/blocks/glowing/plants/lumecorn_0"
+    },
+    "lumecorn_1": {
+      "textures": "textures/blocks/glowing/plants/lumecorn_1"
+    },
+    "lumecorn_2": {
+      "textures": "textures/blocks/glowing/plants/lumecorn_2"
+    },
+    "lumecorn_3": {
+      "textures": "textures/blocks/glowing/plants/lumecorn_3"
+    },
+    "vaiolush_fern": {
+      "textures": "textures/blocks/glowing/plants/vaiolush_fern"
+    },
+    "salteago": {
+      "textures": "textures/blocks/glowing/plants/salteago"
+    },
+    "blooming_cooksonia": {
+      "textures": "textures/blocks/glowing/plants/blooming_cooksonia"
+    },
     // Umbrella
     "purple_jellyshroom_cap": {
       "textures": "textures/blocks/umbrella/jellyshroom/tree/purple_jellyshroom_cap"

@@ -1,0 +1,18 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "betterend:small_jellyshroom",
+            "menu_category": {
+                "category": "nature",
+                "group": "itemGroup.name.flower"
+            }
+        },
+        "components": {
+            "minecraft:icon": "small_jellyshroom",
+            "minecraft:block_placer": {
+                "block": "betterend:small_jellyshroom"
+            }
+        }
+    }
+}

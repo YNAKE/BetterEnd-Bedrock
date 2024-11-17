@@ -1,7 +1,23 @@
 {
   "resource_pack_name": "vanilla",
   "texture_data": {
+    // Glowing
+    "fracturn": {
+      "textures": "textures/blocks/glowing/plants/fracturn"
+    },
+    "vaiolush_fern": {
+      "textures": "textures/blocks/glowing/plants/vaiolush_fern"
+    },
+    "salteago": {
+      "textures": "textures/blocks/glowing/plants/salteago"
+    },
+    "blooming_cooksonia": {
+      "textures": "textures/blocks/glowing/plants/blooming_cooksonia"
+    },
     // Umbrella
+    "small_jellyshroom": {
+      "textures": "textures/items/umbrella/small_jellyshroom"
+    },
     "umbrella_tree_sapling": {
       "textures": "textures/blocks/umbrella/plants/umbrella_tree_sapling"
     },

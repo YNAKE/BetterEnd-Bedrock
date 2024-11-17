@@ -47,7 +47,6 @@
 				"catch_chance_modifier": 20,
 				"destroy_chance_modifier": 80
 			},
-			"minecraft:loot": "loot_tables/empty.json",
 			"minecraft:map_color": "#C467A2",
 			"tag:plant": {},
 			"tag:fertilize_area": {},

@@ -1,6 +1,22 @@
 {
   "format_version": [1, 1, 0],
+  // Glowing
+  "betterend:fracturn": {
+    "sound": "grass"
+  },
+  "betterend:salteago": {
+    "sound": "grass"
+  },
+  "betterend:blooming_cooksonia": {
+    "sound": "grass"
+  },
+  "betterend:vaiolush_fern": {
+    "sound": "grass"
+  },
   // Umbrella
+  "betterend:jellyshroom_cap_purple": {
+    "sound": "slime"
+  },
   "betterend:small_jellyshroom": {
     "sound": "grass"
   },
