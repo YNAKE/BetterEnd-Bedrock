@@ -1,6 +1,9 @@
 {
   "format_version": [1, 1, 0],
   // Glowing
+  "betterend:lumecorn_seed": {
+    "sound": "grass"
+  },
   "betterend:fracturn": {
     "sound": "grass"
   },

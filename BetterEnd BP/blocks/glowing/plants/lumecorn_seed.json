@@ -147,8 +147,8 @@
             "*": {
               "texture": "lumecorn_roots",
               "render_method": "alpha_test_single_sided",
-              "ambient_occlusion": true,
-              "face_dimming": true
+              "ambient_occlusion": false,
+              "face_dimming": false
             }
           }
         }
@@ -161,8 +161,8 @@
             "*": {
               "texture": "lumecorn_leaf",
               "render_method": "alpha_test_single_sided",
-              "ambient_occlusion": true,
-              "face_dimming": true
+              "ambient_occlusion": false,
+              "face_dimming": false
             }
           }
         }
@@ -175,8 +175,8 @@
             "*": {
               "texture": "lumecorn_leaf",
               "render_method": "alpha_test_single_sided",
-              "ambient_occlusion": true,
-              "face_dimming": true
+              "ambient_occlusion": false,
+              "face_dimming": false
             }
           }
         }
