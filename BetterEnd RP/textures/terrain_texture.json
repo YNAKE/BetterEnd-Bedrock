@@ -4,7 +4,9 @@
   "resource_pack_name": "vanilla",
   "texture_data": {
     // Neon
-    
+    "neon_cactus": {
+      "textures": "textures/blocks/neon/neon_cactus"
+    },
     // Glowing
     "fracturn": {
       "textures": "textures/blocks/glowing/plants/fracturn"

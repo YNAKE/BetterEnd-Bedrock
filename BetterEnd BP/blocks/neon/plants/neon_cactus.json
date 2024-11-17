@@ -8,7 +8,9 @@
             },
             "states": {
                 "betterend:sizes": [
-                    0, 1, 2
+                    0,
+                    1,
+                    2
                 ]
             }
         },
@@ -16,12 +18,109 @@
             {
                 "condition": "q.block_state('betterend:sizes') == 0",
                 "components": {
-                    "minecraft:geometry": "geometry"
+                    "minecraft:geometry": "geometry.neon_cactus_big",
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -6,
+                            0,
+                            -6
+                        ],
+                        "size": [
+                            12,
+                            14,
+                            12
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -6,
+                            0,
+                            -6
+                        ],
+                        "size": [
+                            12,
+                            14,
+                            12
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('betterend:sizes') == 1",
+                "components": {
+                    "minecraft:geometry": "geometry.neon_cactus_medium",
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -5,
+                            0,
+                            -5
+                        ],
+                        "size": [
+                            10,
+                            13,
+                            10
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -5,
+                            0,
+                            -5
+                        ],
+                        "size": [
+                            10,
+                            13,
+                            10
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('betterend:sizes') == 2",
+                "components": {
+                    "minecraft:geometry": "geometry.neon_cactus_small",
+                    "minecraft:collision_box": {
+                        "origin": [
+                            -4,
+                            0,
+                            -4
+                        ],
+                        "size": [
+                            8,
+                            12,
+                            8
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -4,
+                            0,
+                            -4
+                        ],
+                        "size": [
+                            8,
+                            12,
+                            8
+                        ]
+                    }
                 }
             }
         ],
         "components": {
-            "minecraft:collision_box": true
+            "minecraft:flammable": false,
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1
+            },
+            "minecraft:destructible_by_explosion": true,
+            "minecraft:light_emission": 15,
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "neon_cactus",
+                    "render_method": "alpha_test_single_sided",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
+                }
+            }
         }
     }
 }
