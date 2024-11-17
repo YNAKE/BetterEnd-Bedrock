@@ -2,6 +2,12 @@
   "resource_pack_name": "vanilla",
   "texture_data": {
     // Glowing
+    "lumecorn_rod": {
+      "textures": "textures/items/glowing/lumecorn_rod"
+    },
+    "lumecorn_seed": {
+      "textures": "textures/items/glowing/lumecorn_seed"
+    },
     "fracturn": {
       "textures": "textures/blocks/glowing/plants/fracturn"
     },
