@@ -3,6 +3,8 @@
   "padding": 8,
   "resource_pack_name": "vanilla",
   "texture_data": {
+    // Neon
+    
     // Glowing
     "fracturn": {
       "textures": "textures/blocks/glowing/plants/fracturn"

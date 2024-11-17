@@ -1,6 +1,7 @@
 {
   "resource_pack_name": "vanilla",
   "texture_data": {
+    // Neon
     // Glowing
     "lumecorn_rod": {
       "textures": "textures/items/glowing/lumecorn_rod"
