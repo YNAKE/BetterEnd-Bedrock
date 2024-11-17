@@ -107,6 +107,7 @@
             }
         ],
         "components": {
+            "minecraft:custom_components": [ "betterend:neon_cactus" ],
             "minecraft:flammable": false,
             "minecraft:destructible_by_mining": {
                 "seconds_to_destroy": 1
