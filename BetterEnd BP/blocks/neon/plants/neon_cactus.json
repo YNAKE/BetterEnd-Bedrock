@@ -1,0 +1,27 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "betterend:neon_cactus",
+            "menu_category": {
+                "category": "nature"
+            },
+            "states": {
+                "betterend:sizes": [
+                    0, 1, 2
+                ]
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('betterend:sizes') == 0",
+                "components": {
+                    "minecraft:geometry": "geometry"
+                }
+            }
+        ],
+        "components": {
+            "minecraft:collision_box": true
+        }
+    }
+}
