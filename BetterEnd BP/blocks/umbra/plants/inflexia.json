@@ -1,0 +1,53 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "betterend:inflexia"
+        },
+        "components": {
+            "minecraft:custom_components": [
+                "betterend:umbra_index"
+            ],
+            "minecraft:selection_box": {
+                "origin": [
+                    -6.5,
+                    0,
+                    -6.5
+                ],
+                "size": [
+                    13,
+                    11,
+                    13
+                ]
+            },
+            "minecraft:geometry": "geometry.random_model2",
+            "minecraft:loot": "loot_tables/empty.json",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "inflexia",
+                    "render_method": "alpha_test_single_sided",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
+                }
+            },
+            "minecraft:destructible_by_explosion": true,
+            "minecraft:destructible_by_mining": true,
+            "minecraft:collision_box": false,
+            "minecraft:placement_filter": {
+                "conditions": [
+                    {
+                        "allowed_faces": [
+                            "up"
+                        ],
+                        "block_filter": [
+                            "betterend:pallidium_full",
+                            "betterend:pallidium_heavy",
+                            "betterend:pallidium_thin",
+                            "betterend:pallidium_tiny"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}
