@@ -47,6 +47,12 @@
           "components": {
             "tag:neon_oasis": {}
           }
+        },
+        {
+          "condition": "q.block_state('betterend:biomes') == 'crystal_mountains'",
+          "components": {
+            "tag:crystal_mountains": {}
+          }
         }
       ],
       "components": {
