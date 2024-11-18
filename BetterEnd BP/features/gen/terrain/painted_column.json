@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "betterend:gen/terrain/painted_column"
+    },
+    "iterations":  "t.maxheight = t.Painted - v.originy; return 1;",
+    "x": 0,
+    "z": 0,
+    "y": "t.height - 40",
+    "places_feature": "betterend:gen/terrain/painted_block"
+  }
+}

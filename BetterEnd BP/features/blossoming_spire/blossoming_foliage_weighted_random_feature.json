@@ -1,0 +1,12 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:weighted_random_feature": {
+        "description": {
+            "identifier": "betterend:blossoming_spire/blossoming_foliage_weighted_random_feature"
+        },
+        "features": [
+            ["betterend:blossoming_spire/bushy_grass_scatter_feature", 5],
+            ["betterend:blossoming_spire/blossom_berry_seed_scatter_feature", 1]
+        ]
+    }
+}

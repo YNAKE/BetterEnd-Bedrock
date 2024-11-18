@@ -1,0 +1,16 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:vegetation_patch_feature": {
+    "description": {
+	"identifier": "betterend:chorus_forest/chorus_nylium_surface_feature"
+    },
+	"vegetation_feature": "betterend:the_end/air_single_block_feature",
+	"ground_block": "betterend:chorus_nylium",
+	"surface": "floor",
+	"extra_edge_column_chance": 0.6,
+	"depth": 1,
+	"vertical_range": 9,
+	"horizontal_radius": { "range_min": 7, "range_max": 12 },
+	"replaceable_blocks": [ "minecraft:end_stone" ]
+ }
+}

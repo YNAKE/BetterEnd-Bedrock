@@ -1,0 +1,18 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "betterend:painted_mountains/violecite_column2"
+		},
+		"places_feature": "betterend:painted_mountains/violecite_material",
+		"iterations": "math.floor(t.maxheight/10) + 1",
+		"x": 0,
+		"z": 0,
+		"y": {
+			"distribution": "fixed_grid",
+			"extent": [0, "t.maxheight - 1"],
+			"step_size": 10,
+			"grid_offset": 1
+		}
+	}
+}

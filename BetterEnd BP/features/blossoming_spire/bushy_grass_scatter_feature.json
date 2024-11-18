@@ -1,0 +1,19 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "betterend:blossoming_spire/bushy_grass_scatter_feature"
+    },
+    "iterations": "return 6 * t.SizePlant;",
+    "x": {
+      "extent": [ "-t.SizePlant", "t.SizePlant" ],
+      "distribution": "gaussian"
+    },
+    "z": {
+      "extent": [ "-t.SizePlant", "t.SizePlant" ],
+      "distribution": "gaussian"
+    },
+    "y": "q.heightmap(v.worldx, v.worldz) - v.originy",
+    "places_feature": "betterend:blossoming_spire/bushy_grass_weighted_random_feature"
+  }
+}

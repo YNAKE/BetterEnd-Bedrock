@@ -1,0 +1,16 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "betterend:gen/terrain/mountain_column"
+    },
+    "iterations": 1,
+    "x": 0,
+    "z": 0,
+    "y": {
+      "extent": [ 0, "t.BiomeMountain" ],
+      "distribution": "fixed_grid"
+    },
+    "places_feature": "betterend:gen/terrain/mountain_block"
+  }
+}

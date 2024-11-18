@@ -1,0 +1,16 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "betterend:gen/terrain/foliage_feature"
+		},
+		"features": [
+			"betterend:amber_land/amber_foliage_scatter_feature",
+			"betterend:amber_land/amber_growing_plant_scatter_feature",
+			"betterend:amber_land/amber_tree_scatter_feature",
+			"betterend:blossoming_spire/blossoming_foliage_scatter_feature",
+			"betterend:chorus_forest/chorus_foliage_scatter_feature",
+			"betterend:chorus_forest/chorus_bush_scatter_feature"
+		]
+	}
+}

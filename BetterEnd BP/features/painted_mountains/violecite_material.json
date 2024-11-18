@@ -1,0 +1,12 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:single_block_feature": {
+		"description": {
+			"identifier": "betterend:painted_mountains/violecite_material"
+		},
+		"places_block": "netherrack",
+		"enforce_survivability_rules": false,
+		"enforce_placement_rules": false,
+		"may_replace":["basalt"]
+	}
+}

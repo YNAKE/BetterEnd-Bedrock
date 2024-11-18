@@ -1,0 +1,18 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:weighted_random_feature": {
+        "description": {
+            "identifier": "betterend:chorus_forest/chorus_grass_weighted_random_feature"
+        },
+        "features": [
+            ["betterend:chorus_forest/chorus_grass_0_single_block_feature", 4],
+            ["betterend:chorus_forest/chorus_grass_1_single_block_feature", 4],
+            ["betterend:chorus_forest/chorus_grass_2_single_block_feature", 1],
+            ["betterend:chorus_forest/chorus_grass_3_single_block_feature", 1],
+            ["betterend:chorus_forest/chorus_grass_4_single_block_feature", 1],
+            ["betterend:chorus_forest/chorus_grass_5_single_block_feature", 1],
+            ["betterend:chorus_forest/chorus_grass_6_single_block_feature", 1],
+            ["betterend:chorus_forest/chorus_grass_7_single_block_feature", 1]
+        ]
+    }
+}
