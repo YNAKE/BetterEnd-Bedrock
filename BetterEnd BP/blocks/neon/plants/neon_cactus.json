@@ -1,297 +1,244 @@
 {
-    "format_version": "1.21.0",
-    "minecraft:block": {
-        "description": {
-            "identifier": "betterend:neon_cactus",
-            "menu_category": {
-                "category": "nature"
-            },
-            "states": {
-                "betterend:sizes": [
-                    0,
-                    1,
-                    2
-                ]
-            },
-            "traits": {
-                "minecraft:placement_direction": {
-                    "enabled_states": [
-                        "minecraft:facing_direction"
-                    ]
-                }
-            }
-        },
-        "permutations": [
-            {
-                "condition": "q.block_state('minecraft:facing_direction') == 'down'",
-                "components": {
-                    "minecraft:transformation": {
-                        "rotation": [
-                            -90,
-                            0,
-                            0
-                        ]
-                    }
-                }
-            },
-            {
-                "condition": "q.block_state('minecraft:facing_direction') == 'up'",
-                "components": {
-                    "minecraft:transformation": {
-                        "rotation": [
-                            90,
-                            0,
-                            0
-                        ]
-                    }
-                }
-            },
-            {
-                "condition": "q.block_state('minecraft:facing_direction') == 'north'",
-                "components": {
-                    "minecraft:transformation": {
-                        "rotation": [
-                            0,
-                            0,
-                            0
-                        ]
-                    }
-                }
-            },
-            {
-                "condition": "q.block_state('minecraft:facing_direction') == 'west'",
-                "components": {
-                    "minecraft:transformation": {
-                        "rotation": [
-                            0,
-                            90,
-                            0
-                        ]
-                    }
-                }
-            },
-            {
-                "condition": "q.block_state('minecraft:facing_direction') == 'south'",
-                "components": {
-                    "minecraft:transformation": {
-                        "rotation": [
-                            0,
-                            180,
-                            0
-                        ]
-                    }
-                }
-            },
-            {
-                "condition": "q.block_state('minecraft:facing_direction') == 'east'",
-                "components": {
-                    "minecraft:transformation": {
-                        "rotation": [
-                            0,
-                            -90,
-                            0
-                        ]
-                    }
-                }
-            },
-            {
-                "condition": "q.block_state('betterend:sizes') == 0",
-                "components": {
-                    "minecraft:geometry": "geometry.neon_cactus_big",
-                    "minecraft:collision_box": {
-                        "origin": [
-                            -6,
-                            2,
-                            -8
-                        ],
-                        "size": [
-                            12,
-                            12,
-                            16
-                        ]
-                    },
-                    "minecraft:selection_box": {
-                        "origin": [
-                            -6,
-                            2,
-                            -8
-                        ],
-                        "size": [
-                            12,
-                            12,
-                            16
-                        ]
-                    },
-                    "minecraft:placement_filter": {
-                        "conditions": [
-                            {
-                                "allowed_faces": [
-                                    "up"
-                                ],
-                                "block_filter": [
-                                    "betterend:end_moss"
-                                ]
-                            },
-                            {
-                                "block_filter": [
-                                    "betterend:neon_cactus"
-                                ]
-                            }
-                        ]
-                    }
-                }
-            },
-            {
-                "condition": "q.block_state('betterend:sizes') == 1",
-                "components": {
-                    "minecraft:geometry": "geometry.neon_cactus_medium",
-                    "minecraft:collision_box": {
-                        "origin": [
-                            -5,
-                            2,
-                            -8
-                        ],
-                        "size": [
-                            10,
-                            10,
-                            16
-                        ]
-                    },
-                    "minecraft:selection_box": {
-                        "origin": [
-                            -5,
-                            2,
-                            -8
-                        ],
-                        "size": [
-                            10,
-                            10,
-                            16
-                        ]
-                    },
-                    "minecraft:placement_filter": {
-                        "conditions": [
-                            {
-                                "allowed_faces": [
-                                    "up"
-                                ],
-                                "block_filter": [
-                                    "betterend:end_moss"
-                                ]
-                            },
-                            {
-                                "block_filter": [
-                                    {
-                                        "name": "betterend:neon_cactus",
-                                        "states": {
-                                            "betterend:sizes": 1
-                                        }
-                                    },
-                                    {
-                                        "name": "betterend:neon_cactus",
-                                        "states": {
-                                            "betterend:sizes": 0
-                                        }
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                }
-            },
-            {
-                "condition": "q.block_state('betterend:sizes') == 2",
-                "components": {
-                    "minecraft:geometry": "geometry.neon_cactus_small",
-                    "minecraft:collision_box": {
-                        "origin": [
-                            -4,
-                            2,
-                            -8
-                        ],
-                        "size": [
-                            8,
-                            8,
-                            16
-                        ]
-                    },
-                    "minecraft:selection_box": {
-                        "origin": [
-                            -4,
-                            2,
-                            -8
-                        ],
-                        "size": [
-                            8,
-                            8,
-                            16
-                        ]
-                    },
-                    "minecraft:placement_filter": {
-                        "conditions": [
-                            {
-                                "allowed_faces": [
-                                    "up"
-                                ],
-                                "block_filter": [
-                                    "betterend:end_moss"
-                                ]
-                            },
-                            {
-                                "block_filter": [
-                                    {
-                                        "name": "betterend:neon_cactus",
-                                        "states": {
-                                            "betterend:sizes": 1
-                                        }
-                                    },
-                                    {
-                                        "name": "betterend:neon_cactus",
-                                        "states": {
-                                            "betterend:sizes": 2
-                                        }
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                }
-            }
-        ],
-        "components": {
-            "minecraft:custom_components": [
-                "betterend:neon_cactus"
-            ],
-            "minecraft:tick": {
-                "looping": true,
-                "interval_range": [ 5, 10 ]
-            },
-            "minecraft:flammable": false,
-            "minecraft:destructible_by_mining": {
-                "seconds_to_destroy": 1
-            },
-            "minecraft:destructible_by_explosion": true,
-            "minecraft:light_emission": 15,
-            "minecraft:material_instances": {
-                "*": {
-                    "texture": "neon_cactus",
-                    "render_method": "alpha_test_single_sided",
-                    "ambient_occlusion": false,
-                    "face_dimming": false
-                }
-            },
-            "minecraft:placement_filter": {
-                "conditions": [
-                    {
-                        "allowed_faces": [
-                            "up"
-                        ],
-                        "block_filter": [
-                            "betterend:end_moss"
-                        ]
-                    }
-                ]
-            }
-        }
-    }
+	"format_version": "1.20.20",
+	"minecraft:block": {
+		"description": {
+			"identifier": "betterend:neon_cactus",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.flower"
+			},
+			"states": {
+				"betterend:size": [
+					0,
+					1,
+					2
+				]
+			},
+			"traits": {
+				"minecraft:placement_position": {
+					"enabled_states": [
+						"minecraft:block_face"
+					]
+				}
+			}
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('minecraft:block_face') == 'up'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							0,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:block_face') == 'down'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							0,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:block_face') == 'north'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							-90,
+							0,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:block_face') == 'west'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							0,
+							90
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:block_face') == 'south'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							90,
+							0,
+							0
+						]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('minecraft:block_face') == 'east'",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							0,
+							-90
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('betterend:size') == 0",
+				"components": {
+					"tag:cactus_small": {},
+					"minecraft:geometry": "geometry.neon_cactus_small",
+					"minecraft:material_instances": {
+						"*": {
+							"ambient_occlusion": false,
+							"face_dimming": false,
+							"render_method": "alpha_test",
+							"texture": "neon_cactus_small"
+						}
+					},
+					"minecraft:collision_box": {
+						"size": [
+							8,
+							12,
+							8
+						],
+						"origin": [
+							-4,
+							0,
+							-4
+						]
+					},
+					"minecraft:selection_box": {
+						"origin": [
+							-4,
+							0,
+							-4
+						],
+						"size": [
+							8,
+							12,
+							8
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('betterend:size') == 1",
+				"components": {
+					"tag:cactus_medium": {},
+					"minecraft:geometry": "geometry.neon_cactus_medium",
+					"minecraft:material_instances": {
+						"*": {
+							"ambient_occlusion": false,
+							"face_dimming": false,
+							"render_method": "alpha_test",
+							"texture": "neon_cactus_medium"
+						}
+					},
+					"minecraft:collision_box": {
+						"size": [
+							10,
+							12,
+							10
+						],
+						"origin": [
+							-5,
+							0,
+							-5
+						]
+					},
+					"minecraft:selection_box": {
+						"size": [
+							10,
+							12,
+							10
+						],
+						"origin": [
+							-5,
+							0,
+							-5
+						]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('betterend:size') == 2",
+				"components": {
+					"tag:cactus_big": {},
+					"minecraft:geometry": "geometry.neon_cactus_big",
+					"minecraft:material_instances": {
+						"*": {
+							"ambient_occlusion": false,
+							"face_dimming": false,
+							"render_method": "alpha_test",
+							"texture": "neon_cactus_big"
+						}
+					},
+					"minecraft:collision_box": {
+						"size": [
+							12,
+							14,
+							12
+						],
+						"origin": [
+							-6,
+							0,
+							-6
+						]
+					},
+					"minecraft:selection_box": {
+						"size": [
+							12,
+							14,
+							12
+						],
+						"origin": [
+							-6,
+							0,
+							-6
+						]
+					}
+				}
+			}
+		],
+		"components": {
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": [
+							"up"
+						],
+						"block_filter": [
+							"betterend:end_moss",
+							"betterend:endstone_dust"
+						]
+					},
+					{
+						"block_filter": [
+							"betterend:neon_cactus"
+						]
+					}
+				]
+			},
+			"minecraft:map_color": "#00957E",
+			"minecraft:destructible_by_explosion": true,
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 0.2
+			},
+			"minecraft:light_dampening": 0,
+			"minecraft:light_emission": 15
+		}
+	}
 }
