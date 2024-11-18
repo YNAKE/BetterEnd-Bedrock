@@ -12,9 +12,88 @@
                     1,
                     2
                 ]
+            },
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:facing_direction"
+                    ]
+                }
             }
         },
         "permutations": [
+            {
+                "condition": "q.block_state('minecraft:facing_direction') == 'down'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            -90,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:facing_direction') == 'up'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            90,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:facing_direction') == 'north'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:facing_direction') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:facing_direction') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:facing_direction') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            -90,
+                            0
+                        ]
+                    }
+                }
+            },
             {
                 "condition": "q.block_state('betterend:sizes') == 0",
                 "components": {
@@ -22,25 +101,42 @@
                     "minecraft:collision_box": {
                         "origin": [
                             -6,
-                            0,
-                            -6
+                            2,
+                            -8
                         ],
                         "size": [
                             12,
-                            14,
-                            12
+                            12,
+                            16
                         ]
                     },
                     "minecraft:selection_box": {
                         "origin": [
                             -6,
-                            0,
-                            -6
+                            2,
+                            -8
                         ],
                         "size": [
                             12,
-                            14,
-                            12
+                            12,
+                            16
+                        ]
+                    },
+                    "minecraft:placement_filter": {
+                        "conditions": [
+                            {
+                                "allowed_faces": [
+                                    "up"
+                                ],
+                                "block_filter": [
+                                    "betterend:end_moss"
+                                ]
+                            },
+                            {
+                                "block_filter": [
+                                    "betterend:neon_cactus"
+                                ]
+                            }
                         ]
                     }
                 }
@@ -52,25 +148,53 @@
                     "minecraft:collision_box": {
                         "origin": [
                             -5,
-                            0,
-                            -5
+                            2,
+                            -8
                         ],
                         "size": [
                             10,
-                            13,
-                            10
+                            10,
+                            16
                         ]
                     },
                     "minecraft:selection_box": {
                         "origin": [
                             -5,
-                            0,
-                            -5
+                            2,
+                            -8
                         ],
                         "size": [
                             10,
-                            13,
-                            10
+                            10,
+                            16
+                        ]
+                    },
+                    "minecraft:placement_filter": {
+                        "conditions": [
+                            {
+                                "allowed_faces": [
+                                    "up"
+                                ],
+                                "block_filter": [
+                                    "betterend:end_moss"
+                                ]
+                            },
+                            {
+                                "block_filter": [
+                                    {
+                                        "name": "betterend:neon_cactus",
+                                        "states": {
+                                            "betterend:sizes": 1
+                                        }
+                                    },
+                                    {
+                                        "name": "betterend:neon_cactus",
+                                        "states": {
+                                            "betterend:sizes": 0
+                                        }
+                                    }
+                                ]
+                            }
                         ]
                     }
                 }
@@ -82,32 +206,66 @@
                     "minecraft:collision_box": {
                         "origin": [
                             -4,
-                            0,
-                            -4
+                            2,
+                            -8
                         ],
                         "size": [
                             8,
-                            12,
-                            8
+                            8,
+                            16
                         ]
                     },
                     "minecraft:selection_box": {
                         "origin": [
                             -4,
-                            0,
-                            -4
+                            2,
+                            -8
                         ],
                         "size": [
                             8,
-                            12,
-                            8
+                            8,
+                            16
+                        ]
+                    },
+                    "minecraft:placement_filter": {
+                        "conditions": [
+                            {
+                                "allowed_faces": [
+                                    "up"
+                                ],
+                                "block_filter": [
+                                    "betterend:end_moss"
+                                ]
+                            },
+                            {
+                                "block_filter": [
+                                    {
+                                        "name": "betterend:neon_cactus",
+                                        "states": {
+                                            "betterend:sizes": 1
+                                        }
+                                    },
+                                    {
+                                        "name": "betterend:neon_cactus",
+                                        "states": {
+                                            "betterend:sizes": 2
+                                        }
+                                    }
+                                ]
+                            }
                         ]
                     }
                 }
             }
         ],
         "components": {
-            "minecraft:custom_components": [ "betterend:neon_cactus" ],
+            "minecraft:custom_components": [
+                "betterend:neon_cactus"
+            ],
+            "minecraft:tick": {
+                "looping": true,
+                "interval_range": [ 5, 10 ]
+            },
             "minecraft:flammable": false,
             "minecraft:destructible_by_mining": {
                 "seconds_to_destroy": 1
@@ -121,6 +279,18 @@
                     "ambient_occlusion": false,
                     "face_dimming": false
                 }
+            },
+            "minecraft:placement_filter": {
+                "conditions": [
+                    {
+                        "allowed_faces": [
+                            "up"
+                        ],
+                        "block_filter": [
+                            "betterend:end_moss"
+                        ]
+                    }
+                ]
             }
         }
     }
