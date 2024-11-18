@@ -1,6 +1,13 @@
 {
   "resource_pack_name": "vanilla",
   "texture_data": {
+    // Umbra
+    "flammalix": {
+      "textures": "textures/items/umbra/flammalix"
+    },
+    "inflexia": {
+      "textures": "textures/blocks/umbra/plants/inflexia"
+    },
     // Neon
     // Glowing
     "lumecorn_rod": {

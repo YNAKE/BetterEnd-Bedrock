@@ -3,9 +3,22 @@
   "padding": 8,
   "resource_pack_name": "vanilla",
   "texture_data": {
+    // Umbra
+    "flammalix": {
+      "textures": "textures/blocks/umbra/plants/flammalix"
+    },
+    "inflexia": {
+      "textures": "textures/blocks/umbra/plants/inflexia"
+    },
     // Neon
-    "neon_cactus": {
-      "textures": "textures/blocks/neon/neon_cactus"
+    "neon_cactus_small": {
+      "textures": "textures/blocks/neon/neon_cactus_small"
+    },
+    "neon_cactus_medium": {
+      "textures": "textures/blocks/neon/neon_cactus_medium"
+    },
+    "neon_cactus_big": {
+      "textures": "textures/blocks/neon/neon_cactus_big"
     },
     // Glowing
     "fracturn": {
