@@ -19,8 +19,8 @@
             "*": {
               "texture": "crystal_grass_2",
               "render_method": "alpha_test_single_sided",
-              "ambient_occlusion": true,
-              "face_dimming": true
+              "ambient_occlusion": false,
+              "face_dimming": false
             }
           },
           "minecraft:geometry": "geometry.crystal_grass_1"
@@ -37,8 +37,8 @@
             "*": {
               "texture": "crystal_grass_3",
               "render_method": "alpha_test_single_sided",
-              "ambient_occlusion": true,
-              "face_dimming": true
+              "ambient_occlusion": false,
+              "face_dimming": false
             }
           },
           "minecraft:geometry": "geometry.crystal_grass_2"
@@ -55,8 +55,8 @@
             "*": {
               "texture": "crystal_grass_4",
               "render_method": "alpha_test_single_sided",
-              "ambient_occlusion": true,
-              "face_dimming": true
+              "ambient_occlusion": false,
+              "face_dimming": false
             }
           },
           "minecraft:geometry": "geometry.crystal_grass_3"
@@ -73,8 +73,8 @@
             "*": {
               "texture": "crystal_grass_5",
               "render_method": "alpha_test_single_sided",
-              "ambient_occlusion": true,
-              "face_dimming": true
+              "ambient_occlusion": false,
+              "face_dimming": false
             }
           },
           "minecraft:geometry": "geometry.crystal_grass_4"
