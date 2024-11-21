@@ -8,6 +8,7 @@
       "minecraft:custom_components": ["betterend:foggy_index"],
       "minecraft:loot": "loot_tables/empty.json",
       "minecraft:geometry": "geometry.creeping_moss",
+      "minecraft:light_emission": 15,
       "minecraft:material_instances": {
         "*": {
           "texture": "creeping_moss",
