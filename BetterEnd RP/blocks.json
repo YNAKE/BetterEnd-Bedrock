@@ -105,7 +105,10 @@
     "sound": "grass"
   },
   "betterend:jungle_moss": {
-    "sound": "grass",
+    "sound": "gravel",
+    "isotropic": {
+      "up": true
+    }, 
     "textures": {
       "down": "end_stone",
       "up": "jungle_moss_top",
@@ -156,7 +159,7 @@
     "sound": "wood"
   },
   "betterend:shadow_grass": {
-    "sound": "grass",
+    "sound": "gravel",
     "isotropic": {
       "up": true
     },
@@ -228,7 +231,7 @@
     "sound": "grass"
   },
   "betterend:end_moss": {
-    "sound": "grass",
+    "sound": "gravel",
     "textures": {
       "side": "end_moss_side",
       "up": "end_moss_top",
@@ -293,7 +296,7 @@
     "sound": "grass"
   },
   "betterend:crystal_moss": {
-    "sound": "grass",
+    "sound": "gravel",
     "isotropic": {
       "up": true
     },
@@ -379,7 +382,7 @@
     "isotropic": {
       "up": true
     },
-    "sound": "grass",
+    "sound": "gravel",
     "textures": {
       "up": "pink_moss_top",
       "side": "pink_moss_side",
