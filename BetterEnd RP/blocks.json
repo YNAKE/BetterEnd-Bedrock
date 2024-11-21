@@ -273,6 +273,8 @@
   // Dust
   "betterend:endstone_dust": {
     "sound": "sand",
+    "isotropic": true, 
+    "brightness_gamma": 0.550,
     "textures": "endstone_dust"
   },
   // Crystal
