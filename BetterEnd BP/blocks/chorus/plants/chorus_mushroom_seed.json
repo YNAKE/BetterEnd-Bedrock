@@ -19,7 +19,7 @@
             "*": {
               "texture": "chorus_mushroom_0",
               "render_method": "alpha_test_single_sided",
-              "ambient_occlusion": true,
+              "ambient_occlusion": false,
               "face_dimming": false
             }
           }
@@ -36,7 +36,7 @@
             "*": {
               "texture": "chorus_mushroom_1",
               "render_method": "alpha_test_single_sided",
-              "ambient_occlusion": true,
+              "ambient_occlusion": false, 
               "face_dimming": false
             }
           }
@@ -53,7 +53,7 @@
             "*": {
               "texture": "chorus_mushroom_2",
               "render_method": "alpha_test_single_sided",
-              "ambient_occlusion": true,
+              "ambient_occlusion": false,
               "face_dimming": false
             }
           }
@@ -71,7 +71,7 @@
             "*": {
               "texture": "chorus_mushroom_3",
               "render_method": "alpha_test_single_sided",
-              "ambient_occlusion": true,
+              "ambient_occlusion": false, 
               "face_dimming": false
             }
           }
