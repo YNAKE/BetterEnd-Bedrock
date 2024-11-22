@@ -150,6 +150,11 @@
   },
   "betterend:dragon_tree_leaves": {
     "sound": "grass",
+    "brightness_gamma": 0.80,
+    "isotropic":{
+      "up": true, 
+      "down": true
+    }, 
     "textures": "dragon_tree_leaves"
   },
   "betterend:dragon_tree_log": {
@@ -194,7 +199,11 @@
   "betterend:lacugrove_leaves": {
     "sound": "grass",
     "textures": "lacugrove_leaves",
-    "isotropic": true
+    "brightness_gamma": 0.80,
+    "isotropic": {
+      "up": true, 
+      "down": true
+    }
   },
   "betterend:lacugrove_bark": {
     "sound": "wood"
@@ -277,7 +286,7 @@
   "betterend:endstone_dust": {
     "sound": "sand",
     "isotropic": true, 
-    "brightness_gamma": 0.550,
+    "brightness_gamma": 0.55,
     "textures": "endstone_dust"
   },
   // Crystal
@@ -342,10 +351,14 @@
   "betterend:pythadendron_leaves": {
     "textures": "pythadendron_leaves",
     "sound": "grass",
-    "isotropic": true
+    "brightness_gamma": 0.80,
+    "isotropic":{
+      "up": true, 
+      "down": true
+    }
   },
   // Blossoming
-  "betterend:tenanea_flowers_purple_and_blue": {
+    "betterend:tenanea_flowers_purple_and_blue": {
     "sound": "grass"
   },
   "betterend:tenanea_flowers_purple": {
@@ -404,7 +417,11 @@
   "betterend:tenanea_leaves": {
     "sound": "grass",
     "textures": "tenanea_leaves",
-    "isotropic": true
+    "brightness_gamma": 0.80,
+    "isotropic":{
+      "up": true, 
+      "down": true
+    }
   },
   // Amberland
   "betterend:glowing_pillar_leaves": {
