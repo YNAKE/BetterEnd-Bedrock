@@ -5,6 +5,9 @@ const blockIndex = {
   "betterend:lucernia_leaves": {
     random: 3
   },
+  "betterend:ruscus": {
+    random: 2
+  }
 };
 
 world.beforeEvents.worldInitialize.subscribe((data) => {

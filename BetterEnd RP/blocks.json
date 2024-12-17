@@ -1,6 +1,12 @@
 {
   "format_version": "1.21.40",
   // Lantern
+  "betterend:ruscus": {
+    "sound": "grass"
+  },
+  "betterend:lutebus": {
+    "sound": "grass"
+  },
   "betterend:aeridium": {
     "sound": "grass"
   },
