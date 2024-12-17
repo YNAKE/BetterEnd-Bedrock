@@ -10,3 +10,4 @@ import "./Sulphur";
 import "./Umbrella";
 import "./Glowing";
 import "./Umbra";
+import "./Lantern";

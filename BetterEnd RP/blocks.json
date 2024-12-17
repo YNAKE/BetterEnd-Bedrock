@@ -1,6 +1,9 @@
 {
   "format_version": "1.21.40",
   // Umbra
+  "betterend:lucernia_leaves": {
+    "sound": "grass"
+  },
   "betterend:pallidium_tiny": {
     "sound": "stone",
     "textures": {

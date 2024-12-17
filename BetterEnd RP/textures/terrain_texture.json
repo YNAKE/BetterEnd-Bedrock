@@ -3,6 +3,31 @@
   "padding": 8,
   "resource_pack_name": "vanilla",
   "texture_data": {
+    // Lantern
+    "lucernia_bark": {
+      "textures": "textures/blocks/lantern/tree/lucernia_bark"
+    },
+    "lucernia_bark2": {
+      "textures": "textures/blocks/lantern/tree/lucernia_bark2"
+    },
+    "lucernia_log": {
+      "textures": "textures/blocks/lantern/tree/lucernia_log"
+    },
+    "lucernia_log2": {
+      "textures": "textures/blocks/lantern/tree/lucernia_log2"
+    },
+    "lucernia_leaves": {
+      "textures": "textures/blocks/lantern/tree/lucernia_leaves_1"
+    },
+    "lucernia_leaves2": {
+      "textures": "textures/blocks/lantern/tree/lucernia_leaves_2"
+    },
+    "lucernia_leaves3": {
+      "textures": "textures/blocks/lantern/tree/lucernia_leaves_3"
+    },
+    "lucernia_leaves4": {
+      "textures": "textures/blocks/lantern/tree/lucernia_leaves_4"
+    },
     // Umbra
     "pallidium_bottom": {
       "textures": {
