@@ -66,6 +66,15 @@
             }
         ],
         "components": {
+            "minecraft:liquid_detection": {
+                "detection_rules": [
+                    {
+                        "liquid_type": "water",
+                        "on_liquid_touches": "no_reaction",
+                        "can_contain_liquid": true
+                    }
+                ]
+            },
             "minecraft:custom_components": [ "betterend:charnia" ],
             "minecraft:destructible_by_explosion": true,
             "minecraft:destructible_by_mining": true,
