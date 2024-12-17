@@ -4,6 +4,9 @@
   "resource_pack_name": "vanilla",
   "texture_data": {
     // Lantern
+    "filalux_lantern": {
+      "textures": "textures/blocks/lantern/plants/filalux_lantern"
+    },
     "ruscus": {
       "textures": "textures/blocks/lantern/plants/ruscus"
     },

@@ -1,6 +1,10 @@
 {
   "format_version": "1.21.40",
   // Lantern
+  "betterend:filalux_lantern": {
+    "textures": "filalux_lantern",
+    "sound": "stone"
+  },
   "betterend:ruscus": {
     "sound": "grass"
   },
