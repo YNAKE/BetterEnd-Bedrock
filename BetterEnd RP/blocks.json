@@ -1,9 +1,33 @@
 {
   "format_version": "1.21.40",
-  // Umbra
+  // Lantern
+  "betterend:aeridium": {
+    "sound": "grass"
+  },
+  "betterend:rutiscus": {
+    "sound": "grass",
+    "isotropic": {
+      "up": true
+    },
+    "textures": {
+      "up": "rutiscus_top",
+      "side": "rutiscus_side",
+      "down": "end_stone"
+    }
+  },
   "betterend:lucernia_leaves": {
     "sound": "grass"
   },
+  "betterend:lucernia_bark": {
+    "sound": "wood"
+  },
+  "betterend:lucernia_log": {
+    "sound": "wood"
+  },
+  "betterend:filalux": {
+    "sound": "grass"
+  },
+  // Umbra
   "betterend:pallidium_tiny": {
     "sound": "stone",
     "textures": {

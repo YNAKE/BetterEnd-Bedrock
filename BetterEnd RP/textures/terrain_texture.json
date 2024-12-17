@@ -4,6 +4,43 @@
   "resource_pack_name": "vanilla",
   "texture_data": {
     // Lantern
+    "aeridium": {
+      "textures": "textures/blocks/lantern/plants/aeridium"
+    },
+    "rutiscus_side": {
+      "textures": {
+        "variations": [
+          {
+            "path": "textures/blocks/lantern/rutiscus_side_1",
+            "weight": 1
+          },
+          {
+            "path": "textures/blocks/lantern/rutiscus_side_2",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    "rutiscus_top": {
+      "textures": {
+        "variations": [
+          {
+            "path": "textures/blocks/lantern/rutiscus_top_1",
+            "weight": 1
+          },
+          {
+            "path": "textures/blocks/lantern/rutiscus_top_2",
+            "weight": 1
+          }
+        ]
+      }
+    },
+    "filalux_top": {
+      "textures": "textures/blocks/lantern/plants/filalux_bottom"
+    },
+    "filalux_middle": {
+      "textures": "textures/blocks/lantern/plants/filalux_middle"
+    },
     "lucernia_bark": {
       "textures": "textures/blocks/lantern/tree/lucernia_bark"
     },
