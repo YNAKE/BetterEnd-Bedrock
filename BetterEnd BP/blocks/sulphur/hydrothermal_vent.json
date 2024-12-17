@@ -64,15 +64,15 @@
             }
         ],
         "components": {
-            // "minecraft:liquid_detection": {
-            //     "detection_rules": [
-            //         {
-            //             "liquid_type": "water",
-            //             "on_liquid_touches": "no_reaction",
-            //             "can_contain_liquid": true
-            //         }
-            //     ]
-            // },
+            "minecraft:liquid_detection": {
+                "detection_rules": [
+                    {
+                        "liquid_type": "water",
+                        "on_liquid_touches": "no_reaction",
+                        "can_contain_liquid": true
+                    }
+                ]
+            },
             "tag:stone": {},
             "minecraft:custom_components": [ "betterend:hydrothermal_vent" ],
             "minecraft:destructible_by_explosion": {
