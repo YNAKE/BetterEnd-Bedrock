@@ -7,6 +7,9 @@
         "category": "nature",
         "group": "itemGroup.name.log"
       },
+      "states": {
+        "betterend:variations": [0, 1]
+      },
       "traits": {
         "minecraft:placement_direction": {
           "enabled_states": ["minecraft:facing_direction"]
@@ -49,10 +52,38 @@
         "components": {
           "minecraft:transformation": { "rotation": [0, -90, 0] }
         }
+      },
+      {
+        "condition": "q.block_state('betterend:variations') == 0",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "lucernia_log",
+              "render_method": "opaque",
+              "ambient_occlusion": true,
+              "face_dimming": true
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:variations') == 1",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "lucernia_log2",
+              "render_method": "opaque",
+              "ambient_occlusion": true,
+              "face_dimming": true
+            }
+          }
+        }
       }
     ],
     "components": {
-      "minecraft:custom_components": ["betterend:tree_log"],
+      "tag:betterend:mossy": {},
+      "tag:wood": {},
+      "minecraft:custom_components": ["betterend:tree_log", "betterend:lucernia_wood"],
       "minecraft:flammable": true,
       "minecraft:destructible_by_explosion": {
         "explosion_resistance": 1
@@ -60,15 +91,7 @@
       "minecraft:destructible_by_mining": {
         "seconds_to_destroy": 4
       },
-      "minecraft:geometry": "geometry.betterend_log",
-      "minecraft:material_instances": {
-        "*": {
-          "texture": "lucernia_log",
-          "render_method": "opaque",
-          "ambient_occlusion": true,
-          "face_dimming": true
-        }
-      }
+      "minecraft:geometry": "geometry.betterend_log"
     }
   }
 }
