@@ -864,11 +864,17 @@
     "bulb_moss": {
       "textures": "textures/blocks/amberland/plants/bulb_moss"
     },
-    "helix_tree_bark": {
-      "textures": "textures/blocks/amberland/tree/helix_tree_bark"
+    "helix_tree_log_stripped_top": {
+      "textures": "textures/blocks/amberland/tree/helix_tree_log_stripped_top"
     },
-    "helix_tree_log": {
-      "textures": "textures/blocks/amberland/tree/helix_tree_log"
+    "helix_tree_log_stripped_side": {
+      "textures": "textures/blocks/amberland/tree/helix_tree_log_stripped_side"
+    },
+    "helix_tree_log_top": {
+      "textures": "textures/blocks/amberland/tree/helix_tree_log_top"
+    },
+    "helix_tree_log_side": {
+      "textures": "textures/blocks/amberland/tree/helix_tree_log_side"
     },
     "helix_tree_leaves": {
       "textures": "textures/blocks/amberland/tree/helix_tree_leaves"

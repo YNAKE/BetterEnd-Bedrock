@@ -3,8 +3,8 @@ import WoodUtils from "Biomes/WoodUtils";
 
 world.beforeEvents.worldInitialize.subscribe(data => {
     data.blockComponentRegistry.registerCustomComponent('betterend:tree_log', {
-        onPlayerInteract({ block, player }) {
-            const woodUtils = new WoodUtils(block, player);
+        onPlayerInteract({ block, player, face }) {
+            const woodUtils = new WoodUtils(block, player, face);
             woodUtils.convertToStripped();
         }
     });
