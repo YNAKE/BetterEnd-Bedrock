@@ -1,6 +1,22 @@
 {
   "resource_pack_name": "vanilla",
   "texture_data": {
+    // Lantern
+    "ruscus": {
+      "textures": "textures/items/lantern/ruscus"
+    },
+    "lutebus": {
+      "textures": "textures/blocks/lantern/plants/lutebus"
+    },
+    "filalux": {
+      "textures": "textures/blocks/lantern/plants/filalux_bottom"
+    },
+    "aurant_polypore": {
+      "textures": "textures/items/lantern/aurant_polypore"
+    },
+    "aeridium": {
+      "textures": "textures/blocks/lantern/plants/aeridium"
+    },
     // Umbra
     "flammalix": {
       "textures": "textures/items/umbra/flammalix"

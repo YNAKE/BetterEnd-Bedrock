@@ -2,16 +2,16 @@
     "format_version": "1.20.80",
     "minecraft:item": {
       "description": {
-        "identifier": "betterend:aeredium",
+        "identifier": "betterend:aeridium",
         "menu_category": {
           "category": "nature",
           "group": "itemGroup.name.flower"
         }
       },
       "components": {
-        "minecraft:icon": "aeredium",
+        "minecraft:icon": "aeridium",
         "minecraft:block_placer": {
-          "block": "betterend:aeredium"
+          "block": "betterend:aeridium"
         }
       }
     }
