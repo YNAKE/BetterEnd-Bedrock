@@ -9,7 +9,7 @@
         }
       },
       "components": {
-        "minecraft:icon": "",
+        "minecraft:icon": "aurant_polypore",
         "minecraft:block_placer": {
           "block": "betterend:aurant_polypore"
         }

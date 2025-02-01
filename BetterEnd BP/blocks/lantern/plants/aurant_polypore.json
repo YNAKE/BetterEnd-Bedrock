@@ -41,24 +41,24 @@
       {
         "condition": "q.block_state('betterend:random') == 0",
         "components": {
-          "minecraft:geometry": "geometry.aurant_polypore_01"
+          "minecraft:geometry": "geometry.aurant_polypore_1"
         }
       },
       {
         "condition": "q.block_state('betterend:random') == 1",
         "components": {
-          "minecraft:geometry": "geometry.aurant_polypore_02"
+          "minecraft:geometry": "geometry.aurant_polypore_2"
         }
       },
       {
         "condition": "q.block_state('betterend:random') == 2",
         "components": {
-          "minecraft:geometry": "geometry.aurant_polypore_03"
+          "minecraft:geometry": "geometry.aurant_polypore_3"
         }
       }
     ],
     "components": {
-      "minecraft:custom_components": ["betterend:lantern_index"],
+      "minecraft:custom_components": ["betterend:lucernia_index"],
       "minecraft:flammable": false,
       "minecraft:light_emission": 5,
       "minecraft:destructible_by_explosion": true,
@@ -85,8 +85,9 @@
               "side"
             ],
             "block_filter": [
-              "betterend:pythadendron_log",
-              "betterend:pythadendron_bark"
+              "betterend:lucernia_log",
+              "betterend:lucernia_bark",
+              "minecraft:oak_log"
             ]
           }
         ]
