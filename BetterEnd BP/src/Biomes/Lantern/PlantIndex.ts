@@ -10,6 +10,12 @@ const blockIndex = {
   },
   "betterend:aurant_polypore": {
     random: 2
+  },
+  "betterend:lamellarium": {
+    random: 1
+  },
+  "betterend:orango": {
+    random: 1
   }
 };
 

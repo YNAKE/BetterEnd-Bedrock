@@ -4,7 +4,12 @@
   "resource_pack_name": "vanilla",
   "texture_data": {
     // Lantern
-    
+    "orango": {
+      "textures": "textures/blocks/lantern/plants/orango"
+    },
+    "lamellarium": {
+      "textures": "textures/blocks/lantern/plants/lamellarium"
+    },
     "aurant_polypore": {
       "textures": "textures/blocks/lantern/plants/aurant_polypore"
     },
