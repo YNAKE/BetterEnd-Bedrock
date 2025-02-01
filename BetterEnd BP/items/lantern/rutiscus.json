@@ -1,0 +1,18 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+      "description": {
+        "identifier": "betterend:rutiscus",
+        "menu_category": {
+          "category": "nature",
+          "group": "itemGroup.name.flower"
+        }
+      },
+      "components": {
+        "minecraft:icon": "rutiscus",
+        "minecraft:block_placer": {
+          "block": "betterend:rutiscus"
+        }
+      }
+    }
+  }

@@ -4,6 +4,10 @@
   "resource_pack_name": "vanilla",
   "texture_data": {
     // Lantern
+    
+    "aurant_polypore": {
+      "textures": "textures/blocks/lantern/plants/aurant_polypore"
+    },
     "filalux_lantern": {
       "textures": "textures/blocks/lantern/plants/filalux_lantern"
     },

@@ -7,6 +7,9 @@ const blockIndex = {
   },
   "betterend:ruscus": {
     random: 2
+  },
+  "betterend:aurant_polypore": {
+    random: 2
   }
 };
 
