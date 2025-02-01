@@ -1,0 +1,96 @@
+{
+  "format_version": "1.20.81",
+  "minecraft:block": {
+    "description": {
+      "identifier": "betterend:aurant_polypore",
+      "states": {
+        "betterend:random": [0, 1, 2]
+      },
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": ["minecraft:cardinal_direction"],
+          "y_rotation_offset": 180
+        }
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
+        "components": {
+          "minecraft:transformation": { "rotation": [0, 0, 0] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+        "components": {
+          "minecraft:transformation": { "rotation": [0, 90, 0] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
+        "components": {
+          "minecraft:transformation": { "rotation": [0, 180, 0] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
+        "components": {
+          "minecraft:transformation": { "rotation": [0, -90, 0] }
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:random') == 0",
+        "components": {
+          "minecraft:geometry": "geometry.aurant_polypore_01"
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:random') == 1",
+        "components": {
+          "minecraft:geometry": "geometry.aurant_polypore_02"
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:random') == 2",
+        "components": {
+          "minecraft:geometry": "geometry.aurant_polypore_03"
+        }
+      }
+    ],
+    "components": {
+      "minecraft:custom_components": ["betterend:lantern_index"],
+      "minecraft:flammable": false,
+      "minecraft:light_emission": 5,
+      "minecraft:destructible_by_explosion": true,
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.5
+      },
+      "minecraft:selection_box": {
+        "origin": [-8, 0, 4],
+        "size": [16, 16, 4]
+      },
+      "minecraft:collision_box": false,
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "aurant_polypore",
+          "render_method": "opaque",
+          "ambient_occlusion": false,
+          "face_dimming": false
+        }
+      },
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": [
+              "side"
+            ],
+            "block_filter": [
+              "betterend:pythadendron_log",
+              "betterend:pythadendron_bark"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
