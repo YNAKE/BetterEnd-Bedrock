@@ -13,7 +13,7 @@ export default class MobUtils {
                 "betterend:end_moss_lakes": "slime_megalake",
                 "betterend:end_moss": "slime_foggy",
             };
-            const floor = this.dimension.getBlockBelow(this.location)?.typeId;
+            const floor = this.dimension.getBlock({ x: this.location.x, y: this.location.y - 1, z: this.location.z })?.typeId;
             const moss = Object.keys(slimeSkins).find((key) => key === floor);
             if (!moss)
                 return;
