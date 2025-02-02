@@ -1,0 +1,50 @@
+{
+  "format_version": "1.21.50",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "betterend:amber_land/tree/bulb_moss_single_block_feature"
+    },
+    "places_block": [
+      {
+        "block": {
+          "name": "betterend:bulb_moss",
+          "states": {
+            "betterend:random": 0
+          }
+        },
+        "weight": 1
+      }, 
+      {
+        "block": {
+          "name": "betterend:bulb_moss",
+          "states": {
+            "betterend:random": 1
+          }
+        },
+        "weight": 1
+      }, 
+      {
+        "block": {
+          "name": "betterend:bulb_moss",
+          "states": {
+            "betterend:random": 2
+          }
+        },
+        "weight": 1
+      }
+    ],
+    "randomize_rotation": false, 
+    "enforce_survivability_rules": false,
+    "enforce_placement_rules": true,
+    "may_attach_to": {
+      "sides": [ 
+          "betterend:amber_moss", 
+          "betterend:helix_tree_leaves",
+          "betterend:helix_tree_log",
+          "betterend:helix_tree_bark"
+          ],
+      "min_sides_must_attach": 1, 
+      "auto_rotate": true
+    }
+  }
+}

@@ -4,7 +4,7 @@
     "description": {
       "identifier": "betterend:gen/terrain/mountain_column"
     },
-    "iterations": 1,
+    "iterations": "return t.BiomeMountain;",
     "x": 0,
     "z": 0,
     "y": {

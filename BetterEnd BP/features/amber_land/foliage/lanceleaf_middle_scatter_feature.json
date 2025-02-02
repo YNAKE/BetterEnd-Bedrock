@@ -1,0 +1,16 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "betterend:amber_land/foliage/lanceleaf_middle_scatter_feature"
+    },
+    "iterations": "return t.lanceleaf;",
+    "x": 0,
+    "z": 0,
+    "y": {
+      "extent": [ 0, "t.lanceleaf - 2" ],
+      "distribution": "fixed_grid"
+    },
+    "places_feature": "betterend:amber_land/foliage/lanceleaf_middle_single_block_feature"
+  }
+}

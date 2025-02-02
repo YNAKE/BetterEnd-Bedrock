@@ -7,7 +7,7 @@
     "iterations": "t.BetterEndBiome == 8",
     "x": 0,
     "z": 0,
-    "y": "t.surface - 1",
-    "places_feature": "betterend:glowing_grasslands/end_moss_single_block_feature"
+    "y": 0,
+    "places_feature": "betterend:glowing_grasslands/end_moss_surface_feature"
   }
 }

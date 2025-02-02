@@ -7,7 +7,6 @@
 		"features": [
 			"betterend:crystal_mountains/crystal_mountains",
 			"betterend:painted_mountains/painted_mountains"
-		],
-		"early_out": "first_success"
+		]
 	}
 }

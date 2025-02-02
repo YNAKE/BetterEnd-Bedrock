@@ -4,7 +4,7 @@
     "description": {
       "identifier": "betterend:blossoming_spire/bushy_grass_scatter_feature"
     },
-    "iterations": "return 6 * t.SizePlant;",
+    "iterations": "return 8 * t.SizePlant;",
     "x": {
       "extent": [ "-t.SizePlant", "t.SizePlant" ],
       "distribution": "gaussian"
@@ -14,6 +14,6 @@
       "distribution": "gaussian"
     },
     "y": "q.heightmap(v.worldx, v.worldz) - v.originy",
-    "places_feature": "betterend:blossoming_spire/bushy_grass_weighted_random_feature"
+    "places_feature": "betterend:blossoming_spire/bushy_grass_single_block_feature"
   }
 }

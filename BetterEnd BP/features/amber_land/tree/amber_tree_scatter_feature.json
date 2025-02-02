@@ -1,0 +1,20 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "betterend:amber_land/tree/amber_tree_scatter_feature"
+    },
+    "iterations": "return (t.BetterEndBiome == 0) ? 2 : 0;",
+    "x": {
+        "distribution": "uniform",
+        "extent": [ 0, "t.ExtentPlant" ]
+      },
+    "z": {
+        "distribution": "uniform",
+        "extent": [ 0, "t.ExtentPlant" ]
+      },
+    "y": "t.surface - math.random_integer(1, 2)",
+    "project_input_to_floor": false,
+    "places_feature": "betterend:amber_land/tree/amber_tree_snap_to_floor_feature"
+  }
+}

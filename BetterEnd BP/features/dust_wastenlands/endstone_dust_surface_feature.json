@@ -1,0 +1,17 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:vegetation_patch_feature": {
+    "description": {
+	"identifier": "betterend:dust_wastenlands/endstone_dust_surface_feature"
+    },
+	"vegetation_feature": "betterend:the_end/air_single_block_feature",
+	"ground_block": "betterend:endstone_dust",
+	"surface": "floor",
+	"extra_edge_column_chance": 0.6,
+	"extra_deep_block_chance": 0.8,
+	"depth": { "range_min": 3, "range_max": 5 },
+	"vertical_range": 16,
+	"horizontal_radius": { "range_min": 3, "range_max": 6 },
+	"replaceable_blocks": [ "minecraft:end_stone", "betterend:amber_ore", "betterend:thallasium_ore", "betterend:ender_ore", "betterend:flavolite", "betterend:violecite" ]
+ }
+}

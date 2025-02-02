@@ -6,7 +6,7 @@
     },
     "trunk": {
       "trunk_height": 1,
-      "trunk_block": "minecraft:pythadendron_log",
+      "trunk_block": "betterend:pythadendron_log",
       "can_be_submerged": {
         "max_depth": 1
       }
