@@ -1,3 +1,4 @@
+import * as mc from "@minecraft/server";
 export const BiomeTags = [
     {
         tag: 'foggy_mushroomland',
@@ -102,7 +103,7 @@ export const BiomeTags = [
         music: 'betterend.caves.music',
     }
 ];
-export const caveBiomesTag = [
+export const CaveBiomesTag = [
     {
         tag: 'lush_cave',
         fog: 'betterend:lush_cave',
@@ -157,7 +158,7 @@ export function fogSoundsMusic(player, fog, sound, music, time) {
         player.runCommandAsync(`stopsound @s`);
         player.runCommandAsync(`fog @s remove end_fog`);
         player.runCommandAsync(`fog @s push ${fog} end_fog`);
-        setTimeout(() => {
+        mc.system.runTimeout(() => {
             player.playSound(sound, { location: player.location });
             player.playSound(music, { location: player.location, volume: 0.3 });
         }, time);

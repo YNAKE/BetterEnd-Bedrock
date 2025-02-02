@@ -1,4 +1,5 @@
-import { Player } from "@minecraft/server";
+import { MinecraftDimensionTypes, Player, system } from "@minecraft/server";
+import { BiomeTags, AllTags } from "./BiomeTags";
 Player.prototype.climb = function () {
     const block = this.dimension.getBlock(this.location);
     if (!block?.hasTag("betterend:can_climb"))
@@ -13,6 +14,8 @@ Player.prototype.climb = function () {
 class PlayerUtils {
     constructor(player) {
         this.player = player;
+        this.dimension = player.dimension;
+        this.location = player.location;
     }
     waila() {
         const block = this.player.getBlockFromViewDirection({
@@ -25,6 +28,25 @@ class PlayerUtils {
     sky() {
         const nebula = 'animation.nebula.moving';
         this.player.playAnimation(nebula);
+    }
+    ambientStuff() {
+        const biome = this.getBiome();
+        if (!biome)
+            return;
+        const { fog, music, sound, biomeTag: tag } = biome;
+        if (this.player.hasTag(tag))
+            return;
+        else {
+            for (let i = 0; i < AllTags.length; i++) {
+                this.player.removeTag(AllTags[i]);
+            }
+            const id = this.player.getDynamicProperty('betterend:ambient_stuff_id');
+            id ? system.clearRun(id) : null;
+            this.player.addTag(tag);
+            this.player.runCommandAsync(`fog @s remove end_fog`);
+            this.player.runCommandAsync(`fog @s push ${fog} end_fog`);
+            this.playMusic(music, sound);
+        }
     }
     joinSky() {
         const player = this.player;
@@ -53,6 +75,39 @@ class PlayerUtils {
     }
     climb() {
         this.player.climb();
+    }
+    getBiome() {
+        if (this.dimension.id !== MinecraftDimensionTypes.theEnd)
+            return;
+        for (let i = 50; i <= 94; i++) {
+            const block = this.dimension.getBlock({
+                x: this.location.x,
+                y: i,
+                z: this.location.z
+            });
+            // y >= 50 | for land biomes
+            if (this.location.y >= 50) {
+                for (const tag of AllTags) {
+                    if (block.hasTag(tag)) {
+                        const biomeData = BiomeTags.find(biome => biome.tag === tag);
+                        if (biomeData) {
+                            const { fog, sound, music, tag: biomeTag } = biomeData;
+                            return { fog, sound, music, biomeTag };
+                        }
+                    }
+                }
+            }
+        }
+    }
+    playMusic(music, sound) {
+        const id = system.runInterval(() => {
+            this.player.setDynamicProperty('betterend:ambient_stuff_id', id);
+            this.player.runCommandAsync(`stopsound @s`);
+            system.waitTicks(20);
+            this.player.playSound(sound, { location: this.player.location });
+            system.waitTicks(20);
+            this.player.playSound(music, { location: this.player.location, volume: 0.3 });
+        }, 6000);
     }
 }
 export default PlayerUtils;

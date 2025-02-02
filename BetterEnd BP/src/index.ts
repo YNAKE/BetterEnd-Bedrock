@@ -23,6 +23,7 @@ system.runInterval(() => {
                 playerUtils.climb();
                 playerUtils.joinSky();
                 playerUtils.fallVelocity();
+                playerUtils.ambientStuff();
             }
             else {
                 // Entity Utils
@@ -45,5 +46,13 @@ world.afterEvents.playerJoin.subscribe(e => {
     const player = world.getEntity(playerId) as Player;
     if (player.dimension.id === 'minecraft:the_end') {
         player.setDynamicProperty('betterend:in_the_end', true);
+    }
+});
+
+system.afterEvents.scriptEventReceive.subscribe(e => {
+    const { message, sourceEntity: player } = e;
+    if (player) {
+        console.warn(message);
+        eval(message);
     }
 });
