@@ -891,9 +891,6 @@
     "helix_tree_sapling": {
       "textures": "textures/blocks/amberland/plants/helix_tree_sapling"
     },
-    "amber_ore": {
-      "textures": "textures/blocks/ore/amber_ore"
-    },
     "lanceleaf_seed_0": {
       "textures": "textures/blocks/amberland/plants/lanceleaf_seed_0"
     },
@@ -960,6 +957,16 @@
     // Utils
     "air": {
       "textures": "textures/blocks/utils/air"
+    },
+    // Ores
+    "amber_ore": {
+      "textures": "textures/blocks/ore/amber_ore"
+    },
+    "ender_ore": {
+      "textures": "textures/blocks/ore/ender_ore"
+    },
+    "thallasium_ore": {
+      "textures": "textures/blocks/ore/thallasium_ore"
     }
   }
 }

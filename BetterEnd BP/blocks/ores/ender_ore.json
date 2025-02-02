@@ -2,16 +2,18 @@
     "format_version": "1.20.81",
     "minecraft:block": {
         "description": {
-            "identifier": "betterend:amber_ore",
+            "identifier": "betterend:ender_ore",
             "menu_category": {
                 "category": "nature",
                 "group": "itemGroup.name.ore"
             }
         },
         "components": {
+            "minecraft:loot": "loot_tables/empty.json",
             "minecraft:destructible_by_mining": {
                 "seconds_to_destroy": 10
             },
+            "tag:ender_ore": {},
             "tag:stone": {},
             "tag:ore": {}
         }

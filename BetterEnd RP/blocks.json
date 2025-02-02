@@ -502,10 +502,6 @@
   "betterend:helix_tree_sapling": {
     "sound": "grass"
   },
-  "betterend:amber_ore": {
-    "sound": "stone",
-    "textures": "amber_ore"
-  },
   "betterend:lanceleaf_seed": {
     "sound": "grass"
   },
@@ -525,5 +521,18 @@
       "up": "amber_moss_top",
       "down": "end_stone"
     }
+  },
+  // Ores
+  "betterend:amber_ore": {
+    "sound": "stone",
+    "textures": "amber_ore"
+  },
+  "betterend:ender_ore": {
+    "sound": "stone",
+    "textures": "ender_ore"
+  },
+  "betterend:thallasium_ore": {
+    "sound": "stone",
+    "textures": "thallasium_ore"
   }
 }
