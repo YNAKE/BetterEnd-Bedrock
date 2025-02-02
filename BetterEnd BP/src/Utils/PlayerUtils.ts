@@ -99,7 +99,7 @@ class PlayerUtils {
         // y >= 50 | for land biomes
         if (this.location.y >= 50) {
             for (const tag of AllTags) {
-                if (block.hasTag(tag)) {
+                if (block?.hasTag(tag)) {
                     const biomeData = BiomeTags.find(biome => biome.tag === tag);
                     if (biomeData) {
                         const { fog, sound, music, tag: biomeTag } = biomeData;
@@ -112,13 +112,18 @@ class PlayerUtils {
   }
 
   private playMusic(music: string, sound: string) {
+    this.player.runCommandAsync(`stopsound @s`);
+    system.waitTicks(20);
+    this.player.playSound(sound, { location: this.player.location });
+    system.waitTicks(20);
+    this.player.playSound(music, { location: this.player.location, volume: 0.15 });
     const id = system.runInterval(() => {
       this.player.setDynamicProperty('betterend:ambient_stuff_id', id);
       this.player.runCommandAsync(`stopsound @s`);
       system.waitTicks(20);
       this.player.playSound(sound, { location: this.player.location });
       system.waitTicks(20);
-      this.player.playSound(music, { location: this.player.location, volume: 0.3 });
+      this.player.playSound(music, { location: this.player.location, volume: 0.15 });
     }, 6000);
   }
 }
