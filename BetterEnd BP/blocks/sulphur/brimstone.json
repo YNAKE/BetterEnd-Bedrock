@@ -7,6 +7,10 @@
                 "category": "nature"
             },
             "states": {
+                "betterend:biomes": [
+                    "none",
+                    "sulphur_springs"
+                ],
                 "betterend:active": [
                     false,
                     true
@@ -39,11 +43,25 @@
                         }
                     }
                 }
+            },
+            {
+                "condition": "q.block_state('betterend:biomes') == 'none'",
+                "components": {
+                    "tag:none": {}
+                }
+            },
+            {
+                "condition": "q.block_state('betterend:biomes') == 'sulphur_springs'",
+                "components": {
+                    "tag:sulphur_springs": {}
+                }
             }
         ],
         "components": {
             "tag:stone": {},
-            "minecraft:custom_components": [ "betterend:brimstone" ],
+            "minecraft:custom_components": [
+                "betterend:brimstone"
+            ],
             "minecraft:geometry": "minecraft:geometry.full_block",
             "minecraft:destructible_by_explosion": {
                 "explosion_resistance": 1
@@ -53,7 +71,10 @@
             },
             "minecraft:flammable": false,
             "minecraft:tick": {
-                "interval_range": [ 600, 1200 ]
+                "interval_range": [
+                    600,
+                    1200
+                ]
             }
         }
     }

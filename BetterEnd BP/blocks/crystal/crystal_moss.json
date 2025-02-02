@@ -5,8 +5,28 @@
       "identifier": "betterend:crystal_moss",
       "menu_category": {
         "category": "nature"
+      },
+      "states": {
+        "betterend:biomes": [
+          "none",
+          "crystal_mountains"
+        ]
       }
     },
+    "permutations": [
+      {
+        "condition": "q.block_state('betterend:biomes') == 'none'",
+        "components": {
+          "tag:none": {}
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:biomes') == 'crystal_mountains'",
+        "components": {
+          "tag:crystal_mountains": {}
+        }
+      }
+    ],
     "components": {
       "tag:grass": {},
       "minecraft:destructible_by_explosion": {

@@ -5,8 +5,28 @@
             "identifier": "betterend:rutiscus",
             "menu_category": {
                 "category": "nature"
+            },
+            "states": {
+                "betterend:biomes": [
+                    "none",
+                    "dry_shrubland"
+                ]
             }
         },
+        "permutations": [
+            {
+                "condition": "q.block_state('betterend:biomes') == 'none'",
+                "components": {
+                  "tag:none": {}
+                }
+              },
+              {
+                "condition": "q.block_state('betterend:biomes') == 'dry_shrubland'",
+                "components": {
+                  "tag:dry_shrubland": {}
+                }
+              }
+        ],
         "components": {
             "tag:grass": {},
             "minecraft:destructible_by_explosion": {

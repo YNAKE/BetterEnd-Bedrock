@@ -5,8 +5,28 @@
             "identifier": "betterend:chorus_nylium",
             "menu_category": {
                 "category": "nature"
+            },
+            "states": {
+                "betterend:biomes": [
+                    "none",
+                    "chorus_forest"
+                ]
             }
         },
+        "permutations": [
+            {
+                "condition": "q.block_state('betterend:biomes') == 'none'",
+                "components": {
+                  "tag:none": {}
+                }
+              },
+              {
+                "condition": "q.block_state('betterend:biomes') == 'chorus_forest'",
+                "components": {
+                  "tag:chorus_forest": {}
+                }
+              }
+        ],
         "components": {
             "tag:grass": {},
             "minecraft:destructible_by_explosion": {

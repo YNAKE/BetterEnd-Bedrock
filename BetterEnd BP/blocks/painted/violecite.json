@@ -5,8 +5,28 @@
             "identifier": "betterend:violecite",
             "menu_category": {
                 "category": "nature"
+            },
+            "states": {
+                "betterend:biomes": [
+                    "none",
+                    "dust_wasteland"
+                ]
             }
         },
+        "permutations": [
+            {
+                "condition": "q.block_state('betterend:biomes') == 'none'",
+                "components": {
+                  "tag:none": {}
+                }
+              },
+              {
+                "condition": "q.block_state('betterend:biomes') == 'dust_wasteland'",
+                "components": {
+                  "tag:dust_wasteland": {}
+                }
+              }
+        ],
         "components": {
             "tag:stone": {},
             "minecraft:flammable": false,

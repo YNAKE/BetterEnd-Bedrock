@@ -5,8 +5,28 @@
             "identifier": "betterend:amber_moss",
             "menu_category": {
                 "category": "nature"
+            },
+            "states": {
+                "betterend:biomes": [
+                    "none",
+                    "amberland"
+                ]
             }
         },
+        "permutations": [
+            {
+                "condition": "q.block_state('betterend:biomes') == 'none'",
+                "components": {
+                  "tag:none": {}
+                }
+              },
+              {
+                "condition": "q.block_state('betterend:biomes') == 'amberland'",
+                "components": {
+                  "tag:amberland": {}
+                }
+              }
+        ],
         "components": {
             "tag:grass": {},
             "minecraft:destructible_by_explosion": {

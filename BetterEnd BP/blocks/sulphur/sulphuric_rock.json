@@ -5,8 +5,28 @@
             "identifier": "betterend:sulphuric_rock",
             "menu_category": {
                 "category": "nature"
+            },
+            "states": {
+                "betterend:biomes": [
+                    "none",
+                    "sulphur_springs"
+                ]
             }
         },
+        "permutations": [
+            {
+                "condition": "q.block_state('betterend:biomes') == 'none'",
+                "components": {
+                    "tag:none": {}
+                }
+            },
+            {
+                "condition": "q.block_state('betterend:biomes') == 'sulphur_springs'",
+                "components": {
+                    "tag:sulphur_springs": {}
+                }
+            }
+        ],
         "components": {
             "tag:stone": {},
             "minecraft:destructible_by_explosion": {

@@ -6,8 +6,28 @@
             "menu_category": {
                 "category": "nature",
                 "group": "itemGroup.name.stone"
+            },
+            "states": {
+                "betterend:biomes": [
+                    "none",
+                    "umbra_valley"
+                ]
             }
         },
+        "permutations": [
+            {
+                "condition": "q.block_state('betterend:biomes') == 'none'",
+                "components": {
+                    "tag:none": {}
+                }
+            },
+            {
+                "condition": "q.block_state('betterend:biomes') == 'umbra_valley'",
+                "components": {
+                    "tag:umbra_valley": {}
+                }
+            }
+        ],
         "components": {
             "tag:stone": {},
             "minecraft:flammable": false,

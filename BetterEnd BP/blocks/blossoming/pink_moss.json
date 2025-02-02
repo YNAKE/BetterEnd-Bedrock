@@ -5,8 +5,28 @@
             "identifier": "betterend:pink_moss",
             "menu_category": {
                 "category": "nature"
+            },
+            "states": {
+                "betterend:biomes": [
+                    "none",
+                    "blossoming_spires"
+                ]
             }
         },
+        "permutations": [
+            {
+                "condition": "q.block_state('betterend:biomes') == 'none'",
+                "components": {
+                    "tag:none": {}
+                }
+            },
+            {
+                "condition": "q.block_state('betterend:biomes') == 'blossoming_spires'",
+                "components": {
+                    "tag:blossoming_spires": {}
+                }
+            }
+        ],
         "components": {
             "tag:grass": {},
             "minecraft:destructible_by_explosion": {
