@@ -18,10 +18,7 @@
 			},
 			"scripts": {
 				"animate": [
-					"swim",
-					{
-						"swim": "query.is_moving"
-					}
+					"swim"
 				]
 			},
 			"render_controllers": [
