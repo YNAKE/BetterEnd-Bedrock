@@ -1,98 +1,111 @@
 const fs = require('fs');
 const path = require('path');
 
-// Rutas de las carpetas
-const baseFolder = path.join(__dirname, 'project_folder');
-const folders = ['entities', 'blocks', 'items'];
+const ENTITIES_DIR = path.join(__dirname, 'entities');
+const BLOCKS_DIR = path.join(__dirname, 'blocks');
+const ITEMS_DIR = path.join(__dirname, 'items');
+const OUTPUT_FILE = path.join(__dirname, 'en_US.lang');
 
-// Arrays para almacenar identificadores
 const entitiesIdentifier = [];
 const blocksIdentifier = [];
 const itemsIdentifier = [];
 
-// Función para leer archivos JSON en una carpeta específica y extraer identifiers
-function extractIdentifiers(folderPath, type) {
-  const files = fs.readdirSync(folderPath).filter(file => file.endsWith('.json'));
-  const identifiers = [];
-
-  for (const file of files) {
-    const filePath = path.join(folderPath, file);
-
-    try {
-      const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-      const section = data[`minecraft:${type}`];
-
-      if (section && section.description && section.description.identifier) {
-        identifiers.push(section.description.identifier);
-      }
-    } catch (error) {
-      console.error(`Error al procesar el archivo ${file}:`, error);
-    }
-  }
-
-  return identifiers;
+function renameFilesToJsonc(directory) {
+    fs.readdirSync(directory).forEach(file => {
+        const filePath = path.join(directory, file);
+        if (fs.statSync(filePath).isDirectory()) {
+            renameFilesToJsonc(filePath);
+        } else if (filePath.endsWith('.json')) {
+            fs.renameSync(filePath, filePath + 'c');
+        }
+    });
 }
 
-// Función para formatear el nombre del identifier
+function renameFilesToJson(directory) {
+    fs.readdirSync(directory).forEach(file => {
+        const filePath = path.join(directory, file);
+        if (fs.statSync(filePath).isDirectory()) {
+            renameFilesToJson(filePath);
+        } else if (filePath.endsWith('.jsonc')) {
+            fs.renameSync(filePath, filePath.slice(0, -1));
+        }
+    });
+}
+
+function traverseDirectory(directory, typeArray) {
+    fs.readdirSync(directory).forEach(file => {
+        const filePath = path.join(directory, file);
+        if (fs.statSync(filePath).isDirectory()) {
+            traverseDirectory(filePath, typeArray);
+        } else if (filePath.endsWith('.jsonc')) {
+            try {
+                const data = fs.readFileSync(filePath, 'utf8');
+                const jsonData = JSON.parse(data.replace(/\/\/[^"]+/g, ''));
+                let identifier = '';
+                if (jsonData['minecraft:entity']) {
+                    identifier = jsonData['minecraft:entity'].description.identifier;
+                } else if (jsonData['minecraft:block']) {
+                    identifier = jsonData['minecraft:block'].description.identifier;
+                } else if (jsonData['minecraft:item']) {
+                    identifier = jsonData['minecraft:item'].description.identifier;
+                }
+                if (identifier) {
+                    typeArray.push(identifier);
+                }
+            } catch (error) {
+                console.error(`Error al procesar el archivo ${filePath}:`, error);
+            }
+        }
+    });
+}
+
 function formatIdentifier(identifier) {
-  const namePart = identifier.split(':')[1];
-  return namePart.replace(/_/g, ' ')
-    .split(' ')
-    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-    .join(' ');
+    return identifier.split(':')[1]
+        .replace(/_/g, ' ')
+        .replace(/\b\w/g, char => char.toUpperCase());
 }
 
-// Función para generar contenido del archivo en_US.lang
-function generateLangContent() {
-  let langContent = '';
+function writeLangFile() {
+    let content = '';
 
-  // Entidades
-  for (const id of entitiesIdentifier) {
-    const formattedName = formatIdentifier(id);
-    langContent += `entity.${id}.name=${formattedName}\n`;
-    langContent += `item.spawn_egg.entity.${id}.name=${formattedName}\n`;
-  }
+    entitiesIdentifier.forEach(id => {
+        const formattedName = formatIdentifier(id);
+        content += `entity.${id}.name=${formattedName}\n`;
+        content += `item.spawn_egg.entity.${id}.name=${formattedName}\n`;
+    });
 
-  // Bloques
-  for (const id of blocksIdentifier) {
-    const formattedName = formatIdentifier(id);
-    langContent += `tile.${id}.name=${formattedName}\n`;
-  }
+    blocksIdentifier.forEach(id => {
+        const formattedName = formatIdentifier(id);
+        content += `tile.${id}.name=${formattedName}\n`;
+    });
 
-  // Items
-  for (const id of itemsIdentifier) {
-    const formattedName = formatIdentifier(id);
-    langContent += `item.${id}.name=${formattedName}\n`;
-  }
+    itemsIdentifier.forEach(id => {
+        const formattedName = formatIdentifier(id);
+        content += `item.${id}.name=${formattedName}\n`;
+    });
 
-  return langContent;
+    fs.writeFileSync(OUTPUT_FILE, content);
+    console.log(`Archivo en_US.lang generado en ${OUTPUT_FILE}`);
 }
 
-// Función principal
 function main() {
-  for (const folder of folders) {
-    const folderPath = path.join(baseFolder, folder);
+    try {
+        renameFilesToJsonc(ENTITIES_DIR);
+        renameFilesToJsonc(BLOCKS_DIR);
+        renameFilesToJsonc(ITEMS_DIR);
 
-    if (fs.existsSync(folderPath) && fs.lstatSync(folderPath).isDirectory()) {
-      const type = folder.slice(0, -1); // entities -> entity, blocks -> block, etc.
-      const identifiers = extractIdentifiers(folderPath, type);
+        traverseDirectory(ENTITIES_DIR, entitiesIdentifier);
+        traverseDirectory(BLOCKS_DIR, blocksIdentifier);
+        traverseDirectory(ITEMS_DIR, itemsIdentifier);
 
-      if (type === 'entity') {
-        entitiesIdentifier.push(...identifiers);
-      } else if (type === 'block') {
-        blocksIdentifier.push(...identifiers);
-      } else if (type === 'item') {
-        itemsIdentifier.push(...identifiers);
-      }
-    } else {
-      console.warn(`La carpeta ${folder} no existe o no es un directorio.`);
+        writeLangFile();
+
+        renameFilesToJson(ENTITIES_DIR);
+        renameFilesToJson(BLOCKS_DIR);
+        renameFilesToJson(ITEMS_DIR);
+    } catch (error) {
+        console.warn('Error:', error);
     }
-  }
-
-  const langContent = generateLangContent();
-  const outputPath = path.join(__dirname, 'en_US.lang');
-  fs.writeFileSync(outputPath, langContent);
-  console.log(`Archivo en_US.lang generado en ${outputPath}`);
 }
 
 main();
