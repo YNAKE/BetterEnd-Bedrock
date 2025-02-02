@@ -4,8 +4,8 @@
 		"description": {
 			"identifier": "betterend:cubozoa",
 			"materials": {
-				"default": "slime_outer",
-				"brillar": "entity_emissive_alpha"
+				"translucent": "slime_outer",
+				"shine": "entity_emissive_alpha"
 			},
 			"textures": {
 				"default": "textures/entity/cubozoa"
@@ -25,7 +25,6 @@
 				]
 			},
 			"render_controllers": [
-				"controller.render.default",
 				"controller.render.cubozoa"
 			],
 			"spawn_egg": {

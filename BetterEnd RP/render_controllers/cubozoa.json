@@ -5,7 +5,25 @@
 			"geometry": "geometry.default",
 			"materials": [
 				{
-					"*": "material.brillar"
+					"bone": "material.translucent"
+				},
+				{
+					"bone2": "material.shine"
+				},
+				{
+					"bone3": "material.translucent"
+				},
+				{
+					"bone4": "material.shine"
+				},
+				{
+					"bone5": "material.translucent"
+				},
+				{
+					"bone6": "material.translucent"
+				},
+				{
+					"bone7": "material.translucent"
 				}
 			],
 			"textures": [

@@ -1,5 +1,4 @@
 import "./Blossoming/TenaneaLeaves";
-import "./Blossoming/TenaneaSapling";
 import "./Blossoming/BlossomBerrySeed";
 import "./Blossoming/BulbVineSeed";
 import "./Blossoming/BulbVine";
