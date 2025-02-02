@@ -1,3 +1,5 @@
+### Entities
+
 entity.betterend:betterend_sit.name=Betterend Sit
 item.spawn_egg.entity.betterend:betterend_sit.name=Betterend Sit
 entity.betterend:check_portal.name=Check Portal
@@ -32,6 +34,9 @@ entity.betterend:megalake_slime_spawner.name=Megalake Slime Spawner
 item.spawn_egg.entity.betterend:megalake_slime_spawner.name=Megalake Slime Spawner
 entity.betterend:wait_overworld.name=Wait Overworld
 item.spawn_egg.entity.betterend:wait_overworld.name=Wait Overworld
+
+### Blocks
+
 tile.betterend:amber_moss.name=Amber Moss
 tile.betterend:amber_ore.name=Amber Ore
 tile.betterend:amber_grass.name=Amber Grass
@@ -138,6 +143,9 @@ tile.betterend:twisted_umbrella_moss.name=Twisted Umbrella Moss
 tile.betterend:umbrella_tree_sapling.name=Umbrella Tree Sapling
 tile.betterend:umbrella_tree_cluster.name=Umbrella Tree Cluster
 tile.betterend:umbrella_tree_membrane.name=Umbrella Tree Membrane
+
+### Items
+
 item.betterend:amber_gem.name=Amber Gem
 item.betterend:amber_grass.name=Amber Grass
 item.betterend:amber_root_seed.name=Amber Root Seed

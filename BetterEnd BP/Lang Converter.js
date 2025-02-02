@@ -53,7 +53,6 @@ function traverseDirectory(directory, typeArray) {
                     typeArray.push(identifier);
                 }
             } catch (error) {
-                console.error(`Error al procesar el archivo ${filePath}:`, error);
             }
         }
     });
