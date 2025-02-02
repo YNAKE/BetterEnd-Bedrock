@@ -80,7 +80,7 @@ function writeLangFile() {
 
     itemsIdentifier.forEach(id => {
         const formattedName = formatIdentifier(id);
-        content += `item.${id}.name=${formattedName}\n`;
+        content += `item.${id}=${formattedName}\n`;
     });
 
     fs.writeFileSync(OUTPUT_FILE, content);
