@@ -1,0 +1,115 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.eternal_pedestal",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [
+					0,
+					0.75,
+					0
+				]
+			},
+			"bones": [
+				{
+					"name": "bone",
+					"pivot": [
+						0,
+						0,
+						0
+					]
+				},
+				{
+					"name": "group2",
+					"parent": "bone",
+					"pivot": [
+						-8,
+						8,
+						8
+					],
+					"cubes": [
+						{
+							"origin": [
+								-5,
+								4,
+								-5
+							],
+							"size": [
+								10,
+								8,
+								10
+							],
+							"uv": [
+								39,
+								41
+							]
+						},
+						{
+							"origin": [
+								-7,
+								12,
+								-7
+							],
+							"size": [
+								14,
+								2,
+								14
+							],
+							"uv": [
+								0,
+								20
+							]
+						}
+					]
+				},
+				{
+					"name": "group",
+					"parent": "bone",
+					"pivot": [
+						0,
+						8,
+						0
+					],
+					"cubes": [
+						{
+							"origin": [
+								-6,
+								3,
+								-6
+							],
+							"size": [
+								12,
+								1,
+								12
+							],
+							"uv": [
+								0,
+								37
+							]
+						},
+						{
+							"origin": [
+								-8,
+								0,
+								-8
+							],
+							"size": [
+								16,
+								3,
+								16
+							],
+							"uv": [
+								0,
+								0
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
