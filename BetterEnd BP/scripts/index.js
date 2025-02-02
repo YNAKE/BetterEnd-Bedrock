@@ -1,9 +1,10 @@
 import { world, system, Player } from "@minecraft/server";
-import PlayerUtils from "Utils/PlayerUtils";
 // Biomes
 import "./Biomes/biomeRegister";
 // Utils
 import "./Utils/External/ExternalUtils";
+import PlayerUtils from "Utils/PlayerUtils";
+import MobUtils from "Utils/MobUtils";
 // index
 system.runInterval(() => {
     const dimensions = ["minecraft:nether", "minecraft:overworld", "minecraft:the_end"];
@@ -21,6 +22,8 @@ system.runInterval(() => {
             }
             else {
                 // Entity Utils
+                const mobUtils = new MobUtils(entity);
+                mobUtils.slimeSkin();
             }
         }
     }
