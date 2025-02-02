@@ -4,7 +4,7 @@
 		"description": {
 			"identifier": "minecraft:slime",
 			"materials": {
-				"default": "slime",
+				"default": "skeleton",
 				"outer": "slime_outer"
 			},
 			"textures": {
@@ -18,12 +18,26 @@
 				"default": "geometry.slime",
 				"armor": "geometry.slime.armor"
 			},
+			"animations": {
+				"show_hat": "animation.slime.armor.show_hat",
+				"remove_hat": "animation.slime.armor.remove_hat"
+			},
 			"scripts": {
 				"pre_animation": [
+					"v.hide_hat = q.is_shaking || q.is_saddled;",
+					"v.can_hat = q.is_sheared || q.is_illager_captain || q.is_stunned;",
 					"variable.squish_factor = (query.previous_squish_value + (query.current_squish_value - query.previous_squish_value) * query.frame_alpha);",
 					"variable.bounce = 1 / ((variable.squish_factor / (query.variant * 0.5 + 1)) + 1);",
 					"variable.horizontal_scale_amount = variable.bounce * query.variant;",
 					"variable.vertical_scale_amount = (1 / variable.bounce) * query.variant;"
+				],
+				"animate": [
+					{
+						"show_hat": "v.can_hat"
+					},
+					{
+						"remove_hat": "v.hide_hat"
+					}
 				],
 				"scaleX": "variable.horizontal_scale_amount",
 				"scaleY": "variable.vertical_scale_amount",
