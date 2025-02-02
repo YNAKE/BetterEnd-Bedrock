@@ -40,7 +40,7 @@
 						"despawn"
 					]
 				},
-				"run_command": {
+				"queue_command": {
 					"command": [
 						"tag @p add reloading_portal0"
 					]
