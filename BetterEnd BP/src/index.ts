@@ -68,7 +68,6 @@ world.beforeEvents.worldInitialize.subscribe(e => {
             const loc = location;
             const entities = dim.getEntities({ maxDistance: 3, location, excludeTypes: [ "custom:hitbox" ] });
             if (entities.length === 0) return;
-            (entities[0] as Player).onScreenDisplay.setActionBar(JSON.stringify(entities[0].getEntitiesFromViewDirection().length));
             dim.spawnEntity('custom:hitbox', { x: loc.x + 0.5, y: loc.y + 0.8, z: loc.z + 0.8 });
         }
     });
