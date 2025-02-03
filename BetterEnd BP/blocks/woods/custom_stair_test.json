@@ -1,0 +1,31 @@
+{
+    "format_version": "1.21.40",
+    "minecraft:block": {
+        "description": {
+            "identifier": "custom:stair",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "minecraft:collision_box": {
+                "size": [
+                    16, 8, 16
+                ]
+            },
+            "minecraft:tick": {
+                "interval_range": [ 2, 2 ],
+                "looping": true
+            },
+            "minecraft:custom_components": [
+                "custom:stair"
+            ],
+            "minecraft:geometry": "geometry.custom_stair_test",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "stone"
+                }
+            }
+        }
+    }
+}

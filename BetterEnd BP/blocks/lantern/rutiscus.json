@@ -9,7 +9,8 @@
             "states": {
                 "betterend:biomes": [
                     "none",
-                    "dry_shrubland"
+                    "dry_shrubland",
+                    "lantern_woods"
                 ]
             }
         },
@@ -17,15 +18,21 @@
             {
                 "condition": "q.block_state('betterend:biomes') == 'none'",
                 "components": {
-                  "tag:none": {}
+                    "tag:none": {}
                 }
-              },
-              {
+            },
+            {
                 "condition": "q.block_state('betterend:biomes') == 'dry_shrubland'",
                 "components": {
-                  "tag:dry_shrubland": {}
+                    "tag:dry_shrubland": {}
                 }
-              }
+            },
+            {
+                "condition": "q.block_state('betterend:biomes') == 'lantern_woods'",
+                "components": {
+                    "tag:dry_shrubland": {}
+                }
+            }
         ],
         "components": {
             "tag:grass": {},

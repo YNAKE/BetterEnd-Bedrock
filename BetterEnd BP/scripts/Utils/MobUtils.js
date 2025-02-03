@@ -23,4 +23,9 @@ export default class MobUtils {
             }
         }
     }
+    hitbox() {
+        const entities = this.dimension.getEntities({ maxDistance: 3, location: this.location, excludeTypes: ["custom:hitbox"] });
+        if (entities.length === 0)
+            this.entity.remove();
+    }
 }
