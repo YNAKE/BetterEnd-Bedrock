@@ -31,7 +31,6 @@ system.runInterval(() => {
                 // Entity Utils
                 const mobUtils = new MobUtils(entity);
                 mobUtils.slimeSkin();
-                mobUtils.hitbox();
             }
         }
     }
@@ -68,18 +67,9 @@ world.beforeEvents.worldInitialize.subscribe(e => {
             const { location, dimension: dim } = block;
             const loc = location;
             const entities = dim.getEntities({ maxDistance: 3, location, excludeTypes: [ "custom:hitbox" ] });
-            const hitboxes = dim.getEntities({ type: "custom:hitbox", location, maxDistance: 0.6 });
-            if (entities.length === 0) {
-                world.setDynamicProperty(`stair:${loc.x} ${loc.y} ${loc.z}:${dim.id}`, false);
-                return;
-            }
+            if (entities.length === 0) return;
             (entities[0] as Player).onScreenDisplay.setActionBar(JSON.stringify(entities[0].getEntitiesFromViewDirection().length));
-            if (hitboxes.length === 0) {
-                const hasEntity = world.getDynamicProperty(`stair:${loc.x} ${loc.y} ${loc.z}:${dim.id}`);
-                if (hasEntity) return;
-                world.setDynamicProperty(`stair:${loc.x} ${loc.y} ${loc.z}:${dim.id}`, true);
-                dim.spawnEntity('custom:hitbox', { x: loc.x + 0.5, y: loc.y + 0.8, z: loc.z + 0.8 });
-            }
+            dim.spawnEntity('custom:hitbox', { x: loc.x + 0.5, y: loc.y + 0.8, z: loc.z + 0.8 });
         }
     });
 });

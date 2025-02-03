@@ -15,6 +15,14 @@
             }
         },
         "components": {
+            "minecraft:timer": {
+                "time": 0.1,
+                "looping": true,
+                "time_down_event": {
+                    "event": "despawn",
+                    "target": "self"
+                }
+            },
             "minecraft:collision_box": {
                 "height": 0.6,
                 "width": 0.3

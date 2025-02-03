@@ -1,4 +1,4 @@
-import { Dimension, Entity, Vector3 } from "@minecraft/server";
+import { Dimension, Entity, system, Vector3 } from "@minecraft/server";
 
 export default class MobUtils {
   private entity: Entity;
@@ -28,10 +28,5 @@ export default class MobUtils {
         this?.entity.triggerEvent(slimeSkins[moss]);
       }
     }
-  }
-
-  hitbox() {
-    const entities = this.dimension.getEntities({ maxDistance: 3, location: this.location, excludeTypes: [ "custom:hitbox" ] });
-    if (entities.length === 0) this.entity.remove();
   }
 }
