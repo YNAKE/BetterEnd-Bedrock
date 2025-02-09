@@ -2,7 +2,7 @@
 	"format_version": "1.21.60",
 	"minecraft:block": {
 		"description": {
-			"identifier": "betterend:white_oak_door",
+			"identifier": "betterend:helix_tree_door",
 			"states": {
 				"betterend:powered": [
 					false,
@@ -62,8 +62,7 @@
 					"reversed_bottom": "query.block_state('betterend:open_bit') == false && query.block_state('betterend:upper_block_bit') == false && q.block_state('betterend:reversed')"
 				},
 				"identifier": "geometry.door"
-			},
-			"minecraft:display_name": "White Oak Door"
+			}
 		},
 		"permutations": [
 			{

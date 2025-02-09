@@ -2,7 +2,7 @@
   "format_version": "1.21.60",
   "minecraft:block": {
     "description": {
-      "identifier": "betterend:white_oak_leaves",
+      "identifier": "betterend:helix_tree_leaves",
       "states": {
         "betterend:decay_tier": [4, 3, 2, 1, 0],
         "betterend:should_decay": [true, false]
@@ -38,7 +38,7 @@
       "minecraft:light_dampening": 0,
       "minecraft:material_instances": {
         "*": {
-          "texture": "white_oak_leaves",
+          "texture": "helix_tree_leaves",
           "render_method": "blend"
         }
       }

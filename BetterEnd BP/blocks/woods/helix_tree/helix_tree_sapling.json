@@ -2,7 +2,7 @@
   "format_version": "1.21.60",
   "minecraft:block": {
     "description": {
-      "identifier": "betterend:white_oak_sapling",
+      "identifier": "betterend:helix_tree_sapling",
       "states": {
         "betterend:growth_stage": [0, 1, 2]
       }
@@ -27,13 +27,13 @@
       "minecraft:geometry": "geometry.custom_sapling",
       "minecraft:material_instances": {
         "*": {
-          "texture": "white_oak_sapling",
+          "texture": "helix_tree_sapling",
           "render_method": "alpha_test",
           "face_dimming": false,
           "ambient_occlusion": false
         }
       },
-      "minecraft:loot": "loot_tables/blocks/white_oak_sapling.json",
+      "minecraft:loot": "loot_tables/blocks/helix_tree_sapling.json",
       "minecraft:placement_filter": {
         "conditions": [
           {

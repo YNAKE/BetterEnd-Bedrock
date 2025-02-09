@@ -2,7 +2,7 @@
 	"format_version": "1.21.60",
 	"minecraft:block": {
 		"description": {
-			"identifier": "betterend:white_oak_fence_inventory", // This block purpose is to show the correct display at inventory and add the missing size to the fence to make a total of 1.5 - make one of these for all fences as well as the main fence
+			"identifier": "betterend:helix_tree_fence_inventory", // This block purpose is to show the correct display at inventory and add the missing size to the fence to make a total of 1.5 - make one of these for all fences as well as the main fence
 			"states": {
 				"betterend:post": [0, 1],
 				"betterend:north_picket": [0, 1],
@@ -218,7 +218,7 @@
 			"minecraft:custom_components": [ "betterend:on_tick"], 
 			"minecraft:material_instances": {
 				"*": {
-					"texture": "planks_white_oak", 
+					"texture": "planks_helix_tree", 
 					"render_method": "opaque"
 				}
 			}

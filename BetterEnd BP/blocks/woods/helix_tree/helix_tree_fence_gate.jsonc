@@ -2,7 +2,7 @@
     "format_version": "1.21.60",
     "minecraft:block": {
         "description": {
-            "identifier": "betterend:white_oak_fence_gate", // The identifier of your custom fence gate
+            "identifier": "betterend:helix_tree_fence_gate", // The identifier of your custom fence gate
             "traits": {
                 "minecraft:placement_direction": {
                     "enabled_states": ["minecraft:cardinal_direction"] // Block trait used to rotate the fence gate
@@ -159,7 +159,6 @@
 							}
 							]
 							},
-			"minecraft:display_name": "White Oak Fence Gate",
             "minecraft:flammable": {
                 "catch_chance_modifier": 5,
                 "destroy_chance_modifier": 20
@@ -168,10 +167,10 @@
                 "seconds_to_destroy": 1
             },
             "tag:fence_gate": {},
-            "minecraft:loot": "loot_tables/blocks/white_oak_fence_gate.json", // Drops the inventory fence block when the block is destroyed.
+            "minecraft:loot": "loot_tables/blocks/helix_tree_fence_gate.json", // Drops the inventory fence block when the block is destroyed.
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "planks_white_oak", // The name of your texture.
+                    "texture": "planks_helix_tree", // The name of your texture.
                     "render_method": "alpha_test"
                 }
             }

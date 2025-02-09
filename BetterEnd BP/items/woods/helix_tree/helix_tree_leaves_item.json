@@ -1,0 +1,27 @@
+{
+    "format_version": "1.21.50",
+    "minecraft:item": {
+        "description": {
+            "identifier": "betterend:helix_tree_leaves",
+            "menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.leaves"
+			}
+        }, 
+        "components": {
+      "minecraft:display_name": {
+                "value": "White Oak Leaves"
+            },
+            "minecraft:compostable":{
+            	"composting_chance": 30
+            },
+
+            "minecraft:max_stack_size":{"value": 64},
+
+            "minecraft:block_placer":{
+                "block": "betterend:helix_tree_leaves",
+                "replace_block_item": true
+            }
+        }
+    }
+}

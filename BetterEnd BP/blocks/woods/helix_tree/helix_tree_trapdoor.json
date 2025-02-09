@@ -2,7 +2,7 @@
     "format_version": "1.21.60",
     "minecraft:block": {
       "description": {
-        "identifier": "betterend:white_oak_trapdoor",
+        "identifier": "betterend:helix_tree_trapdoor",
         "traits": {
           "minecraft:placement_position": {
             "enabled_states": ["minecraft:vertical_half"]
@@ -135,7 +135,7 @@
 							}
 							]
 							},
-      	"minecraft:loot": "loot_tables/blocks/white_oak_trapdoor.json", // Drops the inventory fence block when the block is destroyed.
+      	"minecraft:loot": "loot_tables/blocks/helix_tree_trapdoor.json", // Drops the inventory fence block when the block is destroyed.
         "minecraft:collision_box": {
           "origin": [-8, 0, -8],
           "size": [16, 3, 16]
@@ -152,10 +152,9 @@
 				"destroy_chance_modifier": 20
 			},
         "minecraft:geometry": "geometry.trapdoor",
-			  "minecraft:display_name": "White Oak Trapdoor",
         "minecraft:material_instances": {
           "*": {
-            "texture": "white_oak_trapdoor",
+            "texture": "helix_tree_trapdoor",
             "render_method": "alpha_test"
           }
         },
