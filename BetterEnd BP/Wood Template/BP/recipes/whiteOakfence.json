@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "betterend:whiteOakplankstofence"
+		},
+		"tags": [
+            "crafting_table"
+        ],
+		"key": {
+			"#": {
+				"item": "betterend:white_oak_planks"
+			},
+            "A":{
+                "item": "minecraft:stick"
+            }
+		},
+		"pattern": [
+			"#A#",
+			"#A#"
+		],
+		"unlock": [
+      {
+        "item": "betterend:white_oak_planks"
+      }
+    ],
+		"result": {
+			"item": "betterend:white_oak_fence",
+			"count": 3
+		}
+	}
+}

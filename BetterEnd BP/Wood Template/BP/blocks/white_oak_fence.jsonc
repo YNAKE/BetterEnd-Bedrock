@@ -1,0 +1,278 @@
+{
+	"format_version": "1.21.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "betterend:white_oak_fence", // if you want more than just these fences to be waterlogged be sure to generate a new structure for each, https://mcbe-essentials.github.io/structure-editor/ - use the strucutre included as your example and be sure the name of the structure is the same as the block, minus the namespace, structure name for this one is "fence" for instance.
+			"states": {
+				"betterend:post": [0, 1],
+				"betterend:north_picket": [0, 1],
+				"betterend:south_picket": [0, 1],
+				"betterend:east_picket": [0, 1],
+				"betterend:west_picket": [0, 1],
+				"betterend:waterlogged": [true, false]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('betterend:north_picket') && !q.block_state('betterend:south_picket') && !q.block_state('betterend:west_picket') && q.block_state('betterend:east_picket')",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [-8, 0, -8],
+						"size": [10, 16, 10]
+					},
+					"minecraft:selection_box": {
+						"origin": [-8, 0, -8],
+						"size": [10, 16, 10]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('betterend:north_picket') && !q.block_state('betterend:south_picket') && q.block_state('betterend:west_picket') && !q.block_state('betterend:east_picket')",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [-2, 0, -8],
+						"size": [10, 16, 10]
+					},
+					"minecraft:selection_box": {
+						"origin": [-2, 0, -8],
+						"size": [10, 16, 10]
+					}
+				}
+			},
+			{
+				"condition": "!q.block_state('betterend:north_picket') && q.block_state('betterend:south_picket') && !q.block_state('betterend:west_picket') && q.block_state('betterend:east_picket')",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [-8, 0, -2],
+						"size": [10, 16, 10]
+					},
+					"minecraft:selection_box": {
+						"origin": [-8, 0, -2],
+						"size": [10, 16, 10]
+					}
+				}
+			},
+			{
+				"condition": "!q.block_state('betterend:north_picket') && q.block_state('betterend:south_picket') && q.block_state('betterend:west_picket') && !q.block_state('betterend:east_picket')",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [-2, 0, -2],
+						"size": [10, 16, 10]
+					},
+					"minecraft:selection_box": {
+						"origin": [-2, 0, -2],
+						"size": [10, 16, 10]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('betterend:north_picket') && q.block_state('betterend:south_picket') && q.block_state('betterend:west_picket') && q.block_state('betterend:east_picket')",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [-2, 0, -2],
+						"size": [8, 16, 8]
+					},
+					"minecraft:selection_box": {
+						"origin": [-8, 0, -8],
+						"size": [16, 16, 16]
+					}
+				}
+			},
+			{
+				"condition": "!q.block_state('betterend:north_picket') && !q.block_state('betterend:south_picket') && !q.block_state('betterend:west_picket') && !q.block_state('betterend:east_picket')",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [-2, 0, 2],
+						"size": [4, 16, -4]
+					},
+					"minecraft:selection_box": {
+						"origin": [-2, 0, -2],
+						"size": [4, 16, 4]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('betterend:north_picket') && q.block_state('betterend:south_picket') && q.block_state('betterend:west_picket') && !q.block_state('betterend:east_picket')",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [-2, 0, -4],
+						"size": [7, 16, 8]
+					},
+					"minecraft:selection_box": {
+						"origin": [-2, 0, -8],
+						"size": [10, 16, 16]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('betterend:north_picket') && q.block_state('betterend:south_picket') && !q.block_state('betterend:west_picket') && q.block_state('betterend:east_picket')",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [-4, 0, -4],
+						"size": [6, 16, 8]
+					},
+					"minecraft:selection_box": {
+						"origin": [-8, 0, -8],
+						"size": [10, 16, 16]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('betterend:north_picket') && !q.block_state('betterend:south_picket') && q.block_state('betterend:west_picket') && q.block_state('betterend:east_picket')",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [-4, 0, -4],
+						"size": [8, 16, 6]
+					},
+					"minecraft:selection_box": {
+						"origin": [-8, 0, -8],
+						"size": [16, 16, 10]
+					}
+				}
+			},
+			{
+				"condition": "!q.block_state('betterend:north_picket') && q.block_state('betterend:south_picket') && q.block_state('betterend:west_picket') && q.block_state('betterend:east_picket')",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [-4, 0, -2],
+						"size": [8, 16, 7]
+					},
+					"minecraft:selection_box": {
+						"origin": [-8, 0, -2],
+						"size": [16, 16, 10]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('betterend:north_picket') && !q.block_state('betterend:south_picket') && !q.block_state('betterend:west_picket') && !q.block_state('betterend:east_picket')",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [-2, 0, -8],
+						"size": [4, 16, 10]
+					},
+					"minecraft:selection_box": {
+						"origin": [-2, 0, -8],
+						"size": [4, 16, 10]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('betterend:south_picket') && !q.block_state('betterend:north_picket') && !q.block_state('betterend:west_picket') && !q.block_state('betterend:east_picket')",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [-2, 0, -2],
+						"size": [4, 16, 10]
+					},
+					"minecraft:selection_box": {
+						"origin": [-2, 0, -2],
+						"size": [4, 16, 10]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('betterend:east_picket') && !q.block_state('betterend:west_picket') && !q.block_state('betterend:north_picket') && !q.block_state('betterend:south_picket')",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [-8, 0, -2],
+						"size": [10, 16, 4]
+					},
+					"minecraft:selection_box": {
+						"origin": [-8, 0, -2],
+						"size": [10, 16, 4]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('betterend:west_picket') && !q.block_state('betterend:east_picket') && !q.block_state('betterend:north_picket') && !q.block_state('betterend:south_picket')",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [-2, 0, -2],
+						"size": [10, 16, 4]
+					},
+					"minecraft:selection_box": {
+						"origin": [-2, 0, -2],
+						"size": [10, 16, 4]
+					}
+				}
+			},
+			{
+				"condition": "q.block_state('betterend:north_picket') && q.block_state('betterend:south_picket') && !q.block_state('betterend:west_picket') && !q.block_state('betterend:east_picket')",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [-2, 0, -8],
+						"size": [4, 16, 10]
+					},
+					"minecraft:selection_box": {
+						"origin": [-2, 0, -8],
+						"size": [4, 16, 16]
+					}
+				}
+			},
+			{
+				"condition": "!q.block_state('betterend:north_picket') && !q.block_state('betterend:south_picket') && q.block_state('betterend:west_picket') && q.block_state('betterend:east_picket')",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [-8, 0, -2],
+						"size": [10, 16, 4]
+					},
+					"minecraft:selection_box": {
+						"origin": [-8, 0, -2],
+						"size": [16, 16, 4]
+					}
+				}
+			}
+		],
+		"components": {
+			"minecraft:item_visual": {
+				"geometry": "geometry.fence_inventory",
+				"material_instances": {
+					"*": {
+					"texture": "planks_white_oak",
+					"render_method": "alpha_test"
+				}
+				}
+				},
+			"tag:minecraft:is_axe_item_destructible": {},
+			"minecraft:geometry": {
+				"identifier": "geometry.fence",
+				"bone_visibility": { 
+					"post": "!q.block_state('betterend:post')",
+					"north_picket": "q.block_state('betterend:north_picket')",
+					"south_picket": "q.block_state('betterend:south_picket')",
+					"east_picket": "q.block_state('betterend:east_picket')",
+					"west_picket": "q.block_state('betterend:west_picket')"
+				}
+			},
+			"minecraft:liquid_detection": {
+						"detection_rules": [
+						{
+							"can_contain_liquid": true,
+							"liquid_type": "water",
+							"on_liquid_touches": "no_reaction"
+							}
+							]
+							},
+			"minecraft:loot": "loot_tables/blocks/white_oak_fence.json", // Drops the inventory fence block when the block is destroyed.
+			"minecraft:flammable": { 
+				"catch_chance_modifier": 5,
+				"destroy_chance_modifier": 20
+			},
+			"minecraft:tick": {
+				"interval_range": [
+					3,
+					3
+				]
+			},
+			"minecraft:custom_components": ["betterend:on_player_destroy", "betterend:fence_interact", "betterend:on_tick", "betterend:on_player_placed"],			  
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 1
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "planks_white_oak",
+					"render_method": "alpha_test"
+				}
+			}
+		}
+	}
+}

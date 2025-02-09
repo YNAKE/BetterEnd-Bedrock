@@ -1,0 +1,30 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "betterend:whiteOaklogstrippedtowhiteOakwoodstripped"
+		},
+		"tags": [
+            "crafting_table"
+        ],
+		"key": {
+			"#": {
+				"item": "betterend:stripped_white_oak_log"
+			}
+		},
+		"group": "wood",
+    "pattern": [
+      "##",
+      "##"
+    ],
+		"unlock": [
+      {
+        "item": "betterend:stripped_white_oak_log"
+      }
+    ],
+		"result": {
+			"item": "betterend:stripped_white_oak_wood",
+			"count": 3
+		}
+	}
+}
