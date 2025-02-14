@@ -990,6 +990,6 @@
     },
     "cave_bush_leaves4": {
       "textures": "textures/blocks/caves/cave_bush_leaves_4"
-    },
+    }
   }
 }

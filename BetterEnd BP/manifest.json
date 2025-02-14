@@ -5,7 +5,7 @@
     "description": "by...",
     "uuid": "8ee24485-3137-4578-9673-2794c4f4fde7",
     "version": [1, 0, 0],
-    "min_engine_version": [1, 21, 40]
+    "min_engine_version": [1, 21, 50]
   },
   "modules": [
     {
@@ -23,7 +23,7 @@
     },
     {
       "module_name": "@minecraft/server",
-      "version": "1.16.0"
+      "version": "1.17.0"
     },
     {
       "module_name": "@minecraft/server-ui",
