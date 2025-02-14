@@ -1,0 +1,41 @@
+{
+    "format_version": "1.21.50",
+    "minecraft:block": {
+        "description": {
+            "identifier": "betterend:sandy_jadestone",
+            "menu_category": {
+                "category": "nature"
+            },
+            "states": {
+                "betterend:biomes": [
+                    "none",
+                    "jadestone"
+                ]
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('betterend:biomes') == 'none'",
+                "components": {
+                  "tag:none": {}
+                }
+              },
+              {
+                "condition": "q.block_state('betterend:biomes') == 'jadestone'",
+                "components": {
+                  "tag:jadestone": {}
+                }
+              }
+        ],
+        "components": {
+            "tag:stone": {},
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 7
+            },
+            "minecraft:flammable": false,
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 2
+            }
+        }
+    }
+}

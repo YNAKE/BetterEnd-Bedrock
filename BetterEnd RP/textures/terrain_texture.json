@@ -967,6 +967,16 @@
     },
     "thallasium_ore": {
       "textures": "textures/blocks/ore/thallasium_ore"
+    },
+    // Jadestone Cave
+    "sandy_jadestone": {
+      "textures": "textures/blocks/caves/sandy_jadestone"
+    },
+    "azure_jadestone": {
+      "textures": "textures/blocks/caves/azure_jadestone"
+    },
+    "virid_jadestone": {
+      "textures": "textures/blocks/caves/virid_jadestone"
     }
   }
 }

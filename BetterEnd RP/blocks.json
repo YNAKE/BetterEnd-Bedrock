@@ -534,5 +534,18 @@
   "betterend:thallasium_ore": {
     "sound": "stone",
     "textures": "thallasium_ore"
+  },
+  // Jadestone cave
+  "betterend:virid_jadestone": {
+    "sound": "stone",
+    "textures": "virid_jadestone"
+  },
+  "betterend:sandy_jadestone": {
+    "sound": "stone",
+    "textures": "sandy_jadestone"
+  },
+  "betterend:azure_jadestone": {
+    "sound": "stone",
+    "textures": "azure_jadestone"
   }
 }
