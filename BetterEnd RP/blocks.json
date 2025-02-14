@@ -547,5 +547,9 @@
   "betterend:azure_jadestone": {
     "sound": "stone",
     "textures": "azure_jadestone"
+  },
+  // Lush Caves
+  "betterend:cave_bush_leaves": {
+    "sound": "grass"
   }
 }

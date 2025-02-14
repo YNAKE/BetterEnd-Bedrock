@@ -977,6 +977,19 @@
     },
     "virid_jadestone": {
       "textures": "textures/blocks/caves/virid_jadestone"
-    }
+    },
+    // Lush Cave
+    "cave_bush_leaves1": {
+      "textures": "textures/blocks/caves/cave_bush_leaves_1"
+    },
+    "cave_bush_leaves2": {
+      "textures": "textures/blocks/caves/cave_bush_leaves_2"
+    },
+    "cave_bush_leaves3": {
+      "textures": "textures/blocks/caves/cave_bush_leaves_3"
+    },
+    "cave_bush_leaves4": {
+      "textures": "textures/blocks/caves/cave_bush_leaves_4"
+    },
   }
 }

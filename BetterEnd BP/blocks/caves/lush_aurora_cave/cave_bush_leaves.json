@@ -1,0 +1,89 @@
+{
+    "format_version": "1.20.81",
+    "minecraft:block": {
+        "description": {
+            "identifier": "betterend:cave_bush_leaves",
+            "menu_category": {
+                "category": "nature",
+                "group": "itemGroup.name.leaves"
+            },
+            "states": {
+                "betterend:random": [
+                    0,
+                    1,
+                    2,
+                    3
+                ]
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('betterend:random') == 0",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cave_bush_leaves1",
+                            "render_method": "alpha_test_single_sided",
+                            "ambient_occlusion": true,
+                            "face_dimming": true
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('betterend:random') == 1",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cave_bush_leaves2",
+                            "render_method": "alpha_test_single_sided",
+                            "ambient_occlusion": true,
+                            "face_dimming": true
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('betterend:random') == 2",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cave_bush_leaves3",
+                            "render_method": "alpha_test_single_sided",
+                            "ambient_occlusion": true,
+                            "face_dimming": true
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('betterend:random') == 3",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "cave_bush_leaves4",
+                            "render_method": "alpha_test_single_sided",
+                            "ambient_occlusion": true,
+                            "face_dimming": true
+                        }
+                    }
+                }
+            }
+        ],
+        "components": {
+            "minecraft:custom_components": [
+                "betterend:cave_bush_leaves",
+                "betterend:caves_index"
+            ],
+            "tag:leaf": {},
+            "tag:leaves": {},
+            "tag:plant": {},
+            "minecraft:loot": "loot_tables/empty.json",
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.5
+            },
+            "minecraft:geometry": "minecraft:geometry.full_block",
+            "minecraft:flammable": true
+        }
+    }
+}
