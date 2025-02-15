@@ -1,5 +1,5 @@
-import { MinecraftDimensionTypes, Player, system } from "@minecraft/server";
-import { BiomeTags, AllTags } from "./BiomeTags";
+import { MinecraftDimensionTypes, Player, system, } from "@minecraft/server";
+import { BiomeTags, CaveBiomesTag, AllTags } from "./BiomeTags";
 Player.prototype.climb = function () {
     const block = this.dimension.getBlock(this.location);
     if (!block?.hasTag("betterend:can_climb"))
@@ -26,7 +26,7 @@ class PlayerUtils {
         }
     }
     sky() {
-        const nebula = 'animation.nebula.moving';
+        const nebula = "animation.nebula.moving";
         this.player.playAnimation(nebula);
     }
     ambientStuff() {
@@ -40,7 +40,7 @@ class PlayerUtils {
             for (let i = 0; i < AllTags.length; i++) {
                 this.player.removeTag(AllTags[i]);
             }
-            const id = this.player.getDynamicProperty('betterend:ambient_stuff_id');
+            const id = this.player.getDynamicProperty("betterend:ambient_stuff_id");
             id ? system.clearRun(id) : null;
             this.player.addTag(tag);
             this.player.runCommandAsync(`fog @s remove end_fog`);
@@ -50,10 +50,10 @@ class PlayerUtils {
     }
     joinSky() {
         const player = this.player;
-        const isInTheEnd = player.getDynamicProperty('betterend:in_the_end');
+        const isInTheEnd = player.getDynamicProperty("betterend:in_the_end");
         if (isInTheEnd) {
             if (player.isSprinting || player.isJumping) {
-                player.setDynamicProperty('betterend:in_the_end', false);
+                player.setDynamicProperty("betterend:in_the_end", false);
                 this.sky();
             }
         }
@@ -63,12 +63,15 @@ class PlayerUtils {
         const { dimension, location } = player;
         if (player.isFalling) {
             const vel = player.getVelocity().y;
-            player.setDynamicProperty('betterend:fall_velocity', 0 + Math.abs(vel));
+            player.setDynamicProperty("betterend:fall_velocity", 0 + Math.abs(vel));
             const block = dimension.getBlock(location);
-            const mem = 'betterend:umbrella_tree_membrane';
+            const mem = "betterend:umbrella_tree_membrane";
             for (let i = 0; i < 4; i++) {
                 if (block.below(i)?.typeId === mem) {
-                    player.addEffect('resistance', 5, { showParticles: false, amplifier: 255 });
+                    player.addEffect("resistance", 5, {
+                        showParticles: false,
+                        amplifier: 255,
+                    });
                 }
             }
         }
@@ -83,13 +86,32 @@ class PlayerUtils {
             const block = this.dimension.getBlock({
                 x: this.location.x,
                 y: i,
-                z: this.location.z
+                z: this.location.z,
             });
             // y >= 50 | for land biomes
             if (this.location.y >= 50) {
                 for (const tag of AllTags) {
                     if (block?.hasTag(tag)) {
-                        const biomeData = BiomeTags.find(biome => biome.tag === tag);
+                        const biomeData = BiomeTags.find((biome) => biome.tag === tag);
+                        if (biomeData) {
+                            const { fog, sound, music, tag: biomeTag } = biomeData;
+                            return { fog, sound, music, biomeTag };
+                        }
+                    }
+                }
+            }
+        }
+        for (let i = 45; i >= 10; i--) {
+            const block = this.dimension.getBlock({
+                x: this.location.x,
+                y: i,
+                z: this.location.z,
+            });
+            // y <= 45 | for cave biomes
+            if (this.location.y <= 45) {
+                for (const tag of AllTags) {
+                    if (block?.hasTag(tag)) {
+                        const biomeData = CaveBiomesTag.find((biome) => biome.tag === tag);
                         if (biomeData) {
                             const { fog, sound, music, tag: biomeTag } = biomeData;
                             return { fog, sound, music, biomeTag };
@@ -104,14 +126,20 @@ class PlayerUtils {
         system.waitTicks(20);
         this.player.playSound(sound, { location: this.player.location });
         system.waitTicks(20);
-        this.player.playSound(music, { location: this.player.location, volume: 0.15 });
+        this.player.playSound(music, {
+            location: this.player.location,
+            volume: 0.15,
+        });
         const id = system.runInterval(() => {
-            this.player.setDynamicProperty('betterend:ambient_stuff_id', id);
+            this.player.setDynamicProperty("betterend:ambient_stuff_id", id);
             this.player.runCommandAsync(`stopsound @s`);
             system.waitTicks(20);
             this.player.playSound(sound, { location: this.player.location });
             system.waitTicks(20);
-            this.player.playSound(music, { location: this.player.location, volume: 0.15 });
+            this.player.playSound(music, {
+                location: this.player.location,
+                volume: 0.15,
+            });
         }, 6000);
     }
 }
