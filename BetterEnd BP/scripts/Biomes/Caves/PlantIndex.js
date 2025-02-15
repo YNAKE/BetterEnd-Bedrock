@@ -3,6 +3,9 @@ import PlantUtils from "Biomes/PlantsUtils";
 const blockIndex = {
     "betterend:cave_bush_leaves": {
         random: 3
+    },
+    "betterend:cave_grass": {
+        random: 3
     }
 };
 world.beforeEvents.worldInitialize.subscribe((data) => {

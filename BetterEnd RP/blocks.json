@@ -549,6 +549,17 @@
     "textures": "azure_jadestone"
   },
   // Lush Caves
+  "betterend:cave_grass": {
+    "sound": "grass"
+  },
+  "betterend:cave_moss": {
+    "sound": "grass",
+    "textures": {
+      "down": "end_stone",
+      "up": "cave_moss_top",
+      "side": "cave_moss_side"
+    }
+  },
   "betterend:cave_bush_leaves": {
     "sound": "grass"
   }

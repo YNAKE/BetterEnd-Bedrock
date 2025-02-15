@@ -1,0 +1,49 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "betterend:cave_moss",
+            "menu_category": {
+                "category": "nature"
+            },
+            "states": {
+                "betterend:biomes": [
+                    "none",
+                    "lush_cave",
+                    "smaragdant"
+                ]
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('betterend:biomes') == 'none'",
+                "components": {
+                  "tag:none": {}
+                }
+              },
+              {
+                "condition": "q.block_state('betterend:biomes') == 'lush_cave'",
+                "components": {
+                  "tag:lush_cave": {}
+                }
+              },
+              {
+                "condition": "q.block_state('betterend:biomes') == 'smaragdant'",
+                "components": {
+                  "tag:smaragdant": {}
+                }
+              }
+        ],
+        "components": {
+            "tag:grass": {},
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 0.5
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1
+            },
+            "minecraft:flammable": false,
+            "minecraft:map_color": "#fb7e00"
+        }
+    }
+}

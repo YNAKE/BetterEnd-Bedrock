@@ -241,6 +241,10 @@
     },
     "amber_grass": {
       "textures": "textures/blocks/amberland/plants/amber_grass"
+    },
+    // Caves
+    "cave_grass": {
+      "textures": "textures/blocks/caves/plants/cave_grass_1"
     }
   }
 }
