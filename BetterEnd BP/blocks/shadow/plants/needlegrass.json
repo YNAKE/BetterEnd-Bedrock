@@ -67,6 +67,7 @@
       }
     ],
     "components": {
+      "tag:offset:-12": {},
       "tag:particle:betterend:black_spore": {},
       "minecraft:custom_components": [
         "betterend:shadow_index",

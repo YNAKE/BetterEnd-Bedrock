@@ -88,6 +88,7 @@
             }
         ],
         "components": {
+            "tag:offset:-12": {},
             "minecraft:liquid_detection": {
                 "detection_rules": [
                     {

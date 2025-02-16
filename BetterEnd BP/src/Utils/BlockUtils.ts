@@ -11,16 +11,16 @@ class BlockUtils {
     }
 
     particleEmitter() {
-        const offset = { x: this.loc.x, y: this.loc.y - 10, z: this.loc.z };
         const tags = this.block.getTags();
-        const particle = tags.find(e => e.startsWith('particle'));
-        const particleId = particle.replace('particle:', '');
-        if (particleId.includes('desertic')) {
+        const Yoffset = parseInt(tags.find(e => e.startsWith('offset')).split(':')[1]);
+        const particle = tags.find(e => e.startsWith('particle')).replace('particle:', '');
+        const offset = { x: this.loc.x, y: this.loc.y + Yoffset, z: this.loc.z };
+        if (particle.includes('desertic')) {
             const canSpawn = Math.random() < 0.1;
-            canSpawn ? this.dim.spawnParticle(particleId, offset) : null;
+            canSpawn ? this.dim.spawnParticle(particle, offset) : null;
         }
         else {
-            this.dim.spawnParticle(particleId, offset);
+            this.dim.spawnParticle(particle, offset);
         }
     }
 }

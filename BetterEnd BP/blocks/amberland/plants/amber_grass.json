@@ -30,6 +30,7 @@
       }
     ],
     "components": {
+      "tag:offset:-12": {},
       "tag:particle:betterend:amber_sphere": {},
       "minecraft:custom_components": [
         "betterend:amberland_index",
