@@ -1,49 +1,143 @@
 {
-    "format_version": "1.21.0",
-    "minecraft:block": {
-        "description": {
-            "identifier": "betterend:cave_moss",
-            "menu_category": {
-                "category": "nature"
-            },
-            "states": {
-                "betterend:biomes": [
-                    "none",
-                    "lush_cave",
-                    "smaragdant"
-                ]
-            }
-        },
-        "permutations": [
-            {
-                "condition": "q.block_state('betterend:biomes') == 'none'",
-                "components": {
-                  "tag:none": {}
-                }
-              },
-              {
-                "condition": "q.block_state('betterend:biomes') == 'lush_cave'",
-                "components": {
-                  "tag:lush_cave": {}
-                }
-              },
-              {
-                "condition": "q.block_state('betterend:biomes') == 'smaragdant'",
-                "components": {
-                  "tag:smaragdant": {}
-                }
-              }
-        ],
-        "components": {
-            "tag:grass": {},
-            "minecraft:destructible_by_explosion": {
-                "explosion_resistance": 0.5
-            },
-            "minecraft:destructible_by_mining": {
-                "seconds_to_destroy": 1
-            },
-            "minecraft:flammable": false,
-            "minecraft:map_color": "#fb7e00"
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "betterend:cave_moss",
+      "menu_category": {
+        "category": "nature"
+      },
+      "states": {
+        "betterend:biomes": [
+          "none",
+          "lush_cave",
+          "smaragdant"
+        ]
+      },
+      "traits": {
+        "minecraft:placement_direction": {
+          "enabled_states": [
+            "minecraft:facing_direction"
+          ]
         }
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('betterend:biomes') == 'none'",
+        "components": {
+          "tag:none": {}
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:biomes') == 'lush_cave'",
+        "components": {
+          "tag:lush_cave": {}
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:biomes') == 'smaragdant'",
+        "components": {
+          "tag:smaragdant": {}
+        }
+      },
+      // Facing down
+      {
+        "condition": "q.block_state('minecraft:facing_direction') == 'down'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              90,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      // Facing up
+      {
+        "condition": "q.block_state('minecraft:facing_direction') == 'up'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              -90,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      // Facing north
+      {
+        "condition": "q.block_state('minecraft:facing_direction') == 'north'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              90,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      // Facing west
+      {
+        "condition": "q.block_state('minecraft:facing_direction') == 'west'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              90,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      // Facing south
+      {
+        "condition": "q.block_state('minecraft:facing_direction') == 'south'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              90,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      // Facing east
+      {
+        "condition": "q.block_state('minecraft:facing_direction') == 'east'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              90,
+              0,
+              0
+            ]
+          }
+        }
+      }
+    ],
+    "components": {
+      "tag:grass": {},
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "cave_moss",
+          "render_method": "alpha_test",
+          "ambient_occlusion": true,
+          "face_dimming": true
+        }
+      },
+      "minecraft:geometry": "geometry.grass_block",
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 0.5
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1
+      },
+      "minecraft:flammable": false,
+      "minecraft:map_color": "#fb7e00"
     }
+  }
 }

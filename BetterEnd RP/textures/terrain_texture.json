@@ -985,11 +985,8 @@
     "cave_grass2": {
       "textures": "textures/blocks/caves/plants/cave_grass_2"
     },
-    "cave_moss_top": {
-      "textures": "textures/blocks/caves/cave_moss_top"
-    },
-    "cave_moss_side": {
-      "textures": "textures/blocks/caves/cave_moss_side"
+    "cave_moss": {
+      "textures": "textures/blocks/caves/cave_moss"
     },
     "cave_bush_leaves1": {
       "textures": "textures/blocks/caves/cave_bush_leaves_1"
