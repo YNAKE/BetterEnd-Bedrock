@@ -30,7 +30,11 @@
       }
     ],
     "components": {
-      "minecraft:custom_components": ["betterend:amberland_index"],
+      "tag:particle:betterend:amber_sphere": {},
+      "minecraft:custom_components": [
+        "betterend:amberland_index",
+        "betterend:particle_emitter"
+      ],
       "minecraft:loot": "loot_tables/empty.json",
       "minecraft:material_instances": {
         "*": {

@@ -150,7 +150,8 @@
 			}
 		],
 		"components": {
-			"minecraft:custom_components": ["betterend:jellyshroom"],
+			"tag:particle:betterend:jungle_spore": {},
+			"minecraft:custom_components": ["betterend:jellyshroom", "betterend:particle_emitter"],
 			"minecraft:loot": "loot_tables/empty.json",
 			"minecraft:placement_filter": {
 				"conditions": [

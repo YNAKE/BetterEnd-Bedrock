@@ -97,8 +97,10 @@
                     }
                 ]
             },
+            "tag:particle:betterend:sulphure_spore": {},
             "minecraft:custom_components": [
-                "betterend:sulphur_index"
+                "betterend:sulphur_index",
+                "betterend:particle_emitter"
             ],
             "minecraft:collision_box": false,
             "minecraft:selection_box": {

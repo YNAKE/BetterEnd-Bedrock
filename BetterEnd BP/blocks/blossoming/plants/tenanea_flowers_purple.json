@@ -63,7 +63,8 @@
     ],
     "components": {
       "tag:betterend:can_climb": {},
-      "minecraft:custom_components": ["betterend:tenanea_flowers_purple"],
+      "tag:particle:betterend:petal1": {},
+      "minecraft:custom_components": ["betterend:tenanea_flowers_purple", "betterend:particle_emitter"],
       "minecraft:tick": {
         "interval_range": [10, 10],
         "looping": true

@@ -214,6 +214,8 @@
 			}
 		],
 		"components": {
+			"tag:particle:betterend:desertic": {},
+			"minecraft:custom_components": [ "betterend:particle_emitter" ],
 			"minecraft:placement_filter": {
 				"conditions": [
 					{

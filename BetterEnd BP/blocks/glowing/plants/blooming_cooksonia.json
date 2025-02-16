@@ -30,7 +30,8 @@
         }
       ],
       "components": {
-        "minecraft:custom_components": ["betterend:glowing_index"],
+        "tag:particle:betterend:firefly": {},
+        "minecraft:custom_components": ["betterend:glowing_index", "betterend:particle_emitter"],
         "minecraft:loot": "loot_tables/empty.json",
         "minecraft:material_instances": {
           "*": {

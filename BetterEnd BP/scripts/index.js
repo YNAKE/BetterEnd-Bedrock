@@ -5,6 +5,7 @@ import "./Biomes/biomeRegister";
 import "./Utils/External/ExternalUtils";
 import PlayerUtils from "Utils/PlayerUtils";
 import MobUtils from "Utils/MobUtils";
+import "./Utils/BlockUtils";
 // index
 system.runInterval(() => {
     const dimensions = ["minecraft:nether", "minecraft:overworld", "minecraft:the_end"];
@@ -48,16 +49,4 @@ system.afterEvents.scriptEventReceive.subscribe(e => {
         console.warn(message);
         eval(message);
     }
-});
-world.beforeEvents.worldInitialize.subscribe(e => {
-    e.blockComponentRegistry.registerCustomComponent('custom:stair', {
-        onTick({ block }) {
-            const { location, dimension: dim } = block;
-            const loc = location;
-            const entities = dim.getEntities({ maxDistance: 3, location, excludeTypes: ["custom:hitbox"] });
-            if (entities.length === 0)
-                return;
-            dim.spawnEntity('custom:hitbox', { x: loc.x + 0.5, y: loc.y + 0.8, z: loc.z + 0.8 });
-        }
-    });
 });

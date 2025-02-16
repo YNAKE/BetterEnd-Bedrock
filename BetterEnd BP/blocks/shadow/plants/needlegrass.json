@@ -67,8 +67,10 @@
       }
     ],
     "components": {
+      "tag:particle:betterend:black_spore": {},
       "minecraft:custom_components": [
-        "betterend:shadow_index"
+        "betterend:shadow_index",
+        "betterend:particle_emitter"
       ],
       "minecraft:loot": "loot_tables/empty.json",
       "minecraft:tick": {
