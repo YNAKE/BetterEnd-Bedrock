@@ -6,6 +6,9 @@ class BlockUtils {
         this.dim = block.dimension;
     }
     particleEmitter() {
+        const closePlayers = this.dim.getPlayers({ maxDistance: 10, location: this.loc });
+        if (closePlayers.length === 0)
+            return;
         const tags = this.block.getTags();
         const Yoffset = parseInt(tags.find(e => e.startsWith('offset')).split(':')[1]);
         const particle = tags.find(e => e.startsWith('particle')).replace('particle:', '');
