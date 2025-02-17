@@ -1,0 +1,77 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "betterend:bolux_mushroom",
+            "states": {
+                "betterend:random": [
+                    0,
+                    1,
+                    2
+                ]
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('betterend:random') == 0",
+                "components": {
+                    "minecraft:geometry": "geometry.bolux_mushroom_1"
+                }
+            },
+            {
+                "condition": "q.block_state('betterend:random') == 1",
+                "components": {
+                    "minecraft:geometry": "geometry.bolux_mushroom_2"
+                }
+            },
+            {
+                "condition": "q.block_state('betterend:random') == 2",
+                "components": {
+                    "minecraft:geometry": "geometry.bolux_mushroom_3"
+                }
+            }
+        ],
+        "components": {
+            "minecraft:custom_components": [
+                "betterend:lucernia_index"
+            ],
+            "minecraft:light_emission": 10,
+            "minecraft:loot": "loot_tables/empty.json",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "bolux_mushroom",
+                    "render_method": "alpha_test_single_sided",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
+                }
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    10,
+                    16
+                ]
+            },
+            "minecraft:destructible_by_explosion": true,
+            "minecraft:destructible_by_mining": true,
+            "minecraft:collision_box": false,
+            "minecraft:placement_filter": {
+                "conditions": [
+                    {
+                        "allowed_faces": [
+                            "up"
+                        ],
+                        "block_filter": [
+                            "betterend:rutiscus"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

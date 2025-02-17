@@ -16,6 +16,9 @@ const blockIndex = {
   },
   "betterend:orango": {
     random: 1
+  },
+  "betterend:bolux_mushroom": {
+    random: 2
   }
 };
 

@@ -4,6 +4,9 @@
   "resource_pack_name": "vanilla",
   "texture_data": {
     // Lantern
+    "bolux_mushroom": {
+      "textures": "textures/blocks/lantern/plants/bolux_mushroom"
+    },
     "orango": {
       "textures": "textures/blocks/lantern/plants/orango"
     },
