@@ -11,7 +11,8 @@ class BlockUtils {
     }
 
     particleEmitter() {
-        const closePlayers = this.dim.getPlayers({ maxDistance: 10, location: this.loc });
+        if (this.dim.id !== 'minecraft:the_end') return;
+        const closePlayers = this.dim.getPlayers({ maxDistance: 15, location: this.loc });
         if (closePlayers.length === 0) return;
         const tags = this.block.getTags();
         const Yoffset = parseInt(tags.find(e => e.startsWith('offset')).split(':')[1]);
