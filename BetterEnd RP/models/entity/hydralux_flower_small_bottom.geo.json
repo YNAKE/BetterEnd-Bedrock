@@ -6,7 +6,7 @@
 				"identifier": "geometry.hydralux_flower_small_bottom",
 				"texture_width": 16,
 				"texture_height": 16,
-				"visible_bounds_width": 2,
+				"visible_bounds_width": 3,
 				"visible_bounds_height": 2.5,
 				"visible_bounds_offset": [0, 0.75, 0]
 			},
@@ -22,7 +22,7 @@
 							"rotation": [0, -45, 0],
 							"uv": {
 								"east": {"uv": [4.53333, 1.33333], "uv_size": [2.13333, 0.73333]},
-								"west": {"uv": [13.46667, 13.26667], "uv_size": [2.53333, 2.73333]}
+								"west": {"uv": [6.66666, 1.33333], "uv_size": [-2.13333, 0.73333]}
 							}
 						},
 						{
@@ -31,7 +31,7 @@
 							"pivot": [-5.75, 0, -5.75],
 							"rotation": [0, 45, 0],
 							"uv": {
-								"east": {"uv": [14.66667, 14.33333], "uv_size": [1.33333, 1.66667]},
+								"east": {"uv": [6.66666, 1.33333], "uv_size": [-2.13333, 0.73333]},
 								"west": {"uv": [4.53333, 1.33333], "uv_size": [2.13333, 0.73333]}
 							}
 						},

@@ -6,7 +6,7 @@
 				"identifier": "geometry.hydralux_flower_roots",
 				"texture_width": 16,
 				"texture_height": 16,
-				"visible_bounds_width": 2,
+				"visible_bounds_width": 3,
 				"visible_bounds_height": 2.5,
 				"visible_bounds_offset": [0, 0.75, 0]
 			},
@@ -22,7 +22,7 @@
 							"rotation": [0, -45, 0],
 							"uv": {
 								"east": {"uv": [4.66667, 13.2], "uv_size": [2.13333, 2.13333]},
-								"west": {"uv": [13.86667, 10.8], "uv_size": [2.13333, 2.13333]}
+								"west": {"uv": [6.8, 13.2], "uv_size": [-2.13333, 2.13333]}
 							}
 						},
 						{
@@ -32,7 +32,7 @@
 							"rotation": [0, 45, 0],
 							"uv": {
 								"east": {"uv": [4.66667, 13.2], "uv_size": [2.13333, 2.13333]},
-								"west": {"uv": [13.86667, 10.8], "uv_size": [2.13333, 2.13333]}
+								"west": {"uv": [6.8, 13.2], "uv_size": [-2.13333, 2.13333]}
 							}
 						}
 					]
