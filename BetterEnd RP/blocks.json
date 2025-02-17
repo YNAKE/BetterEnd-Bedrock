@@ -540,5 +540,12 @@
   },
   "betterend:cave_bush_leaves": {
     "sound": "grass"
+  },
+  // Smaragdant Caves
+  "betterend:smaragdant_crystal": {
+    "sound": "amethyst_block" // no se si es el sonido es el correcto
+  },
+  "betterend:smaragdant_crystal_shard": {
+    "sound": "amethyst_cluster"
   }
 }
