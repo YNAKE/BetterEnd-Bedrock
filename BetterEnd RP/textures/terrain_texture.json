@@ -1002,6 +1002,22 @@
     },
     "cave_bush_leaves4": {
       "textures": "textures/blocks/caves/cave_bush_leaves_4"
+    },
+    // Smaragdant Cave
+    "smaragdant_crystal_shard": {
+      "textures": "textures/blocks/caves/smaragdant_crystal_shard"
+    },
+    "budding_smaragdant_crystal_side": {
+      "textures": "textures/blocks/caves/budding_smaragdant_crystal_side"
+    },
+    "budding_smaragdant_crystal_top": {
+      "textures": "textures/blocks/caves/budding_smaragdant_crystal_top"
+    },
+    "smaragdant_crystal_side": {
+      "textures": "textures/blocks/caves/smaragdant_crystal_side"
+    },
+    "smaragdant_crystal_top": {
+      "textures": "textures/blocks/caves/smaragdant_crystal_top"
     }
   }
 }

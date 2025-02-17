@@ -246,6 +246,9 @@
       "textures": "textures/blocks/amberland/plants/amber_grass"
     },
     // Caves
+    "smaragdant_crystal_shard": {
+      "textures": "textures/blocks/caves/smaragdant_crystal_shard"
+    },
     "cave_grass": {
       "textures": "textures/blocks/caves/plants/cave_grass_1"
     }
