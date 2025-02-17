@@ -545,6 +545,9 @@
   "betterend:smaragdant_crystal": {
     "sound": "amethyst_block" // no se si es el sonido es el correcto
   },
+  "beterend:budding_smaragdant_crystal": {
+    "sound": "amethyst_block"
+  },
   "betterend:smaragdant_crystal_shard": {
     "sound": "amethyst_cluster"
   }
