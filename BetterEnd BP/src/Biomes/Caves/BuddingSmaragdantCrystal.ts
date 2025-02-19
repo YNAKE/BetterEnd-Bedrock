@@ -15,11 +15,11 @@ world.beforeEvents.worldInitialize.subscribe(data => {
                     vector: { x: loc.x + 1, y: loc.y, z: loc.z }
                 },
                 {
-                    direction: Direction.North,
+                    direction: Direction.South,
                     vector: { x: loc.x, y: loc.y, z: loc.z + 1 } 
                 },
                 {
-                    direction: Direction.South,
+                    direction: Direction.North,
                     vector: { x: loc.x, y: loc.y, z: loc.z - 1 } 
                 },
                 {
@@ -32,7 +32,9 @@ world.beforeEvents.worldInitialize.subscribe(data => {
                 }
             ];
             const randomSide = sides[Math.floor(Math.random() * sides.length)];
-            const perm = BlockPermutation.resolve(block.typeId + '_shard', {
+            const sideBlock = dim.getBlock(randomSide.vector);
+            if (!sideBlock.isAir) return;
+            const perm = BlockPermutation.resolve(block.typeId.replace('budding_', '') + '_shard', {
                 "minecraft:facing_direction": randomSide.direction.toLocaleLowerCase()
             });
             dim.setBlockPermutation(randomSide.vector, perm);
