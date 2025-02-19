@@ -543,10 +543,20 @@
   },
   // Smaragdant Caves
   "betterend:smaragdant_crystal": {
-    "sound": "amethyst_block" // no se si es el sonido es el correcto
+    "sound": "amethyst_block", // no se si es el sonido es el correcto
+    "textures": {
+      "side": "smaragdant_crystal_side",
+      "up": "smaragdant_crystal_top",
+      "down": "smaragdant_crystal_top"
+    }
   },
-  "beterend:budding_smaragdant_crystal": {
-    "sound": "amethyst_block"
+  "betterend:budding_smaragdant_crystal": {
+    "sound": "amethyst_block",
+    "textures": {
+      "side": "budding_smaragdant_crystal_side",
+      "up": "budding_smaragdant_crystal_top",
+      "down": "budding_smaragdant_crystal_top"
+    }
   },
   "betterend:smaragdant_crystal_shard": {
     "sound": "amethyst_cluster"
