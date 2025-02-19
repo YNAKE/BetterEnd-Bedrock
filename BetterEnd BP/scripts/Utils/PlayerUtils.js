@@ -22,7 +22,7 @@ class PlayerUtils {
             maxDistance: 8,
         })?.block;
         if (block) {
-            this.player.onScreenDisplay.setActionBar(`Id: ${block.typeId}, Tags: ${block.getTags()}`);
+            this.player.onScreenDisplay.setActionBar(`Id: ${block.typeId}\nTags: ${block.getTags()}\nStates: ${JSON.stringify(block.permutation.getAllStates())}`);
         }
     }
     sky() {
