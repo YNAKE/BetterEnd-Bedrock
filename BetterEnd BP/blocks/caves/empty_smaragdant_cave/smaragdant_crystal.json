@@ -1,0 +1,21 @@
+{
+    "format_version": "1.21.50",
+    "minecraft:block": {
+        "description": {
+            "identifier": "betterend:smaragdant_crystal",
+            "menu_category": {
+                "category": "nature"
+            }
+        },
+        "components": {
+            "tag:metal": {},
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 5
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 5
+            },
+            "minecraft:flammable": false
+        }
+    }
+}
