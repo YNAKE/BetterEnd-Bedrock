@@ -1,0 +1,112 @@
+{
+    "format_version": "1.21.50",
+    "minecraft:block": {
+        "description": {
+            "identifier": "betterend:filalux_wings",
+            "traits": {
+                "minecraft:placement_direction": {
+                    "enabled_states": [
+                        "minecraft:facing_direction"
+                    ]
+                }
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('minecraft:facing_direction') == 'down'",
+                "components": {
+                    "minecraft:transformation": {
+                        "translation": [
+                            0, -0.75, 0
+                        ],
+                        "scale": [
+                            1.2, 1.2, 1.2
+                        ]
+                    },
+                    "minecraft:geometry": "geometry.filalux_wings_top"
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:facing_direction') == 'up'",
+                "components": {}
+            },
+            {
+                "condition": "q.block_state('minecraft:facing_direction') == 'north'",
+                "components": {
+                    "minecraft:geometry": "geometry.filalux_wings",
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:facing_direction') == 'west'",
+                "components": {
+                    "minecraft:geometry": "geometry.filalux_wings",
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:facing_direction') == 'south'",
+                "components": {
+                    "minecraft:geometry": "geometry.filalux_wings",
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:facing_direction') == 'east'",
+                "components": {
+                    "minecraft:geometry": "geometry.filalux_wings",
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            -90,
+                            0
+                        ]
+                    }
+                }
+            }
+        ],
+        "components": {
+            "minecraft:placement_filter": {
+                "conditions": [
+                    {
+                        "block_filter": [
+                            "betterend:filalux_lantern"
+                        ]
+                    }
+                ]
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "filalux_wings",
+                    "render_method": "alpha_test_single_sided",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
+                }
+            },
+            "minecraft:collision_box": false,
+            "minecraft:destructible_by_explosion": true,
+            "minecraft:destructible_by_mining": true,
+            "minecraft:flammable": true,
+            "minecraft:light_emission": 10,
+            "minecraft:loot": "loot_tables/empty.json"
+        }
+    }
+}
