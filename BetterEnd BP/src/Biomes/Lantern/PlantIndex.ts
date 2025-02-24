@@ -19,6 +19,9 @@ const blockIndex = {
   },
   "betterend:bolux_mushroom": {
     random: 2
+  },
+  "betterend:flamaea": {
+    random: 4
   }
 };
 

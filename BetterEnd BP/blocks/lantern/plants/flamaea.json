@@ -1,0 +1,101 @@
+{
+    "format_version": "1.21.50",
+    "minecraft:block": {
+        "description": {
+            "identifier": "betterend:flamaea",
+            "states": {
+                "betterend:random": [
+                    0, 1, 2, 3, 4
+                ]
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('betterend:random') == 0",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "flamaea1",
+                            "render_method": "alpha_test_single_sided",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('betterend:random') == 1",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "flamaea2",
+                            "render_method": "alpha_test_single_sided",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('betterend:random') == 2",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "flamaea3",
+                            "render_method": "alpha_test_single_sided",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('betterend:random') == 3",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "flamaea4",
+                            "render_method": "alpha_test_single_sided",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('betterend:random') == 4",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "flamaea5",
+                            "render_method": "alpha_test_single_sided",
+                            "ambient_occlusion": false,
+                            "face_dimming": false
+                        }
+                    }
+                }
+            }
+        ],
+        "components": {
+            "minecraft:custom_components": [ "betterend:lucernia_index" ],
+            "minecraft:geometry": "geometry.plane_plant",
+            "minecraft:collision_box": false,
+            "minecraft:destructible_by_explosion": true,
+            "minecraft:destructible_by_mining": true,
+            "minecraft:flammable": true,
+            "minecraft:placement_filter": {
+                "conditions": [
+                    {
+                        "allowed_faces": [
+                            "down"
+                        ],
+                        "block_filter": [
+                            "minecraft:water",
+                            "minecraft:flowing_water"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

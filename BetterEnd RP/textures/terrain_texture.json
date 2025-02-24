@@ -4,6 +4,21 @@
   "resource_pack_name": "vanilla",
   "texture_data": {
     // Lantern
+    "flamaea1": {
+      "textures": "textures/blocks/lantern/plants/flamaea_1"
+    },
+    "flamaea2": {
+      "textures": "textures/blocks/lantern/plants/flamaea_2"
+    },
+    "flamaea3": {
+      "textures": "textures/blocks/lantern/plants/flamaea_3"
+    },
+    "flamaea4": {
+      "textures": "textures/blocks/lantern/plants/flamaea_4"
+    },
+    "flamaea5": {
+      "textures": "textures/blocks/lantern/plants/flamaea_5"
+    },
     "filalux_wings": {
       "textures": "textures/blocks/lantern/plants/filalux_wings"
     },
