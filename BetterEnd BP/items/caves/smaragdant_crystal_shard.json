@@ -1,0 +1,18 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "betterend:smaragdant_crystal_shard",
+            "menu_category": {
+
+                "category": "items"
+            }
+        },
+        "components": {
+            "minecraft:icon": "smaragdant_crystal_shard",
+            "minecraft:block_placer": {
+                "block": "betterend:smaragdant_crystal_shard"
+            }
+        }
+    }
+}
