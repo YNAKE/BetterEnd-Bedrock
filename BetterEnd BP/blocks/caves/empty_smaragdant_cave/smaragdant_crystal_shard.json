@@ -92,7 +92,10 @@
                     {
                         "block_filter": [
                             "betterend:budding_smaragdant_crystal",
-                            "betterend:smaragdant_crystal"
+                            "betterend:smaragdant_crystal",
+                            "betterend:virid_jadestone",
+                            "betterend:azure_jadestone",
+                            "betterend:sandy_jadestone"
                         ]
                     }
                 ]
