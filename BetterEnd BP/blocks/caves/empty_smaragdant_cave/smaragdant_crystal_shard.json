@@ -87,6 +87,16 @@
         ],
         "components": {
             "tag:metal": {},
+            "minecraft:placement_filter": {
+                "conditions": [
+                    {
+                        "block_filter": [
+                            "betterend:budding_smaragdant_crystal",
+                            "betterend:smaragdant_crystal"
+                        ]
+                    }
+                ]
+            },
             "minecraft:material_instances": {
                 "*": {
                     "texture": "smaragdant_crystal_shard",

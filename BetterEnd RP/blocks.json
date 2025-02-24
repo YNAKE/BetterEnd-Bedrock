@@ -1,6 +1,9 @@
 {
   "format_version": "1.21.40",
   // Lantern
+  "betterend:flamaea": {
+    "sound": "grass"
+  },
   "betterend:bolux_mushroom": {
     "sound": "grass"
   },

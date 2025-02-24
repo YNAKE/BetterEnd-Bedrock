@@ -9,9 +9,7 @@
         },
         "components": {
             "minecraft:tick": {
-                "interval_range": [
-                    10, 10
-                ],
+                "interval_range": [ 20000, 40000 ],
                 "looping": true
             },
             "minecraft:custom_components": [ "betterend:budding_smaragdant_crystal" ],

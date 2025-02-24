@@ -29,6 +29,10 @@ class AuroraCrystal {
         if (belowBlock && belowBlock.typeId === 'betterend:aurora_crystal2') {
             this.updateCrystallizationState(belowBlock);
         }
+
+        if (belowBlock && belowBlock.typeId === 'betterend:aurora_crystal') {
+            this.updateCrystallizationState(belowBlock);
+        }
     }
 
     updateCrystallizationState(belowBlock: Block) {

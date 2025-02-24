@@ -5,7 +5,11 @@
             "identifier": "betterend:flamaea",
             "states": {
                 "betterend:random": [
-                    0, 1, 2, 3, 4
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
                 ]
             }
         },
@@ -77,17 +81,32 @@
             }
         ],
         "components": {
-            "minecraft:custom_components": [ "betterend:lucernia_index" ],
+            "minecraft:custom_components": [
+                "betterend:lucernia_index"
+            ],
             "minecraft:geometry": "geometry.plane_plant",
             "minecraft:collision_box": false,
+            "minecraft:light_emission": 10,
             "minecraft:destructible_by_explosion": true,
             "minecraft:destructible_by_mining": true,
             "minecraft:flammable": true,
+            "minecraft:selection_box": {
+                "origin": [
+                    -8,
+                    0,
+                    -8
+                ],
+                "size": [
+                    16,
+                    1,
+                    16
+                ]
+            },
             "minecraft:placement_filter": {
                 "conditions": [
                     {
                         "allowed_faces": [
-                            "down"
+                            "up"
                         ],
                         "block_filter": [
                             "minecraft:water",

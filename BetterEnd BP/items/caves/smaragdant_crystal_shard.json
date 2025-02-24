@@ -9,10 +9,7 @@
             }
         },
         "components": {
-            "minecraft:icon": "smaragdant_crystal_shard",
-            "minecraft:block_placer": {
-                "block": "betterend:smaragdant_crystal_shard"
-            }
+            "minecraft:icon": "smaragdant_crystal_shard"
         }
     }
 }
