@@ -1,5 +1,10 @@
 {
   "format_version": "1.21.40",
+  // The End
+  "betterend:fake_end_stone": {
+    "sound": "stone",
+    "textures": "end_stone"
+  },
   // Lantern
   "betterend:flamaea": {
     "sound": "grass"
