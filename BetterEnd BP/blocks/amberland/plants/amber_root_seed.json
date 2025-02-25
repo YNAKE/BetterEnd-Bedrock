@@ -81,7 +81,7 @@
     "components": {
       "minecraft:custom_components": ["betterend:amber_root_seed"],
       "minecraft:loot": "loot_tables/empty.json",
-      "minecraft:geometry": "geometry.random_model2",
+      "minecraft:geometry": "geometry.random_model1",
       "minecraft:destructible_by_explosion": true,
       "minecraft:destructible_by_mining": true,
       "minecraft:collision_box": false,
