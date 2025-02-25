@@ -7,7 +7,7 @@
     "iterations": "t.BetterEndBiome == 10",
     "x": 0,
     "z": 0,
-    "y": 0,
-    "places_feature": "betterend:megalake/end_moss_surface_feature"
+    "y": "t.surface - 1",
+    "places_feature": "betterend:megalake/end_moss_single_block_feature"
   }
 }

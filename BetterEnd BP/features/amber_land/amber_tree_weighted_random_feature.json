@@ -1,0 +1,14 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:weighted_random_feature": {
+        "description": {
+            "identifier": "betterend:amber_land/amber_tree_weighted_random_feature"
+        },
+        "features": [
+            ["betterend:amber_land/amber_tree_1_structure_template_feature", 2],
+            ["betterend:amber_land/amber_tree_2_structure_template_feature", 2],
+            ["betterend:amber_land/amber_tree_3_structure_template_feature", 2],
+            ["betterend:amber_land/amber_tree_4_structure_template_feature", 1]
+        ]
+    }
+}

@@ -14,6 +14,6 @@
       "distribution": "gaussian"
     },
     "y": "q.heightmap(v.worldx, v.worldz) - v.originy",
-    "places_feature": "betterend:chorus_forest/chorus_grass_single_block_feature"
+    "places_feature": "betterend:chorus_forest/chorus_grass_weighted_random_feature"
   }
 }

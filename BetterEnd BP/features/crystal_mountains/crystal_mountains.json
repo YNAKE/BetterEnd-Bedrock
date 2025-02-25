@@ -7,7 +7,7 @@
     "iterations": "t.BetterEndBiome == 3",
     "x": 0,
     "z": 0,
-    "y": 56,
+    "y": "t.surface - 1",
     "places_feature": "betterend:crystal_mountains/end_stone_single_block_feature"
   }
 }

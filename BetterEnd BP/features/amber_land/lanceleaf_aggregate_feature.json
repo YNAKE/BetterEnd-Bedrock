@@ -1,0 +1,13 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "betterend:amber_land/lanceleaf_aggregate_feature"
+		},
+		"features": [
+			"betterend:amber_land/lanceleaf_bottom_growing_plant_feature",
+			"betterend:amber_land/lanceleaf_middle_fixup_scatter_feature"
+		],
+		"early_out": "none"
+	}
+}

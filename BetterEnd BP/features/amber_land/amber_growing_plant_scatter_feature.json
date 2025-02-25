@@ -1,0 +1,19 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "betterend:amber_land/amber_growing_plant_scatter_feature"
+    },
+    "iterations": "return (t.BetterEndBiome == 0) ? 1 : 0;",
+    "x": {
+        "distribution": "uniform",
+        "extent": [ 0, "t.ExtentPlant" ]
+      },
+    "z": {
+        "distribution": "uniform",
+        "extent": [ 0, "t.ExtentPlant" ]
+      },
+    "y": "t.surface > math.random(58, 59) ? { return t.surface; } : { return 400; };",
+    "places_feature": "betterend:amber_land/amber_growing_plant_weighted_random_feature"
+  }
+}

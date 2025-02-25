@@ -5,10 +5,9 @@
       "identifier": "betterend:umbra_valley/umbralith_single_block_feature"
     },
     "places_block": {
-      "name": "betterend:umbralith"
+      "name": "minecraft:magma"
     },
     "enforce_survivability_rules": false,
-    "enforce_placement_rules": false,
-    "may_replace":["minecraft:end_stone"]
+    "enforce_placement_rules": false
   }
 }
