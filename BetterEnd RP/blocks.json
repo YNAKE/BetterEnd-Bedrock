@@ -165,7 +165,7 @@
     "sound": "gravel",
     "isotropic": {
       "up": true
-    }, 
+    },
     "textures": {
       "down": "end_stone",
       "up": "jungle_moss_top",
@@ -332,7 +332,7 @@
   // Dust
   "betterend:endstone_dust": {
     "sound": "sand",
-    "isotropic": true, 
+    "isotropic": true,
     "brightness_gamma": 0.55,
     "textures": "endstone_dust"
   },
@@ -400,7 +400,10 @@
     "brightness_gamma": 0.80
   },
   // Blossoming
-    "betterend:tenanea_flowers_purple_and_blue": {
+  "betterend:silk_moth_nest": {
+    "sound": "wood"
+  },
+  "betterend:tenanea_flowers_purple_and_blue": {
     "sound": "grass"
   },
   "betterend:tenanea_flowers_purple": {
@@ -540,6 +543,12 @@
     "textures": "azure_jadestone"
   },
   // Lush Caves
+  "betterend:magnula": {
+    "sound": "grass"
+  },
+  "betterend:rubinea": {
+    "sound": "grass"
+  },
   "betterend:cave_grass": {
     "sound": "grass"
   },

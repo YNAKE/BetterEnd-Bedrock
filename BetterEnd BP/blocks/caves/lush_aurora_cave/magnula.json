@@ -1,0 +1,88 @@
+{
+  "format_version": "1.20.81",
+  "minecraft:block": {
+    "description": {
+      "identifier": "betterend:magnula",
+      "states": {
+        "betterend:top": [false, true]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('betterend:top') == true",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "magnula_top",
+              "render_method": "alpha_test_single_sided",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          },
+          "minecraft:placement_filter": {
+            "conditions": [
+                {
+                    "block_filter": [
+                        "betterend:magnula",
+                        "betterend:cave_moss",
+                        "betterend:fake_end_moss",
+                        "minecraft:end_stone"
+                    ],
+                    "allowed_faces": [
+                        "down"
+                    ]
+                }
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:top') == false",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "magnula",
+              "render_method": "alpha_test_single_sided",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          },
+          "minecraft:placement_filter": {
+            "conditions": [
+                {
+                    "block_filter": [
+                        "betterend:magnula",
+                        "betterend:cave_moss",
+                        "betterend:fake_end_moss",
+                        "minecraft:end_stone"
+                    ],
+                    "allowed_faces": [
+                        "down"
+                    ]
+                }
+            ]
+          }
+        }
+      }
+    ],
+    "components": {
+      "tag:betterend:can_climb": {},
+      "minecraft:custom_components": ["betterend:magnula"],
+      "minecraft:tick": {
+        "interval_range": [10, 10],
+        "looping": true
+      },
+      "minecraft:destructible_by_mining": true,
+      "minecraft:destructible_by_explosion": true,
+      "minecraft:collision_box": false,
+      "minecraft:selection_box": {
+        "origin": [-6, 0, -6],
+        "size": [12, 16, 12]
+      },
+      "minecraft:flammable": true,
+      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:light_emission": 10,
+      "minecraft:geometry": "geometry.random_model2"
+    }
+  }
+}

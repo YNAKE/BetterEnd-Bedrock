@@ -774,6 +774,9 @@
       "textures": "textures/blocks/chorus/tree/pythadendron_leaves"
     },
     // Blossoming
+    "silk_moth_nest": {
+      "textures": "textures/blocks/blossoming/nest/silk_moth_nest"
+    },
     "tenanea_flowers_middle_purple_and_blue": {
       "textures": "textures/blocks/blossoming/plants/tenanea_flowers_middle_purple_and_blue"
     },
@@ -1000,6 +1003,18 @@
       "textures": "textures/blocks/caves/virid_jadestone"
     },
     // Lush Cave
+    "magnula_top": {
+      "textures": "textures/blocks/caves/magnula_top"
+    },
+    "magnula": {
+      "textures": "textures/blocks/caves/magnula"
+    },
+    "rubinea_top": {
+      "textures": "textures/blocks/caves/rubinea_top"
+    },
+    "rubinea": {
+      "textures": "textures/blocks/caves/rubinea"
+    },
     "cave_grass1": {
       "textures": "textures/blocks/caves/plants/cave_grass_1"
     },

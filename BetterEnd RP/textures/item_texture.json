@@ -249,6 +249,12 @@
       "textures": "textures/blocks/amberland/plants/amber_grass"
     },
     // Caves
+    "magnula": {
+      "textures": "textures/blocks/caves/magnula"
+    },
+    "rubinea": {
+      "textures": "textures/blocks/caves/rubinea"
+    },
     "smaragdant_crystal_shard": {
       "textures": "textures/blocks/caves/smaragdant_crystal_shard"
     },
