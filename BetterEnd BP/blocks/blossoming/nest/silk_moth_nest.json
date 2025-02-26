@@ -74,12 +74,14 @@
             {
                 "condition": "q.block_state('betterend:nest') == 0",
                 "components": {
+                    "tag:betterend:nest": {},
                     "minecraft:geometry": "geometry.silk_moth_nest"
                 }
             },
             {
                 "condition": "q.block_state('betterend:nest') == 1",
                 "components": {
+                    "tag:betterend:nest": {},
                     "minecraft:geometry": "geometry.silk_moth_nest_filled"
                 }
             },

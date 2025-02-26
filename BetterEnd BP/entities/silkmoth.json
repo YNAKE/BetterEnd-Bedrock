@@ -113,16 +113,60 @@
 				"is_pushable": true,
 				"is_pushable_by_piston": true
 			},
-			"minecraft:behavior.move_to_block": {
-				"speed_multiplier": 0.3,
-				"priority": 1,
-				"target_blocks": [
-					"betterend:bushy_grass",
-					"betterend:blossom_berry"
-				]
+			"minecraft:timer": {
+				"time": 10,
+				"looping": true,
+				"time_down_event": {
+					"event": "betterend:choose",
+					"target": "self"
+				}
 			}
 		},
-		"component_groups": {},
-		"events": {}
+		"component_groups": {
+			"betterend:move_to_nest": {
+				"minecraft:behavior.move_to_block": {
+					"priority": 1,
+					"target_blocks": [
+						{
+							"tags": [
+								"betterend:nest"
+							]
+						},
+						"betterend:silk_moth_hive"
+					]
+				}
+			},
+			"betterend:move_to_flowers": {
+				"minecraft:behavior.move_to_block": {
+					"priority": 1,
+					"target_blocks": [
+						"betterend:bushy_grass",
+						"betterend:blossom_berry"
+					]
+				}
+			}
+		},
+		"events": {
+			"betterend:choose": {
+				"randomize": [
+					{
+						"weight": 2,
+						"add": {
+							"component_groups": [
+								"betterend:move_to_nest"
+							]
+						}
+					},
+					{
+						"weight": 1,
+						"add": {
+							"component_groups": [
+								"betterend:move_to_flowers"
+							]
+						}
+					}
+				]
+			}
+		}
 	}
 }

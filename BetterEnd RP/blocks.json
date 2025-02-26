@@ -400,6 +400,9 @@
     "brightness_gamma": 0.80
   },
   // Blossoming
+  "silk_moth_hive": {
+    "sound": "wood"
+  },
   "betterend:silk_moth_nest": {
     "sound": "wood"
   },
