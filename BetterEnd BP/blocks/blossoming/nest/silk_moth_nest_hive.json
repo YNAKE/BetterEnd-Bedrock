@@ -2,7 +2,7 @@
     "format_version": "1.21.50",
     "minecraft:block": {
         "description": {
-            "identifier": "betterend:silk_moth_nest",
+            "identifier": "betterend:silk_moth_hive",
             "menu_category": {
                 "category": "nature"
             },
@@ -17,8 +17,7 @@
             "states": {
                 "betterend:nest": [
                     0,
-                    1,
-                    2
+                    1
                 ]
             }
         },
@@ -75,44 +74,14 @@
                 "condition": "q.block_state('betterend:nest') == 0",
                 "components": {
                     "tag:betterend:nest": {},
-                    "minecraft:geometry": "geometry.silk_moth_nest"
+                    "minecraft:geometry": "geometry.silk_moth_hive"
                 }
             },
             {
                 "condition": "q.block_state('betterend:nest') == 1",
                 "components": {
                     "tag:betterend:nest": {},
-                    "minecraft:geometry": "geometry.silk_moth_nest_filled"
-                }
-            },
-            {
-                "condition": "q.block_state('betterend:nest') == 2",
-                "components": {
-                    "minecraft:collision_box": {
-                        "origin": [
-                            -5,
-                            0,
-                            -5
-                        ],
-                        "size": [
-                            10,
-                            16,
-                            10
-                        ]
-                    },
-                    "minecraft:selection_box": {
-                        "origin": [
-                            -5,
-                            0,
-                            -5
-                        ],
-                        "size": [
-                            10,
-                            16,
-                            10
-                        ]
-                    },
-                    "minecraft:geometry": "geometry.silk_moth_nest_root"
+                    "minecraft:geometry": "geometry.silk_moth_hive_filled"
                 }
             }
         ],
@@ -121,14 +90,14 @@
             "minecraft:loot": "loot_tables/empty.json",
             "minecraft:material_instances": {
                 "*": {
-                    "texture": "silk_moth_nest",
+                    "texture": "silk_moth_hive",
                     "render_method": "alpha_test_single_sided",
                     "ambient_occlusion": true,
                     "face_dimming": true
                 }
             },
             "minecraft:destructible_by_mining": {
-                "seconds_to_destroy": 1
+                "seconds_to_destroy": 3
             },
             "minecraft:destructible_by_explosion": true,
             "minecraft:flammable": true
