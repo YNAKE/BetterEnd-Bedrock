@@ -7,7 +7,7 @@
     "iterations": "t.BetterEndBiome == 12",
     "x": 0,
     "z": 0,
-    "y": "t.surface - 1",
+    "y": 56,
     "places_feature": "betterend:painted_mountains/end_stone_single_block_feature"
   }
 }

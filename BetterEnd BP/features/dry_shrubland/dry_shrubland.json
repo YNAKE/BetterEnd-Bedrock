@@ -7,7 +7,7 @@
     "iterations": "t.BetterEndBiome == 5",
     "x": 0,
     "z": 0,
-    "y": "t.surface - 1",
-    "places_feature": "betterend:dry_shrubland/rutiscus_single_block_feature"
+    "y": 0,
+    "places_feature": "betterend:dry_shrubland/rutiscus_surface_feature"
   }
 }

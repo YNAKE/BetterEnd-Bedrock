@@ -7,7 +7,7 @@
     "iterations": "t.BetterEndBiome == 4",
     "x": 0,
     "z": 0,
-    "y": "t.surface - 1",
-    "places_feature": "betterend:dragon_graveyards/sangnum_single_block_feature"
+    "y": 0,
+    "places_feature": "betterend:dragon_graveyards/sangnum_surface_feature"
   }
 }

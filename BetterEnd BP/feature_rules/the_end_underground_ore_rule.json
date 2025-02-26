@@ -1,0 +1,33 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "minecraft:the_end_underground_ore_rule",
+      "places_feature": "betterend:the_end/ore_feature"
+    },
+    "conditions": {
+      "placement_pass": "underground_pass",
+      "minecraft:biome_filter": {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "the_end"
+        }
+    },
+    "distribution": {
+      "iterations": 5,
+      "coordinate_eval_order": "zyx",
+      "x": {
+        "distribution": "uniform",
+        "extent": [ 0, 16 ]
+      },
+      "y": {
+        "distribution": "uniform",
+        "extent": [ 10, 65 ]
+      },
+      "z": {
+        "distribution": "uniform",
+        "extent": [ 0, 16 ]
+      }
+    }
+  }
+}

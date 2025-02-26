@@ -4,16 +4,18 @@
     "description": {
       "identifier": "betterend:chorus_forest/chorus_mushroom_seed_catter_feature"
     },
-    "iterations": "return math.random_integer(1,3) * t.SizePlant;",
+    "iterations": "return t.SizePlant;",
+    "coordinate_eval_order": "zyx",
     "x": {
-      "extent": [ "-t.SizePlant", "t.SizePlant" ],
+      "extent": [ "-t.SizePlant/2", "t.SizePlant/2" ],
       "distribution": "gaussian"
     },
     "z": {
-      "extent": [ "-t.SizePlant", "t.SizePlant" ],
+      "extent": [ "-t.SizePlant/2", "t.SizePlant/2" ],
       "distribution": "gaussian"
     },
     "y": "q.heightmap(v.worldx, v.worldz) - v.originy",
+    "project_input_to_floor": false,
     "places_feature": "betterend:chorus_forest/chorus_mushroom_seed_single_block_feature"
   }
 }
