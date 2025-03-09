@@ -9,9 +9,6 @@
 			}
         }, 
         "components": {
-        	"minecraft:display_name": {
-                "value": "White Oak Planks"
-            },
           "minecraft:tags": {
         "tags": [
       "minecraft:planks"

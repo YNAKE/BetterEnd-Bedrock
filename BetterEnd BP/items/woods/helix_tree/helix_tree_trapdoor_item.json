@@ -9,9 +9,6 @@
         }
         }, 
         "components": {
-        	"minecraft:display_name": {
-                "value": "White Oak Trapdoor"
-            },
             "minecraft:fuel": {
             "duration": 15
               },

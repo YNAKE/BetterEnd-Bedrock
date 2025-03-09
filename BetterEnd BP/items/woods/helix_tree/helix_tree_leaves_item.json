@@ -9,9 +9,6 @@
 			}
         }, 
         "components": {
-      "minecraft:display_name": {
-                "value": "White Oak Leaves"
-            },
             "minecraft:compostable":{
             	"composting_chance": 30
             },

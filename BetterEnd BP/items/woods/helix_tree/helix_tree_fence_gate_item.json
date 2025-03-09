@@ -9,9 +9,6 @@
             }
 		},
 		"components": {
-			"minecraft:display_name": {
-                "value": "White Oak Fence Gate"
-            },
 			"minecraft:block_placer": {
 				"block": "betterend:helix_tree_fence_gate",
 				"replace_block_item": true

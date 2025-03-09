@@ -9,9 +9,6 @@
 			}
         }, 
         "components": {
-        	"minecraft:display_name": {
-                "value": "Stripped White Oak Wood"
-            },
                 "minecraft:tags": {
         "tags": [
           "minecraft:logs",

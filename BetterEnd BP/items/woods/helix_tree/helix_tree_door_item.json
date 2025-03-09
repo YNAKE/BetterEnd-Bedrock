@@ -16,10 +16,7 @@
 				"block": "betterend:helix_tree_door",
 				"replace_block_item": true
 			},
-			"minecraft:icon": "helix_tree_door",
-			"minecraft:display_name": {
-				"value": "White Oak Door"
-			}
+			"minecraft:icon": "helix_tree_door"
 		}
 	}
 }
