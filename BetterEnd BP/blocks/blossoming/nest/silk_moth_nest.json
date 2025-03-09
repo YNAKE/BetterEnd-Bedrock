@@ -118,6 +118,15 @@
         ],
         "components": {
             "tag:wood": {},
+            "minecraft:custom_components": [
+                "betterend:nest"
+            ],
+            "minecraft:tick": {
+                "interval_range": [
+                    20, 40
+                ],
+                "looping": true
+            },
             "minecraft:loot": "loot_tables/empty.json",
             "minecraft:material_instances": {
                 "*": {

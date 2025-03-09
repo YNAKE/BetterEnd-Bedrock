@@ -114,7 +114,7 @@
 				"is_pushable_by_piston": true
 			},
 			"minecraft:timer": {
-				"time": 10,
+				"time": 20,
 				"looping": true,
 				"time_down_event": {
 					"event": "betterend:choose",
@@ -125,23 +125,27 @@
 		"component_groups": {
 			"betterend:move_to_nest": {
 				"minecraft:behavior.move_to_block": {
+					"start_chance": 1,
+					"search_range": 32,
+					"goal_radius": 3,
+					"stay_duration": 2,
 					"priority": 1,
 					"target_blocks": [
-						{
-							"tags": [
-								"betterend:nest"
-							]
-						},
-						"betterend:silk_moth_hive"
+						"betterend:silk_moth_nest:0",
+						"betterend:silk_moth_hive:0"
 					]
 				}
 			},
 			"betterend:move_to_flowers": {
 				"minecraft:behavior.move_to_block": {
+					"start_chance": 1,
+					"search_range": 32,
+					"goal_radius": 3,
+					"stay_duration": 6,
 					"priority": 1,
 					"target_blocks": [
 						"betterend:bushy_grass",
-						"betterend:blossom_berry"
+						"betterend:blossom_berry_seed"
 					]
 				}
 			}
@@ -150,10 +154,15 @@
 			"betterend:choose": {
 				"randomize": [
 					{
-						"weight": 2,
+						"weight": 1,
 						"add": {
 							"component_groups": [
 								"betterend:move_to_nest"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"betterend:move_to_flowers"
 							]
 						}
 					},
@@ -162,6 +171,11 @@
 						"add": {
 							"component_groups": [
 								"betterend:move_to_flowers"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"betterend:move_to_nest"
 							]
 						}
 					}
