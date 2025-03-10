@@ -1,0 +1,193 @@
+{
+    "format_version": "1.21.60",
+    "minecraft:crafting_items_catalog": {
+      "categories": [
+        {
+          "category_name": "construction",
+          "groups": [
+            {
+              "group_identifier": {
+                "icon": "betterend:dragon_tree_chair",
+                "name": "betterend:itemGroup.name.chairs"
+              },
+              "items": [
+                "betterend:dragon_tree_chair",
+                "betterend:end_lotus_chair",
+                "betterend:helix_tree_chair",
+                "betterend:jellyshroom_chair",
+                "betterend:lacugrove_chair",
+                "betterend:lucernia_chair",
+                "betterend:mossy_glowshroom_chair",
+                "betterend:pythadendron_chair",
+                "betterend:tenanea_chair",
+                "betterend:umbrella_tree_chair"
+              ]
+            }
+          ]
+        },
+        {
+          "category_name": "construction",
+          "groups": [
+            {
+              "group_identifier": {
+                "icon": "betterend:dragon_tree_stool",
+                "name": "betterend:itemGroup.name.stools"
+              },
+              "items": [
+                "betterend:dragon_tree_stool",
+                "betterend:end_lotus_stool",
+                "betterend:helix_tree_stool",
+                "betterend:jellyshroom_stool",
+                "betterend:lacugrove_stool",
+                "betterend:lucernia_stool",
+                "betterend:mossy_glowshroom_stool",
+                "betterend:pythadendron_stool",
+                "betterend:tenanea_stool",
+                "betterend:umbrella_tree_stool"
+              ]
+            }
+          ]
+        },
+        {
+          "category_name": "construction",
+          "groups": [
+            {
+              "group_identifier": {
+                "icon": "betterend:dragon_tree_bar_stool",
+                "name": "betterend:itemGroup.name.bar_stools"
+              },
+              "items": [
+                "betterend:dragon_tree_bar_stool",
+                "betterend:end_lotus_bar_stool",
+                "betterend:helix_tree_bar_stool",
+                "betterend:jellyshroom_bar_stool",
+                "betterend:lacugrove_bar_stool",
+                "betterend:lucernia_bar_stool",
+                "betterend:mossy_glowshroom_bar_stool",
+                "betterend:pythadendron_bar_stool",
+                "betterend:tenanea_bar_stool",
+                "betterend:umbrella_tree_bar_stool"
+              ]
+            }
+          ]
+        },
+        {
+          "category_name": "construction",
+          "groups": [
+            {
+              "group_identifier": {
+                "icon": "betterend:dragon_tree_ladder",
+                "name": "betterend:itemGroup.name.ladders"
+              },
+              "items": [
+                "betterend:dragon_tree_ladder",
+                "betterend:end_lotus_ladder",
+                "betterend:helix_tree_ladder",
+                "betterend:jellyshroom_ladder",
+                "betterend:lacugrove_ladder",
+                "betterend:lucernia_ladder",
+                "betterend:mossy_glowshroom_ladder",
+                "betterend:pythadendron_ladder",
+                "betterend:tenanea_ladder",
+                "betterend:umbrella_tree_ladder"
+              ]
+            }
+          ]
+        },
+        {
+          "category_name": "nature",
+          "groups": [
+            {
+              "group_identifier": {
+                "icon": "betterend:end_moss",
+                "name": "betterend:itemGroup.name.moss"
+              },
+              "items": [
+                "betterend:end_moss",
+                "betterend:amber_moss",
+                "betterend:pink_moss",
+                "betterend:rutiscus",
+                "betterend:shadow_grass",
+                "betterend:jungle_moss",
+                "betterend:chorus_nylium",
+                "betterend:crystal_moss",
+                "betterend:cave_moss"
+              ]
+            }
+          ]
+        },
+        {
+          "category_name": "nature",
+          "groups": [
+            {
+              "group_identifier": {
+                "icon": "betterend:azure_jadestone",
+                "name": "betterend:itemGroup.name.jadestones"
+              },
+              "items": [
+                "betterend:azure_jadestone",
+                "betterend:sandy_jadestone",
+                "betterend:virid_jadestone"
+              ]
+            }
+          ]
+        },
+        {
+          "category_name": "items",
+          "groups": [
+            {
+              "group_identifier": {
+                "icon": "betterend:dragon_tree_crafting_table",
+                "name": "betterend:itemGroup.name.crafting_tables"
+              },
+              "items": [
+                "betterend:dragon_tree_crafting_table",
+                "betterend:tenanea_crafting_table",
+                "betterend:lucernia_crafting_table",
+                "betterend:pythadendron_crafting_table",
+                "betterend:umbrella_tree_crafting_table",
+                "betterend:helix_tree_crafting_table",
+                "betterend:mossy_glowshroom_crafting_table",
+                "betterend:jellyshroom_crafting_table",
+                "betterend:lacugrove_crafting_table",
+                "betterend:end_lotus_crafting_table"
+              ]
+            }
+          ]
+        },
+        {
+          "category_name": "nature",
+          "groups": [
+            {
+              "group_identifier": {
+                "icon": "betterend:end_fish_spawn_egg",
+                "name": "betterend:itemGroup.name.spawn_eggs"
+              },
+              "items": [
+                "betterend:end_fish_spawn_egg",
+                "betterend:cubozoa_spawn_egg",
+                "betterend:shadow_walker_spawn_egg",
+                "betterend:dragonfly_spawn_egg",
+                "betterend:silkmoth_spawn_egg"
+              ]
+            }
+          ]
+        },
+        {
+          "category_name": "nature",
+          "groups": [
+            {
+              "group_identifier": {
+                "icon": "betterend:silk_moth_nest",
+                "name": "betterend:itemGroup.name.nest"
+              },
+              "items": [
+                "betterend:silk_moth_nest",
+                "betterend:silk_moth_hive"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }

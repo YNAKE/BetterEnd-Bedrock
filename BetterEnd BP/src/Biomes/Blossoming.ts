@@ -1,4 +1,3 @@
-import "./Blossoming/TenaneaLeaves";
 import "./Blossoming/BlossomBerrySeed";
 import "./Blossoming/BulbVineSeed";
 import "./Blossoming/BulbVine";

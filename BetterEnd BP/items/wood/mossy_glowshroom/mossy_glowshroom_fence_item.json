@@ -1,0 +1,21 @@
+{
+	"format_version": "1.21.40",
+	"minecraft:item": {
+		"description": {
+			"identifier": "betterend:mossy_glowshroom_fence",
+			"menu_category": {
+				"category": "construction",
+				"group": "itemGroup.name.fence"
+			}
+		},
+		"components": {
+			"minecraft:block_placer": {
+				"block": "betterend:mossy_glowshroom_fence",
+				"replace_block_item": true
+			},
+			"minecraft:fuel": {
+            "duration": 15
+              }
+		}
+	}
+}

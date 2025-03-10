@@ -1,0 +1,21 @@
+{
+	"format_version": "1.21.40",
+	"minecraft:item": {
+		"description": {
+			"identifier": "betterend:end_lotus_fence_gate",
+			"menu_category": {
+                "category": "construction",
+				"group": "itemGroup.name.fenceGate"
+            }
+		},
+		"components": {
+			"minecraft:block_placer": {
+				"block": "betterend:end_lotus_fence_gate",
+				"replace_block_item": true
+			},
+			"minecraft:fuel": {
+            "duration": 15
+              }
+		}
+	}
+}

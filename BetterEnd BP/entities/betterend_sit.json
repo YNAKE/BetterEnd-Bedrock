@@ -2,7 +2,7 @@
 	"format_version": "1.16.100",
 	"minecraft:entity": {
 		"description": {
-			"identifier": "betterend:betterend_sit",
+			"identifier": "betterend:sit_entity",
 			"is_summonable": true,
 			"is_spawnable": false
 		},

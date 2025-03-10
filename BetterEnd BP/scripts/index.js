@@ -3,6 +3,7 @@ import { world, system, Player } from "@minecraft/server";
 import "./Biomes/biomeRegister";
 // Utils
 import "./Utils/External/ExternalUtils";
+import "./Utils/External/main";
 import PlayerUtils from "Utils/PlayerUtils";
 import MobUtils from "Utils/MobUtils";
 import "./Utils/BlockUtils";
@@ -34,6 +35,9 @@ world.afterEvents.playerDimensionChange.subscribe(e => {
     const { player, toDimension } = e;
     if (toDimension.id === 'minecraft:the_end') {
         new PlayerUtils(player).sky();
+    }
+    if (toDimension.id === 'minecraft:overworld') {
+        player.runCommand('fog @s removed end_fog');
     }
 });
 world.afterEvents.playerJoin.subscribe(e => {

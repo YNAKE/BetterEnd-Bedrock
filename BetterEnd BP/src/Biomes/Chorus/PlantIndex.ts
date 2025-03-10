@@ -16,6 +16,12 @@ const blockIndex = {
   "betterend:tail_moss": {
     random: 2,
   },
+  "betterend:pythadendron_log": {
+    random: 2
+  },
+  "betterend:pythadendron_wood": {
+    random: 2
+  }
 };
 
 world.beforeEvents.worldInitialize.subscribe((data) => {

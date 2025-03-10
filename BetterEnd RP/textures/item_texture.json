@@ -1,6 +1,91 @@
 {
   "resource_pack_name": "vanilla",
   "texture_data": {
+    // Wood
+    "helix_tree_sapling_placer": {
+      "textures": "textures/blocks/wood/helix_tree/helix_tree_sapling"
+    },
+    "helix_tree_door": {
+      "textures": "textures/items/wood/helix_tree/helix_tree_door"
+    },
+    "helix_tree_ladder": {
+      "textures": "textures/blocks/wood/helix_tree/helix_tree_ladder"
+    },
+    "dragon_tree_sapling_placer": {
+      "textures": "textures/blocks/wood/dragon_tree/dragon_tree_sapling"
+    },
+    "dragon_tree_door": {
+      "textures": "textures/items/wood/dragon_tree/dragon_tree_door"
+    },
+    "dragon_tree_ladder": {
+      "textures": "textures/blocks/wood/dragon_tree/dragon_tree_ladder"
+    },
+    "jellyshroom_door": {
+      "textures": "textures/items/wood/jellyshroom/jellyshroom_door"
+    },
+    "jellyshroom_ladder": {
+      "textures": "textures/blocks/wood/jellyshroom/jellyshroom_ladder"
+    },
+    "lacugrove_sapling_placer": {
+      "textures": "textures/blocks/wood/lacugrove/lacugrove_sapling"
+    },
+    "lacugrove_door": {
+      "textures": "textures/items/wood/lacugrove/lacugrove_door"
+    },
+    "lacugrove_ladder": {
+      "textures": "textures/blocks/wood/lacugrove/lacugrove_ladder"
+    },
+    "lucernia_sapling_placer": {
+      "textures": "textures/blocks/wood/lucernia/lucernia_sapling"
+    },
+    "lucernia_door": {
+      "textures": "textures/items/wood/lucernia/lucernia_door"
+    },
+    "lucernia_ladder": {
+      "textures": "textures/blocks/wood/lucernia/lucernia_ladder"
+    },
+    "mossy_glowshroom_sapling_placer": {
+      "textures": "textures/blocks/wood/mossy_glowshroom/mossy_glowshroom_sapling"
+    },
+    "mossy_glowshroom_door": {
+      "textures": "textures/items/wood/mossy_glowshroom/mossy_glowshroom_door"
+    },
+    "mossy_glowshroom_ladder": {
+      "textures": "textures/blocks/wood/mossy_glowshroom/mossy_glowshroom_ladder"
+    },
+    "pythadendron_sapling_placer": {
+      "textures": "textures/blocks/wood/pythadendron/pythadendron_sapling"
+    },
+    "pythadendron_door": {
+      "textures": "textures/items/wood/pythadendron/pythadendron_door"
+    },
+    "pythadendron_ladder": {
+      "textures": "textures/blocks/wood/pythadendron/pythadendron_ladder"
+    },
+    "tenanea_sapling_placer": {
+      "textures": "textures/blocks/wood/tenanea/tenanea_sapling"
+    },
+    "tenanea_door": {
+      "textures": "textures/items/wood/tenanea/tenanea_door"
+    },
+    "tenanea_ladder": {
+      "textures": "textures/blocks/wood/tenanea/tenanea_ladder"
+    },
+    "umbrella_tree_sapling_placer": {
+      "textures": "textures/blocks/wood/umbrella_tree/umbrella_tree_sapling"
+    },
+    "umbrella_tree_door": {
+      "textures": "textures/items/wood/umbrella_tree/umbrella_tree_door"
+    },
+    "umbrella_tree_ladder": {
+      "textures": "textures/blocks/wood/umbrella_tree/umbrella_tree_ladder"
+    },
+    "end_lotus_door": {
+      "textures": "textures/items/wood/end_lotus/end_lotus_door"
+    },
+    "end_lotus_ladder": {
+      "textures": "textures/blocks/wood/end_lotus/end_lotus_ladder"
+    },
     // Lantern
     "flamaea": {
       "textures": "textures/blocks/lantern/plants/flamaea_1"
@@ -60,9 +145,6 @@
     "small_jellyshroom": {
       "textures": "textures/items/umbrella/small_jellyshroom"
     },
-    "umbrella_tree_sapling": {
-      "textures": "textures/blocks/umbrella/plants/umbrella_tree_sapling"
-    },
     "twisted_umbrella_moss": {
       "textures": "textures/items/umbrella/twisted_umbrella_moss_small"
     },
@@ -79,9 +161,6 @@
       "textures": "textures/items/umbrella/jungle_grass"
     },
     // Sulphur
-    "hydralux_sapling": {
-      "textures": "textures/blocks/sulphur/plants/hydralux_sapling_1"
-    },
     "tube_worm": {
       "textures": "textures/items/sulphur/tube_worm"
     },
@@ -148,9 +227,6 @@
     "dense_vine_bottom": {
       "textures": "textures/blocks/foggy/plants/dense_vine_bottom"
     },
-    "mossy_glowshroom_sapling": {
-      "textures": "textures/blocks/foggy/plants/mossy_glowshroom_sapling"
-    },
     "mossy_glowshroom_fur": {
       "textures": "textures/blocks/foggy/plants/mossy_glowshroom_fur"
     },
@@ -214,9 +290,6 @@
     "twisted_moss": {
       "textures": "textures/items/blossoming/twisted_moss"
     },
-    "tenanea_sapling": {
-      "textures": "textures/blocks/blossoming/plants/tenanea_sapling"
-    },
     "tenanea_outer_leaves": {
       "textures": "textures/blocks/blossoming/plants/tenanea_outer_leaves"
     },
@@ -229,9 +302,6 @@
     },
     "bulb_moss": {
       "textures": "textures/items/amberland/bulb_moss"
-    },
-    "helix_tree_sapling": {
-      "textures": "textures/blocks/amberland/plants/helix_tree_sapling"
     },
     "amber_gem": {
       "textures": "textures/items/minerals/amber_gem"

@@ -1,0 +1,51 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:block": {
+    "description": {
+      "identifier": "betterend:helix_tree_sapling",
+      "states": {
+        "betterend:growth_stage": [0, 1, 2]
+      }
+    },
+    "components": {
+      "minecraft:collision_box": false,
+      "minecraft:selection_box": {
+        "origin": [-6, 0, -6],
+        "size": [12, 13, 12]
+      },
+      "minecraft:custom_components": ["betterend:interact_tree", "betterend:random_tick"],
+      "minecraft:light_dampening": 0,
+      "minecraft:liquid_detection": {
+						"detection_rules": [
+						{
+							"can_contain_liquid": false,
+							"liquid_type": "water",
+							"on_liquid_touches": "popped"
+							}
+							]
+							},
+      "minecraft:geometry": "geometry.custom_sapling",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "helix_tree_sapling",
+          "render_method": "alpha_test",
+          "face_dimming": false,
+          "ambient_occlusion": false
+        }
+      },
+      "minecraft:loot": "loot_tables/blocks/helix_tree_sapling.json",
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": ["up"],
+            "block_filter": [
+              "minecraft:dirt",
+              "minecraft:grass",
+              "minecraft:podzol"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

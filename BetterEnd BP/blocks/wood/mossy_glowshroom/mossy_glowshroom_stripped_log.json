@@ -1,0 +1,165 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:block": {
+    "description": {
+      "identifier": "betterend:stripped_mossy_glowshroom_log",
+      "states": {
+        "betterend:random": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "traits": {
+        "minecraft:placement_position": {
+          "enabled_states": [
+            "minecraft:block_face"
+          ]
+        }
+      }
+    },
+    "permutations": [
+      {
+        "condition": "Q.block_state('betterend:random') == 0",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "stripped_mossy_glowshroom_log1",
+              "render_method": "opaque"
+            },
+            "up": {
+              "texture": "stripped_mossy_glowshroom_log_top",
+              "render_method": "opaque"
+            },
+            "down": {
+              "texture": "stripped_mossy_glowshroom_log_top",
+              "render_method": "opaque"
+            }
+          }
+        }
+      },
+      {
+        "condition": "Q.block_state('betterend:random') == 1",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "stripped_mossy_glowshroom_log2",
+              "render_method": "opaque"
+            },
+            "up": {
+              "texture": "stripped_mossy_glowshroom_log_top",
+              "render_method": "opaque"
+            },
+            "down": {
+              "texture": "stripped_mossy_glowshroom_log_top",
+              "render_method": "opaque"
+            }
+          }
+        }
+      },
+      {
+        "condition": "Q.block_state('betterend:random') == 2",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "stripped_mossy_glowshroom_log3",
+              "render_method": "opaque"
+            },
+            "up": {
+              "texture": "stripped_mossy_glowshroom_log_top",
+              "render_method": "opaque"
+            },
+            "down": {
+              "texture": "stripped_mossy_glowshroom_log_top",
+              "render_method": "opaque"
+            }
+          }
+        }
+      },
+      {
+        "condition": "Q.block_state('betterend:random') == 3",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "stripped_mossy_glowshroom_log4",
+              "render_method": "opaque"
+            },
+            "up": {
+              "texture": "stripped_mossy_glowshroom_log_top",
+              "render_method": "opaque"
+            },
+            "down": {
+              "texture": "stripped_mossy_glowshroom_log_top",
+              "render_method": "opaque"
+            }
+          }
+        }
+      },
+      {
+        "condition": "Q.block_state('betterend:random') == 4",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "stripped_mossy_glowshroom_log5",
+              "render_method": "opaque"
+            },
+            "up": {
+              "texture": "stripped_mossy_glowshroom_log_top",
+              "render_method": "opaque"
+            },
+            "down": {
+              "texture": "stripped_mossy_glowshroom_log_top",
+              "render_method": "opaque"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:block_face') == 'north' || query.block_state('minecraft:block_face') == 'south'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              90,
+              0,
+              0
+            ]
+          }
+        }
+      },
+      {
+        "condition": "query.block_state('minecraft:block_face') == 'east' || query.block_state('minecraft:block_face') == 'west'",
+        "components": {
+          "minecraft:transformation": {
+            "rotation": [
+              0,
+              0,
+              90
+            ]
+          }
+        }
+      }
+    ],
+    "components": {
+      "tag:minecraft:is_axe_item_destructible": {},
+      "minecraft:loot": "loot_tables/blocks/stripped_mossy_glowshroom_log.json", // Drops the inventory fence block when the block is destroyed.
+      "minecraft:geometry": "minecraft:geometry.full_block",
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.5
+      },
+      "minecraft:custom_components": [
+        "betterend:on_player_destroy",
+        "betterend:foggy_index"
+      ],
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 2
+      },
+      "minecraft:flammable": {
+        "catch_chance_modifier": 5,
+        "destroy_chance_modifier": 20
+      },
+      "minecraft:map_color": "#B16A4A"
+    }
+  }
+}

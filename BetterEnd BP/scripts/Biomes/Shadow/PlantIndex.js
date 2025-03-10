@@ -9,6 +9,12 @@ const blockIndex = {
     },
     "betterend:needlegrass": {
         random: 3
+    },
+    "betterend:dragon_tree_wood": {
+        random: 3
+    },
+    "betterend:dragon_tree_log": {
+        random: 3
     }
 };
 world.beforeEvents.worldInitialize.subscribe((data) => {

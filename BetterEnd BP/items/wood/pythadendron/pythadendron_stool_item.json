@@ -1,0 +1,26 @@
+{
+    "format_version": "1.21.40",
+    "minecraft:item": {
+        "description": {
+            "identifier": "betterend:pythadendron_stool"
+        }, 
+        "components": {
+          "minecraft:tags": {
+        "tags": [
+      "minecraft:planks"
+        ]
+      },
+            "minecraft:fuel": {
+            "duration": 15
+              },
+
+            "minecraft:max_stack_size":{"value": 64},
+
+            "minecraft:block_placer":{
+                "block": "betterend:pythadendron_stool",
+                "use_on" : [],
+                "replace_block_item": true
+            }
+        }
+    }
+}

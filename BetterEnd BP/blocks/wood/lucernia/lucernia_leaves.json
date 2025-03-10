@@ -1,0 +1,88 @@
+{
+  "format_version": "1.21.60",
+  "minecraft:block": {
+    "description": {
+      "identifier": "betterend:lucernia_leaves",
+      "states": {
+        "betterend:random": [ 0, 1, 2, 3 ],
+        "betterend:decay_tier": [4, 3, 2, 1, 0],
+        "betterend:should_decay": [true, false]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('betterend:random') == 0",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "lucernia_leaves1",
+              "render_method": "blend"
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:random') == 1",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "lucernia_leaves2",
+              "render_method": "blend"
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:random') == 2",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "lucernia_leaves3",
+              "render_method": "blend"
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:random') == 3",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "lucernia_leaves4",
+              "render_method": "blend"
+            }
+          }
+        }
+      }
+    ],
+    "components": {
+    	"tag:minecraft:is_sword_item_destructible": {},
+    	"tag:minecraft:is_shears_item_destructible": {},
+    	"tag:minecraft:is_hoe_item_destructible": {},
+    	"minecraft:liquid_detection": {
+						"detection_rules": [
+						{
+							"can_contain_liquid": true,
+							"liquid_type": "water",
+							"on_liquid_touches": "no_reaction"
+							}
+							]
+							},
+      "minecraft:geometry": "minecraft:geometry.full_block",
+      "minecraft:loot": "loot_tables/blocks/custom_leaves.json",
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1
+      },
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 0.3
+      },
+      "minecraft:flammable": { 
+				"catch_chance_modifier": 5,
+				"destroy_chance_modifier": 20
+			},
+      "minecraft:custom_components": ["betterend:on_player_destroy", "betterend:random_tick", "betterend:leaf_place", "betterend:lucernia_index"],
+      "minecraft:map_color": "#DDDDDD",
+      "minecraft:light_dampening": 0
+    }
+  }
+}

@@ -1,3 +1,3 @@
-import "./Megalakes/LacugroveLeaves";
 import "./Megalakes/Charnia";
 import "./Megalakes/BubbleCoral";
+import "./Megalakes/PlantIndex";

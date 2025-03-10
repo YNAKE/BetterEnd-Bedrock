@@ -1,0 +1,18 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "betterend:helix_tree_ladder",
+            "menu_category": {
+                "category": "construction"
+            }
+        },
+        "components": {
+            "minecraft:icon": "helix_tree_ladder",
+            "minecraft:block_placer": {
+                "block": "betterend:helix_tree_ladder",
+                "replace_block_item": true
+            }
+        }
+    }
+}

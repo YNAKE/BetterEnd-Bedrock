@@ -20,6 +20,18 @@ const blockIndex = {
     random: 3,
     tall: true,
   },
+  "betterend:mossy_glowshroom_log": {
+    random: 4
+  },
+  "betterend:mossy_glowshroom_wood": {
+    random: 4
+  },
+  "betterend:stripped_mossy_glowshroom_wood": {
+    random: 4
+  },
+  "betterend:stripped_mossy_glowshroom_log": {
+    random: 4
+  }
 };
 
 world.beforeEvents.worldInitialize.subscribe((data) => {

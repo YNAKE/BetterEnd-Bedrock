@@ -1,0 +1,52 @@
+{
+    "format_version": "1.21.50",
+    "minecraft:block": {
+        "description": {
+            "identifier": "betterend:dragon_tree_stool"
+        },
+        "components": {
+            "tag:wood": {},
+            "tag:minecraft:is_axe_item_destructible": {},
+            "minecraft:custom_components": [
+                "betterend:can_sit"
+            ],
+            "minecraft:geometry": "geometry.betterend_stool",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "planks_dragon_tree",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 2
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 3
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -6,
+                    0,
+                    -6
+                ],
+                "size": [
+                    12,
+                    10,
+                    12
+                ]
+            },
+            "minecraft:collision_box": {
+                "origin": [
+                    -6,
+                    0,
+                    -6
+                ],
+                "size": [
+                    12,
+                    10,
+                    12
+                ]
+            }
+        }
+    }
+}

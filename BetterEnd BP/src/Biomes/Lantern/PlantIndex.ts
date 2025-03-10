@@ -22,6 +22,12 @@ const blockIndex = {
   },
   "betterend:flamaea": {
     random: 4
+  },
+  "betterend:lucernia_log": {
+    random: 1
+  },
+  "betterend:lucernia_wood": {
+    random: 1
   }
 };
 
