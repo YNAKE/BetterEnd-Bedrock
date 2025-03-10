@@ -87,6 +87,9 @@
       "textures": "textures/blocks/wood/end_lotus/end_lotus_ladder"
     },
     // Lantern
+    "lucernia_outer_leaves": {
+      "textures": "textures/blocks/lantern/plants/lucernia_outer_leaves_1"
+    },
     "flamaea": {
       "textures": "textures/blocks/lantern/plants/flamaea_1"
     },

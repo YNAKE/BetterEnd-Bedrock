@@ -28,6 +28,9 @@ const blockIndex = {
   },
   "betterend:lucernia_wood": {
     random: 1
+  },
+  "betterend:lucernia_outer_leaves": {
+    random: 2
   }
 };
 

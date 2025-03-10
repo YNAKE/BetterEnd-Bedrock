@@ -1,5 +1,5 @@
 {
-  "format_version": "1.20.81",
+  "format_version": "1.21.0",
   "minecraft:block": {
     "description": {
       "identifier": "betterend:lucernia_outer_leaves",
@@ -15,6 +15,45 @@
       }
     },
     "permutations": [
+      {
+        "condition": "q.block_state('betterend:random') == 0",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "lucernia_outer_leaves_1",
+              "render_method": "alpha_test_single_sided",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:random') == 1",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "lucernia_outer_leaves_2",
+              "render_method": "alpha_test_single_sided",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:random') == 2",
+        "components": {
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "lucernia_outer_leaves_3",
+              "render_method": "alpha_test_single_sided",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          }
+        }
+      },
       {
         "condition": "q.block_state('minecraft:facing_direction') == 'down'",
         "components": {
@@ -61,10 +100,11 @@
       "minecraft:placement_filter": {
         "conditions": [
           {
-            "block_filter": ["betterend:lucernia_index"]
+            "block_filter": ["betterend:lucernia_leaves"]
           }
         ]
       },
+      "minecraft:custom_components": [ "betterend:lucernia_index" ],
       "minecraft:flammable": true,
       "minecraft:collision_box": false,
       "minecraft:destructible_by_explosion": true,

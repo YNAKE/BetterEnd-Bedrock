@@ -465,6 +465,9 @@
     "textures": "end_stone"
   },
   // Lantern
+  "betterend:lucernia_outer_leaves": {
+    "sound": "grass"
+  },
   "betterend:flamaea": {
     "sound": "grass"
   },
