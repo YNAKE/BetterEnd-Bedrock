@@ -124,7 +124,7 @@
       "minecraft:material_instances": {
         "*": {
           "texture": "cave_moss",
-          "render_method": "alpha_test",
+          "render_method": "opaque",
           "ambient_occlusion": true,
           "face_dimming": true
         }
