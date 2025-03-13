@@ -1,0 +1,2 @@
+summon villager
+fill ~ ~ ~ ~ ~ ~ air

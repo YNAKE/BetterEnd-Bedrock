@@ -1,0 +1,37 @@
+{
+	"format_version": "1.21.50",
+	"minecraft:block": {
+		"description": {
+			"identifier": "betterend:emerald_ice",
+			"menu_category": {
+				"category": "nature"
+			}
+		},
+		"components": {
+			"tag:ice_starfield": {},
+			"tag:offset:-10": {},
+			"tag:particle:betterend:snowflake": {},
+			"minecraft:custom_components": [
+				"betterend:particle_emitter"
+			],
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 2
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 1
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "emerald_ice",
+					"render_method": "blend",
+					"ambient_occlusion": true,
+					"face_dimming": true
+				}
+			},
+			"minecraft:friction": 0.4,
+			"minecraft:map_color": "#ffffff",
+			"minecraft:light_dampening": 15,
+			"minecraft:light_emission": 0
+		}
+	}
+}

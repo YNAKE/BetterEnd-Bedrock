@@ -3,7 +3,7 @@ world.beforeEvents.worldInitialize.subscribe(data => {
     data.blockComponentRegistry.registerCustomComponent('betterend:umbrella_tree_membrane', {
         onStepOn({ block, entity }) {
             const velocity = entity?.getDynamicProperty('betterend:fall_velocity');
-            const bound = Math.abs(velocity ? velocity : 0) * 1.5;
+            const bound = Math.abs(velocity ? velocity : 0) * 1.1;
             entity?.applyKnockback(0, 0, 0, bound < 0.3 ? 0 : bound);
         },
         onTick({ block }) {

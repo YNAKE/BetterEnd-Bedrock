@@ -1,0 +1,31 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:block": {
+		"description": {
+			"identifier": "betterend:ancient_emerald_ice",
+			"menu_category": {
+				"category": "nature"
+			}
+		},
+		"components": {
+			"tag:ice_starfield": {},
+			"tag:ore": {},
+			"tag:metal": {},
+			"tag:pickaxe_mineable": {},
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 2
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 1
+			},
+			"minecraft:friction": 0.4,
+			"minecraft:flammable": {
+				"catch_chance_modifier": 0,
+				"destroy_chance_modifier": 0
+			},
+			"minecraft:map_color": "#ffffff",
+			"minecraft:light_dampening": 0,
+			"minecraft:light_emission": 0
+		}
+	}
+}
