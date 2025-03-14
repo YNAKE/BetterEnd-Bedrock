@@ -92,7 +92,7 @@ export const BiomeTags = [
     },
     {
         tag: 'umbra_valley',
-        fog: 'betterend:shadow',
+        fog: 'betterend:umbra_valley',
         sound: 'caves',
         music: 'betterend.dark.music',
     },
