@@ -4,7 +4,7 @@
     "description": {
       "identifier": "betterend:chorus_forest/chorus_mushroom_seed_catter_feature"
     },
-    "iterations": "return t.SizePlant;",
+    "iterations": "return 2 * t.SizePlant;",
     "coordinate_eval_order": "zyx",
     "x": {
       "extent": [ "-t.SizePlant/2", "t.SizePlant/2" ],

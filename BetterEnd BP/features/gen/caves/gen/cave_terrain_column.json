@@ -11,6 +11,6 @@
       "extent": [ 0, "t.CaveHeight" ],
       "distribution": "fixed_grid"
     },
-    "places_feature": "betterend:gen/caves/gen/cave_blocks"
+    "places_feature": "betterend:gen/caves/gen/cave_terrain_block"
   }
 }

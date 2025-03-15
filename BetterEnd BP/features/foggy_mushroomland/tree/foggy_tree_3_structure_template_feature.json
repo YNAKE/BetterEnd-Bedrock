@@ -1,0 +1,14 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:structure_template_feature": {
+    "description": {
+      "identifier": "betterend:foggy_mushroomland/tree/foggy_tree_3_structure_template_feature"
+    },
+    "structure_name": "mystructure:foggy_mushroomland/foggy_tree3",
+    "facing_direction": "random",
+    "adjustment_radius": 8,
+    "constraints": {
+        "grounded": {}
+    }
+  }
+}

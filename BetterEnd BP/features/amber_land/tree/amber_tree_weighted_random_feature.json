@@ -9,7 +9,8 @@
             ["betterend:amber_land/tree/amber_tree_2_structure_template_feature", 2],
             ["betterend:amber_land/tree/amber_tree_3_structure_template_feature", 3],
             ["betterend:amber_land/tree/amber_tree_4_structure_template_feature", 5],
-            ["betterend:amber_land/tree/amber_tree_5_structure_template_feature", 4]
+            ["betterend:amber_land/tree/amber_tree_5_structure_template_feature", 4], 
+            ["betterend:amber_land/tree/amber_tree_6_structure_template_feature", 6]
         ]
     }
 }

@@ -464,6 +464,24 @@
     "sound": "stone",
     "textures": "end_stone"
   },
+  // Ice Starfield
+  //Ice Starfield
+	"betterend:ancient_emerald_ice": {
+		"sound": "glass",
+		"textures": "ancient_emerald_ice"
+	},
+	"betterend:dense_emerald_ice": {
+		"sound": "glass",
+		"textures": "dense_emerald_ice"
+	},
+	"betterend:dense_snow": {
+		"sound": "glass",
+		"textures": "dense_snow"
+	},
+	"betterend:emerald_ice": {
+		"sound": "glass",
+		"textures":"emerald_ice"
+	},
   // Lantern
   "betterend:lucernia_outer_leaves": {
     "sound": "grass"

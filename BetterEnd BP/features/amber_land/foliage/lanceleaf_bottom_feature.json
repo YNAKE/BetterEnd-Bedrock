@@ -4,7 +4,7 @@
     "description": {
       "identifier": "betterend:amber_land/foliage/lanceleaf_bottom_feature"
     },
-    "early_out": "none",
+    "early_out": "first_failure",
     "features": [
       "betterend:amber_land/foliage/lanceleaf_seed_lower_single_block_feature",
       "betterend:amber_land/foliage/lanceleaf_seed_upper_scatter_feature"

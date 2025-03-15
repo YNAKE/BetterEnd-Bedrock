@@ -8,7 +8,8 @@
 			"betterend:amber_land/foliage/glowing_pillar_leaves_1_north_scatter_feature",
 			"betterend:amber_land/foliage/glowing_pillar_leaves_1_south_scatter_feature",
 			"betterend:amber_land/foliage/glowing_pillar_leaves_1_west_scatter_feature",
-			"betterend:amber_land/foliage/glowing_pillar_leaves_1_east_scatter_feature"
+			"betterend:amber_land/foliage/glowing_pillar_leaves_1_east_scatter_feature",
+			"betterend:amber_land/foliage/glowing_pillar_leaves_1_up_scatter_feature"
 		]
 	}
 }

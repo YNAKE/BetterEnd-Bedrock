@@ -1,0 +1,14 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:weighted_random_feature": {
+        "description": {
+            "identifier": "betterend:blossoming_spire/tree/tenanea_flowers_weighted_random_feature"
+        },
+        "features": [
+            ["betterend:blossoming_spire/tree/tenanea_flowers_cyan_feature",  1],
+            ["betterend:blossoming_spire/tree/tenanea_flowers_pink_feature", 1],
+            ["betterend:blossoming_spire/tree/tenanea_flowers_purple_and_blue_feature", 1],
+            ["betterend:blossoming_spire/tree/tenanea_flowers_purple_feature", 1]
+        ]
+    }
+}

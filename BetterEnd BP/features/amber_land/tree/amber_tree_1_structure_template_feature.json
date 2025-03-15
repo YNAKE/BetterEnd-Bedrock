@@ -6,6 +6,7 @@
     },
     "structure_name": "mystructure:amber_land/amber_tree1",
     "facing_direction": "random",
+    "adjustment_radius": 8,
     "constraints": {
         "grounded": {}
     }

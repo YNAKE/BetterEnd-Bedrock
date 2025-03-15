@@ -1,24 +1,18 @@
 {
-  "format_version": "1.21.40",
-  "minecraft:single_block_feature": {
-    "description": {
-      "identifier": "betterend:umbrella_jungle/small_jellyshroom_single_block_feature"
-    },
-    "places_block": {
-      "name": "betterend:small_jellyshroom",
-      "states": {
-        "minecraft:facing_direction": "up"
-      }
-    }, 
-    "enforce_survivability_rules": true,
-    "enforce_placement_rules": true,
-    "may_replace": ["minecraft:air"],
-    "may_attach_to": {"bottom": [{
-      "name": "betterend:jungle_moss",
-      "states": {
-        "betterend:biomes": "umbrella_jungle"
-      }
-    }]
-    }
+  "format_version": "1.21.0",
+    "minecraft:growing_plant_feature": {
+      "description": {
+        "identifier": "betterend:umbrella_jungle/small_jellyshroom_single_block_feature"
+      },
+      "height_distribution":  [
+        [{"range_min": 2, "range_max": 2}, 1]
+      ],
+      "growth_direction": "UP",
+      "body_blocks" : [
+        [{"name": "betterend:small_jellyshroom", "states": {"minecraft:facing_direction": "down"}}, 1]
+      ],
+      "head_blocks" : [
+        [{"name": "minecraft:air"}, 1]
+    ]
   }
 }

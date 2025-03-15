@@ -8,6 +8,6 @@
 			"betterend:amber_land/foliage/lanceleaf_bottom_feature",
 			"betterend:amber_land/foliage/lanceleaf_top_fixup_scatter_feature"
 		],
-		"early_out": "none"
+		"early_out": "first_failure"
 	}
 }

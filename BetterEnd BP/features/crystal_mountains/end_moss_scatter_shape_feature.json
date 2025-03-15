@@ -4,7 +4,7 @@
     "description": {
       "identifier": "betterend:crystal_mountains/end_moss_scatter_shape_feature"
     },
-    "iterations": "return 8 * t.SizePlant;",
+    "iterations": "return 32 * t.SizePlant;",
     "x": {
       "extent": [ "-t.SizePlant", "t.SizePlant" ],
       "distribution": "gaussian"

@@ -4,10 +4,11 @@
     "description": {
       "identifier": "betterend:amber_land/foliage/lanceleaf_top_scatter_feature"
     },
-    "iterations": 2,
+    "iterations": 1,
     "x": 0,
     "z": 0,
-    "y": "t.lanceleaf", 
-    "places_feature": "betterend:amber_land/foliage/lanceleaf_top_single_block_feature"
+    "y": 5, 
+    "project_input_to_floor": false,
+    "places_feature": "betterend:amber_land/foliage/lanceleaf_top_snap_to_floor_feature"
   }
 }

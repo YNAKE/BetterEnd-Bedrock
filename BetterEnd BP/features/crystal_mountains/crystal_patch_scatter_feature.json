@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "betterend:crystal_mountains/crystal_patch_scatter_feature"
+    },
+    "iterations": "t.BetterEndBiome == 3",
+    "x": 0,
+    "z": 0,
+    "y": "q.above_top_solid(v.worldx, v.worldz)",
+    "places_feature": "betterend:crystal_mountains/crystal_patch_feature"
+  }
+}

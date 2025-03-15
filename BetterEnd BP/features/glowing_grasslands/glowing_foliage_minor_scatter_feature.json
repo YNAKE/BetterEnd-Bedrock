@@ -4,8 +4,7 @@
     "description": {
       "identifier": "betterend:glowing_grasslands/glowing_foliage_minor_scatter_feature"
     },
-    "iterations": 0.5,
-    "scatter_chance": "((q.noise((v.originx + 8) / 64.0, (v.originz + 8) / 64.0) >= -.8) && v.is_legacy == 0.0) ? 100.0 : 0.0", 
+    "iterations": "q.noise(math.trunc(v.originx / 16), math.trunc(v.originz / 16)) + 0.2",
     "x": {
         "distribution": "uniform",
         "extent": [ 0, "t.ExtentPlant" ]

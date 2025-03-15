@@ -1,93 +1,25 @@
 {
-  "format_version": "1.21.40",
-  "minecraft:single_block_feature": {
-    "description": {
-      "identifier": "betterend:chorus_forest/chorus_grass_single_block_feature"
-    },
-    "places_block":[
-      {
-        "block": {
-          "name": "betterend:chorus_grass",
-          "states": {
-            "betterend:random": 0
-          }
-        },
-        "weight": 1
+  "format_version": "1.21.0",
+    "minecraft:growing_plant_feature": {
+      "description": {
+        "identifier": "betterend:chorus_forest/chorus_grass_single_block_feature"
       },
-      {
-        "block": {
-          "name": "betterend:chorus_grass",
-          "states": {
-            "betterend:random": 1
-          }
-        },
-        "weight": 1
-      },
-      {
-        "block": {
-          "name": "betterend:chorus_grass",
-          "states": {
-            "betterend:random": 2
-          }
-        },
-        "weight": 1
-      },
-      {
-        "block": {
-          "name": "betterend:chorus_grass",
-          "states": {
-            "betterend:random": 3
-          }
-        },
-        "weight": 1
-      }, 
-      {
-        "block": {
-          "name": "betterend:chorus_grass",
-          "states": {
-            "betterend:random": 4
-          }
-        },
-        "weight": 1
-      },
-      {
-        "block": {
-          "name": "betterend:chorus_grass",
-          "states": {
-            "betterend:random": 5
-          }
-        },
-        "weight": 1
-      },
-      {
-        "block": {
-          "name": "betterend:chorus_grass",
-          "states": {
-            "betterend:random": 6
-          }
-        },
-        "weight": 1
-      },
-      {
-        "block": {
-          "name": "betterend:chorus_grass",
-          "states": {
-            "betterend:random": 7
-          }
-        },
-        "weight": 1
-      }
-    ],
-    "enforce_survivability_rules": false,
-    "enforce_placement_rules": true,
-    "may_replace": ["minecraft:air"],
-    "may_attach_to": {
-      "bottom": [{
-      "name": "betterend:chorus_nylium",
-      "states": {
-        "betterend:biomes": "chorus_forest"
-      }
-    }]
-    }
+      "height_distribution":  [
+        [{"range_min": 2, "range_max": 2}, 1]
+      ],
+      "growth_direction": "UP",
+      "body_blocks" : [
+        [{"name": "betterend:chorus_grass", "states": {"betterend:random": 0}}, 8], 
+        [{"name": "betterend:chorus_grass", "states": {"betterend:random": 1}}, 8],
+        [{"name": "betterend:chorus_grass", "states": {"betterend:random": 2}}, 1], 
+        [{"name": "betterend:chorus_grass", "states": {"betterend:random": 3}}, 1],
+        [{"name": "betterend:chorus_grass", "states": {"betterend:random": 4}}, 1], 
+        [{"name": "betterend:chorus_grass", "states": {"betterend:random": 5}}, 1],
+        [{"name": "betterend:chorus_grass", "states": {"betterend:random": 6}}, 1], 
+        [{"name": "betterend:chorus_grass", "states": {"betterend:random": 7}}, 1]
+      ],
+      "head_blocks" : [
+        [{"name": "minecraft:air"}, 1]
+    ]
   }
 }

@@ -4,7 +4,7 @@
     "description": {
       "identifier": "betterend:crystal_mountains/end_moss_scatter_feature"
     },
-    "iterations": "return (t.BetterEndBiome == 3) ? 1 : 0;",
+    "iterations": "return (t.BetterEndBiome == 3) ? 0.5 : 0;",
     "x": {
         "distribution": "uniform",
         "extent": [ 0, "t.ExtentPlant" ]
@@ -13,7 +13,7 @@
         "distribution": "uniform",
         "extent": [ 0, "t.ExtentPlant" ]
       },
-    "y": "t.surface > math.random(55, 58) ? { return t.surface; } : { return 400; };",
+    "y": "t.surface > 53 ? { return t.surface; } : { return 400; };",
     "places_feature": "betterend:crystal_mountains/end_moss_scatter_shape_feature"
   }
 }

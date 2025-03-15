@@ -4,7 +4,8 @@
     "description": {
       "identifier": "betterend:blossoming_spire/blossom_berry_seed_scatter_feature"
     },
-    "iterations": "return 4 * t.SizePlant;",
+    "iterations": "return 2 * t.SizePlant;",
+    "coordinate_eval_order": "zyx",
     "x": {
       "extent": [ "-t.SizePlant/2", "t.SizePlant/2" ],
       "distribution": "gaussian"
@@ -14,6 +15,7 @@
       "distribution": "gaussian"
     },
     "y": "q.heightmap(v.worldx, v.worldz) - v.originy",
+    "project_input_to_floor": false,
     "places_feature": "betterend:blossoming_spire/blossom_berry_seed_single_block_feature"
   }
 }

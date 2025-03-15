@@ -1,13 +1,32 @@
 {
-	"format_version": "1.21.0",
-	"minecraft:aggregate_feature": {
-		"description": {
-			"identifier": "betterend:gen/terrain/terrain_feature"
+  "format_version": "1.21.0",
+    "minecraft:aggregate_feature": {
+	  "description": {
+		"identifier": "betterend:gen/terrain/terrain_feature"
 		},
 		"features": [
-			"betterend:gen/terrain/mountain_column",
-			"betterend:gen/terrain/painted_column",
-			"betterend:gen/caves/gen/cave_terrain_column"
+		"betterend:amber_land/amber_land",//1
+	    "betterend:blossoming_spire/blossoming_spire",//2
+      	"betterend:chorus_forest/chorus_forest",//3
+     	"betterend:dragon_graveyards/dragon_graveyards",//4
+		"betterend:dry_shrubland/dry_shrubland",//5
+	    "betterend:dust_wastenlands/dust_wastenlands",//6
+		"betterend:foggy_mushroomland/foggy_mushroomland",//7
+		"betterend:glowing_grasslands/glowing_grasslands",//8
+		"betterend:lantern_woods/lantern_woods",//9
+		"betterend:megalake/megalake",//10
+		"betterend:neon_oasis/neon_oasis",//11
+		"betterend:shadow_forest/shadow_forest",//12
+		"betterend:umbrella_jungle/umbrella_jungle",//13
+		"betterend:gen/terrain/mountain_column",
+		"betterend:gen/caves/gen/cave_terrain_column", 
+		"betterend:painted_mountains/strata_condition", 
+		"betterend:sulphur_springs/sulphur_springs", 
+		"betterend:umbra_valley/umbra_valley", 
+		"betterend:megalake/lakes/megalake_water", 
+		"betterend:crystal_mountains/crystal_patch_scatter_feature", 
+		"betterend:neon_oasis/end_moss_scatter_proxy_feature",
+		"betterend:umbra_valley/pallidium_area_feature"
 		]
 	}
 }

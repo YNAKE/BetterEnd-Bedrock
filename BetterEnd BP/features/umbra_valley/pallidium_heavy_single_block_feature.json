@@ -1,0 +1,17 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "betterend:umbra_valley/pallidium_heavy_single_block_feature"
+    },
+    "places_block": {
+      "name": "betterend:pallidium_heavy",
+      "states": {
+        "betterend:biomes": "umbra_valley"
+      }
+    },
+    "enforce_survivability_rules": false,
+    "enforce_placement_rules": false, 
+    "may_replace":[{"name": "betterend:umbralith", "states": {"betterend:biomes": "umbra_valley"}}]
+  }
+}

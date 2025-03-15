@@ -7,7 +7,7 @@
     "iterations": "t.BetterEndBiome == 1",
     "x": 0,
     "z": 0,
-    "y": 0,
-    "places_feature": "betterend:blossoming_spire/pink_moss_surface_feature"
+    "y": "t.surface > 50 ? { return t.surface - 1; } : { return 400; };",
+    "places_feature": "betterend:blossoming_spire/pink_moss_single_block_feature"
   }
 }

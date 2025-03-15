@@ -1,0 +1,19 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "betterend:chorus_forest/tree/chorus_tree_scatter_feature"
+    },
+    "iterations": "return (t.BetterEndBiome == 2) ? 1 : 0;",
+    "x": {
+        "distribution": "uniform",
+        "extent": [ 0, "t.ExtentPlant" ]
+      },
+    "z": {
+        "distribution": "uniform",
+        "extent": [ 0, "t.ExtentPlant" ]
+      },
+    "y": "t.surface > 48 ? { return t.surface; } : { return 400; };",
+    "places_feature": "betterend:chorus_forest/tree/chorus_tree_weighted_random_feature"
+  }
+}

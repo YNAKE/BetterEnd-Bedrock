@@ -14,8 +14,8 @@
       "extent": [ "-t.SizePlant", "t.SizePlant" ],
       "distribution": "gaussian"
     },
-    "y": "q.heightmap(v.worldx, v.worldz) - v.originy",
+    "y": 0,
     "project_input_to_floor": false,
-    "places_feature": "betterend:umbrella_jungle/small_jellyshroom_single_block_feature"
+    "places_feature": "betterend:umbrella_jungle/small_jellyshroom_snap_to_floor_feature"
   }
 }

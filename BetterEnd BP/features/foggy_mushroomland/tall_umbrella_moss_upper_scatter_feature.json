@@ -8,6 +8,7 @@
     "x": 0,
     "y": 1,
     "z": 0,
+    "project_input_to_floor": false,
     "places_feature": "betterend:foggy_mushroomland/tall_umbrella_moss_upper_single_block_feature"
   }
 }

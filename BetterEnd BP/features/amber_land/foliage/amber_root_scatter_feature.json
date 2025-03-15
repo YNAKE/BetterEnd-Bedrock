@@ -4,18 +4,18 @@
     "description": {
       "identifier": "betterend:amber_land/foliage/amber_root_scatter_feature"
     },
-    "iterations": "return 8 * t.SizePlant;",
+    "iterations": "return 2 * t.SizePlant;",
     "coordinate_eval_order": "zyx",
     "x": {
-      "extent": [ "-t.SizePlant", "t.SizePlant" ],
+      "extent": [ "-t.SizePlant/2", "t.SizePlant/2" ],
       "distribution": "gaussian"
     },
     "z": {
-      "extent": [ "-t.SizePlant", "t.SizePlant" ],
+      "extent": [ "-t.SizePlant/2", "t.SizePlant/2" ],
       "distribution": "gaussian"
     },
     "y": "q.heightmap(v.worldx, v.worldz) - v.originy",
-    "project_input_to_floor": false,
+    "project_input_to_floor": true,
     "places_feature": "betterend:amber_land/foliage/amber_root_single_block_feature"
   }
 }

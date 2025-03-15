@@ -4,7 +4,7 @@
     "description": {
       "identifier": "betterend:chorus_forest/chorus_grass_scatter_feature"
     },
-    "iterations": "return 8 * t.SizePlant;",
+    "iterations": "return 6 * t.SizePlant;",
     "coordinate_eval_order": "zyx",
     "x": {
       "extent": [ "-t.SizePlant", "t.SizePlant" ],
@@ -14,8 +14,8 @@
       "extent": [ "-t.SizePlant", "t.SizePlant" ],
       "distribution": "gaussian"
     },
-    "y": "q.heightmap(v.worldx, v.worldz) - v.originy",
+    "y": 0,
     "project_input_to_floor": false,
-    "places_feature": "betterend:chorus_forest/chorus_grass_single_block_feature"
+    "places_feature": "betterend:chorus_forest/chorus_grass_snap_to_floor_feature"
   }
 }

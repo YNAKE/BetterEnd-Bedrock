@@ -4,7 +4,7 @@
     "description": {
       "identifier": "betterend:foggy_mushroomland/tall_umbrella_moss_feature"
     },
-    "early_out": "none",
+    "early_out": "first_failure",
     "features": [
       "betterend:foggy_mushroomland/tall_umbrella_moss_lower_single_block_feature",
       "betterend:foggy_mushroomland/tall_umbrella_moss_upper_scatter_feature"

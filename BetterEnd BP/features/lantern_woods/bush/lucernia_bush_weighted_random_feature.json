@@ -1,0 +1,13 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:weighted_random_feature": {
+        "description": {
+            "identifier": "betterend:lantern_woods/bush/lucernia_bush_weighted_random_feature"
+        },
+        "features": [
+            ["betterend:lantern_woods/bush/lucernia_bush_1_structure_template_feature", 1],
+            ["betterend:lantern_woods/bush/lucernia_bush_2_structure_template_feature", 1], 
+            ["betterend:lantern_woods/bush/lucernia_bush_3_structure_template_feature", 1]
+        ]
+    }
+}

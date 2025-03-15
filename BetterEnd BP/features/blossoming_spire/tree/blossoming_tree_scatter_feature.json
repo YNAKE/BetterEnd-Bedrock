@@ -1,0 +1,19 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "betterend:blossoming_spire/tree/blossoming_tree_scatter_feature"
+    },
+    "iterations": "return (t.BetterEndBiome == 1) ? 2 : 0;",
+    "x": {
+        "distribution": "uniform",
+        "extent": [ 0, "t.ExtentPlant" ]
+      },
+    "z": {
+        "distribution": "uniform",
+        "extent": [ 0, "t.ExtentPlant" ]
+      },
+    "y": "t.surface > 48 ? { return t.surface; } : { return 400; };",
+    "places_feature": "betterend:blossoming_spire/tree/blossom_tree_weighted_random_feature"
+  }
+}

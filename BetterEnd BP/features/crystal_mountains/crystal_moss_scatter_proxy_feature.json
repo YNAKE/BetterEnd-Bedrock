@@ -1,0 +1,13 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "betterend:crystal_mountains/crystal_moss_scatter_proxy_feature"
+    },
+    "iterations": "return t.crystal_moss_patch_area > 0;",
+    "x": 0,
+    "z": 0,
+    "y": -1,
+    "places_feature": "betterend:crystal_mountains/crystal_moss_single_block_feature"
+  }
+}

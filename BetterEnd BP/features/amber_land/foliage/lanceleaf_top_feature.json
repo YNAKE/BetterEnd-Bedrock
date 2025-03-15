@@ -5,10 +5,9 @@
 			"identifier": "betterend:amber_land/foliage/lanceleaf_top_feature"
 		},
 		"features": [
-			"betterend:amber_land/foliage/lanceleaf_middle_scatter_feature",
-			"betterend:amber_land/foliage/lanceleaf_pre_top_scatter_feature",
+			"betterend:amber_land/foliage/lanceleaf_middle_and_pre_top_feature",
 			"betterend:amber_land/foliage/lanceleaf_top_scatter_feature"
 		],
-		"early_out": "none"
+		"early_out": "first_failure"
 	}
 }

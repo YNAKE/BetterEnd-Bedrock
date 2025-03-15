@@ -5,7 +5,7 @@
             "identifier": "betterend:amber_land/foliage/amber_foliage_weighted_random_feature"
         },
         "features": [
-            ["betterend:amber_land/foliage/amber_grass_scatter_feature", 5],
+            ["betterend:amber_land/foliage/amber_grass_scatter_feature", 6],
             ["betterend:amber_land/foliage/amber_root_scatter_feature", 1]
         ]
     }

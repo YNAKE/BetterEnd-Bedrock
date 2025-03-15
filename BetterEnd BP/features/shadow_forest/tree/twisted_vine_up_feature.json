@@ -1,0 +1,43 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:growing_plant_feature": {
+    "description": {
+      "identifier": "betterend:shadow_forest/tree/twisted_vine_up_feature"
+    },
+    "height_distribution": [
+      [{ "range_min": 4, "range_max": 5 }, 1],
+      [{ "range_min": 5, "range_max": 6 }, 2],
+      [{ "range_min": 7, "range_max": 8 }, 2],
+      [{ "range_min": 8, "range_max": 9 }, 3],
+      [{ "range_min": 10, "range_max": 11 }, 3],
+      [{ "range_min": 12, "range_max": 13 }, 4],
+      [{ "range_min": 13, "range_max": 14 }, 4],
+      [{ "range_min": 14, "range_max": 15 }, 5]
+    ],
+    "growth_direction": "DOWN",
+    "age": {"range_min":4, "range_max": 15},
+    "body_blocks": [
+      [
+        {
+          "name": "betterend:twisted_vine",
+          "states": {
+            "betterend:growth": 1
+          }
+        },
+        1
+      ]
+    ],
+    "head_blocks": [
+      [
+        {
+          "name": "betterend:twisted_vine",
+          "states": {
+            "betterend:growth": 2
+          }
+        },
+        1
+      ]
+    ],
+    "allow_water": false
+  }
+}

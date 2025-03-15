@@ -4,7 +4,7 @@
     "description": {
       "identifier": "betterend:amber_land/foliage/glowing_pillar_scatter_feature"
     },
-    "iterations": "return 4 * t.SizePlant;",
+    "iterations": "return 2 * t.SizePlant;",
     "coordinate_eval_order": "zyx",
     "x": {
       "extent": [ "-t.SizePlant", "t.SizePlant" ],
@@ -15,7 +15,7 @@
       "distribution": "gaussian"
     },
     "y": 0,
-    "project_input_to_floor": false,
+    "project_input_to_floor": true,
     "places_feature": "betterend:amber_land/foliage/glowing_snap_to_floor_feature"
   }
 }

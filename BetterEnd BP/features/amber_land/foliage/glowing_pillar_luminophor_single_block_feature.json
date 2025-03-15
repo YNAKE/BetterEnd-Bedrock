@@ -5,7 +5,7 @@
       "identifier": "betterend:amber_land/foliage/glowing_pillar_luminophor_single_block_feature"
     },
     "places_block": "betterend:glowing_pillar_luminophor", 
-    "enforce_survivability_rules": false,
+    "enforce_survivability_rules": true,
     "enforce_placement_rules": true,
     "may_replace": ["minecraft:air", "betterend:glowing_pillar_leaves"],
     "may_attach_to": {

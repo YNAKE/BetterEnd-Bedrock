@@ -1,0 +1,24 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:vegetation_patch_feature": {
+    "description": {
+	"identifier": "betterend:dry_shrubland/bush/lucernia_bush_vegetation_patch_feature"
+    },
+    "replaceable_blocks": [
+      "minecraft:air"
+    ],
+	"vegetation_feature": "betterend:lantern_woods/bush/lucernia_bush_weighted_random_feature", 
+	"ground_block": {
+      "name": "betterend:rutiscus",
+      "states": {
+        "betterend:biomes": "dry_shrubland"
+      }
+    }, 
+    "vegetation_chance": 0.075,
+	"surface": "floor",
+	"extra_edge_column_chance": 1, 
+	"depth": 1,
+	"vertical_range": 1,
+	"horizontal_radius": 1
+ }
+}

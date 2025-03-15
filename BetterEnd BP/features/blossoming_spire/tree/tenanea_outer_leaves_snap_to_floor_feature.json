@@ -1,0 +1,16 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:snap_to_surface_feature": {
+    "description": {
+      "identifier": "betterend:blossoming_spire/tree/tenanea_outer_leaves_snap_to_floor_feature"
+    },
+    "feature_to_snap": "betterend:blossoming_spire/tree/tenanea_outer_leaves_up_feature", 
+    "vertical_search_range": 12,
+    "surface": "floor", 
+    "allowed_surface_blocks": [
+        {
+            "name": "betterend:tenanea_leaves"
+        }
+    ]
+  }
+}

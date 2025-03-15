@@ -5,7 +5,7 @@
             "identifier": "betterend:chorus_forest/chorus_foliage_weighted_random_feature"
         },
         "features": [
-            ["betterend:chorus_forest/chorus_grass_scatter_feature", 8],
+            ["betterend:chorus_forest/chorus_grass_scatter_feature", 6],
             ["betterend:chorus_forest/chorus_mushroom_seed_catter_feature", 1]
         ]
     }

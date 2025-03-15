@@ -7,7 +7,7 @@
     "iterations": "t.BetterEndBiome == 14",
     "x": 0,
     "z": 0,
-    "y": "t.surface - 1",
-    "places_feature": "betterend:sulphur_springs/sulphuric_rock_single_block_feature"
+    "y": "t.surface > math.random(42, 44) ? { return t.surface; } : { return 400; };",
+    "places_feature": "betterend:sulphur_springs/sulphuric_rock_column"
   }
 }
