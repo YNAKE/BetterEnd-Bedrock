@@ -35,11 +35,13 @@
 			},
       "minecraft:custom_components": ["betterend:on_player_destroy", "betterend:random_tick", "betterend:leaf_place"],
       "minecraft:map_color": "#DDDDDD",
-      "minecraft:light_dampening": 0,
+      "minecraft:light_dampening": 15,
       "minecraft:material_instances": {
         "*": {
           "texture": "dragon_tree_leaves",
-          "render_method": "blend"
+	  "ambient_occlusion": true,
+          "face_dimming": true, 
+          "render_method": "alpha_test_single_sided"
         }
       }
     }
