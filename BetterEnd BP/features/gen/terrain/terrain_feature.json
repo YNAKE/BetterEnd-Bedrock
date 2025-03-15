@@ -5,6 +5,8 @@
 		"identifier": "betterend:gen/terrain/terrain_feature"
 		},
 		"features": [
+		"betterend:sulphur_springs/caves/caves_idx", 
+		"betterend:sulphur_springs/caves/water_terrain_column", 
 		"betterend:amber_land/amber_land",//1
 	    "betterend:blossoming_spire/blossoming_spire",//2
       	"betterend:chorus_forest/chorus_forest",//3
@@ -23,7 +25,8 @@
 		"betterend:painted_mountains/strata_condition", 
 		"betterend:sulphur_springs/sulphur_springs", 
 		"betterend:umbra_valley/umbra_valley", 
-		"betterend:megalake/lakes/megalake_water", 
+		"betterend:megalake/lakes/megalake_water",
+		"betterend:megalake/lakes/air_replace", 
 		"betterend:crystal_mountains/crystal_patch_scatter_feature", 
 		"betterend:neon_oasis/end_moss_scatter_proxy_feature",
 		"betterend:umbra_valley/pallidium_area_feature"

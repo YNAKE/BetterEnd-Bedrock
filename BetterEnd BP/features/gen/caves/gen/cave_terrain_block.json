@@ -4,7 +4,7 @@
     "description": {
       "identifier": "betterend:gen/caves/gen/cave_terrain_block"
     },
-    "iterations": "t.CarverChunk = (v.originy - t.originy); return t.cave_noise1 + (t.cave_noise2 - t.cave_noise1) * math.hermite_blend(t.CarverChunk / t.CaveHeight) + 1.5 * math.pow((t.CarverChunk - t.CaveHeight / 2) / (t.CaveHeight / 2), 4) < -0.0;",
+    "iterations": "t.CarverChunk = (v.originy - t.originy); return t.cave_noise1 + (t.cave_noise2 - t.cave_noise1) * math.hermite_blend(t.CarverChunk / t.CaveHeight) + 1.5 * math.pow((t.CarverChunk - t.CaveHeight / 2) / (t.CaveHeight / 2), 4) < -0.1;",
     "x": 0,
     "z": 0,
     "y": "t.CavePosition",

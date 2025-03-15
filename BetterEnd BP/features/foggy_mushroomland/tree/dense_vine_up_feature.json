@@ -1,0 +1,43 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:growing_plant_feature": {
+    "description": {
+      "identifier": "betterend:foggy_mushroomland/tree/dense_vine_up_feature"
+    },
+    "height_distribution": [
+      [{ "range_min": 5, "range_max": 6 }, 1],
+      [{ "range_min": 6, "range_max": 7 }, 2],
+      [{ "range_min": 7, "range_max": 8 }, 2],
+      [{ "range_min": 8, "range_max": 9 }, 3],
+      [{ "range_min": 9, "range_max": 10 }, 3],
+      [{ "range_min": 10, "range_max": 11 }, 4],
+      [{ "range_min": 11, "range_max": 12 }, 4],
+      [{ "range_min": 12, "range_max": 13 }, 5]
+    ],
+    "growth_direction": "DOWN",
+    "age": {"range_min": 8, "range_max": 19},
+    "body_blocks": [
+      [
+        {
+          "name": "betterend:dense_vine",
+          "states": {
+            "betterend:growth": 1
+          }
+        },
+        1
+      ]
+    ],
+    "head_blocks": [
+      [
+        {
+          "name": "betterend:dense_vine",
+          "states": {
+            "betterend:growth": 2
+          }
+        },
+        1
+      ]
+    ],
+    "allow_water": false
+  }
+}

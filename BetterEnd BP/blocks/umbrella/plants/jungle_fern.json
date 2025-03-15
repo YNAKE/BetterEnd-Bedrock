@@ -1,5 +1,5 @@
 {
-	"format_version": "1.20.20",
+	"format_version": "1.20.40",
 	"minecraft:block": {
 		"description": {
 			"identifier": "betterend:jungle_fern",
@@ -34,7 +34,7 @@
 							"texture": "jungle_fern1",
 							"ambient_occlusion": false,
 							"face_dimming": false,
-							"render_method": "alpha_test"
+							"render_method": "alpha_test_single_sided"
 						}
 					}
 				}
@@ -48,7 +48,7 @@
 							"texture": "jungle_fern1",
 							"ambient_occlusion": false,
 							"face_dimming": false,
-							"render_method": "alpha_test"
+							"render_method": "alpha_test_single_sided"
 						}
 					}
 				}
@@ -62,7 +62,7 @@
 							"texture": "jungle_fern1",
 							"ambient_occlusion": false,
 							"face_dimming": false,
-							"render_method": "alpha_test"
+							"render_method": "alpha_test_single_sided"
 						}
 					}
 				}
@@ -76,7 +76,7 @@
 							"texture": "jungle_fern2",
 							"ambient_occlusion": false,
 							"face_dimming": false,
-							"render_method": "alpha_test"
+							"render_method": "alpha_test_single_sided"
 						}
 					}
 				}
@@ -90,7 +90,7 @@
 							"texture": "jungle_fern2",
 							"ambient_occlusion": false,
 							"face_dimming": false,
-							"render_method": "alpha_test"
+							"render_method": "alpha_test_single_sided"
 						}
 					}
 				}
@@ -104,7 +104,7 @@
 							"texture": "jungle_fern2",
 							"ambient_occlusion": false,
 							"face_dimming": false,
-							"render_method": "alpha_test"
+							"render_method": "alpha_test_single_sided"
 						}
 					}
 				}
@@ -118,7 +118,7 @@
 							"texture": "jungle_fern3",
 							"ambient_occlusion": false,
 							"face_dimming": false,
-							"render_method": "alpha_test"
+							"render_method": "alpha_test_single_sided"
 						}
 					}
 				}
@@ -132,7 +132,7 @@
 							"texture": "jungle_fern3",
 							"ambient_occlusion": false,
 							"face_dimming": false,
-							"render_method": "alpha_test"
+							"render_method": "alpha_test_single_sided"
 						}
 					}
 				}
@@ -146,7 +146,7 @@
 							"texture": "jungle_fern3",
 							"ambient_occlusion": false,
 							"face_dimming": false,
-							"render_method": "alpha_test"
+							"render_method": "alpha_test_single_sided"
 						}
 					}
 				}
@@ -193,7 +193,7 @@
 					"minecraft:transformation": {
 						"rotation": [
 							0,
-							-90,
+							270,
 							0
 						]
 					}
@@ -209,9 +209,10 @@
 							"side"
 						],
 						"block_filter": [
-							"betterend:umbrella_tree_bark",
-							"betterend:jungle_moss",
-							"betterend:jellyshroom_bark"
+							"betterend:umbrella_tree_wood",
+							"betterend:umbrella_tree_log",
+							"betterend:jellyshroom_wood", 
+							"betterend:jellyshroom_log"
 						]
 					}
 				]

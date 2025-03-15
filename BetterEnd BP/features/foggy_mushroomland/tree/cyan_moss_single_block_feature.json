@@ -1,0 +1,52 @@
+{
+  "format_version": "1.21.50",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "betterend:foggy_mushroomland/tree/cyan_moss_single_block_feature"
+    },
+    "places_block": [
+      {
+        "block": {
+          "name": "betterend:cyan_moss",
+          "states": {
+            "betterend:random": 0
+          }
+        },
+        "weight": 1
+      }, 
+      {
+        "block": {
+          "name": "betterend:cyan_moss",
+          "states": {
+            "betterend:random": 1
+          }
+        },
+        "weight": 1
+      }, 
+      {
+        "block": {
+          "name": "betterend:cyan_moss",
+          "states": {
+            "betterend:random": 2
+          }
+        },
+        "weight": 1
+      }
+    ],
+    "enforce_survivability_rules": true,
+    "enforce_placement_rules": false,
+    "may_attach_to": {
+      "sides": [ 
+          "betterend:mossy_glowshroom_wood",
+          "betterend:mossy_glowshroom_log", 
+          "betterend:umbrella_tree_wood",
+          "betterend:umbrella_tree_log",
+          "betterend:jellyshroom_wood", 
+          "betterend:jellyshroom_log"
+          ],
+      "min_sides_must_attach": 1, 
+      "auto_rotate": true
+    }, 
+    "may_replace": [ "minecraft:air" ]
+  }
+}

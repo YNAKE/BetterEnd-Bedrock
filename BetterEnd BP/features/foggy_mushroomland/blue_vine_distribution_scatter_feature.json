@@ -4,7 +4,7 @@
     "description": {
       "identifier": "betterend:foggy_mushroomland/blue_vine_distribution_scatter_feature"
     },
-    "iterations": "return t.SizePlant;",
+    "iterations": "return 2 * t.SizePlant;",
     "coordinate_eval_order": "zyx",
     "x": {
       "extent": [ "-t.SizePlant", "t.SizePlant" ],

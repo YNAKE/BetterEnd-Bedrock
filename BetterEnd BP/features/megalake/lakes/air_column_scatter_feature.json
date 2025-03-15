@@ -4,11 +4,11 @@
     "description": {
       "identifier": "betterend:megalake/lakes/air_column_scatter_feature"
     },
-    "iterations": "return t.megalakes_air;",
+    "iterations": "return t.megalakes;",
     "x": 0,
     "z": 0,
     "y": {
-      "extent": [ 0, "t.megalakes_air" ],
+      "extent": [ 0, "t.megalakes" ],
       "distribution": "fixed_grid"
     },
     "places_feature": "betterend:megalake/lakes/air_single_block_feature"

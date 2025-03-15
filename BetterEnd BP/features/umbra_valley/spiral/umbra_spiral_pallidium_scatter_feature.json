@@ -1,0 +1,14 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "betterend:umbra_valley/spiral/umbra_spiral_pallidium_scatter_feature"
+    },
+    "iterations": "return (t.BetterEndBiome == 15) && (t.pallidium_area > 0.1) ? 0.5 : 0;",
+    "scatter_chance": 50.0,
+    "x": -16,
+    "z": -16,
+    "y": "t.surface > 48 ? { return t.surface - 1; } : { return 400; };",
+    "places_feature": "betterend:umbra_valley/spiral/umbra_spiral_pallidium_weighted_random_feature"
+  }
+}

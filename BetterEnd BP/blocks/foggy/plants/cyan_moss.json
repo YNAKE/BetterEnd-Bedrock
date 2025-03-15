@@ -1,5 +1,5 @@
 {
-  "format_version": "1.21.0",
+  "format_version": "1.20.40",
   "minecraft:block": {
     "description": {
       "identifier": "betterend:cyan_moss",
@@ -8,8 +8,7 @@
       },
       "traits": {
         "minecraft:placement_direction": {
-          "enabled_states": ["minecraft:cardinal_direction"],
-          "y_rotation_offset": 180
+          "enabled_states": ["minecraft:cardinal_direction"]
         }
       }
     },
@@ -47,30 +46,30 @@
       {
         "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
         "components": {
-          "minecraft:transformation": { "rotation": [0, 0, 0] }
-        }
-      },
-      {
-        "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
-        "components": {
-          "minecraft:transformation": { "rotation": [0, 90, 0] }
+          "minecraft:transformation": { "rotation": [0, 180, 0] }
         }
       },
       {
         "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
         "components": {
-          "minecraft:transformation": { "rotation": [0, 180, 0] }
+          "minecraft:transformation": { "rotation": [0, 0, 0] }
         }
       },
       {
         "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
         "components": {
-          "minecraft:transformation": { "rotation": [0, -90, 0] }
+          "minecraft:transformation": { "rotation": [0, 90, 0] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
+        "components": {
+          "minecraft:transformation": { "rotation": [0, 270, 0] }
         }
       }
     ],
     "components": {
-      "minecraft:light_emission": 5,
+      "minecraft:light_emission": 0,
       "minecraft:custom_components": ["betterend:foggy_index"],
       "minecraft:loot": "loot_tables/empty.json",
       "minecraft:material_instances": {
@@ -90,8 +89,12 @@
             "allowed_faces": ["side"],
             "block_filter": [
               "betterend:mossy_glowshroom_log",
-              "betterend:mossy_glowshroom_bark",
-              "betterend:mossy_glowshroom_cap"
+              "betterend:mossy_glowshroom_wood",
+              "betterend:mossy_glowshroom_cap", 
+              "betterend:umbrella_tree_wood",
+              "betterend:umbrella_tree_log",
+              "betterend:jellyshroom_wood", 
+              "betterend:jellyshroom_log"
             ]
           }
         ]

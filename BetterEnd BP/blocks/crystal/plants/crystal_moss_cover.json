@@ -31,25 +31,22 @@
           "minecraft:transformation": { "rotation": [0, 0, 0] }
         }
       },
-      // Facing west
-      {
-        "condition": "q.block_state('minecraft:facing_direction') == 'west'",
-        "components": {
-          "minecraft:transformation": { "rotation": [0, 90, 0] }
-        }
-      },
-      // Facing south
       {
         "condition": "q.block_state('minecraft:facing_direction') == 'south'",
         "components": {
           "minecraft:transformation": { "rotation": [0, 180, 0] }
         }
       },
-      // Facing east
       {
         "condition": "q.block_state('minecraft:facing_direction') == 'east'",
         "components": {
           "minecraft:transformation": { "rotation": [0, -90, 0] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:facing_direction') == 'west'",
+        "components": {
+          "minecraft:transformation": { "rotation": [0, 90, 0] }
         }
       }
     ],
@@ -58,8 +55,8 @@
         "*": {
           "texture": "crystal_moss_cover",
           "render_method": "alpha_test_single_sided",
-          "ambient_occlusion": true,
-          "face_dimming": true
+          "ambient_occlusion": false,
+          "face_dimming": false
         }
       },
       "minecraft:geometry": "geometry.crystal_moss_cover",

@@ -5,6 +5,7 @@
       "identifier": "betterend:blossoming_spire/tree/tenanea_outer_leaves_gen_down_scatter_feature"
     },
     "iterations": 100,
+    "coordinate_eval_order": "zxy",
     "x": {
         "distribution": "uniform",
         "extent": [ 0, "t.ExtentPlant" ]

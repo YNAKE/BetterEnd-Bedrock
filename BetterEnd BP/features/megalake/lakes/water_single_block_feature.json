@@ -17,30 +17,33 @@
       "betterend:thallasium_ore",
       "betterend:ender_ore",
       "betterend:violecite",
-      "betterend:flavolite"
+      "betterend:flavolite", 
+      "betterend:fake_end_stone"
     ],
     "may_attach_to": {
     "min_sides_must_attach": 4,
       "bottom": [
-        "minecraft:water", 
-        "minecraft:end_stone", 
-        "betterend:end_moss", 
-        "betterend:amber_ore",
-        "betterend:thallasium_ore",
-        "betterend:ender_ore",
-        "betterend:violecite",
-        "betterend:flavolite"
-      ], 
+      "minecraft:water", 
+      "minecraft:end_stone", 
+      "betterend:end_moss", 
+      "betterend:amber_ore",
+      "betterend:thallasium_ore",
+      "betterend:ender_ore",
+      "betterend:violecite",
+      "betterend:flavolite", 
+      "betterend:fake_end_stone"
+    ], 
       "sides": [
-        "minecraft:water", 
-        "minecraft:end_stone", 
-        "betterend:end_moss", 
-        "betterend:amber_ore",
-        "betterend:thallasium_ore",
-        "betterend:ender_ore",
-        "betterend:violecite",
-        "betterend:flavolite"
-      ] 
+      "minecraft:water", 
+      "minecraft:end_stone", 
+      "betterend:end_moss", 
+      "betterend:amber_ore",
+      "betterend:thallasium_ore",
+      "betterend:ender_ore",
+      "betterend:violecite",
+      "betterend:flavolite", 
+      "betterend:fake_end_stone"
+    ] 
     }
   }
 }

@@ -14,7 +14,7 @@
         "distribution": "uniform",
         "extent": [ 0, "t.ExtentPlant" ]
       },
-    "y": "q.above_top_solid(v.worldx, v.worldz) - math.random_integer(11, 13)", 
+    "y": "q.above_top_solid(v.worldx, v.worldz) - math.random_integer(13, 15)", 
     "places_feature": "betterend:crystal_mountains/aurora_crystal_weighted_random_feature"
   }
 }

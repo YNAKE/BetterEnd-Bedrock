@@ -5,6 +5,7 @@
       "identifier": "betterend:chorus_forest/tree/purple_polypore_distance_scatter_feature"
     },
     "iterations": "math.random_integer(25, 40)", 
+    "coordinate_eval_order": "zxy",
     "x": {
         "distribution": "uniform",
         "extent": [ 0, "t.ExtentPlant" ]

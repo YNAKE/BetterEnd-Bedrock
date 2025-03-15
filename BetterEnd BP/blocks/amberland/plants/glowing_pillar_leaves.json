@@ -4,17 +4,17 @@
     "description": {
       "identifier": "betterend:glowing_pillar_leaves",
       "traits": {
-        "minecraft:placement_position": {
-          "enabled_states": ["minecraft:block_face"]
+        "minecraft:placement_direction": {
+          "enabled_states": ["minecraft:facing_direction"]
         }
       }
     },
     "permutations": [
       {
-        "condition": "q.block_state('minecraft:block_face') == 'down'",
+        "condition": "q.block_state('minecraft:facing_direction') == 'down'",
         "components": {
           "minecraft:selection_box": {
-            "origin": [-8, 0, 2],
+            "origin": [-8, 0, -8],
             "size": [16, 16, 6]
           },
           "minecraft:geometry": "geometry.glowing_pillar_leaves_top",
@@ -22,10 +22,10 @@
         }
       },
       {
-        "condition": "q.block_state('minecraft:block_face') == 'up'",
+        "condition": "q.block_state('minecraft:facing_direction') == 'up'",
         "components": {
           "minecraft:selection_box": {
-            "origin": [-8, 0, 2],
+            "origin": [-8, 0, -8],
             "size": [16, 16, 6]
           },
           "minecraft:geometry": "geometry.glowing_pillar_leaves_top",
@@ -33,27 +33,7 @@
         }
       },
       {
-        "condition": "q.block_state('minecraft:block_face') == 'north'",
-        "components": {
-          "minecraft:selection_box": {
-            "origin": [-8, 0, -8],
-            "size": [16, 16, 6]
-          },
-          "minecraft:transformation": { "rotation": [0, 180, 0] }
-        }
-      },
-      {
-        "condition": "q.block_state('minecraft:block_face') == 'west'",
-        "components": {
-          "minecraft:selection_box": {
-            "origin": [-8, 0, -8],
-            "size": [16, 16, 6]
-          },
-          "minecraft:transformation": { "rotation": [0, -90, 0] }
-        }
-      },
-      {
-        "condition": "q.block_state('minecraft:block_face') == 'south'",
+        "condition": "q.block_state('minecraft:facing_direction') == 'north'",
         "components": {
           "minecraft:selection_box": {
             "origin": [-8, 0, -8],
@@ -63,13 +43,33 @@
         }
       },
       {
-        "condition": "q.block_state('minecraft:block_face') == 'east'",
+        "condition": "q.block_state('minecraft:facing_direction') == 'west'",
         "components": {
           "minecraft:selection_box": {
             "origin": [-8, 0, -8],
             "size": [16, 16, 6]
           },
           "minecraft:transformation": { "rotation": [0, 90, 0] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:facing_direction') == 'south'",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [-8, 0, -8],
+            "size": [16, 16, 6]
+          },
+          "minecraft:transformation": { "rotation": [0, 180, 0] }
+        }
+      },
+      {
+        "condition": "q.block_state('minecraft:facing_direction') == 'east'",
+        "components": {
+          "minecraft:selection_box": {
+            "origin": [-8, 0, -8],
+            "size": [16, 16, 6]
+          },
+          "minecraft:transformation": { "rotation": [0, -90, 0] }
         }
       }
     ],

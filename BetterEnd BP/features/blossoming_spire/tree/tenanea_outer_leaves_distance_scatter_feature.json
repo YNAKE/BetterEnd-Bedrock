@@ -5,6 +5,7 @@
       "identifier": "betterend:blossoming_spire/tree/tenanea_outer_leaves_distance_scatter_feature"
     },
     "iterations": 256, 
+    "coordinate_eval_order": "zxy",
     "x": {
         "distribution": "uniform",
         "extent": [ 0, "t.ExtentPlant" ]

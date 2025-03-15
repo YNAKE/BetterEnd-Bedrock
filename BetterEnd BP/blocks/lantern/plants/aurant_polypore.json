@@ -8,8 +8,7 @@
       },
       "traits": {
         "minecraft:placement_direction": {
-          "enabled_states": ["minecraft:cardinal_direction"],
-          "y_rotation_offset": 180
+          "enabled_states": ["minecraft:cardinal_direction"]
         }
       }
     },
@@ -17,25 +16,25 @@
       {
         "condition": "q.block_state('minecraft:cardinal_direction') == 'north'",
         "components": {
-          "minecraft:transformation": { "rotation": [0, 0, 0] }
+          "minecraft:transformation": { "rotation": [0, 180, 0] }
         }
       },
       {
         "condition": "q.block_state('minecraft:cardinal_direction') == 'west'",
         "components": {
-          "minecraft:transformation": { "rotation": [0, 90, 0] }
+          "minecraft:transformation": { "rotation": [0, 270, 0] }
         }
       },
       {
         "condition": "q.block_state('minecraft:cardinal_direction') == 'south'",
         "components": {
-          "minecraft:transformation": { "rotation": [0, 180, 0] }
+          "minecraft:transformation": { "rotation": [0, 0, 0] }
         }
       },
       {
         "condition": "q.block_state('minecraft:cardinal_direction') == 'east'",
         "components": {
-          "minecraft:transformation": { "rotation": [0, -90, 0] }
+          "minecraft:transformation": { "rotation": [0, 90, 0] }
         }
       },
       {
@@ -60,7 +59,7 @@
     "components": {
       "minecraft:custom_components": ["betterend:lucernia_index"],
       "minecraft:flammable": false,
-      "minecraft:light_emission": 5,
+      "minecraft:light_emission": 15,
       "minecraft:destructible_by_explosion": true,
       "minecraft:destructible_by_mining": {
         "seconds_to_destroy": 0.5
@@ -86,8 +85,7 @@
             ],
             "block_filter": [
               "betterend:lucernia_log",
-              "betterend:lucernia_bark",
-              "minecraft:oak_log"
+              "betterend:lucernia_wood"
             ]
           }
         ]

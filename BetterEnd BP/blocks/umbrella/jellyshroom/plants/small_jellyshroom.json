@@ -1,5 +1,5 @@
 {
-	"format_version": "1.20.20",
+	"format_version": "1.20.40",
 	"minecraft:block": {
 		"description": {
 			"identifier": "betterend:small_jellyshroom",
@@ -29,7 +29,7 @@
 							"texture": "small_jellyshroom",
 							"ambient_occlusion": false, 
 							"face_dimming": false,
-							"render_method": "alpha_test"
+							"render_method": "alpha_test_single_sided"
 						}
 					}
 				}
@@ -43,7 +43,7 @@
 							"texture": "small_jellyshroom",
 							"ambient_occlusion": false, 
 							"face_dimming": false,
-							"render_method": "alpha_test"
+							"render_method": "alpha_test_single_sided"
 						}
 					}
 				}
@@ -64,7 +64,7 @@
 							"texture": "small_jellyshroom",
 							"ambient_occlusion": false,
 							"face_dimming": false, 
-							"render_method": "alpha_test"
+							"render_method": "alpha_test_single_sided"
 						}
 					}
 				}
@@ -85,7 +85,7 @@
 							"texture": "small_jellyshroom",
 							"ambient_occlusion": false,
 							"face_dimming": false,
-							"render_method": "alpha_test"
+							"render_method": "alpha_test_single_sided"
 						}
 					}
 				}
@@ -106,7 +106,7 @@
 							"texture": "small_jellyshroom",
 							"ambient_occlusion": false, 
 							"face_dimming": false, 
-							"render_method": "alpha_test"
+							"render_method": "alpha_test_single_sided"
 						}
 					}
 				}
@@ -117,7 +117,7 @@
 					"minecraft:transformation": {
 						"rotation": [
 							0,
-							-90,
+							270,
 							0
 						]
 					},
@@ -127,7 +127,7 @@
 							"texture": "small_jellyshroom",
 							"ambient_occlusion": false,
 							"face_dimming": false,
-							"render_method": "alpha_test"
+							"render_method": "alpha_test_single_sided"
 						}
 					}
 				}
@@ -166,8 +166,10 @@
 					},
 					{
 						"block_filter": [
-							"betterend:umbrella_tree_bark",
-							"betterend:umbrella_tree_log"
+							"betterend:umbrella_tree_wood",
+							"betterend:umbrella_tree_log",
+							"betterend:jellyshroom_wood", 
+							"betterend:jellyshroom_log"
 						],
 						"allowed_faces": [
 							"side"
