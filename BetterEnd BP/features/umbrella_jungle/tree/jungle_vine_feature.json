@@ -5,17 +5,17 @@
       "identifier": "betterend:umbrella_jungle/tree/jungle_vine_feature"
     },
     "height_distribution": [
-      [{ "range_min": 14, "range_max": 15 }, 1],
-      [{ "range_min": 15, "range_max": 16 }, 2],
-      [{ "range_min": 16, "range_max": 17 }, 2],
-      [{ "range_min": 17, "range_max": 18 }, 3],
-      [{ "range_min": 18, "range_max": 19 }, 3],
-      [{ "range_min": 19, "range_max": 20 }, 4],
-      [{ "range_min": 20, "range_max": 21 }, 4],
-      [{ "range_min": 22, "range_max": 23 }, 5]
+      [{ "range_min": 12, "range_max": 13 }, 1],
+      [{ "range_min": 13, "range_max": 14 }, 2],
+      [{ "range_min": 14, "range_max": 15 }, 2],
+      [{ "range_min": 15, "range_max": 16 }, 3],
+      [{ "range_min": 16, "range_max": 17 }, 3],
+      [{ "range_min": 17, "range_max": 18 }, 4],
+      [{ "range_min": 18, "range_max": 19 }, 4],
+      [{ "range_min": 19, "range_max": 20 }, 5]
     ],
     "growth_direction": "DOWN",
-    "age": {"range_min": 18, "range_max": 26},
+    "age": {"range_min": 15, "range_max": 25},
     "body_blocks": [
       [
         {

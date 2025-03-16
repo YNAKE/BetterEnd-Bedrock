@@ -20,7 +20,7 @@
         "distribution": "uniform",
         "extent": [ 0, 16 ]
       },
-      "y": "q.heightmap(v.worldx, v.worldz) ? math.random(30, 170) : - 100",
+      "y": "q.heightmap(v.worldx, v.worldz) ? math.random_integer(30, 170) : - 100",
       "z": {
         "distribution": "uniform",
         "extent": [ 0, 16 ]

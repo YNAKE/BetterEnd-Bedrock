@@ -7,7 +7,7 @@
     "iterations": 1,
     "x": -16,
     "z": -16,
-    "y": "-math.random_integer(3, 4)",
+    "y": "-math.random_integer(1, 2)",
     "places_feature": "betterend:megalake/tree/megalake_tree_5_structure_template_feature"
   }
 }
