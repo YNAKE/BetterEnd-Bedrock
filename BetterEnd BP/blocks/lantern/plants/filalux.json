@@ -51,7 +51,8 @@
                 {
                     "block_filter": [
                         "betterend:filalux",
-                        "betterend:lucernia_leaves"
+                        "betterend:lucernia_leaves",
+                        "betterend:filalux_lantern"
                     ],
                     "allowed_faces": [
                         "down"

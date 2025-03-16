@@ -4,6 +4,7 @@ import PlantUtils from "Biomes/PlantsUtils";
 world.beforeEvents.worldInitialize.subscribe(data => {
     data.blockComponentRegistry.registerCustomComponent('betterend:tenanea_outer_leaves_generator', {
         onRandomTick({ block }) {
+            return;
             const { dimension: dim, location: loc } = block;
             const sides: { direction: string, vector: Vector3 }[] = [
                 {

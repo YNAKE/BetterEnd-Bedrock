@@ -1,16 +1,18 @@
 {
   "format_version": "1.21.0",
-  "minecraft:snap_to_surface_feature": {
+  "minecraft:vegetation_patch_feature": {
     "description": {
       "identifier": "betterend:lantern_woods/tree/filalux_snap_to_ceiling"
     },
-    "feature_to_snap": "betterend:lantern_woods/tree/filalux_feature",
-    "vertical_search_range": 12,
+    "replaceable_blocks": [
+      "betterend:lucernia_outer_leaves"
+    ],
+    "ground_block": "betterend:lucernia_leaves",
+    "vegetation_feature": "betterend:lantern_woods/tree/filalux_feature",
     "surface": "ceiling",
-    "allowed_surface_blocks": [
-        {
-            "name": "betterend:lucernia_leaves"
-        }
-    ]
+    "depth": 1,
+    "vertical_range": 1,
+    "vegetation_chance": 1,
+    "horizontal_radius": 1
   }
 }

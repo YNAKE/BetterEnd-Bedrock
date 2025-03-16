@@ -39,7 +39,7 @@
       "minecraft:material_instances": {
         "*": {
           "texture": "pythadendron_leaves",
-          "render_method": "blend"
+          "render_method": "alpha_test_single_sided"
         }
       }
     }

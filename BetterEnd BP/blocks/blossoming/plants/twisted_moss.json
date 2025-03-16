@@ -69,14 +69,14 @@
       }
     ],
     "components": {
-      "minecraft:light_emission": 5,
+      "minecraft:light_emission": 10,
       "minecraft:custom_components": ["betterend:blossoming_index"],
       "minecraft:loot": "loot_tables/empty.json",
       "minecraft:material_instances": {
         "*": {
           "texture": "twisted_moss",
           "render_method": "alpha_test_single_sided",
-          "ambient_occlusion": true,
+          "ambient_occlusion": false,
           "face_dimming": false
         }
       },

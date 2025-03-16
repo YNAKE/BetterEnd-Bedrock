@@ -2,30 +2,31 @@ import { world, Direction, BlockPermutation } from "@minecraft/server";
 world.beforeEvents.worldInitialize.subscribe(data => {
     data.blockComponentRegistry.registerCustomComponent('betterend:mossy_glowshroom_fur_generator', {
         onRandomTick({ block }) {
+            return;
             const { dimension: dim, location: loc } = block;
             const sides = [
                 {
-                    direction: Direction.Up,
+                    direction: Direction.Down,
                     vector: { x: loc.x, y: loc.y - 1, z: loc.z }
                 },
                 {
-                    direction: Direction.West,
+                    direction: Direction.East,
                     vector: { x: loc.x + 1, y: loc.y, z: loc.z }
                 },
                 {
-                    direction: Direction.North,
+                    direction: Direction.South,
                     vector: { x: loc.x, y: loc.y, z: loc.z + 1 }
                 },
                 {
-                    direction: Direction.South,
+                    direction: Direction.North,
                     vector: { x: loc.x, y: loc.y, z: loc.z - 1 }
                 },
                 {
-                    direction: Direction.Down,
+                    direction: Direction.Up,
                     vector: { x: loc.x, y: loc.y + 1, z: loc.z }
                 },
                 {
-                    direction: Direction.East,
+                    direction: Direction.West,
                     vector: { x: loc.x - 1, y: loc.y, z: loc.z }
                 }
             ];

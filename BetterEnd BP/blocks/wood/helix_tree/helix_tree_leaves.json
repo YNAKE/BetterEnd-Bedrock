@@ -39,7 +39,7 @@
       "minecraft:material_instances": {
         "*": {
           "texture": "helix_tree_leaves",
-          "render_method": "blend"
+          "render_method": "opaque"
         }
       }
     }

@@ -39,7 +39,9 @@
       "minecraft:material_instances": {
         "*": {
           "texture": "tenanea_leaves",
-          "render_method": "blend"
+          "render_method": "alpha_test_single_sided",
+          "ambient_occlusion": false,
+          "face_dimming": false
         }
       }
     }

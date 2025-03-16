@@ -2,6 +2,7 @@ import { world, Direction, BlockPermutation } from "@minecraft/server";
 world.beforeEvents.worldInitialize.subscribe(data => {
     data.blockComponentRegistry.registerCustomComponent('betterend:tenanea_outer_leaves_generator', {
         onRandomTick({ block }) {
+            return;
             const { dimension: dim, location: loc } = block;
             const sides = [
                 {

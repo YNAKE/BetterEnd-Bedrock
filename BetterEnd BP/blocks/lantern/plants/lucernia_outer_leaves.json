@@ -92,6 +92,7 @@
       }
     ],
     "components": {
+      "minecraft:light_emission": 5,
       "minecraft:selection_box": {
         "origin": [-8, 0, 2],
         "size": [16, 16, 6]
