@@ -8,6 +8,7 @@ world.beforeEvents.worldInitialize.subscribe(data => {
             entity?.applyKnockback(0, 0, 0, bound < 0.3 ? 0 : bound);
         },
         onTick({ block }) {
+            return;
             const blockBelow = block?.below();
             const blockNorth = block?.north();
             const blockSouth = block?.south();

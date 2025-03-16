@@ -12,7 +12,7 @@ world.beforeEvents.worldInitialize.subscribe(data => {
                     player.addEffect('blindness', 80, { showParticles: false });
                 });
                 const murkweed = dimension.getBlock(loc);
-                if (murkweed.isAir)
+                if (murkweed?.isAir)
                     system.clearRun(interval);
             }, 10);
         }

@@ -922,6 +922,12 @@
     "shadow_plant": {
       "textures": "textures/blocks/shadow/plants/shadow_plant"
     },
+    "twisted_vine_roots": {
+      "textures": "textures/blocks/shadow/plants/twisted_vine_roots"
+    },
+    "twisted_vine_bottom": {
+      "textures": "textures/blocks/shadow/plants/twisted_vine_bottom"
+    },
     "twisted_vine": {
       "textures": "textures/blocks/shadow/plants/twisted_vine"
     },

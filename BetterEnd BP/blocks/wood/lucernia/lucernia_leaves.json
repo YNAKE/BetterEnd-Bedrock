@@ -49,7 +49,7 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "lucernia_leaves4",
-              "render_method": "blend"
+              "render_method": "alpha_test_single_sided"
             }
           }
         }

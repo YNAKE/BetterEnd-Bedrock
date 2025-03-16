@@ -1,115 +1,88 @@
 {
-  "format_version": "1.20.81",
+  "format_version": "1.21.0",
   "minecraft:block": {
     "description": {
       "identifier": "betterend:twisted_vine",
       "states": {
-        "betterend:growth": [0, 1, 2, 3]
+        "betterend:growth": [0, 1, 2]
       }
     },
     "permutations": [
       {
         "condition": "q.block_state('betterend:growth') == 0",
         "components": {
-          "minecraft:tick": {
-            "interval_range": [10, 10],
-            "looping": true
-          },
-          "minecraft:selection_box": {
-            "origin": [-6, 0, -6],
-            "size": [12, 16, 12]
-          },
-          "minecraft:geometry": "geometry.bulb_vine_roots",
+          "minecraft:geometry": "geometry.blue_vine_roots",
+          "minecraft:transformation": { "rotation": [0, 0, 180] },
           "minecraft:placement_filter": {
             "conditions": [
               {
-                "block_filter": [
-                  "betterend:dragon_tree_leaves",
-                  "betterend:twisted_vine"
-                ],
                 "allowed_faces": ["down"]
               }
             ]
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "twisted_vine",
+              "render_method": "alpha_test_single_sided",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            },
+            "blue_vine_roots": {
+              "texture": "twisted_vine_roots",
+              "render_method": "alpha_test_single_sided",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
           }
         }
       },
       {
         "condition": "q.block_state('betterend:growth') == 1",
         "components": {
-          "minecraft:tick": {
-            "interval_range": [10, 10],
-            "looping": true
-          },
-          "minecraft:selection_box": {
-            "origin": [-6, 0, -6],
-            "size": [12, 16, 12]
-          },
-          "minecraft:geometry": "geometry.bulb_vine_middle",
-          "minecraft:placement_filter": {
-            "conditions": [
-              {
-                "block_filter": ["betterend:twisted_vine"],
-                "allowed_faces": ["down"]
-              }
-            ]
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "twisted_vine",
+              "render_method": "alpha_test_single_sided",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
           }
         }
       },
       {
         "condition": "q.block_state('betterend:growth') == 2",
         "components": {
-          "minecraft:tick": {
-            "interval_range": [10, 10],
-            "looping": true
-          },
-          "minecraft:selection_box": {
-            "origin": [-6, 0, -6],
-            "size": [12, 16, 12]
-          },
-          "minecraft:geometry": "geometry.twisted_vine_bottom",
-          "minecraft:placement_filter": {
-            "conditions": [
-              {
-                "block_filter": ["betterend:twisted_vine"],
-                "allowed_faces": ["down"]
-              }
-            ]
-          }
-        }
-      },
-      {
-        "condition": "q.block_state('betterend:growth') == 3",
-        "components": {
-          "tag:extends": {},
-          "minecraft:tick": {
-            "interval_range": [1, 1],
-            "looping": false
-          },
-          "minecraft:selection_box": true,
+          "minecraft:light_emission": 0,
           "minecraft:material_instances": {
             "*": {
-              "texture": "air",
-              "render_method": "blend"
+              "texture": "twisted_vine_bottom",
+              "render_method": "alpha_test_single_sided",
+              "ambient_occlusion": false,
+              "face_dimming": false
             }
-          },
-          "minecraft:geometry": "geometry.twisted_vine_bottom"
+          }
         }
       }
     ],
     "components": {
       "tag:betterend:can_climb": {},
-      "minecraft:custom_components": ["betterend:twisted_vine"],
+      "minecraft:custom_components": ["betterend:dense_vine"],
       "minecraft:loot": "loot_tables/empty.json",
-      "minecraft:collision_box": false,
+      "minecraft:geometry": "geometry.random_model2",
       "minecraft:destructible_by_explosion": true,
       "minecraft:destructible_by_mining": true,
-      "minecraft:material_instances": {
-        "*": {
-          "texture": "twisted_vine",
-          "render_method": "alpha_test_single_sided",
-          "ambient_occlusion": false,
-          "face_dimming": false
-        }
+      "minecraft:collision_box": false,
+      "minecraft:selection_box": {
+        "origin": [-4, 0, -4],
+        "size": [8, 14, 8]
+      },
+      "minecraft:placement_filter": {
+        "conditions": [
+          {
+            "allowed_faces": ["down"],
+            "block_filter": ["betterend:twisted_vine"]
+          }
+        ]
       }
     }
   }
