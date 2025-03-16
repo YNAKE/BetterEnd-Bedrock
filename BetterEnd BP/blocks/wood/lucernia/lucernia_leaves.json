@@ -16,7 +16,9 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "lucernia_leaves1",
-              "render_method": "blend"
+              "render_method": "alpha_test_single_sided",
+              "ambient_occlusion": false,
+              "face_dimming": false
             }
           }
         }
@@ -27,7 +29,9 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "lucernia_leaves2",
-              "render_method": "blend"
+              "render_method": "alpha_test_single_sided",
+              "ambient_occlusion": false,
+              "face_dimming": false
             }
           }
         }
@@ -38,7 +42,9 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "lucernia_leaves3",
-              "render_method": "blend"
+              "render_method": "alpha_test_single_sided",
+              "ambient_occlusion": false,
+              "face_dimming": false
             }
           }
         }
@@ -49,7 +55,9 @@
           "minecraft:material_instances": {
             "*": {
               "texture": "lucernia_leaves4",
-              "render_method": "alpha_test_single_sided"
+              "render_method": "alpha_test_single_sided",
+              "ambient_occlusion": false,
+              "face_dimming": false
             }
           }
         }
@@ -82,7 +90,7 @@
 			},
       "minecraft:custom_components": ["betterend:on_player_destroy", "betterend:random_tick", "betterend:leaf_place", "betterend:lucernia_index"],
       "minecraft:map_color": "#DDDDDD",
-      "minecraft:light_dampening": 0
+      "minecraft:light_dampening": 15
     }
   }
 }

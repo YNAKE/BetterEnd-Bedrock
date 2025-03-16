@@ -105,7 +105,7 @@
             "minecraft:destructible_by_explosion": true,
             "minecraft:destructible_by_mining": true,
             "minecraft:flammable": true,
-            "minecraft:light_emission": 10,
+            "minecraft:light_emission": 15,
             "minecraft:loot": "loot_tables/empty.json"
         }
     }
