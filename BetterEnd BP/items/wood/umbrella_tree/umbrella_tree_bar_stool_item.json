@@ -2,7 +2,10 @@
     "format_version": "1.21.40",
     "minecraft:item": {
         "description": {
-            "identifier": "betterend:umbrella_tree_bar_stool"
+            "identifier": "betterend:umbrella_tree_bar_stool",
+            "menu_category": {
+              "category": "construction"
+            }
         }, 
         "components": {
           "minecraft:tags": {

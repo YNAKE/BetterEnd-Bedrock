@@ -2,7 +2,10 @@
     "format_version": "1.21.40",
     "minecraft:item": {
         "description": {
-            "identifier": "betterend:end_lotus_stool"
+            "identifier": "betterend:end_lotus_stool",
+            "menu_category": {
+              "category": "construction"
+            }
         }, 
         "components": {
           "minecraft:tags": {

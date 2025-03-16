@@ -2,7 +2,10 @@
     "format_version": "1.21.40",
     "minecraft:item": {
         "description": {
-            "identifier": "betterend:dragon_tree_stool"
+            "identifier": "betterend:dragon_tree_stool",
+            "menu_category": {
+              "category": "construction"
+            }
         }, 
         "components": {
           "minecraft:tags": {

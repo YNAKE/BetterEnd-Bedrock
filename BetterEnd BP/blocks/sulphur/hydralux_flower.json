@@ -267,9 +267,6 @@
                     }
                 ]
             },
-			"minecraft:custom_components": [
-				"betterend:hydralux_sapling"
-			],
 			"minecraft:geometry": "geometry.random_model2",
 			"minecraft:material_instances": {
 				"*": {

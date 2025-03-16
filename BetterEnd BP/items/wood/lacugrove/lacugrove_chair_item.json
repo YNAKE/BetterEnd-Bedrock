@@ -2,7 +2,10 @@
     "format_version": "1.21.40",
     "minecraft:item": {
         "description": {
-            "identifier": "betterend:lacugrove_chair"
+            "identifier": "betterend:lacugrove_chair",
+            "menu_category": {
+              "category": "construction"
+            }
         }, 
         "components": {
           "minecraft:tags": {

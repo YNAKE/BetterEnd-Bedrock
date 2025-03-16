@@ -160,24 +160,6 @@
           "groups": [
             {
               "group_identifier": {
-                "icon": "betterend:end_fish_spawn_egg",
-                "name": "betterend:itemGroup.name.spawn_eggs"
-              },
-              "items": [
-                "betterend:end_fish_spawn_egg",
-                "betterend:cubozoa_spawn_egg",
-                "betterend:shadow_walker_spawn_egg",
-                "betterend:dragonfly_spawn_egg",
-                "betterend:silkmoth_spawn_egg"
-              ]
-            }
-          ]
-        },
-        {
-          "category_name": "nature",
-          "groups": [
-            {
-              "group_identifier": {
                 "icon": "betterend:silk_moth_nest",
                 "name": "betterend:itemGroup.name.nest"
               },

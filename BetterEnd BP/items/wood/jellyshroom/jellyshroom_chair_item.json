@@ -2,7 +2,10 @@
     "format_version": "1.21.40",
     "minecraft:item": {
         "description": {
-            "identifier": "betterend:jellyshroom_chair"
+            "identifier": "betterend:jellyshroom_chair",
+            "menu_category": {
+              "category": "construction"
+            }
         }, 
         "components": {
           "minecraft:tags": {
