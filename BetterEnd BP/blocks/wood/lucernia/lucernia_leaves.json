@@ -88,7 +88,13 @@
 				"catch_chance_modifier": 5,
 				"destroy_chance_modifier": 20
 			},
-      "minecraft:custom_components": ["betterend:on_player_destroy", "betterend:random_tick", "betterend:leaf_place", "betterend:lucernia_index"],
+      "minecraft:custom_components": [
+      "betterend:on_player_destroy",
+       "betterend:random_tick",
+       "betterend:leaf_place",
+       "betterend:lucernia_index",
+       "betterend:lucernia_outer_leaves_generator"
+      ],
       "minecraft:map_color": "#DDDDDD",
       "minecraft:light_dampening": 15
     }

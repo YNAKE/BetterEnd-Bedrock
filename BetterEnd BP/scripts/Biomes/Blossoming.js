@@ -6,4 +6,5 @@ import "./Blossoming/TenaneaFlowersCyan";
 import "./Blossoming/TenaneaFlowersPurple";
 import "./Blossoming/TenaneaFlowersPurpleAndBlue";
 import "./Blossoming/Nest";
+import "./Blossoming/TenaneaOuterLeavesGenerator";
 import "./Blossoming/PlantIndex";

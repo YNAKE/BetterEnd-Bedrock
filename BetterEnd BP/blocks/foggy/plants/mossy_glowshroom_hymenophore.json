@@ -1,5 +1,5 @@
 {
-  "format_version": "1.20.81",
+  "format_version": "1.21.50",
   "minecraft:block": {
     "description": {
       "identifier": "betterend:mossy_glowshroom_hymenophore",
@@ -8,6 +8,7 @@
       }
     },
     "components": {
+      "minecraft:custom_components": [ "betterend:mossy_glowshroom_fur_generator" ],
       "minecraft:material_instances": {
         "*": {
           "ambient_occlusion": false,
