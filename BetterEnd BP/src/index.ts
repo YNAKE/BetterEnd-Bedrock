@@ -46,7 +46,8 @@ world.afterEvents.playerDimensionChange.subscribe(e => {
         new PlayerUtils(player).sky();
     }
     if (toDimension.id === 'minecraft:overworld') {
-        player.runCommand('fog @s removed end_fog');
+        player.runCommand('fog @s remove end_fog');
+        player.runCommand('stopsound @s');
     }
 });
 

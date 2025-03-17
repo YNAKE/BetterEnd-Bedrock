@@ -6,8 +6,9 @@ world.beforeEvents.worldInitialize.subscribe(data => {
             const bound = Math.abs(velocity ? velocity : 0) * 1.1;
             entity?.applyKnockback(0, 0, 0, bound < 0.3 ? 0 : bound);
         },
-        onTick({ block }) {
-            return;
+        onRandomTick({ block }) {
+            if (Math.random() > 0.5)
+                return;
             const blockBelow = block?.below();
             const blockNorth = block?.north();
             const blockSouth = block?.south();

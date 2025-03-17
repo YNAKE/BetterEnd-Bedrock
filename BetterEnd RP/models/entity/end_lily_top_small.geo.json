@@ -1,0 +1,79 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.end_lily_top_small",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "end_lily",
+					"pivot": [8, 0, -8]
+				},
+				{
+					"name": "flower",
+					"parent": "end_lily",
+					"pivot": [5.5, 0, -5.5],
+					"cubes": [
+						{
+							"origin": [-10.5, 0, 5.5],
+							"size": [16, 16, 0.001],
+							"pivot": [5.5, 0, 5.5],
+							"rotation": [0, -45, 0],
+							"uv": {
+								"north": {"uv": [12, 12], "uv_size": [4, 4]},
+								"south": {"uv": [12, 12], "uv_size": [4, 4]}
+							}
+						},
+						{
+							"origin": [-0.001, 0, -8],
+							"size": [0.001, 16, 16],
+							"uv": {
+								"east": {"uv": [12, 12], "uv_size": [4, 4]},
+								"west": {"uv": [12, 12], "uv_size": [4, 4]}
+							}
+						},
+						{
+							"origin": [-8, 0, 0],
+							"size": [16, 16, 0.001],
+							"uv": {
+								"north": {"uv": [12, 12], "uv_size": [4, 4]},
+								"south": {"uv": [12, 12], "uv_size": [4, 4]}
+							}
+						},
+						{
+							"origin": [5.499, 0, -5.5],
+							"size": [0.001, 16, 16],
+							"pivot": [5.5, 0, -5.5],
+							"rotation": [0, -45, 0],
+							"uv": {
+								"east": {"uv": [12, 12], "uv_size": [4, 4]},
+								"west": {"uv": [12, 12], "uv_size": [4, 4]}
+							}
+						}
+					]
+				},
+				{
+					"name": "leaf",
+					"parent": "end_lily",
+					"pivot": [8, 0, -8],
+					"cubes": [
+						{
+							"origin": [-8, 0.02, -8],
+							"size": [16, 0, 16],
+							"uv": {
+								"up": {"uv": [12, 4], "uv_size": [-4, -4]},
+								"down": {"uv": [12, 4], "uv_size": [-4, -4]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

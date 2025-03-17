@@ -102,6 +102,12 @@ export const BiomeTags = [
         fog: 'betterend:crystal',
         sound: '',
         music: 'betterend.caves.music',
+    },
+    {
+        tag: 'none',
+        fog: 'betterend:crystal',
+        sound: '',
+        music: 'betterend.caves.music',
     }
 ];
 export const CaveBiomesTag = [
@@ -148,6 +154,7 @@ export const AllTags = [
     "ice_starfield",
     "umbra_valley",
     "the_end_biome",
+    "none",
     "lush_cave",
     "jadestone",
     "smaragdant",

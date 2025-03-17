@@ -1,0 +1,376 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "betterend:end_lily_seed",
+      "states": { // 4 roots, 5 stem, 6 leaf, 7 leaf small, 8 leaf big
+        "betterend:growth": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "q.block_state('betterend:growth') == 0",
+        "components": {
+          "minecraft:placement_filter": {
+            "conditions": [
+              {
+                "allowed_faces": [
+                  "up"
+                ],
+                "block_filter": [
+                  "betterend:endstone_dust",
+                  "minecraft:end_stone"
+                ]
+              }
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -3,
+              0,
+              -3
+            ],
+            "size": [
+              6,
+              11,
+              6
+            ]
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "end_lily_0",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:growth') == 1",
+        "components": {
+          "minecraft:placement_filter": {
+            "conditions": [
+              {
+                "allowed_faces": [
+                  "up"
+                ],
+                "block_filter": [
+                  "betterend:endstone_dust",
+                  "minecraft:end_stone"
+                ]
+              }
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -3.5,
+              0,
+              -3.5
+            ],
+            "size": [
+              7,
+              12,
+              7
+            ]
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "end_lily_1",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:growth') == 2",
+        "components": {
+          "minecraft:placement_filter": {
+            "conditions": [
+              {
+                "allowed_faces": [
+                  "up"
+                ],
+                "block_filter": [
+                  "betterend:endstone_dust",
+                  "minecraft:end_stone"
+                ]
+              }
+            ]
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -4,
+              0,
+              -4
+            ],
+            "size": [
+              8,
+              14,
+              8
+            ]
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "end_lily_2",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:growth') == 3",
+        "components": {
+          "minecraft:placement_filter": {
+            "conditions": [
+              {
+                "allowed_faces": [
+                  "up"
+                ],
+                "block_filter": [
+                  "betterend:endstone_dust",
+                  "minecraft:end_stone"
+                ]
+              }
+            ]
+          },
+          "minecraft:loot": "loot_tables/amberland/raw_amber_root.json",
+          "minecraft:selection_box": {
+            "origin": [
+              -4.5,
+              0,
+              -4.5
+            ],
+            "size": [
+              9,
+              16,
+              9
+            ]
+          },
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "end_lily_3",
+              "render_method": "alpha_test",
+              "ambient_occlusion": false,
+              "face_dimming": false
+            }
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:growth') == 4",
+        "components": {
+          "minecraft:tick": {
+            "interval_range": [
+              5,
+              5
+            ],
+            "looping": false
+          },
+          "minecraft:geometry": "geometry.end_lily_roots",
+          "minecraft:selection_box": {
+            "origin": [
+              -6,
+              0,
+              -6
+            ],
+            "size": [
+              12,
+              16,
+              12
+            ]
+          },
+          "minecraft:placement_filter": {
+            "conditions": [
+              {
+                "allowed_faces": [
+                  "up"
+                ],
+                "block_filter": [
+                  "betterend:endstone_dust",
+                  "minecraft:end_stone"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:growth') == 5",
+        "components": {
+          "minecraft:tick": {
+            "interval_range": [
+              5,
+              5
+            ],
+            "looping": false
+          },
+          "minecraft:geometry": "geometry.random_model2",
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "end_lily_stem",
+              "face_dimming": false,
+              "ambient_occlusion": false,
+              "render_method": "alpha_test_single_sided"
+            }
+          },
+          "minecraft:selection_box": {
+            "origin": [
+              -6,
+              0,
+              -6
+            ],
+            "size": [
+              12,
+              16,
+              12
+            ]
+          },
+          "minecraft:placement_filter": {
+            "conditions": [
+              {
+                "allowed_faces": [
+                  "up"
+                ],
+                "block_filter": [
+                  "betterend:end_lily_seed"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:growth') == 6",
+        "components": {
+          "minecraft:geometry": "geometry.end_lily_top_small_2",
+          "minecraft:selection_box": {
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              1,
+              16
+            ]
+          },
+          "minecraft:placement_filter": {
+            "conditions": [
+              {
+                "allowed_faces": [
+                  "up"
+                ],
+                "block_filter": [
+                  "betterend:end_lily_seed"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:growth') == 7",
+        "components": {
+          "minecraft:geometry": "geometry.end_lily_top_small",
+          "minecraft:selection_box": {
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              9,
+              16
+            ]
+          },
+          "minecraft:placement_filter": {
+            "conditions": [
+              {
+                "allowed_faces": [
+                  "up"
+                ],
+                "block_filter": [
+                  "betterend:end_lily_seed"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      {
+        "condition": "q.block_state('betterend:growth') == 8",
+        "components": {
+          "minecraft:geometry": "geometry.end_lily_top",
+          "minecraft:selection_box": {
+            "origin": [
+              -8,
+              0,
+              -8
+            ],
+            "size": [
+              16,
+              12,
+              16
+            ]
+          },
+          "minecraft:placement_filter": {
+            "conditions": [
+              {
+                "allowed_faces": [
+                  "up"
+                ],
+                "block_filter": [
+                  "betterend:end_lily_seed"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "components": {
+      "minecraft:custom_components": [
+        "betterend:end_lily_seed"
+      ],
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "end_lily",
+          "ambient_occlusion": false,
+          "face_dimming": false,
+          "render_method": "alpha_test_single_sided"
+        }
+      },
+      "minecraft:liquid_detection": {
+        "detection_rules": [
+          {
+            "can_contain_liquid": true,
+            "liquid_type": "water",
+            "on_liquid_touches": "no_reaction"
+          }
+        ]
+      },
+      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:geometry": "geometry.random_model2",
+      "minecraft:destructible_by_explosion": true,
+      "minecraft:destructible_by_mining": true,
+      "minecraft:collision_box": false
+    }
+  }
+}

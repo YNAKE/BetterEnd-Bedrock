@@ -941,6 +941,39 @@
       "textures": "textures/blocks/shadow/shadow_grass_side"
     },
     // Megalakes
+    "end_lotus": {
+      "textures": "textures/blocks/megalakes/plants/end_lotus/end_lotus"
+    },
+    "end_lotus_0": {
+      "textures": "textures/blocks/megalakes/plants/end_lotus/end_lotus_1"
+    },
+    "end_lotus_1": {
+      "textures": "textures/blocks/megalakes/plants/end_lotus/end_lotus_2"
+    },
+    "end_lotus_2": {
+      "textures": "textures/blocks/megalakes/plants/end_lotus/end_lotus_3"
+    },
+    "end_lotus_3": {
+      "textures": "textures/blocks/megalakes/plants/end_lotus/end_lotus_4"
+    },
+    "end_lily": {
+      "textures": "textures/blocks/megalakes/plants/end_lily/end_lily"
+    },
+    "end_lily_stem": {
+      "textures": "textures/blocks/megalakes/plants/end_lily/end_lily_stem"
+    },
+    "end_lily_0": {
+      "textures": "textures/blocks/megalakes/plants/end_lily/end_lily_0"
+    },
+    "end_lily_1": {
+      "textures": "textures/blocks/megalakes/plants/end_lily/end_lily_1"
+    },
+    "end_lily_2": {
+      "textures": "textures/blocks/megalakes/plants/end_lily/end_lily_2"
+    },
+    "end_lily_3": {
+      "textures": "textures/blocks/megalakes/plants/end_lily/end_lily_3"
+    },
     "be_bubble_coral": {
       "textures": "textures/blocks/megalakes/plants/bubble_coral"
     },

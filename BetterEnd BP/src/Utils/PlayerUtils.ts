@@ -150,17 +150,17 @@ class PlayerUtils {
       location: this.player.location,
       volume: 0.15,
     });
-    const id = system.runInterval(() => {
-      this.player.setDynamicProperty("betterend:ambient_stuff_id", id);
-      this.player.runCommandAsync(`stopsound @s`);
-      system.waitTicks(20);
-      this.player.playSound(sound, { location: this.player.location });
-      system.waitTicks(20);
-      this.player.playSound(music, {
-        location: this.player.location,
-        volume: 0.15,
-      });
-    }, 6000);
+    // const id = system.runInterval(() => {
+    //   this.player.setDynamicProperty("betterend:ambient_stuff_id", id);
+    //   this.player.runCommandAsync(`stopsound @s`);
+    //   system.waitTicks(20);
+    //   this.player.playSound(sound, { location: this.player.location });
+    //   system.waitTicks(20);
+    //   this.player.playSound(music, {
+    //     location: this.player.location,
+    //     volume: 0.15,
+    //   });
+    // }, 6000);
   }
 }
 

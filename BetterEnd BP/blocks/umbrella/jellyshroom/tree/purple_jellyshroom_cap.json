@@ -36,10 +36,6 @@
 		},
 		"components": {
 			"minecraft:custom_components": [ "betterend:umbrella_tree_membrane" ],
-			"minecraft:tick": {
-				"interval_range": [ 400, 800 ],
-				"looping": true
-			},
 			"minecraft:destructible_by_mining": {
 				"seconds_to_destroy": 0.3
 			},

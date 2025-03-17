@@ -676,6 +676,12 @@
     }
   },
   // Megalakes
+  "betterend:end_lotus_seed": {
+    "sound": "grass"
+  },
+  "betterend:end_lily_seed": {
+    "sound": "grass"
+  },
   "betterend:bubble_coral": {
     "sound": "coral"
   },

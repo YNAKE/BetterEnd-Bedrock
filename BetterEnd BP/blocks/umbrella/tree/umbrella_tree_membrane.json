@@ -160,10 +160,6 @@
 		],
 		"components": {
 			"minecraft:custom_components": [ "betterend:umbrella_tree_membrane" ],
-			"minecraft:tick": {
-				"interval_range": [ 400, 800 ],
-				"looping": true
-			},
 			"minecraft:friction": 0.2,
 			"minecraft:geometry": {
 				"identifier": "geometry.umbrella_membrane",

@@ -193,6 +193,12 @@
       "textures": "textures/items/shadow/shadow_berry"
     },
     // Megalakes
+    "end_lotus_seed": {
+      "textures": "textures/items/megalakes/end_lotus_seed"
+    },
+    "end_lily_seed": {
+      "textures": "textures/items/megalakes/end_lily_seed"
+    },
     "red_charnia": {
       "textures": "textures/items/megalakes/charnia_red"
     },
