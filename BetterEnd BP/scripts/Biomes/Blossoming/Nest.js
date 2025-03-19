@@ -38,6 +38,7 @@ class SilkMoths {
         if (amount === 0 || Number.isNaN(amount))
             return;
         const silksm = world.getDynamicProperty(this.silkId);
+        if (!(typeof silksm === 'number')  || isNaN(silksm)) return;
         world.setDynamicProperty(this.silkId, silksm + amount);
         this.block.dimension.playSound('block.beehive.enter', this.loc);
         silks.forEach(silk => silk.remove());
