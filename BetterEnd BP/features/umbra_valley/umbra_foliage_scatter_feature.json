@@ -5,6 +5,7 @@
       "identifier": "betterend:umbra_valley/umbra_foliage_scatter_feature"
     },
     "iterations": 0.5,
+    "scatter_chance": "variable.is_legacy ? 0.0 : 100.0",
     "x": {
         "distribution": "uniform",
         "extent": [ 0, "t.ExtentPlant" ]
@@ -13,7 +14,7 @@
         "distribution": "uniform",
         "extent": [ 0, "t.ExtentPlant" ]
       },
-    "y": "t.surface",
+    "y": 0,
     "places_feature": "betterend:umbra_valley/umbra_foliage_weighted_random_feature"
   }
 }

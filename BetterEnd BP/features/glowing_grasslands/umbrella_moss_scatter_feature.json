@@ -8,14 +8,13 @@
     "coordinate_eval_order": "zyx",
     "x": {
       "extent": [ "-t.SizePlant/2", "t.SizePlant/2" ],
-      "distribution": "gaussian"
+      "distribution": "triangle"
     },
     "z": {
       "extent": [ "-t.SizePlant/2", "t.SizePlant/2" ],
-      "distribution": "gaussian"
+      "distribution": "triangle"
     },
-    "y": "q.heightmap(v.worldx, v.worldz) - v.originy",
-    "project_input_to_floor": false,
+    "y": "q.heightmap(v.worldx, v.worldz)",
     "places_feature": "betterend:glowing_grasslands/umbrella_moss_single_block_feature"
   }
 }

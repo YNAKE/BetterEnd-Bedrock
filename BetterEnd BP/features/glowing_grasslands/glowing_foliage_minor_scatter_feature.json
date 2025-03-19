@@ -4,7 +4,8 @@
     "description": {
       "identifier": "betterend:glowing_grasslands/glowing_foliage_minor_scatter_feature"
     },
-    "iterations": "q.noise(math.trunc(v.originx / 16), math.trunc(v.originz / 16)) + 0.2",
+    "iterations": "q.noise(math.trunc(v.originx / 16), math.trunc(v.originz / 16)) + 0.1",
+    "scatter_chance": "variable.is_legacy ? 0.0 : 50.0",
     "x": {
         "distribution": "uniform",
         "extent": [ 0, "t.ExtentPlant" ]
@@ -13,7 +14,7 @@
         "distribution": "uniform",
         "extent": [ 0, "t.ExtentPlant" ]
       },
-    "y": "q.heightmap(v.worldx, v.worldz)",
+    "y": 0,
     "places_feature": "betterend:glowing_grasslands/glowing_foliage_minor_weighted_random_feature"
   }
 }

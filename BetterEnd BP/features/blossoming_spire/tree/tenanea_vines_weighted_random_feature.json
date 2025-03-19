@@ -5,8 +5,8 @@
             "identifier": "betterend:blossoming_spire/tree/tenanea_vines_weighted_random_feature"
         },
         "features": [
-            ["betterend:blossoming_spire/tree/bulb_vine_scatter_feature",  1],
-            ["betterend:blossoming_spire/tree/tenanea_flowers_scatter_feature", 3]
+            ["betterend:blossoming_spire/tree/bulb_vine_snap_to_ceiling",  1],
+            ["betterend:blossoming_spire/tree/tenanea_flowers_snap_to_ceiling", 3]
         ]
     }
 }

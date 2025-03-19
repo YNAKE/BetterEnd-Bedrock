@@ -1,0 +1,18 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:vegetation_patch_feature": {
+    "description": {
+      "identifier": "betterend:blossoming_spire/tree/silk_moth_nest_snap_to_ceiling"
+    },
+    "replaceable_blocks": [
+      "betterend:tenanea_outer_leaves"
+    ],
+    "ground_block": "betterend:tenanea_leaves",
+    "vegetation_feature": "betterend:blossoming_spire/tree/silk_moth_nest_feature", 
+    "surface": "ceiling",
+    "depth": 1,
+    "vertical_range": 1,
+    "vegetation_chance": 0.1,
+    "horizontal_radius": 1
+  }
+}

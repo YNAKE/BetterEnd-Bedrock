@@ -5,7 +5,7 @@
       "identifier": "betterend:lantern_woods/bush/lucernia_bush_scatter_feature"
     },
     "iterations": 0.5,
-    "scatter_chance": 20.0, 
+    "scatter_chance": 30.0, 
     "x": {
         "distribution": "uniform",
         "extent": [ 0, "t.ExtentPlant" ]

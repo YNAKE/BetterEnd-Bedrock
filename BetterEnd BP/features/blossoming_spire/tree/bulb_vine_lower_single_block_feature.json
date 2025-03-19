@@ -12,7 +12,7 @@
     },
     "enforce_survivability_rules": true,
     "enforce_placement_rules": true,
-    "may_replace": ["minecraft:air"],
+    "may_replace": ["betterend:tenanea_outer_leaves"],
     "may_attach_to": {
       "top": [
         "betterend:tenanea_leaves"

@@ -13,7 +13,7 @@
         "distribution": "uniform",
         "extent": [ 0, "t.ExtentPlant" ]
       },
-    "y": "q.heightmap(v.worldx, v.worldz)",
+    "y": 0,
     "places_feature": "betterend:foggy_mushroomland/foggy_foliage_weighted_random_feature"
   }
 }

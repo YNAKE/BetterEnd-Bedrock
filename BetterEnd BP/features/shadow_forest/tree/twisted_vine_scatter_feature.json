@@ -4,7 +4,7 @@
     "description": {
       "identifier": "betterend:shadow_forest/tree/twisted_vine_scatter_feature"
     },
-    "iterations": "return 4 * t.SizePlant;",
+    "iterations": "return 2 * t.SizePlant;",
     "scatter_chance": 100.0,
     "x": {
       "extent": [ "-t.SizePlant", "t.SizePlant" ],

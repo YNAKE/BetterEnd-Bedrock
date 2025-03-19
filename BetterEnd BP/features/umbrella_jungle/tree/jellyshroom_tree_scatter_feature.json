@@ -4,7 +4,7 @@
     "description": {
       "identifier": "betterend:umbrella_jungle/tree/jellyshroom_tree_scatter_feature"
     },
-    "iterations": "return (t.BetterEndBiome == 16) ? 0.5 : 0;",
+    "iterations": "t.BetterEndBiome == 16 ? 0.5 : 0",
     "x": {
         "distribution": "uniform",
         "extent": [ 0, "t.ExtentPlant" ]
@@ -13,7 +13,7 @@
         "distribution": "uniform",
         "extent": [ 0, "t.ExtentPlant" ]
       },
-    "y": "t.surface > 48 ? { return t.surface; } : { return 400; };",
+    "y": "t.surface > 50 ? { return t.surface - v.originy; } : { return 400; };",
     "places_feature": "betterend:umbrella_jungle/tree/jellyshroom_tree_weighted_random_feature"
   }
 }

@@ -5,9 +5,9 @@
       "identifier": "betterend:lantern_woods/filalux_feature"
     },
     "height_distribution": [
-      [{ "range_min": 1, "range_max": 2 }, 1],
-      [{ "range_min": 2, "range_max": 3 }, 2],
-      [{ "range_min": 3, "range_max": 4 }, 2]
+      [{ "range_min": 2, "range_max": 3 }, 1],
+      [{ "range_min": 3, "range_max": 4 }, 6],
+      [{ "range_min": 4, "range_max": 5 }, 3]
     ],
     "growth_direction": "DOWN",
     "body_blocks": [

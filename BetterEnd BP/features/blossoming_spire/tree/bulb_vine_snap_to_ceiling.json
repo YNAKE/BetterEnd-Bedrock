@@ -5,14 +5,16 @@
       "identifier": "betterend:blossoming_spire/tree/bulb_vine_snap_to_ceiling"
     },
     "replaceable_blocks": [
-      "betterend:tenanea_outer_leaves"
+      "betterend:tenanea_outer_leaves", 
+      "minecraft:air"
     ],
     "ground_block": "betterend:tenanea_leaves",
     "vegetation_feature": "betterend:blossoming_spire/tree/bulb_vine_feature",
     "surface": "ceiling",
     "depth": 1,
-    "vertical_range": 1,
-    "vegetation_chance": 1,
-    "horizontal_radius": 1
+    "vertical_range": 4,
+    "vegetation_chance": 0.200,
+    "horizontal_radius": 5,
+    "extra_edge_column_chance": 1
   }
 }

@@ -8,11 +8,11 @@
     "coordinate_eval_order": "zyx",
     "x": {
       "extent": [ "-t.SizePlant", "t.SizePlant" ],
-      "distribution": "gaussian"
+      "distribution": "triangle"
     },
     "z": {
       "extent": [ "-t.SizePlant", "t.SizePlant" ],
-      "distribution": "gaussian"
+      "distribution": "triangle"
     },
     "y": 0,
     "project_input_to_floor": false,

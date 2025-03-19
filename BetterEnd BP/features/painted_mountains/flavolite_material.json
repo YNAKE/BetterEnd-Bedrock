@@ -4,7 +4,12 @@
 		"description": {
 			"identifier": "betterend:painted_mountains/flavolite_material"
 		},
-		"places_block": "betterend:flavolite",
+		"places_block": {
+      "name": "betterend:flavolite",
+      "states": {
+        "betterend:biomes": "dust_wasteland"
+      }
+    }, 
 		"enforce_survivability_rules": false,
 		"enforce_placement_rules": false,
 		"may_replace": [ 

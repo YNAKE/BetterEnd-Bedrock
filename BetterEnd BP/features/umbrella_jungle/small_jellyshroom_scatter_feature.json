@@ -8,14 +8,13 @@
     "coordinate_eval_order": "zyx",
     "x": {
       "extent": [ "-t.SizePlant", "t.SizePlant" ],
-      "distribution": "gaussian"
+      "distribution": "triangle"
     },
     "z": {
       "extent": [ "-t.SizePlant", "t.SizePlant" ],
-      "distribution": "gaussian"
+      "distribution": "triangle"
     },
-    "y": 0,
-    "project_input_to_floor": false,
+    "y": "q.heightmap(v.worldx, v.worldz)",
     "places_feature": "betterend:umbrella_jungle/small_jellyshroom_snap_to_floor_feature"
   }
 }

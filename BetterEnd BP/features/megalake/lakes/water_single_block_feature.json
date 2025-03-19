@@ -31,7 +31,9 @@
       "betterend:ender_ore",
       "betterend:violecite",
       "betterend:flavolite", 
-      "betterend:fake_end_stone"
+      "betterend:fake_end_stone", 
+      "betterend:plant_generator", 
+      "betterend:lotuslily"
     ], 
       "sides": [
       "minecraft:water", 
@@ -42,7 +44,9 @@
       "betterend:ender_ore",
       "betterend:violecite",
       "betterend:flavolite", 
-      "betterend:fake_end_stone"
+      "betterend:fake_end_stone", 
+      "betterend:plant_generator", 
+      "betterend:lotuslily"
     ] 
     }
   }

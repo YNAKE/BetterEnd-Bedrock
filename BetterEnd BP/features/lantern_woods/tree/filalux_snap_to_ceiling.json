@@ -11,8 +11,9 @@
     "vegetation_feature": "betterend:lantern_woods/tree/filalux_feature",
     "surface": "ceiling",
     "depth": 1,
-    "vertical_range": 1,
-    "vegetation_chance": 1,
-    "horizontal_radius": 1
+    "vertical_range": 4,
+    "vegetation_chance": 0.200,
+    "horizontal_radius": 5,
+    "extra_edge_column_chance": 1
   }
 }

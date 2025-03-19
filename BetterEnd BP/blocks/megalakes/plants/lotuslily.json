@@ -1,0 +1,40 @@
+{
+    "format_version": "1.21.50",
+    "minecraft:block": {
+        "description": {
+            "identifier": "betterend:lotuslily"
+        },
+        "components": {
+            "minecraft:custom_components": [
+                "betterend:lotuslily"
+            ],
+            "minecraft:tick": {
+                "interval_range": [
+                    5, 5
+                ],
+                "looping": false
+            },
+            "minecraft:liquid_detection": {
+                "detection_rules": [
+                    {
+                        "can_contain_liquid": true,
+                        "liquid_type": "water",
+                        "on_liquid_touches": "no_reaction"
+                    }
+                ]
+            },
+            "minecraft:collision_box": false,
+            "minecraft:selection_box": false,
+            "minecraft:destructible_by_explosion": false,
+            "minecraft:destructible_by_mining": false,
+            "minecraft:flammable": false,
+            "minecraft:geometry": "minecraft:geometry.full_block",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "air",
+                    "render_method": "blend"
+                }
+            }
+        }
+    }
+}

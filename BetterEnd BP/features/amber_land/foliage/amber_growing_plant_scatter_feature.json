@@ -4,7 +4,8 @@
     "description": {
       "identifier": "betterend:amber_land/foliage/amber_growing_plant_scatter_feature"
     },
-    "iterations": 0.5,
+    "iterations": 0.5, 
+    "scatter_chance": "variable.is_legacy ? 0.0 : 100.0",
     "x": {
         "distribution": "uniform",
         "extent": [ 0, "t.ExtentPlant" ]

@@ -4,8 +4,8 @@
     "description": {
       "identifier": "betterend:foggy_mushroomland/blue_vine_gen_scatter_feature"
     },
-    "iterations": 1, 
-    "scatter_chance": 50.0,
+    "iterations": 0.5, 
+    "scatter_chance": "variable.is_legacy ? 0.0 : 50.0",
     "x": {
         "distribution": "uniform",
         "extent": [ 0, "t.ExtentPlant" ]

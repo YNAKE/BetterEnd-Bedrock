@@ -2,7 +2,7 @@
   "format_version": "1.21.0",
   "minecraft:ore_feature": {
     "description": {
-      "identifier": "betterend:amber_land/amber_ore_feature"
+      "identifier": "betterend:amber_land/ore/amber_ore_feature"
     },
     "count": 8,
     "replace_rules": [

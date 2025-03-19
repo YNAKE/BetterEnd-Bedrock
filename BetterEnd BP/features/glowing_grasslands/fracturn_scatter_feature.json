@@ -5,15 +5,16 @@
       "identifier": "betterend:glowing_grasslands/fracturn_scatter_feature"
     },
     "iterations": "return 8 * t.SizePlant;",
+    "coordinate_eval_order": "zyx",
     "x": {
       "extent": [ "-t.SizePlant", "t.SizePlant" ],
-      "distribution": "gaussian"
+      "distribution": "triangle"
     },
     "z": {
       "extent": [ "-t.SizePlant", "t.SizePlant" ],
-      "distribution": "gaussian"
+      "distribution": "triangle"
     },
-    "y": "q.heightmap(v.worldx, v.worldz) - v.originy",
+    "y": "q.heightmap(v.worldx, v.worldz)",
     "places_feature": "betterend:glowing_grasslands/fracturn_single_block_feature"
   }
 }

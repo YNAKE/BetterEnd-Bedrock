@@ -101,18 +101,6 @@
         "condition": "q.block_state('betterend:stem') == 2",
         "components": {
           "minecraft:geometry": "geometry.end_lotus_stem_top",
-          "minecraft:placement_filter": {
-            "conditions": [
-              {
-                "allowed_faces": [
-                  "up"
-                ],
-                "block_filter": [
-                  "betterend:end_lotus_stem"
-                ]
-              }
-            ]
-          },
           "minecraft:collision_box": {
             "origin": [
               -3,

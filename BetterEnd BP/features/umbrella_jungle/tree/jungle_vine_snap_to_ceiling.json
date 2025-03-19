@@ -1,19 +1,19 @@
 {
   "format_version": "1.21.0",
-  "minecraft:snap_to_surface_feature": {
+  "minecraft:vegetation_patch_feature": {
     "description": {
       "identifier": "betterend:umbrella_jungle/tree/jungle_vine_snap_to_ceiling"
     },
-    "feature_to_snap": "betterend:umbrella_jungle/tree/jungle_vine_feature", 
-    "vertical_search_range": 12,
+    "replaceable_blocks": [
+      "minecraft:air"
+    ],
+    "ground_block": "betterend:umbrella_tree_membrane",
+    "vegetation_feature": "betterend:umbrella_jungle/tree/jungle_vine_feature", 
     "surface": "ceiling",
-    "allowed_surface_blocks": [
-        {
-            "name": "betterend:umbrella_tree_membrane"
-        }, 
-        {
-            "name": "betterend:jellyshroom_cap_purple"
-        }
-    ]
+    "depth": 1,
+    "vertical_range": 4,
+    "vegetation_chance": 0.200,
+    "horizontal_radius": 5,
+    "extra_edge_column_chance": 1
   }
 }

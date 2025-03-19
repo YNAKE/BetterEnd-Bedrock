@@ -15,7 +15,7 @@
       [{ "range_min": 19, "range_max": 20 }, 5]
     ],
     "growth_direction": "DOWN",
-    "age": {"range_min": 15, "range_max": 25},
+    "age": {"range_min": 7, "range_max": 15},
     "body_blocks": [
       [
         {

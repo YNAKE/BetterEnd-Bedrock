@@ -5,7 +5,7 @@
       "identifier": "betterend:crystal_mountains/crystal_foliage_scatter_feature"
     },
     "iterations": 0.5,
-    "scatter_chance": 50.0,
+    "scatter_chance": "variable.is_legacy ? 0.0 : 50.0",
     "x": {
         "distribution": "uniform",
         "extent": [ 0, "t.ExtentPlant" ]

@@ -5,14 +5,16 @@
       "identifier": "betterend:shadow_forest/tree/twisted_vine_up_feature"
     },
     "height_distribution": [
-      [{ "range_min": 5, "range_max": 6 }, 1],
-      [{ "range_min": 6, "range_max": 7 }, 2],
-      [{ "range_min": 7, "range_max": 8 }, 2],
-      [{ "range_min": 8, "range_max": 9 }, 3],
-      [{ "range_min": 9, "range_max": 10 }, 3],
-      [{ "range_min": 10, "range_max": 11 }, 4],
-      [{ "range_min": 11, "range_max": 12 }, 4],
-      [{ "range_min": 12, "range_max": 13 }, 5]
+      [{ "range_min": 8, "range_max": 9 }, 1],
+      [{ "range_min": 9, "range_max": 10 }, 2],
+      [{ "range_min": 10, "range_max": 11 }, 2],
+      [{ "range_min": 11, "range_max": 12 }, 3],
+      [{ "range_min": 12, "range_max": 13 }, 3],
+      [{ "range_min": 13, "range_max": 14 }, 4],
+      [{ "range_min": 14, "range_max": 15 }, 4],
+      [{ "range_min": 15, "range_max": 16 }, 5],
+      [{ "range_min": 16, "range_max": 17 }, 5],
+      [{ "range_min": 17, "range_max": 18 }, 6]
     ],
     "growth_direction": "DOWN",
     "age": {"range_min": 8, "range_max": 19},

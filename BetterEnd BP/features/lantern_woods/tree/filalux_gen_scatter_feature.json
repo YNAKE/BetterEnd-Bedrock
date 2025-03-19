@@ -18,6 +18,6 @@
         "distribution": "uniform",
         "extent": [ 48, 78 ]
       }, 
-    "places_feature": "betterend:lantern_woods/tree/filalux_scatter_feature"
+    "places_feature": "betterend:lantern_woods/tree/filalux_snap_to_ceiling"
   }
 }
